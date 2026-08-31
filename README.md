@@ -1,8 +1,8 @@
 # EULER Mathematical Research Outcomes
 
-This repository is a growing public index of curated mathematical outcomes produced with the EULER agent system. It is one of the first public release surfaces from EULER's case-study program on conjectures posed by authors who had published in leading combinatorics journals within the program's preceding 24-month selection window.
+This repository is a growing public index of curated mathematical outcomes produced with the EULER agent system. It is one of the first public release surfaces from EULER's case-study program on conjectures posed by authors who had published in leading combinatorics journals, specifically [Journal of Combinatorial Theory, Series A](https://www.sciencedirect.com/journal/journal-of-combinatorial-theory-series-a), [Journal of Combinatorial Theory, Series B](https://www.sciencedirect.com/journal/journal-of-combinatorial-theory-series-b), [Combinatorica](https://link.springer.com/journal/493), and [European Journal of Combinatorics](https://www.sciencedirect.com/journal/european-journal-of-combinatorics), within the program's preceding 24-26-month selection window. The aim is to anchor that window as closely as possible to the **training cutoff of the base model used by EULER**, and, as much as possible, to select problems posed after that cutoff.
 
-The index is not tied to one computer, one workspace, one batch size, or one repository. It records the portion of a broader research program that has completed its public curation process.
+It records the portion of a broader research program that has completed its public curation process.
 
 ## Reproduce in 60 seconds
 
@@ -129,9 +129,9 @@ Conjecture 22 in the cited volume-rigidity paper predicts rigidity for a family 
 The Gao release proves
 
 $$
-E\bigl(\operatorname{Dih}(A)\bigr)
+E\bigl(\mathrm{Dih}(A)\bigr)
 =2|A|+D(A)
-=|\operatorname{Dih}(A)|+d\bigl(\operatorname{Dih}(A)\bigr)
+=|\mathrm{Dih}(A)|+d\bigl(\mathrm{Dih}(A)\bigr)
 $$
 
 for every nontrivial finite abelian odd-primary group $A$. This is a restricted-family result, not a resolution of the full Gao conjecture. Its public scope is the completed [13-page manuscript](https://github.com/randomcat4/gaoLEAN/blob/main/paper/arxiv/main.pdf) and the corresponding [Lean formalization](https://github.com/randomcat4/gaoLEAN/blob/main/GaoLean/PR7ThirteenPage.lean), collected in [Gao Lean](https://github.com/randomcat4/gaoLEAN).
