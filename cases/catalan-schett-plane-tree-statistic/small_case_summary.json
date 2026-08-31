@@ -1,0 +1,80 @@
+{
+  "range": "0 <= n <= 8",
+  "total_plane_trees": 2056,
+  "total_permutations_checked": 46234,
+  "all_assertions_passed": true,
+  "by_n": [
+    {
+      "n": 0,
+      "plane_trees": 1,
+      "permutations_checked": 1,
+      "avoiders": 1,
+      "decomposition_pairs": 0,
+      "all_assertions_passed": true
+    },
+    {
+      "n": 1,
+      "plane_trees": 1,
+      "permutations_checked": 1,
+      "avoiders": 1,
+      "decomposition_pairs": 1,
+      "all_assertions_passed": true
+    },
+    {
+      "n": 2,
+      "plane_trees": 2,
+      "permutations_checked": 2,
+      "avoiders": 2,
+      "decomposition_pairs": 2,
+      "all_assertions_passed": true
+    },
+    {
+      "n": 3,
+      "plane_trees": 5,
+      "permutations_checked": 6,
+      "avoiders": 5,
+      "decomposition_pairs": 5,
+      "all_assertions_passed": true
+    },
+    {
+      "n": 4,
+      "plane_trees": 14,
+      "permutations_checked": 24,
+      "avoiders": 14,
+      "decomposition_pairs": 14,
+      "all_assertions_passed": true
+    },
+    {
+      "n": 5,
+      "plane_trees": 42,
+      "permutations_checked": 120,
+      "avoiders": 42,
+      "decomposition_pairs": 42,
+      "all_assertions_passed": true
+    },
+    {
+      "n": 6,
+      "plane_trees": 132,
+      "permutations_checked": 720,
+      "avoiders": 132,
+      "decomposition_pairs": 132,
+      "all_assertions_passed": true
+    },
+    {
+      "n": 7,
+      "plane_trees": 429,
+      "permutations_checked": 5040,
+      "avoiders": 429,
+      "decomposition_pairs": 429,
+      "all_assertions_passed": true
+    },
+    {
+      "n": 8,
+      "plane_trees": 1430,
+      "permutations_checked": 40320,
+      "avoiders": 1430,
+      "decomposition_pairs": 1430,
+      "all_assertions_passed": true
+    }
+  ]
+}

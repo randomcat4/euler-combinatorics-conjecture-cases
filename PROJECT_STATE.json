@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "collection": "EULER_COMBINATORICS_CONJECTURE_CASES",
+  "language": "en",
+  "cases": {
+    "volume-rigidity-dimension-seven": {
+      "result": "COUNTEREXAMPLE",
+      "scope": "complete dimension-seven slice of the cited conjecture",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
+    "cayley-eigenvalue-codimension-three": {
+      "result": "PROVED",
+      "scope": "complete n-k=3 layer of the cited conjecture",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
+    "catalan-schett-plane-tree-statistic": {
+      "result": "PROVED",
+      "scope": "complete cited open problem",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
+    "partition-matrix-bijection": {
+      "result": "PROVED",
+      "scope": "complete cited open problem",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
+    "zhao-restricted-zero-sum-counterexample": {
+      "result": "COUNTEREXAMPLE",
+      "scope": "Conjecture 6.1 disproved by one explicit eligible group and sequence",
+      "verification": "SYMBOLIC_AND_EXHAUSTIVE_CHECKED",
+      "novelty": "NOT_ESTABLISHED"
+    }
+  },
+  "external_releases": {
+    "gao-generalized-dihedral": {
+      "result": "PROVED_AND_FORMALIZED",
+      "scope": "completed 13-page manuscript and its corresponding Lean formalization",
+      "repository": "https://github.com/randomcat4/gaoLEAN",
+      "verification": "LEAN_CHECKED",
+      "novelty": "NOT_ESTABLISHED"
+    }
+  }
+}

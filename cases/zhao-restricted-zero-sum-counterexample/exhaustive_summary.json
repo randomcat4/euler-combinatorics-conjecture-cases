@@ -1,0 +1,10 @@
+{
+  "group": "C2 direct-sum C4^3",
+  "sequence_length": 12,
+  "nonempty_occurrence_subsets_checked": 4095,
+  "zero_sum_occurrence_subsets_by_length": {
+    "10": 9
+  },
+  "zero_sum_subsets_of_length_at_most_9": 0,
+  "all_assertions_passed": true
+}

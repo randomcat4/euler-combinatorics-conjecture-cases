@@ -1,0 +1,722 @@
+\documentclass[11pt]{article}
+
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=15
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{array,booktabs,tabularx}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdfcreator={},pdfproducer={}}
+\usepackage[nameinlink,capitalise,noabbrev]{cleveref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\C}{\mathbb C}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Sn}{S_n}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\Cay}{\operatorname{Cay}}
+\newcommand{\lmax}{\lambda_{\max}}
+\newcommand{\one}{\mathbf 1}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\title{Representation-Level Uniqueness for the $n-k=3$ Layer\\
+of Nonnormal Cayley Graphs on Symmetric Groups}
+\author{Prepared with the EULER system}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+For $n\geq5$, $1\leq r<n-3$, and $H=C(n,n-3;r)$, let
+$\rho_\lambda(H)=\sum_{h\in H}\rho_\lambda(h)$ be the adjacency block
+corresponding to the irreducible representation of $S_n$ indexed by
+$\lambda\vdash n$.  We prove the $n-k=3$ layer of Conjecture~4.7 of
+Li, Xia, and Zhou.  If $n$ is odd, the second largest eigenvalue is attained
+only by the standard representation $(n-1,1)$.  If $n$ is even, the strictly
+second largest eigenvalue is attained exactly by $(n-1,1)$ and its sign twist
+$(2,1^{n-2})$.  In either case the target value is
+\[
+ \mu_{n,r}=\frac{(n-5)!(n-r-2)}6
+ \bigl(2n^2-nr-r^2-8n+5r\bigr),
+\]
+with multiplicity $n-r-1$ inside each attaining block.
+For $n\geq7$ the proof is symbolic: an endpoint equality audit reduces to
+two near-standard representations, explicit two-subset and exterior-square
+models give a zero-intersection argument, and strictness is propagated from
+$r+1$ to $r$ using only the known non-strict $n-k=2$ bound.  The three
+remaining cases $n=5,6$ are certified by exact characteristic polynomials.
+\end{abstract}
+
+\section{Introduction}
+
+For integers $1\leq r<k<n$, let $C(n,k;r)$ be the set of $k$-cycles in
+$S_n$ whose support contains $[r]=\{1,\dots,r\}$.  These inverse-closed sets
+define generally nonnormal Cayley graphs.  Siemons and Zalesski introduced
+this family and computed the spectrum of the natural permutation block,
+including the value now denoted by $\mu_2(n,k;r)$
+\cite{SiemonsZalesski2022}.  Li, Xia, and Zhou proved that this value is the
+second, or strictly second, eigenvalue for $k\leq n-2$, but their recursive
+argument gives only a non-strict upper bound on the other irreducible blocks
+\cite[Theorems~4.4 and~4.6]{LiXiaZhou2026}.  Their Conjecture~4.7 asks for
+the corresponding representation-level uniqueness
+\cite[Conjecture~4.7]{LiXiaZhou2026}.
+
+This note treats the complete infinite slice $k=n-3$.  The distinction
+between the value problem and the uniqueness problem is essential.  The
+known value theorem supplies an inequality $\lmax\rho_\lambda(H)\leq
+\mu_2$ for the relevant non-degree blocks.  The result below makes that
+inequality strict except at the stated representations.  The proof has three
+components.
+
+First, at the endpoint $r=n-4$, we enlarge the setting to a three-step family
+$H_q$ with $q=2,3,4$.  Equality in the Weyl bound forces a common vector in a
+standard child module and in the invariant space of a long-cycle class.
+Branching leaves only $(N-2,2)$ and $(N-2,1,1)$, together with their sign
+twists when appropriate.  A two-subset model and an exterior-square model
+show that both intersections vanish.  Second, for $r<n-4$, the decomposition
+of $C(n,n-3;r)$ according to whether a chosen point is moved combines a
+non-strict $n-k=2$ estimate with the already strict estimate at $r+1$.
+Thus strictness propagates backwards without assuming the still stronger
+uniqueness statement at $n-k=2$.  Third, exact finite certificates handle
+the only cases not covered by the symbolic argument, namely
+$(n,k,r)=(5,2,1),(6,3,1),(6,3,2)$.
+
+The result proved here is only the $n-k=3$ layer; no assertion is made for
+$n-k\neq3$.  Nor does this note assert public priority.  The
+literature discussion records the sources used by the proof but does not
+turn an absence in a finite search into a claim of novelty.
+
+\section{Definitions, representation blocks, and the main result}
+
+Let $G$ be a finite group and let $S=S^{-1}\subseteq G\setminus\{1\}$.
+The Cayley graph $\Cay(G,S)$ has vertex set $G$ and edges
+$\{\{g,gs\}:g\in G,s\in S\}$.  Its adjacency operator is right
+multiplication by $S^+=\sum_{s\in S}s$ on the regular representation.
+If $\widehat G$ is a complete set of irreducible representations, the regular
+representation decomposition gives
+\[
+ A(\Cay(G,S))\sim
+ \bigoplus_{\rho\in\widehat G}(\dim\rho)\,\rho(S),
+ \qquad
+ \rho(S)=\sum_{s\in S}\rho(s).
+ \tag{2.1}
+\]
+Here $(\dim\rho)\,\rho(S)$ means $\dim\rho$ copies of the block.  In
+particular, a block eigenvalue of multiplicity $a$ contributes
+$a\dim\rho$ to its multiplicity in the whole graph
+\cite[Proposition~2.1]{LiXiaZhou2026}.
+
+Irreducible representations of $S_n$ are indexed by partitions
+$\lambda\vdash n$; we write $S^\lambda$ and $\rho_\lambda$ for the
+corresponding Specht module and representation.  The trivial, sign, and
+standard representations correspond respectively to
+$(n)$, $(1^n)$, and $(n-1,1)$.  Conjugating the Young diagram twists by the
+sign character:
+\[
+ S^{\lambda'}\cong S^\lambda\otimes\operatorname{sgn}.
+ \tag{2.2}
+\]
+The branching rule is multiplicity-free:
+\[
+ S^\lambda\!\downarrow_{S_{n-1}}
+ \cong\bigoplus_{\nu\nearrow\lambda}S^\nu,
+ \tag{2.3}
+\]
+where $\nu$ runs over partitions obtained by deleting one removable box from
+$\lambda$ \cite[Theorem~2.5]{LiXiaZhou2026}.
+
+Fix now
+\[
+ n\geq5,\qquad k=n-3,\qquad 1\leq r\leq n-4,
+\]
+and put
+\[
+ H_{n,r}=C(n,n-3;r)
+ =\{\sigma\in S_n:\sigma\text{ is an $(n-3)$-cycle and }
+ [r]\subseteq\supp(\sigma)\}.
+\]
+Writing $m=n-r$, direct counting gives
+\[
+ d_{n,r}:=|H_{n,r}|=\binom{m}{3}(n-4)!.
+ \tag{2.4}
+\]
+Because $H_{n,r}$ is inverse-closed, every block
+\[
+ T_\lambda(n,r):=\rho_\lambda(H_{n,r})
+ =\sum_{h\in H_{n,r}}\rho_\lambda(h)
+ \tag{2.5}
+\]
+is self-adjoint in a unitary realization.  We denote its largest eigenvalue
+by $\Lambda_\lambda(n,r)$.
+
+The sign of a $k$-cycle is $(-1)^{k-1}$.  Thus when $n$ is odd, $k=n-3$
+is even, the generators are odd, and $H_{n,r}$ generates $S_n$.  When $n$
+is even, $k$ is odd, the generators are even, and $H_{n,r}$ generates
+$A_n$; consequently the graph on $S_n$ has two isomorphic components.
+These generation statements are the specialization of
+\cite[Lemma~2.14]{LiXiaZhou2026}.  It follows that the degree occurs only in
+the trivial block for odd $n$, and in the trivial and sign blocks for even
+$n$.
+
+Define
+\begin{align}
+ \mu_{n,r}
+ &=\frac{(n-5)!(m-2)}6
+ \bigl(3(n-4)(m-1)-(m-4)(m-3)\bigr) \notag\\
+ &=\frac{(n-5)!(n-r-2)}6
+ \bigl(2n^2-nr-r^2-8n+5r\bigr).
+ \tag{2.6}
+\end{align}
+
+\newpage
+\begin{theorem}[The $n-k=3$ layer of Conjecture~4.7]\label{thm:main}
+Let $n\geq5$ and $1\leq r\leq n-4$.
+\begin{enumerate}
+\item If $n$ is odd, then
+\[
+ \Lambda_{(n-1,1)}(n,r)=\mu_{n,r},
+\]
+the eigenvalue $\mu_{n,r}$ has multiplicity $n-r-1$ inside the standard
+block, and
+\[
+ \Lambda_\lambda(n,r)<\mu_{n,r}
+ \quad\text{for every }\lambda\notin\{(n),(n-1,1)\}.
+\]
+Hence the second largest graph eigenvalue is attained only by the standard
+representation.
+\item If $n$ is even, then the trivial and sign blocks both have eigenvalue
+$d_{n,r}$, while
+\[
+ \Lambda_{(n-1,1)}(n,r)
+ =\Lambda_{(2,1^{n-2})}(n,r)=\mu_{n,r}.
+\]
+The target has multiplicity $n-r-1$ inside each of these two blocks, and
+\[
+ \Lambda_\lambda(n,r)<\mu_{n,r}
+ \quad\text{for every }
+ \lambda\notin\{(n),(1^n),(n-1,1),(2,1^{n-2})\}.
+\]
+Hence the strictly second largest graph eigenvalue is attained exactly by
+the standard representation and its sign twist.
+\end{enumerate}
+In the regular representation the multiplicity of $\mu_{n,r}$ is therefore
+$(n-1)(n-r-1)$ for odd $n$ and $2(n-1)(n-r-1)$ for even $n$.
+\end{theorem}
+
+\section{The standard block}
+
+We begin with a direct computation of the target value and its multiplicity.
+This also fixes the normalization used in the rest of the paper.
+
+\begin{lemma}[Standard-block calculation]\label{lem:standard}
+The largest eigenvalue of $T_{(n-1,1)}(n,r)$ is $\mu_{n,r}$, with
+multiplicity exactly $m-1=n-r-1$.  If $n$ is even, the sign-twisted standard
+block has the same spectrum.
+\end{lemma}
+
+\begin{proof}
+Let $\mathcal A=[r]$ and $\mathcal B=[n]\setminus[r]$, so
+$|\mathcal B|=m$.  On the natural permutation module with basis
+$e_1,\dots,e_n$, let $P_h$ denote the permutation matrix of $h$ and put
+$M=\sum_{h\in H_{n,r}}P_h$.  Conjugation invariance under
+$S_{\mathcal A}\times S_{\mathcal B}$ shows that the entries of $M$ depend
+only on the parts containing their row and column indices and on whether
+the indices agree.  Set
+\[
+ a=(n-5)!\binom m3,\quad
+ b=(n-5)!\binom{m-1}3,\quad
+ c=(n-4)!\binom{m-1}2,\quad
+ e=(n-5)!\binom{m-2}3,
+ \tag{3.1}
+\]
+with the convention $\binom uv=0$ when $v<0$ or $v>u$.
+
+For distinct $i,j\in\mathcal A$, prescribing $h(i)=j$ leaves
+$(n-5)!\binom m3=a$ possibilities.  If exactly one of $i,j$ belongs to
+$\mathcal B$, the analogous number is $b$.  For $i\in\mathcal B$, the
+diagonal entry counts generators fixing $i$ and equals $c$.  For distinct
+$i,j\in\mathcal B$, prescribing $h(i)=j$ gives $e$ possibilities.  Thus,
+on
+\[
+ U_{\mathcal B}=\{x\in\R^n:\supp(x)\subseteq\mathcal B,
+ \ \sum_{i\in\mathcal B}x_i=0\},
+\]
+the operator $M$ acts by $c-e$.  This space has dimension $m-1$, is
+orthogonal to the constant vector, and hence lies in the standard summand of
+the natural module.
+
+The remaining invariant spaces are the constant line, the space
+\[
+ U_{\mathcal A}=\{x:\supp(x)\subseteq\mathcal A,
+ \ \sum_{i\in\mathcal A}x_i=0\},
+\]
+of dimension $r-1$, and the one-dimensional space of vectors constant on
+each of $\mathcal A$ and $\mathcal B$ and orthogonal to the constant vector.
+Their eigenvalues are respectively $d_{n,r}$, $-a$, and
+$(r-1)a-rb$.  Moreover,
+\[
+ c-e>0>-a
+\]
+and a Pascal-identity simplification gives
+\[
+ \frac{(c-e)-((r-1)a-rb)}{(n-5)!}
+ =(m-3)\binom{m-1}{2}+\binom{m-2}{2}>0.
+ \tag{3.2}
+\]
+The four invariant spaces have total dimension
+$1+(m-1)+(r-1)+1=n$, so $c-e$ is the largest standard-block eigenvalue and
+has multiplicity exactly $m-1$.  Finally,
+\begin{align*}
+ c-e
+ &=(n-4)!\binom{m-1}{2}-(n-5)!\binom{m-2}{3}\\
+ &=\frac{(n-5)!(m-2)}6
+ \bigl(3(n-4)(m-1)-(m-4)(m-3)\bigr)
+ =\mu_{n,r}.
+\end{align*}
+If $n$ is even, every generator is even; (2.2) therefore makes the standard
+and conjugate-standard operators identical.
+\end{proof}
+
+\section{Endpoint strictness}
+
+Put $p=n-4$.  The endpoint $r=n-4$ will be obtained from an auxiliary
+family on $p+q$ letters.  Fix a set $R$ of size $p$ and define
+\[
+ H_q=C(p+q,p+1;p),\qquad q\in\{2,3,4\},
+ \tag{4.1}
+\]
+where the notation means that every $(p+1)$-cycle moves all points of $R$.
+The standard-block formula of Siemons and Zalesski, or direct substitution
+in (2.6) in its general form, gives
+\[
+ |H_q|=q\,p!,\qquad \mu(H_q)=(q-1)p!.
+ \tag{4.2}
+\]
+
+We use two previously proved inputs from Li--Xia--Zhou.
+
+\begin{proposition}[Published spectral inputs]\label{prop:inputs}
+The following statements hold.
+\begin{enumerate}
+\item Let $N\geq6$ and $k=N-2$.  If $k$ is even, every irreducible block
+other than the trivial degree block has largest eigenvalue at most
+$\mu_2(N,k;r)$.  If $k$ is odd, the same bound holds after excluding the
+trivial and sign degree blocks.  No uniqueness assertion is included in
+this input.
+\item Let $N=p+2$ and $r=p=N-2$, with $p\geq3$.  If $p+1$ is even, the
+value $p!$ is attained only by the standard representation.  If $p+1$ is
+odd, it is attained exactly by the standard representation and its sign
+twist.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+Part (1) is precisely the blockwise non-strict consequence of
+\cite[Theorems~4.4 and~4.6]{LiXiaZhou2026}.  It is weaker than
+Conjecture~4.7.  For part (2), when $p+1$ is even, $N$ is odd and
+\cite[Theorem~3.3(d)]{LiXiaZhou2026} applies at $r=N-2$; when $p+1$ is odd,
+$N$ is even and \cite[Theorem~3.5(b.2)]{LiXiaZhou2026} applies.
+\end{proof}
+
+\begin{proposition}[Endpoint family]\label{prop:endpoint}
+Let $p\geq3$ and $q\in\{2,3,4\}$.  Apart from the degree block or blocks,
+the value $(q-1)p!$ for $H_q$ is attained only by the standard
+representation if $p+1$ is even, and exactly by the standard representation
+and its sign twist if $p+1$ is odd.
+\end{proposition}
+
+\paragraph{Proof of \cref{prop:endpoint}: reduction.}
+We induct on $q$.  The case $q=2$ is
+\cref{prop:inputs}(2).  Suppose $q\in\{3,4\}$ and the assertion is known for
+$q-1$.  Write $N=p+q$, choose $t\notin R$, and set
+$Y=R\cup\{t\}$, so $|Y|=p+1$.  Partition $H_q$ according to whether a
+cycle moves $t$:
+\[
+ H_q=H_{q-1}\,\dot\cup\,K_Y,
+ \tag{4.3}
+\]
+where the first term is embedded in the point stabilizer $S_{N-1}$ and
+$K_Y$ is the full conjugacy class of $(p+1)$-cycles in $S_Y$.  On an
+irreducible $S_N$-module write the corresponding operators as
+\[
+ T=A+B.
+\]
+
+The operator $B$ is a sum of $p!$ unitary matrices, hence
+\[
+ \lmax(B)\leq p!.
+ \tag{4.4}
+\]
+If a unit vector $v$ gives equality, then
+$\operatorname{Re}\langle v,\rho(g)v\rangle\leq1$ for every $g\in K_Y$,
+and equality in the sum forces $\rho(g)v=v$ for every such $g$.  The class
+$K_Y$ generates $S_Y$ when $p+1$ is even and $A_Y$ when $p+1$ is odd.
+Thus a top vector for $B$ is respectively $S_Y$- or $A_Y$-invariant.
+
+Now let $S^\lambda$ be neither a degree module nor one of the target parent
+modules in the statement.  By branching, its restriction to $S_{N-1}$
+contains no degree module.  In the odd-cycle case it contains neither the
+trivial nor the sign module.  The induction hypothesis therefore gives
+\[
+ \lmax(A)\leq(q-2)p!.
+ \tag{4.5}
+\]
+If equality holds, its vector lies in a standard child module, with a
+conjugate-standard child also allowed when $p+1$ is odd.  Weyl's inequality
+now yields $\lmax(T)\leq(q-1)p!$.  Equality in this inequality would force
+one and the same vector to be a top vector for both $A$ and $B$.
+
+Adding one box to the child partition $(N-2,1)$ and removing the target
+parent $(N-1,1)$ leaves only
+\[
+ (N-2,2),\qquad (N-2,1,1),
+ \tag{4.6}
+\]
+and, in the odd-cycle case, their conjugates.  The next two lemmas show that
+the required common vector does not exist.
+
+\begin{lemma}[The two-subset zero intersection]\label{lem:twosubset}
+In $S^{(N-2,2)}$, the standard $S_{N-1}$-child on which $A$ can attain
+$(q-2)p!$ has zero intersection with the top eigenspace of $B$.
+\end{lemma}
+
+\begin{proof}
+The two-subset permutation module decomposes as
+\[
+ \C\binom{[N]}2\cong
+ S^{(N)}\oplus S^{(N-1,1)}\oplus S^{(N-2,2)}.
+\]
+Realize the last summand as symmetric arrays $x_{ij}=x_{ji}$, $x_{ii}=0$,
+satisfying
+\[
+ \sum_{j\ne i}x_{ij}=0\qquad(1\leq i\leq N).
+ \tag{4.7}
+\]
+Relabel so that $t=N$.  The unique standard child under the point
+stabilizer $S_{N-1}$ consists of the arrays
+\[
+ x_{ij}=u_i+u_j\quad(i,j<N),\qquad
+ x_{it}=-(N-3)u_i,
+ \tag{4.8}
+\]
+where $\sum_{i<N}u_i=0$.  These arrays satisfy (4.7), form an
+$(N-2)$-dimensional standard module, and hence are exactly the possible
+equality space for $A$.
+
+Suppose first that an array (4.8) is $S_Y$-invariant.  Since $p\geq3$, take
+distinct $a,b\in R$.  Transitivity of $S_Y$ on the two-subsets of $Y$ and
+comparison of $x_{ab}$ with $x_{at}$ show, after varying $a,b$, that all
+$u_a$ for $a\in R$ equal a common value $c$.  Then
+\[
+ 2c=-(N-3)c,
+\]
+so $c=0$.  If $o\notin Y$, invariance on the pairs meeting $o$ gives
+\[
+ u_o=x_{ao}=x_{to}=-(N-3)u_o,
+\]
+and hence $u_o=0$.  Thus the intersection with the $S_Y$-invariants is zero.
+
+It remains to treat the case in which $p+1$ is odd and a top vector for
+$B$ is only known to be $A_Y$-invariant.  Here $p$ is even and $p\geq4$, so
+$|Y|\geq5$.  Restricted to $S_Y$, the two-subset permutation module is
+\[
+ \C\binom Y2\ \oplus\ (q-1)\C Y\ \oplus\
+ \binom{q-1}{2}\one.
+ \tag{4.9}
+\]
+None of these permutation modules contains the sign representation of
+$S_Y$: by Frobenius reciprocity, the sign character has no fixed vector
+under a two-subset or one-subset stabilizer, each of which contains an odd
+permutation.  Since $A_Y\triangleleft S_Y$ has index two, the
+$A_Y$-invariant subspace of any $S_Y$-module is a sum of trivial and sign
+modules.  In (4.9) only the trivial part can occur.  Hence the $A_Y$- and
+$S_Y$-invariant subspaces coincide, and the preceding zero-intersection
+argument applies.
+\end{proof}
+
+\begin{lemma}[The exterior-square zero intersection]\label{lem:exterior}
+In $S^{(N-2,1,1)}$, the standard $S_{N-1}$-child on which $A$ can attain
+$(q-2)p!$ has zero intersection with the top eigenspace of $B$.
+\end{lemma}
+
+\begin{proof}
+Let
+\[
+ V_N=\{(z_1,\dots,z_N)\in\C^N:\textstyle\sum_i z_i=0\}
+\]
+be the standard module.  There is a standard isomorphism
+$S^{(N-2,1,1)}\cong\bigwedge^2V_N$.  With $t=N$, put
+\[
+ w=(N-1)e_t-\sum_{i<N}e_i.
+\]
+Under $S_{N-1}$ we have $V_N=V_{N-1}\oplus\C w$, and the unique standard
+child in the exterior square is
+\[
+ W=\{u\wedge w:u\in V_{N-1}\}.
+ \tag{4.10}
+\]
+Regard $u$ as having $u_t=0$ and $\sum_{i<N}u_i=0$.  The antisymmetric
+coefficients of $u\wedge w$ are
+\[
+ c_{ij}=u_j-u_i\quad(i,j<t),\qquad
+ c_{it}=(N-1)u_i\quad(i<t),
+ \tag{4.11}
+\]
+with $c_{ji}=-c_{ij}$.
+
+If $u\wedge w$ is $S_Y$-invariant, a transposition exchanging the two
+indices of any coefficient inside $Y$ changes its sign, so that coefficient
+must vanish.  In particular $c_{at}=(N-1)u_a=0$ for every $a\in R$.  For
+$o\notin Y$, invariance under the transposition exchanging $a$ and $t$ gives
+\[
+ c_{ao}=c_{to},
+\]
+which by (4.11) becomes $u_o=-(N-1)u_o$.  Hence every $u_o$ also vanishes,
+and (4.10) has zero intersection with the $S_Y$-invariants.
+
+When $p+1$ is odd, $|Y|\geq5$ and
+\[
+ V_N\!\downarrow_{S_Y}\cong V_Y\oplus\one^{\oplus(q-1)}.
+\]
+Consequently its exterior square is a direct sum of
+$\bigwedge^2V_Y\cong S^{(|Y|-2,1,1)}$, copies of $V_Y$, and trivial
+modules.  It contains no sign module.  The same index-two argument as in
+\cref{lem:twosubset} therefore identifies the $A_Y$-invariants with the
+$S_Y$-invariants, and the intersection is again zero.
+\end{proof}
+
+\begin{proof}[Completion]
+The two lemmas rule out equality for the two partitions in (4.6).  If
+$p+1$ is odd, every generator appearing in $A$ and $B$ is an even
+permutation.  Global sign twisting therefore leaves both operators
+unchanged, so the same zero-intersection conclusions apply to the conjugate
+partitions.  This proves the induction step from $q-1$ to $q$ and hence the
+proposition for $q=2,3,4$.
+\end{proof}
+
+Taking $q=4$ and $p=n-4$ in \cref{prop:endpoint} proves the required strict
+classification at $r=n-4$ for every $n\geq7$.
+
+\section{Backward propagation from the endpoint}\label{sec:backward}
+
+We now fix $n\geq7$ and $k=n-3$.  Suppose
+$1\leq r\leq n-5$ and that the strict classification of
+\cref{thm:main} is already known at $r+1$.  Choose
+$t\notin[r]$, relabel it as $r+1$, and split the generators according to
+whether they move $t$:
+\[
+ C(n,n-3;r)
+ =C(n-1,n-3;r)\,\dot\cup\,C(n,n-3;r+1).
+ \tag{5.1}
+\]
+On a fixed parent module $S^\lambda$, write the two corresponding operators
+as $A$ and $B$.
+
+Let $S^\lambda$ be one of the blocks that must be strictly below the target
+in \cref{thm:main}.  Its restriction to $S_{n-1}$ contains no trivial
+child; in the odd-$k$ case it contains no sign child either.  Indeed, by
+branching, a trivial child can occur only for parent $(n)$ or $(n-1,1)$,
+and a sign child only for parent $(1^n)$ or $(2,1^{n-2})$, all of which have
+been excluded.  Since
+\[
+ (n-1)-(n-3)=2,
+\]
+\cref{prop:inputs}(1), applied to every irreducible child, gives
+\[
+ \lmax(A)\leq\mu_2(n-1,n-3;r).
+ \tag{5.2}
+\]
+This is only the published numerical bound, not a uniqueness assertion for
+the $n-k=2$ layer.
+
+The operator $B$ is the parameter-$r+1$ operator on the same parent module.
+The backward induction hypothesis therefore supplies the strict estimate
+\[
+ \lmax(B)<\mu_{n,r+1}.
+ \tag{5.3}
+\]
+The standard-block formula satisfies the recurrence
+\[
+ \mu_{n,r}=\mu_2(n-1,n-3;r)+\mu_{n,r+1},
+ \tag{5.4}
+\]
+which follows either by direct substitution or from
+\cite[Equation~(10)]{LiXiaZhou2026}.  Weyl's inequality now gives
+\[
+ \lmax T_\lambda(n,r)
+ \leq\lmax(A)+\lmax(B)
+ <\mu_{n,r}.
+\]
+The strictness comes entirely from the second summand; no equality
+classification at $n-k=2$ is needed.  Starting from the endpoint
+$r=n-4$ and descending through $n-5,n-6,\dots,1$ proves all strict
+inequalities for $n\geq7$.
+
+\section{The exact low-order certificate}
+
+The endpoint argument assumes $p=n-4\geq3$.  The only remaining legal
+triples are
+\[
+ (n,k,r)=(5,2,1),\quad(6,3,1),\quad(6,3,2).
+ \tag{6.1}
+\]
+For completeness, these cases were computed exactly in every irreducible
+block.  The computation uses no floating-point arithmetic.  For a standard
+Young tableau $T$, let
+$d_i(T)=\operatorname{content}_T(i+1)-\operatorname{content}_T(i)$.  In the
+Young orthogonal basis the adjacent transposition $s_i$ acts by
+\[
+ \rho(s_i)e_T=\frac1{d_i(T)}e_T
+ +\sqrt{1-\frac1{d_i(T)^2}}\,e_{s_iT},
+ \tag{6.2}
+\]
+where the second term is zero when $s_iT$ is not standard.  Enumerating the
+connection set, expressing each cycle in adjacent transpositions, and
+summing (6.2) gives an exact symmetric block.  A diagonally similar rational
+seminormal form is used to compute the characteristic polynomial over
+$\mathbb Q[x]$.
+
+The certificate checks all partitions, the hook-length dimensions and
+$\sum_{\lambda\vdash n}(\dim S^\lambda)^2=n!$, the Coxeter relations, exact
+enumeration and inverse closure of the connection set, the standard-block
+quotient, sign twisting, and the regular-representation trace identities
+\[
+ \sum_\lambda d_\lambda\operatorname{tr}T_\lambda=0,
+ \qquad
+ \sum_\lambda d_\lambda\operatorname{tr}(T_\lambda^2)=n!|H|.
+ \tag{6.3}
+\]
+The complete characteristic polynomials for the three cases are listed in
+\cref{app:spectra}.  They show that the target is $3$ only in $(4,1)$ for
+$n=5$, and is respectively $11$ and $6$ only in $(5,1)$ and
+$(2,1^4)$ for the two $n=6$ cases, with the block multiplicities stated in
+\cref{thm:main}.
+
+The larger exact run comprised seven parameter cases and 96 irreducible
+blocks.  Only the 29 blocks in (6.1) are used to discharge the low-order
+proof obligation.  The remaining 67 blocks, for $(7,4,r)$ with
+$1\leq r\leq3$ and $(8,5,4)$, are interface and regression checks; they are
+not used in place of the symbolic proof for general $n$.
+
+\begin{proof}[Proof of \cref{thm:main}]
+\Cref{lem:standard} establishes the target value and its within-block
+multiplicity.  For $n\geq7$, \cref{prop:endpoint} proves the strict endpoint
+classification and \cref{sec:backward} propagates it to every $r$.
+For $n=5,6$, the exact polynomials in \cref{app:spectra} establish the same
+classification.  The degree-block statement follows from the generation
+and parity discussion after (2.5), and the whole-graph multiplicities follow
+from (2.1) because both target representations have dimension $n-1$.
+\end{proof}
+
+\section{Related work, scope, and verification status}
+
+Siemons and Zalesski studied $C(n,k;r)$ and established the natural-block
+lower bound that gives $\mu_2(n,k;r)$
+\cite{SiemonsZalesski2022}.  Li, Xia, and Zhou proved the Aldous-property
+value for $k\leq n-2$, classified the endpoint $k=n-1$ in the ranges used
+here, and formulated the stricter representation-level uniqueness statement
+as Conjecture~4.7 \cite{LiXiaZhou2026}.  Their recurrence and non-strict
+block bound are inputs to the backward induction; their endpoint
+classification is the base $q=2$ of the endpoint audit.
+
+The present proof neither changes the hypotheses of Conjecture~4.7 nor
+addresses any layer other than $n-k=3$.  Its general part is independent of
+the 96-block experiment.  The exact computation is logically required only
+for the three low-order cases in (6.1), and its additional cases serve as
+checks on formulas, parity, multiplicities, and the proof--computation
+interface.
+
+The mathematical argument and this final exposition were checked
+independently.  The reviews covered the parity split, representation
+multiplicities, endpoint equality analysis, backward induction, all exact
+low-order cases, the source mapping, and every displayed characteristic
+polynomial in the appendix, and returned the verdict \texttt{CORRECT}.
+Public novelty or priority is \texttt{NOT\_ESTABLISHED}.
+
+\appendix
+\section{Complete low-order characteristic polynomials}\label{app:spectra}
+
+In the following tables, $P_\lambda(x)=\det(xI-T_\lambda(n,r))$ and
+$m_\mu$ is the multiplicity of the target $\mu_{n,r}$ inside the block.
+Every partition of the relevant integer appears exactly once.
+
+\subsection*{$(n,k,r)=(5,2,1)$: $|H|=4$, $\mu=3$}
+
+\begin{center}
+\small
+\begin{tabularx}{\textwidth}{@{}l r Y r@{}}
+\toprule
+$\lambda$ & $d_\lambda$ & $P_\lambda(x)$ & $m_\mu$\\
+\midrule
+$(5)$ & 1 & $x-4$ & 0\\
+$(4,1)$ & 4 & $(x-3)^3(x+1)$ & 3\\
+$(3,2)$ & 5 & $x^3(x-2)^2$ & 0\\
+$(3,1,1)$ & 6 & $(x-2)^3(x+2)^3$ & 0\\
+$(2,2,1)$ & 5 & $x^3(x+2)^2$ & 0\\
+$(2,1,1,1)$ & 4 & $(x-1)(x+3)^3$ & 0\\
+$(1^5)$ & 1 & $x+4$ & 0\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection*{$(n,k,r)=(6,3,1)$: $|H|=20$, $\mu=11$}
+
+\begin{center}
+\small
+\begin{tabularx}{\textwidth}{@{}l r Y r@{}}
+\toprule
+$\lambda$ & $d_\lambda$ & $P_\lambda(x)$ & $m_\mu$\\
+\midrule
+$(6)$ & 1 & $x-20$ & 0\\
+$(5,1)$ & 5 & $(x-11)^4(x+4)$ & 4\\
+$(4,2)$ & 9 & $(x-4)^5(x+5)^4$ & 0\\
+$(4,1,1)$ & 10 & $(x-4)^6(x+1)^4$ & 0\\
+$(3,3)$ & 5 & $(x+4)^5$ & 0\\
+$(3,2,1)$ & 16 & $(x+1)^{10}(x+5)^6$ & 0\\
+$(3,1,1,1)$ & 10 & $(x-4)^6(x+1)^4$ & 0\\
+$(2,2,2)$ & 5 & $(x+4)^5$ & 0\\
+$(2,2,1,1)$ & 9 & $(x-4)^5(x+5)^4$ & 0\\
+$(2,1^4)$ & 5 & $(x-11)^4(x+4)$ & 4\\
+$(1^6)$ & 1 & $x-20$ & 0\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection*{$(n,k,r)=(6,3,2)$: $|H|=8$, $\mu=6$}
+
+\begin{center}
+\small
+\begin{tabularx}{\textwidth}{@{}l r Y r@{}}
+\toprule
+$\lambda$ & $d_\lambda$ & $P_\lambda(x)$ & $m_\mu$\\
+\midrule
+$(6)$ & 1 & $x-8$ & 0\\
+$(5,1)$ & 5 & $(x-6)^3(x-2)(x+4)$ & 3\\
+$(4,2)$ & 9 & $(x-4)^2(x-2)^3(x+2)(x+4)^3$ & 0\\
+$(4,1,1)$ & 10 & $x^3(x-4)^3(x-2)(x+2)^3$ & 0\\
+$(3,3)$ & 5 & $x^3(x+4)^2$ & 0\\
+$(3,2,1)$ & 16 & $(x-1)^6(x+1)^4(x+3)^6$ & 0\\
+$(3,1,1,1)$ & 10 & $x^3(x-4)^3(x-2)(x+2)^3$ & 0\\
+$(2,2,2)$ & 5 & $x^3(x+4)^2$ & 0\\
+$(2,2,1,1)$ & 9 & $(x-4)^2(x-2)^3(x+2)(x+4)^3$ & 0\\
+$(2,1^4)$ & 5 & $(x-6)^3(x-2)(x+4)$ & 3\\
+$(1^6)$ & 1 & $x-8$ & 0\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\bibliographystyle{alpha}
+\bibliography{references}
+
+\end{document}

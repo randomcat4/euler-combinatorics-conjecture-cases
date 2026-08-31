@@ -1,0 +1,48 @@
+{
+  "scope": "LOW_ORDER_CERTIFICATE_SUMMARY_ONLY",
+  "warning": "The symbolic proof covers n >= 7. These exact cases discharge only n = 5 and n = 6.",
+  "cases": [
+    {
+      "n": 5,
+      "k": 2,
+      "r": 1,
+      "degree": 4,
+      "mu": 3,
+      "partitions_completed": 7,
+      "attaining_blocks": [
+        {"partition": [4, 1], "within_block_multiplicity": 3}
+      ],
+      "largest_other_nondegree_eigenvalue": 2,
+      "strict_gap": 1
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "r": 1,
+      "degree": 20,
+      "mu": 11,
+      "partitions_completed": 11,
+      "attaining_blocks": [
+        {"partition": [5, 1], "within_block_multiplicity": 4},
+        {"partition": [2, 1, 1, 1, 1], "within_block_multiplicity": 4}
+      ],
+      "largest_other_nondegree_eigenvalue": 4,
+      "strict_gap": 7
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "r": 2,
+      "degree": 8,
+      "mu": 6,
+      "partitions_completed": 11,
+      "attaining_blocks": [
+        {"partition": [5, 1], "within_block_multiplicity": 3},
+        {"partition": [2, 1, 1, 1, 1], "within_block_multiplicity": 3}
+      ],
+      "largest_other_nondegree_eigenvalue": 4,
+      "strict_gap": 2
+    }
+  ]
+}
+

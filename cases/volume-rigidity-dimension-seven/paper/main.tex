@@ -1,0 +1,531 @@
+\documentclass[11pt]{article}
+
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=15
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdfcreator={},pdfproducer={}}
+\usepackage[nameinlink,capitalise]{cleveref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cZ}{\mathcal{Z}}
+\newcommand{\Vol}{\operatorname{Vol}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\im}{\operatorname{im}}
+\newcommand{\aff}{\operatorname{aff}}
+
+\title{A Symbolic Infinitesimal Flex for the Dimension-Seven Slice of a Volume-Rigidity Conjecture}
+\author{Prepared with the EULER system}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Cruickshank, Jackson, and Tanigawa conjectured that if \(\cS\) is a
+simplicial \(2\)-sphere on \(\lceil d/2\rceil+2\) vertices and \(Z\)
+is a disjoint set of \(d-3\) vertices, then the hypergraph of
+\((d-2)\)-faces of the simplicial cone \(\cS*Z\) is volume rigid in
+\(\R^d\).  We give a symbolic counterexample to the complete \(d=7\)
+slice.  In fact, the same construction applies to every simplicial
+\(2\)-sphere on six vertices.  For a generic placement, form the
+\(7\times 3\) matrix \(D\) of the three differences among the four cone
+vertices.  We construct a nonzero symmetric matrix \(B=DKD^{\mathsf T}\)
+and the velocity field
+\(u(v)=B(p(v)-p(z_0))\).  Two trace identities, one for hyperedges of
+the form \(e\cup Z\) and one for hyperedges of the form
+\(t\cup(Z\setminus\{z\})\), show symbolically that all \(44\) squared
+five-volume derivatives vanish.  The motion is not Euclidean-trivial.
+Thus the generic Jacobian rank is at most \(41\), below the rigidity
+target \(42\).  Finite enumeration and exact computations are reported
+only as independent cross-checks of the combinatorics and the symbolic
+certificate.
+\end{abstract}
+
+\section{Introduction}
+
+Cruickshank, Jackson, and Tanigawa introduced a framework for volume
+rigidity of uniform hypergraphs and simplicial complexes
+\cite{CruickshankJacksonTanigawa2026}.  Among their proposed base cases
+for higher-dimensional results is the following statement
+\cite[Conjecture~22]{CruickshankJacksonTanigawa2026}: for \(d\geq 4\),
+if \(\cS\) is a simplicial \(2\)-sphere on
+\(\lceil d/2\rceil+2\) vertices and \(Z\) is a disjoint set of
+\(d-3\) vertices, then the hypergraph \(H_{d-2}(\cS*Z)\) is volume
+rigid in \(\R^d\).
+
+This note concerns exactly the slice \(d=7\).  Here \(\cS\) has six
+vertices, \(Z\) has four vertices, and \(H_5(\cS*Z)\) has ten vertices
+and \(44\) hyperedges.  A generic placement has \(70\) scalar velocity
+coordinates.  The space of translations and infinitesimal rotations
+has dimension
+\[
+  7+\binom{7}{2}=28,
+\]
+so infinitesimal volume rigidity would require rank \(70-28=42\).
+
+Our main result is a symbolic rank obstruction that is uniform over
+all six-vertex simplicial \(2\)-spheres.  It does not rely on a special
+placement, a finite-field rank computation, or the finite enumeration
+of the two combinatorial types.  Those computations are included only
+as reproducibility checks.  The result does not address \(d\geq 8\),
+the broader manifold conjecture in \cite{CruickshankJacksonTanigawa2026},
+nongeneric placements, or global uniqueness.
+
+\section{Definitions and the dimension-seven slice}
+\label{sec:definitions}
+
+\subsection{Simplicial cones and their hypergraphs}
+
+For a simplicial complex \(\cS\) and a finite set \(Z\) disjoint from
+\(V(\cS)\), define
+\[
+  \cS*Z=\{X\cup Z': X\in\cS,\ Z'\subseteq Z\}.
+\]
+For a simplicial complex \(\mathcal K\), the hypergraph \(H_k(\mathcal
+K)\) has vertex set \(V(\mathcal K)\) and one hyperedge for every
+\(k\)-face of \(\mathcal K\); hence every hyperedge has \(k+1\)
+vertices.
+
+Fix a simplicial \(2\)-sphere \(\cS\) on vertices
+\(0,1,\ldots,5\), and let
+\[
+  Z=\{6,7,8,9\}=\{z_0,z_1,z_2,z_3\},
+  \qquad z_i=6+i.
+\]
+The six-element hyperedges of \(H_5(\cS*Z)\) are exactly
+\begin{equation}
+  e\cup Z \quad (e\in\cS^{(1)}),
+  \qquad
+  t\cup\bigl(Z\setminus\{z_i\}\bigr)
+  \quad (t\in\cS^{(2)},\ 0\leq i\leq 3).
+  \label{eq:hyperedge-families}
+\end{equation}
+Indeed, a six-element face of the join contains either two sphere
+vertices and all four cone vertices, or three sphere vertices and
+three cone vertices.
+
+Every triangulated \(2\)-sphere on six vertices has twelve edges and
+eight triangles: Euler's relation and double counting edge--triangle
+incidences give
+\[
+  6-f_1+f_2=2,
+  \qquad 2f_1=3f_2,
+\]
+and hence \((f_1,f_2)=(12,8)\).  Thus
+\[
+  |E(H_5(\cS*Z))|=12+4\cdot 8=44.
+\]
+
+\subsection{The two six-vertex sphere types}
+\label{sec:types}
+
+For completeness, the two combinatorial types of six-vertex
+simplicial \(2\)-sphere may be represented by the following triangle
+sets:
+\begin{align*}
+  T_{\mathrm{st}}
+  &={\{}012,013,023,124,134,235,245,345{\}},\\
+  T_{\mathrm{oct}}
+  &={\{}012,013,024,034,125,135,245,345{\}}.
+\end{align*}
+Their edge sets are, respectively,
+\begin{align*}
+  E_{\mathrm{st}}
+  &={\{}01,02,03,12,13,14,23,24,25,34,35,45{\}},\\
+  E_{\mathrm{oct}}
+  &={\{}01,02,03,04,12,13,15,24,25,34,35,45{\}}.
+\end{align*}
+The complete ordered lists of all \(44\) hyperedges for each type are
+given in \cref{app:hyperedges}.  The symbolic argument below only uses
+the two forms in \eqref{eq:hyperedge-families}, so it applies uniformly
+and does not depend on the classification.
+
+\subsection{Squared-volume Jacobian}
+
+Let \(p:V(H_5(\cS*Z))\to\R^7\) be a placement.  It is \emph{generic}
+if its \(70\) scalar coordinates are algebraically independent over
+\(\Q\).  For a hyperedge
+\(\Delta=\{v_0,v_1,\ldots,v_5\}\), let \(M_\Delta(p)\) be the
+\(5\times7\) matrix whose \(i\)-th row is
+\((p(v_i)-p(v_0))^{\mathsf T}\), and put
+\[
+  g_\Delta(p)=\det\bigl(M_\Delta(p)M_\Delta(p)^{\mathsf T}\bigr).
+\]
+Then
+\[
+  g_\Delta(p)=(5!)^2\Vol_5(p(\Delta))^2.
+\]
+Let \(J_{\cS}(p)\) be the \(44\times70\) Jacobian with one row
+\(\nabla g_\Delta(p)\) for each hyperedge \(\Delta\).  At a generic
+placement this Jacobian has the same rank and right kernel as the
+volume-rigidity matrix of \cite{CruickshankJacksonTanigawa2026}: the
+Gram determinant differs from squared five-volume by the fixed nonzero
+factor \((5!)^2\), and the additional row scalings used in that paper
+are nonzero at a generic placement.
+
+The Euclidean-trivial infinitesimal motions are
+\[
+  u(v)=A p(v)+t,
+  \qquad A^{\mathsf T}=-A,\quad t\in\R^7.
+\]
+A generic ten-point placement affinely spans \(\R^7\), so these
+motions form a \(28\)-dimensional subspace of \(\ker J_{\cS}(p)\).
+Consequently the \(d=7\) specialization of Conjecture~22 predicts
+\(\rank J_{\cS}(p)=42\).
+
+\section{Main result}
+
+\begin{theorem}
+\label{thm:main}
+Let \(\cS\) be any simplicial \(2\)-sphere on six vertices, let \(Z\)
+be a disjoint four-element set, and let \(p:V(H_5(\cS*Z))\to\R^7\)
+be generic.  Then
+\[
+  \rank J_{\cS}(p)\leq 41.
+\]
+In particular, \(H_5(\cS*Z)\) is not volume rigid in \(\R^7\), and
+the \(d=7\) slice of Conjecture~22 in
+\cite{CruickshankJacksonTanigawa2026} is false.
+\end{theorem}
+
+The remainder of this section constructs a single additional symbolic
+infinitesimal motion.  The equivalence between generic volume rigidity
+and generic infinitesimal volume rigidity is Proposition~6 of
+\cite{CruickshankJacksonTanigawa2026}.
+
+\subsection{A trace formula for squared volume}
+
+For a linear subspace \(U\subseteq\R^7\), write \(P_U\) for its
+orthogonal projector.
+
+\begin{lemma}
+\label{lem:trace}
+Let \(\Delta\) be a nondegenerate \(5\)-simplex with direction space
+\(U\), and let \(B\) be a symmetric \(7\times7\) matrix.  Under the
+affine velocity field \(u(q)=B(q-q_0)\), where \(q_0\) is fixed,
+\[
+  \left.\frac{d}{dt}\right|_{t=0}
+  g_\Delta\bigl(q_0+(I+tB)(p-q_0)\bigr)
+  =2g_\Delta(p)\tr(P_U B).
+  \label{eq:trace-derivative}
+\]
+The same formula holds with \(g_\Delta\) replaced by squared
+five-volume.
+\end{lemma}
+
+\begin{proof}
+Translations do not affect edge differences.  If \(M=M_\Delta(p)\),
+then the transformed difference matrix is
+\(M_t=M(I+tB)^{\mathsf T}\).  Since \(B=B^{\mathsf T}\),
+\[
+  \left.\frac{d}{dt}\right|_{t=0}M_tM_t^{\mathsf T}
+  =2MBM^{\mathsf T}.
+\]
+Jacobi's determinant identity gives
+\begin{align*}
+  \left.\frac{d}{dt}\right|_{t=0}\det(M_tM_t^{\mathsf T})
+  &=2\det(MM^{\mathsf T})
+    \tr\!\left((MM^{\mathsf T})^{-1}MBM^{\mathsf T}\right)\\
+  &=2g_\Delta(p)
+    \tr\!\left(M^{\mathsf T}(MM^{\mathsf T})^{-1}M B\right).
+\end{align*}
+The matrix \(M^{\mathsf T}(MM^{\mathsf T})^{-1}M\) is \(P_U\),
+which proves \eqref{eq:trace-derivative}.  Division by \((5!)^2\)
+gives the squared-volume version.
+\end{proof}
+
+\subsection{The symbolic motion}
+
+Translate the notation so that \(p(z_0)\) is the origin, and define
+\[
+  D=\begin{bmatrix}d_1&d_2&d_3\end{bmatrix}
+   =\begin{bmatrix}
+      p(z_1)-p(z_0)&p(z_2)-p(z_0)&p(z_3)-p(z_0)
+    \end{bmatrix},
+  \qquad G=D^{\mathsf T}D.
+\]
+Write
+\[
+  a=G_{12},\qquad b=G_{13},\qquad c=G_{23},
+\]
+and set
+\[
+  \xi=c-b,\qquad \eta=a-c,\qquad \zeta=b-a,
+  \qquad
+  K=\begin{pmatrix}
+      0&\xi&\eta\\
+      \xi&0&\zeta\\
+      \eta&\zeta&0
+    \end{pmatrix}.
+\]
+Finally, put
+\begin{equation}
+  B=DKD^{\mathsf T},
+  \qquad
+  u(v)=B\bigl(p(v)-p(z_0)\bigr).
+  \label{eq:flex}
+\end{equation}
+This is a polynomial velocity vector in the placement coordinates.
+
+The definitions immediately give
+\begin{equation}
+  \xi+\eta+\zeta=0,
+  \qquad
+  a\xi+b\eta+c\zeta=0.
+  \label{eq:two-identities}
+\end{equation}
+Consequently
+\begin{equation}
+  \tr(KG)=0,
+  \qquad
+  h^{\mathsf T}Kh=0
+  \quad\text{for }h\in
+  \{e_1,e_2,e_3,(1,1,1)^{\mathsf T}\}.
+  \label{eq:facet-identities}
+\end{equation}
+The first equation follows because
+\(\tr(KG)=2(a\xi+b\eta+c\zeta)\).  The three coordinate-vector
+equations in the second statement are the zero diagonal of \(K\), and
+the remaining equation is
+\(2(\xi+\eta+\zeta)=0\).
+
+The four covectors in \eqref{eq:facet-identities} are normal covectors
+to the four facets of the tetrahedron with coordinates
+\(0,e_1,e_2,e_3\) in the basis \(D\).  For a generic placement,
+\(D\) has full column rank and \(a,b,c\) are not all equal.  The latter
+equalities define a proper algebraic subset.  Hence \(K\neq0\), and
+full column rank of \(D\) then implies \(B=DKD^{\mathsf T}\neq0\).
+The matrix \(B\) is symmetric.
+
+\subsection{Stationarity of all hyperedge volumes}
+
+Let \(L=\im D\).  The operator \(B\) is supported on \(L\): it kills
+\(L^\perp\), maps into \(L\), and satisfies
+\begin{equation}
+  \tr(B)=\tr(DKD^{\mathsf T})=\tr(KG)=0.
+  \label{eq:trace-B}
+\end{equation}
+
+First consider a hyperedge \(\Delta=e\cup Z\).  Its direction space
+has the orthogonal decomposition
+\[
+  U_\Delta=L\oplus R,
+\]
+where \(R\subseteq L^\perp\) is spanned by the projections of the two
+sphere vertices in \(e\).  Therefore
+\begin{equation}
+  \tr(P_{U_\Delta}B)=\tr(P_LB)+\tr(P_RB)
+  =\tr(B)=0.
+  \label{eq:edge-trace}
+\end{equation}
+
+Now let
+\(\Delta=t\cup(Z\setminus\{z_\ell\})\).  Denote by \(L_\ell\) the
+two-dimensional direction space of the corresponding facet of the
+tetrahedron on \(Z\).  Let \(h_\ell\) be its normal covector in
+\(D\)-coordinates; thus
+\[
+  \{h_0,h_1,h_2,h_3\}
+  =\{(1,1,1)^{\mathsf T},e_1,e_2,e_3\}.
+\]
+The vector
+\[
+  n_\ell=DG^{-1}h_\ell
+\]
+is normal to \(L_\ell\) inside \(L\), because
+\(D^{\mathsf T}n_\ell=h_\ell\).  From
+\eqref{eq:facet-identities},
+\begin{equation}
+  n_\ell^{\mathsf T}Bn_\ell
+  =h_\ell^{\mathsf T}Kh_\ell=0.
+  \label{eq:normal-quadratic}
+\end{equation}
+Since \(L=L_\ell\oplus\operatorname{span}(n_\ell)\) orthogonally,
+\eqref{eq:trace-B} and \eqref{eq:normal-quadratic} imply
+\[
+  \tr(P_{L_\ell}B)=0.
+\]
+
+The direction space of \(\Delta\) decomposes as
+\[
+  U_\Delta=L_\ell\oplus R_\ell
+\]
+for a three-dimensional subspace
+\(R_\ell\subseteq L_\ell^\perp\).  Moreover,
+\[
+  L_\ell^\perp=\operatorname{span}(n_\ell)\oplus L^\perp.
+\]
+For \(w=\lambda n_\ell+r\), with \(r\in L^\perp\), the facts
+\(Br=0\) and \eqref{eq:normal-quadratic} give
+\(w^{\mathsf T}Bw=0\).  Because \(B\) is symmetric, polarization
+shows that its compression to \(L_\ell^\perp\) is zero.  Hence
+\(\tr(P_{R_\ell}B)=0\), and altogether
+\begin{equation}
+  \tr(P_{U_\Delta}B)=0.
+  \label{eq:triangle-trace}
+\end{equation}
+
+Equations \eqref{eq:edge-trace} and \eqref{eq:triangle-trace} cover
+the two families in \eqref{eq:hyperedge-families}, hence all \(44\)
+hyperedges.  By \cref{lem:trace}, the velocity \(u\) in
+\eqref{eq:flex} lies in \(\ker J_{\cS}(p)\).
+
+\subsection{Nontriviality and the rank bound}
+
+Suppose, for contradiction, that \(u\) is Euclidean-trivial.  Then
+there are a skew-symmetric matrix \(A\) and a vector \(t\) such that
+\[
+  B(p(v)-p(z_0))=Ap(v)+t
+\]
+for all ten vertices.  Substitution of \(v=z_0\) gives
+\(t=-Ap(z_0)\), so
+\[
+  B(p(v)-p(z_0))=A(p(v)-p(z_0))
+\]
+for every vertex \(v\).  A generic ten-point placement affinely spans
+\(\R^7\); its differences from \(p(z_0)\) therefore span \(\R^7\),
+forcing \(B=A\).  This is impossible because \(B\) is nonzero and
+symmetric while \(A\) is skew-symmetric.
+
+Thus \(\ker J_{\cS}(p)\) contains the \(28\)-dimensional trivial
+motion space and the independent motion \(u\).  Rank--nullity yields
+\[
+  \rank J_{\cS}(p)
+  \leq 70-(28+1)=41,
+\]
+which proves \cref{thm:main}.
+
+\section{Exact cross-checks and verification boundary}
+\label{sec:verification}
+
+The proof of \cref{thm:main} is the symbolic argument in the preceding
+section.  The following finite computations do not carry the generic
+conclusion.
+
+An exhaustive enumeration considered all
+\(\binom{20}{8}=125970\) choices of eight triangles on six labelled
+vertices.  A topology filter retained \(195\) labelled sphere face
+tables.  Quotienting by the \(S_6\)-action gave the two types in
+\cref{sec:types}, with labelled orbit sizes \(180\) and \(15\), and
+automorphism-group orders \(4\) and \(48\), respectively.  An
+independent graph-atlas reconstruction found the same two planar,
+three-connected, six-vertex triangulations.
+
+At one exact integer placement (deterministic seed \(260830\)), each
+type passed the following checks: the ten points had affine rank seven;
+all \(44\) Gram determinants were nonzero; the \(28\) standard trivial
+motions and the motion in \eqref{eq:flex} lay in the exact kernel; and
+adding the displayed motion raised the motion-space rank from \(28\)
+to \(29\).  The specialized Jacobian had rank \(40\) modulo the prime
+\(2147483647\).  Exact \(40\times40\) minors were nonzero, with \(394\)
+and \(395\) decimal digits for the stacked and octahedral types.  These
+specialized calculations are cross-checks and lower-rank witnesses at
+the chosen coordinates; they are not the source of the generic upper
+bound.
+
+A separate checker reconstructed the two sphere types from the graph
+atlas, rebuilt all \(44\) rows using Cayley--Menger determinant
+derivatives, verified the identities in
+\eqref{eq:two-identities}--\eqref{eq:facet-identities}, and recomputed
+the exact minors with NetworkX~3.5 and SymPy~1.14.0.  It reported
+\texttt{PASS}.  That checker reused the stored face tables, coordinates,
+and candidate minor indices, so it was not completely input-isolated;
+its independent row construction and symbolic checks nevertheless
+provide a noncircular cross-check.  The generic claim remains the
+symbolic proof above.
+
+The mathematical argument received an independent verdict of
+\texttt{CORRECT}.  A separate paper-level review checked the theorem
+quantifiers, the expanded determinant calculation in \cref{lem:trace},
+the source interfaces, and the complete hyperedge tables, and likewise
+reported \texttt{CORRECT}.
+
+\section{Relation to the source paper and scope}
+
+The source paper proves volume-rigidity results for lower skeletons and
+for the codimension-two manifold case in dimensions \(4,5,6\), and it
+states Conjecture~22 as a proposed family of base cases for extending
+the method \cite{CruickshankJacksonTanigawa2026}.  The theorem here
+addresses only the next numerical slice, \(d=7\), and only the
+simplicial-cone hypergraphs appearing in that conjecture.  It does not
+settle the source paper's broader Conjecture~2, since that extension
+requires further arguments even if all the proposed base cases were
+available.
+
+This note makes no claim of public priority, of being the first
+counterexample, or of establishing the current public status of the
+all-dimensional conjecture.  Public novelty or priority is
+\texttt{NOT\_ESTABLISHED}.
+
+\appendix
+\section{Complete hyperedge lists}
+\label{app:hyperedges}
+
+In the tables below, a string such as \texttt{012678} denotes the
+six-element set \(\{0,1,2,6,7,8\}\).  Each table contains all \(44\)
+hyperedges in the order used for the exact cross-check.
+
+\subsection*{Stacked type}
+
+\begin{center}
+\small
+\begin{tabular}{llll}
+\toprule
+\texttt{012678}&\texttt{012679}&\texttt{012689}&\texttt{012789}\\
+\texttt{013678}&\texttt{013679}&\texttt{013689}&\texttt{013789}\\
+\texttt{016789}&\texttt{023678}&\texttt{023679}&\texttt{023689}\\
+\texttt{023789}&\texttt{026789}&\texttt{036789}&\texttt{124678}\\
+\texttt{124679}&\texttt{124689}&\texttt{124789}&\texttt{126789}\\
+\texttt{134678}&\texttt{134679}&\texttt{134689}&\texttt{134789}\\
+\texttt{136789}&\texttt{146789}&\texttt{235678}&\texttt{235679}\\
+\texttt{235689}&\texttt{235789}&\texttt{236789}&\texttt{245678}\\
+\texttt{245679}&\texttt{245689}&\texttt{245789}&\texttt{246789}\\
+\texttt{256789}&\texttt{345678}&\texttt{345679}&\texttt{345689}\\
+\texttt{345789}&\texttt{346789}&\texttt{356789}&\texttt{456789}\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{Octahedral type}
+
+\begin{center}
+\small
+\begin{tabular}{llll}
+\toprule
+\texttt{012678}&\texttt{012679}&\texttt{012689}&\texttt{012789}\\
+\texttt{013678}&\texttt{013679}&\texttt{013689}&\texttt{013789}\\
+\texttt{016789}&\texttt{024678}&\texttt{024679}&\texttt{024689}\\
+\texttt{024789}&\texttt{026789}&\texttt{034678}&\texttt{034679}\\
+\texttt{034689}&\texttt{034789}&\texttt{036789}&\texttt{046789}\\
+\texttt{125678}&\texttt{125679}&\texttt{125689}&\texttt{125789}\\
+\texttt{126789}&\texttt{135678}&\texttt{135679}&\texttt{135689}\\
+\texttt{135789}&\texttt{136789}&\texttt{156789}&\texttt{245678}\\
+\texttt{245679}&\texttt{245689}&\texttt{245789}&\texttt{246789}\\
+\texttt{256789}&\texttt{345678}&\texttt{345679}&\texttt{345689}\\
+\texttt{345789}&\texttt{346789}&\texttt{356789}&\texttt{456789}\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\bibliographystyle{alpha}
+\bibliography{references}
+
+\end{document}

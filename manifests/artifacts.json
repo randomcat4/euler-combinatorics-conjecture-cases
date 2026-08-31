@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "artifacts": [
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/check_small_cases.py",
+      "sha256": "3d21b0b304f7951828b35307981e9b9c6d65c94f540e87eb379f04b966c94b15"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/problem.md",
+      "sha256": "6a210aa242b0294c23bee306b84d4fae2ed2f90504dc64d3cdac441331e48854"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/proof.md",
+      "sha256": "7164a0821a8a6c45a14734ec7031a366825d55b2cd2af5ff9f9d66e86ddf61f3"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/README.md",
+      "sha256": "0a68343a0e41536418d2cc57abd89676f0d383db7b697035521f68d2c78656a3"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/small_case_summary.json",
+      "sha256": "8217ae7c919eb138e4ccbe7930532bc0146ee26befa52e2a0c18ad090147d75f"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/sources.md",
+      "sha256": "d54c6c484f79f040d8b42deec45d26e4c5c6bc5afbaf55d22041d4db104e7768"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/status.md",
+      "sha256": "0c89571e892898f7b863dd82fb1a323f3c9a8f99c133498bf4761d186b0bbf1a"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/verification.md",
+      "sha256": "12b24e9ef80d0b5663515c7ee8dac8e9751ba8fb8c2033e910e82b2c690e5957"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/evidence/low_order_cases.json",
+      "sha256": "e6b8c4bf7c62868628723cb078ee1e225726f57b63c2cf270efb60e6bc37db80"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/paper/main.pdf",
+      "sha256": "1303f92da7a94c271cc7998a634f066ab030dc31685b678bc3ef064589be7243"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/paper/main.tex",
+      "sha256": "0d08bb091479fc67df99500b9dbf584e830372c42715cac0e4cba99bd42a3297"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/paper/references.bib",
+      "sha256": "97a79fdbd6b28a820565995d519e74cdfb6276ba5b42a31ba1104ad3a0ec8e7e"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/problem.md",
+      "sha256": "6365799886c15ae91ec8280419b051d9545eb2b6f0a986aa5920591a9fd97d4d"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/README.md",
+      "sha256": "8aa5035b04abb1311011171d9ec0b43ea29e7a20f6f6502e307020c1a04480c3"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
+      "sha256": "2d51704227c60b792c5b7adf4557a5e5b57e98b31df1e366121e72b9262e9bf2"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/status.md",
+      "sha256": "ea402b6bed64be0bd14b1d44e68b6161d9f238660671a54b7408bd0127080017"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
+      "sha256": "d3db73242b0756401c715e7a0430c599cfd46515861dc2fda9cd8314481c3a31"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/exhaustive-check.md",
+      "sha256": "d5863a6c504295392e25dff90e9e76721bd325b1356dd9f604d5da0c1bf6ecd9"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/problem.md",
+      "sha256": "79086d1dfbee0ec991b837718fb1ead743cf201525b06c8d7e321f272d0ed53b"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/proof.md",
+      "sha256": "a797ce62d1284d5e7102b7b37777cbca732542cc5f48dbdedc26db3e496bfb69"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/README.md",
+      "sha256": "53d98b51b86f118564996574974027897e27b864b5f91f7694760b84db2a8f8e"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/sources.md",
+      "sha256": "819b4cb87e68dbe778e88cbd1d0786ab451dba396adeba6b18884756b2d634c4"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/status.md",
+      "sha256": "b0018bcd0ae91a1d7965c87105685911573e9b255628b1669fab12143ae62801"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/verification.md",
+      "sha256": "dcf7fcdd9ccfd268455f1e8dd00ebb1d23e90754d0b9a6f7fae0906cf012eaca"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/verify_bijection.py",
+      "sha256": "1e038c60047f746771c8c7dddc403fcad555aed024c5c924f96252d8a0346131"
+    },
+    {
+      "path": "cases/README.md",
+      "sha256": "903cae82db3c16eb64c9e53f9d24c52ac3db425889e7ce7972f2eb2c2b712193"
+    },
+    {
+      "path": "cases/volume-rigidity-dimension-seven/evidence/hyperedges.md",
+      "sha256": "db140c503d658ba7e4bcb92dd9b26aa05c203a391790367ab0daf990c18dd512"
+    },
+    {
+      "path": "cases/volume-rigidity-dimension-seven/paper/main.pdf",
+      "sha256": "68a5660c2c00bf3d4707ac056c4a4a843f22e572323de448e2e8ff3525807d80"
+    },
+    {
+      "path": "cases/volume-rigidity-dimension-seven/paper/main.tex",
+      "sha256": "86bf2aa863a4a272aa810d7e3bfb1187a426f63c13cd8660c7b839e5b804cbcb"
+    },
+    {
+      "path": "cases/volume-rigidity-dimension-seven/paper/references.bib",
+      "sha256": "e36abab4f3c3e9b5657027f8f3265249b2191329ecdd7c92580e71e43f39f258"
+    },
+    {
+      "path": "cases/volume-rigidity-dimension-seven/problem.md",
+      "sha256": "badbfdd381807de18d9da75d5c920fc590dcff789e8233a0ef4cc7995f566f0a"
+    },
+    {
+      "path": "cases/volume-rigidity-dimension-seven/README.md",
+      "sha256": "3a0c4f1b84d2d7ef02d87af0f6641c65f8009d4d40a61cf0f90655b4e20326db"
+    },
+    {
+      "path": "cases/volume-rigidity-dimension-seven/sources.md",
+      "sha256": "1e7e412c154548ad6fb10eee4c7b96e19fa552fbc658ea9a336bfdc92a001e67"
+    },
+    {
+      "path": "cases/volume-rigidity-dimension-seven/status.md",
+      "sha256": "30d61870c2ecb8a604e0b1c86feb8012d7d4ecb12f9a556e00d56a73b1155ec7"
+    },
+    {
+      "path": "cases/volume-rigidity-dimension-seven/verification.md",
+      "sha256": "361e842a785a83f43e30d19f0b48107b2c9e5b68b4b1b2130d53afcde43a0afd"
+    },
+    {
+      "path": "cases/zhao-restricted-zero-sum-counterexample/check_counterexample.py",
+      "sha256": "3a983df4cbc559a8bd9f88692851fab94cb93ee6b7a0c9b8d2ee519f930db53c"
+    },
+    {
+      "path": "cases/zhao-restricted-zero-sum-counterexample/exhaustive_summary.json",
+      "sha256": "6654a08f4856067b5107d5b7e9e3d439ed454528b1241f2a76b460ff378ed564"
+    },
+    {
+      "path": "cases/zhao-restricted-zero-sum-counterexample/problem.md",
+      "sha256": "b0126beb08bd21acf651874f5e7fb015f452fa8396f68e2a6958a4bcbf330b90"
+    },
+    {
+      "path": "cases/zhao-restricted-zero-sum-counterexample/proof.md",
+      "sha256": "54b29f7d5207540b3d43f58a75b6f950f438f960a69800efc9d66731710f1c5b"
+    },
+    {
+      "path": "cases/zhao-restricted-zero-sum-counterexample/README.md",
+      "sha256": "9893ac8bfae394f62c503eb3bb2c7901f3403c18546645d2ecbb2f47eca34d21"
+    },
+    {
+      "path": "cases/zhao-restricted-zero-sum-counterexample/sources.md",
+      "sha256": "3e0d21b9e58f27caaa840bd7e458869e33a5cedefb05969c627a63238eb491be"
+    },
+    {
+      "path": "cases/zhao-restricted-zero-sum-counterexample/status.md",
+      "sha256": "d5204ad395c688679b40253536cc1f090260db7bb6015c5abae77c4a04b3869d"
+    },
+    {
+      "path": "cases/zhao-restricted-zero-sum-counterexample/verification.md",
+      "sha256": "770608cd8c5468a51b57b5af90ebe26311af33e2c6d4f6d3a72d67bd140aeaa3"
+    }
+  ]
+}

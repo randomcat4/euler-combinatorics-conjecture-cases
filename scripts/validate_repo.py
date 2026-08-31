@@ -1,0 +1,218 @@
+"""Validate the public EULER combinatorics case collection."""
+
+from __future__ import annotations
+
+import hashlib
+import json
+import re
+import sys
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+REQUIRED_ROOT = (
+    "README.md",
+    "PROJECT_STATE.json",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "docs/status.md",
+    "docs/sources.md",
+    "docs/workflow.md",
+    "docs/provenance.md",
+    "cases/README.md",
+    "manifests/artifacts.json",
+)
+
+CASE_SLUGS = (
+    "volume-rigidity-dimension-seven",
+    "cayley-eigenvalue-codimension-three",
+    "catalan-schett-plane-tree-statistic",
+    "partition-matrix-bijection",
+    "zhao-restricted-zero-sum-counterexample",
+)
+
+CASE_REQUIRED = {
+    "volume-rigidity-dimension-seven": (
+        "README.md",
+        "problem.md",
+        "status.md",
+        "sources.md",
+        "verification.md",
+        "paper/main.tex",
+        "paper/main.pdf",
+        "paper/references.bib",
+        "evidence/hyperedges.md",
+    ),
+    "cayley-eigenvalue-codimension-three": (
+        "README.md",
+        "problem.md",
+        "status.md",
+        "sources.md",
+        "verification.md",
+        "paper/main.tex",
+        "paper/main.pdf",
+        "paper/references.bib",
+        "evidence/low_order_cases.json",
+    ),
+    "catalan-schett-plane-tree-statistic": (
+        "README.md",
+        "problem.md",
+        "status.md",
+        "sources.md",
+        "verification.md",
+        "proof.md",
+        "check_small_cases.py",
+        "small_case_summary.json",
+    ),
+    "partition-matrix-bijection": (
+        "README.md",
+        "problem.md",
+        "status.md",
+        "sources.md",
+        "verification.md",
+        "proof.md",
+        "verify_bijection.py",
+        "exhaustive-check.md",
+    ),
+    "zhao-restricted-zero-sum-counterexample": (
+        "README.md",
+        "problem.md",
+        "status.md",
+        "sources.md",
+        "verification.md",
+        "proof.md",
+        "check_counterexample.py",
+        "exhaustive_summary.json",
+    ),
+}
+
+EXPECTED_VERIFICATION = {
+    "volume-rigidity-dimension-seven": "INDEPENDENTLY_VERIFIED",
+    "cayley-eigenvalue-codimension-three": "INDEPENDENTLY_VERIFIED",
+    "catalan-schett-plane-tree-statistic": "INDEPENDENTLY_VERIFIED",
+    "partition-matrix-bijection": "INDEPENDENTLY_VERIFIED",
+    "zhao-restricted-zero-sum-counterexample": "SYMBOLIC_AND_EXHAUSTIVE_CHECKED",
+}
+
+TEXT_SUFFIXES = {".bib", ".json", ".md", ".py", ".tex", ".txt", ".yml", ".yaml"}
+SKIP_DIRS = {".git", "__pycache__"}
+
+FORBIDDEN_PATTERNS = (
+    ("CJK text", re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")),
+    ("internal case identifier", re.compile(r"\bP(?:06|10|21|22)\b")),
+    ("Codex session identifier", re.compile(r"\b01[a-f0-9]{6,}(?:-[a-f0-9]{4,}){3,}\b", re.I)),
+    ("internal repository link", re.compile(r"randomcat4/combinatorics-conjecture-lab", re.I)),
+    ("private review comment", re.compile(r"issuecomment-|/pull/\d+", re.I)),
+    (
+        "local Windows path",
+        re.compile(
+            r"\b[A-Za-z]:\\(?:Users|Windows|ProgramData|Program Files|game|tmp)\\",
+            re.IGNORECASE,
+        ),
+    ),
+    ("local Codex path", re.compile(r"(?:\.codex|/root/)", re.I)),
+    ("GitHub classic token", re.compile(r"ghp_[A-Za-z0-9]{20,}")),
+    ("GitHub fine-grained token", re.compile(r"github_pat_[A-Za-z0-9_]{20,}")),
+    ("private key", re.compile(r"BEGIN [A-Z ]*PRIVATE KEY")),
+)
+
+
+def fail(message: str) -> None:
+    print(f"FAIL: {message}", file=sys.stderr)
+    raise SystemExit(1)
+
+
+def validate_required() -> None:
+    missing = [name for name in REQUIRED_ROOT if not (ROOT / name).is_file()]
+    if missing:
+        fail("missing required files: " + ", ".join(missing))
+    for slug in CASE_SLUGS:
+        case_root = ROOT / "cases" / slug
+        for name in CASE_REQUIRED[slug]:
+            if not (case_root / name).is_file():
+                fail(f"missing required case file: cases/{slug}/{name}")
+
+
+def validate_state() -> None:
+    state = json.loads((ROOT / "PROJECT_STATE.json").read_text(encoding="utf-8"))
+    if state.get("language") != "en":
+        fail("public repository language must remain English")
+    cases = state.get("cases", {})
+    if tuple(cases) != CASE_SLUGS:
+        fail("PROJECT_STATE.json case order or membership changed")
+    for slug, item in cases.items():
+        if item.get("verification") != EXPECTED_VERIFICATION[slug]:
+            fail(f"verification gate is not preserved for {slug}")
+        if item.get("novelty") != "NOT_ESTABLISHED":
+            fail(f"novelty boundary changed for {slug}")
+    gao = state.get("external_releases", {}).get("gao-generalized-dihedral", {})
+    if gao.get("repository") != "https://github.com/randomcat4/gaoLEAN":
+        fail("public Gao release link changed")
+    if gao.get("scope") != "completed 13-page manuscript and its corresponding Lean formalization":
+        fail("public Gao release scope changed")
+
+
+def validate_public_boundary() -> None:
+    forbidden_suffixes = {".key", ".pem", ".pfx", ".zip"}
+    for path in ROOT.rglob("*"):
+        if not path.is_file() or any(part in SKIP_DIRS for part in path.parts):
+            continue
+        relative = path.relative_to(ROOT)
+        if path.suffix.lower() in forbidden_suffixes or path.name == ".env":
+            fail(f"forbidden file type: {relative}")
+        if path.suffix.lower() not in TEXT_SUFFIXES:
+            continue
+        if relative == Path("scripts/validate_repo.py"):
+            continue
+        text = path.read_text(encoding="utf-8", errors="replace")
+        for label, pattern in FORBIDDEN_PATTERNS:
+            if pattern.search(text):
+                fail(f"{label} found in {relative}")
+
+
+def digest(path: Path) -> str:
+    if path.suffix.lower() != ".pdf":
+        content = path.read_bytes().replace(b"\r\n", b"\n")
+        return hashlib.sha256(content).hexdigest()
+    result = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(1024 * 1024), b""):
+            result.update(block)
+    return result.hexdigest()
+
+
+def validate_manifest() -> None:
+    manifest = json.loads(
+        (ROOT / "manifests" / "artifacts.json").read_text(encoding="utf-8")
+    )
+    listed = {item["path"]: item["sha256"] for item in manifest["artifacts"]}
+    expected = {
+        path.relative_to(ROOT).as_posix()
+        for slug in CASE_SLUGS
+        for path in (ROOT / "cases" / slug).rglob("*")
+        if path.is_file()
+        and "__pycache__" not in path.parts
+        and not path.name.endswith(
+            (".aux", ".bbl", ".blg", ".log", ".out", ".synctex.gz", ".toc")
+        )
+    }
+    expected.add("cases/README.md")
+    if set(listed) != expected:
+        fail("artifact manifest membership does not match the public case files")
+    for relative, expected_hash in listed.items():
+        actual = digest(ROOT / relative)
+        if actual.lower() != expected_hash.lower():
+            fail(f"artifact hash mismatch: {relative}")
+
+
+def main() -> None:
+    validate_required()
+    validate_state()
+    validate_public_boundary()
+    validate_manifest()
+    print("PASS: structure, status gates, English-only policy, and public boundary")
+
+
+if __name__ == "__main__":
+    main()
