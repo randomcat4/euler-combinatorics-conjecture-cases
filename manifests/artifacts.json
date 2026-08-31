@@ -51,11 +51,11 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/problem.md",
-      "sha256": "6365799886c15ae91ec8280419b051d9545eb2b6f0a986aa5920591a9fd97d4d"
+      "sha256": "fa2c0f3b41aaa6be3eb22d87f6be1f5183ed19d47a62e64161fdf241e4086bb8"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "ebbe2bfb05f8b16e89706de6adbc6fb33035f3ff487e436785c78a90df750516"
+      "sha256": "ce10efac31e0b20fd6ea35761d4103910616bedb32f5b7a9b5a0a7f862ede758"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
@@ -63,7 +63,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/status.md",
-      "sha256": "ea402b6bed64be0bd14b1d44e68b6161d9f238660671a54b7408bd0127080017"
+      "sha256": "92ef97fb19148c520cb0bf176561b811cdbac58f82e48db8a603a72d55dd67f9"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
@@ -103,7 +103,7 @@
     },
     {
       "path": "cases/README.md",
-      "sha256": "903cae82db3c16eb64c9e53f9d24c52ac3db425889e7ce7972f2eb2c2b712193"
+      "sha256": "08b52d26ac2840f95fd1b87dd2e2d5b69e7e53e877804f88bab72174c9c754cb"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/evidence/hyperedges.md",

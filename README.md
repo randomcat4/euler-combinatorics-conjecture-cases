@@ -48,8 +48,8 @@ the published artifact manifest, and the three executable finite certificates.
     <tr>
       <td><sub><a href="https://github.com/randomcat4/gaoLEAN">Gao constant</a></sub></td>
       <td><sub><a href="https://doi.org/10.1016/j.ejc.2004.06.014"><em>European Journal of Combinatorics</em> 26 (2005), 1053–1059</a></sub></td>
-      <td><sub>Full theorem with formal proof</sub></td>
-      <td><sub>Odd-primary generalized dihedral family</sub></td>
+      <td><sub>Partial result with formal proof</sub></td>
+      <td><sub>Restricted odd-primary generalized dihedral family</sub></td>
       <td><sub>Lean-checked manuscript theorem</sub></td>
     </tr>
     <tr>
@@ -69,8 +69,8 @@ the published artifact manifest, and the three executable finite certificates.
     <tr>
       <td><sub><a href="cases/cayley-eigenvalue-codimension-three/">Cayley eigenvalues</a></sub></td>
       <td><sub><a href="https://doi.org/10.1016/j.jcta.2025.106097"><em>Journal of Combinatorial Theory, Series A</em> 218 (2026), Article 106097</a></sub></td>
-      <td><sub>Complete parameter layer</sub></td>
-      <td><sub>Complete <code>n-k=3</code> layer of Conjecture 4.7</sub></td>
+      <td><sub>Partial parameter result</sub></td>
+      <td><sub>The <code>n-k=3</code> regime of Conjecture 4.7 only</sub></td>
       <td><sub>Independent mathematical review</sub></td>
     </tr>
   </tbody>
@@ -104,7 +104,7 @@ Conjecture 22 in the cited volume-rigidity paper predicts rigidity for a family 
 
 [Open the volume-rigidity counterexample package](cases/volume-rigidity-dimension-seven/)
 
-## Complete solutions and full arguments
+## Partial results
 
 ### The Gao constant for generalized dihedral groups
 
@@ -118,9 +118,19 @@ E\bigl(\operatorname{Dih}(A)\bigr)
 =|\operatorname{Dih}(A)|+d\bigl(\operatorname{Dih}(A)\bigr)
 $$
 
-for every nontrivial finite abelian odd-primary group $A$. Its public scope is the completed [13-page manuscript](https://github.com/randomcat4/gaoLEAN/blob/main/paper/arxiv/main.pdf) and the corresponding [Lean formalization](https://github.com/randomcat4/gaoLEAN/blob/main/GaoLean/PR7ThirteenPage.lean), collected in [Gao Lean](https://github.com/randomcat4/gaoLEAN).
+for every nontrivial finite abelian odd-primary group $A$. This is a restricted-family result, not a resolution of the full Gao conjecture. Its public scope is the completed [13-page manuscript](https://github.com/randomcat4/gaoLEAN/blob/main/paper/arxiv/main.pdf) and the corresponding [Lean formalization](https://github.com/randomcat4/gaoLEAN/blob/main/GaoLean/PR7ThirteenPage.lean), collected in [Gao Lean](https://github.com/randomcat4/gaoLEAN).
 
 Other Gao-related problems are being curated and actively advanced. Their public packages will be added when the corresponding arguments and release materials are ready.
+
+### Nonnormal Cayley graph eigenvalues
+
+*Yuxuan Li, Binzhou Xia, and Sanming Zhou · [DOI](https://doi.org/10.1016/j.jcta.2025.106097) · [arXiv](https://arxiv.org/abs/2402.02427)*
+
+Conjecture 4.7 concerns representation-level uniqueness for a family of nonnormal Cayley graphs on symmetric groups. The public case establishes a result in the restricted `k=n-3` regime, with a symbolic general argument and exact low-order certificates. It does not resolve the conjecture outside that regime.
+
+[Open the Cayley eigenvalue package](cases/cayley-eigenvalue-codimension-three/)
+
+## Complete solutions
 
 ### A Catalan--Schett statistic on plane trees
 
@@ -138,16 +148,6 @@ Question 5.7 asks for a direct statistic-preserving bijection between a signed c
 
 [Open the partition-matrix solution](cases/partition-matrix-bijection/)
 
-## Complete parameter layers
-
-### Nonnormal Cayley graph eigenvalues
-
-*Yuxuan Li, Binzhou Xia, and Sanming Zhou · [DOI](https://doi.org/10.1016/j.jcta.2025.106097) · [arXiv](https://arxiv.org/abs/2402.02427)*
-
-Conjecture 4.7 concerns representation-level uniqueness for a family of nonnormal Cayley graphs on symmetric groups. The public case proves the complete `k=n-3` layer for every admissible `n`, with a symbolic general argument and exact low-order certificates.
-
-[Open the Cayley eigenvalue package](cases/cayley-eigenvalue-codimension-three/)
-
 ## Quick navigation
 
 - [Collection status](docs/status.md)
@@ -158,7 +158,7 @@ Conjecture 4.7 concerns representation-level uniqueness for a family of nonnorma
 
 ## Repository principles
 
-1. Counterexamples, complete solutions, full theorems, and parameter-layer results are reported as different result types.
+1. Counterexamples, complete solutions, and partial results are reported as different result types.
 2. Correctness, scope, computation, formal verification, novelty, and publication priority are separate judgments.
 3. A finite calculation may certify a finite witness or discharge a proved finite remainder; it does not replace a general argument.
 4. Candidate construction and independent verification are kept logically separate.

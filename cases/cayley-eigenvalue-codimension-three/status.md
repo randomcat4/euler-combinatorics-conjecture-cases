@@ -1,6 +1,6 @@
 # Status
 
-- Mathematical result: `PROVED` for the complete (n-k=3) layer of Conjecture 4.7.
+- Mathematical result: `PARTIAL_RESULT` in the (n-k=3) regime of Conjecture 4.7.
 - General proof: symbolic for every (n\ge 7).
 - Low-order boundary: three exact cases for (n=5,6).
 - Mathematical verification: `CORRECT` after independent review and exact recomputation of all load-bearing low-order blocks.

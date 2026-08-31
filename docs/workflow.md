@@ -12,8 +12,7 @@ Every release is classified by what it actually establishes:
 
 - `COUNTEREXAMPLE`: a stated conjecture is refuted by an explicit witness.
 - `COMPLETE_SOLUTION`: the cited problem is resolved throughout its stated scope.
-- `FULL_THEOREM`: a theorem is proved for the full family named in the release.
-- `PARAMETER_LAYER`: one complete parameter regime is settled without claiming the remaining regimes.
+- `PARTIAL_RESULT`: a restricted family or parameter regime is addressed without claiming a complete solution of the source conjecture.
 - `IN_PROGRESS`: material is still being curated or advanced and is not presented as a completed release.
 
 ## 3. Argument and certificate

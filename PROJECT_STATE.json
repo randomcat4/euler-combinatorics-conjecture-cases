@@ -10,8 +10,8 @@
       "novelty": "NOT_ESTABLISHED"
     },
     "cayley-eigenvalue-codimension-three": {
-      "result": "PROVED",
-      "scope": "complete n-k=3 layer of the cited conjecture",
+      "result": "PARTIAL_RESULT",
+      "scope": "the n-k=3 regime of the cited conjecture only",
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
@@ -36,7 +36,7 @@
   },
   "external_releases": {
     "gao-generalized-dihedral": {
-      "result": "PROVED_AND_FORMALIZED",
+      "result": "PARTIAL_RESULT_WITH_FORMALIZATION",
       "scope": "completed 13-page manuscript and its corresponding Lean formalization",
       "repository": "https://github.com/randomcat4/gaoLEAN",
       "verification": "LEAN_CHECKED",

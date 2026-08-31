@@ -7,15 +7,15 @@ This repository is a continuing public index rather than a count of all EULER re
 - Zhao Conjecture 6.1: an explicit counterexample in `C_2 direct-sum C_4^3`, supported by a symbolic classification and exhaustive exact enumeration.
 - Volume rigidity, dimension seven: the complete fixed-dimension slice is disproved and independently reviewed.
 
-## Complete solutions and full arguments
+## Partial results
 
-- Gao constant for generalized dihedral groups with an abelian odd-primary kernel: completed 13-page manuscript with the corresponding Lean formalization.
+- Gao constant: a restricted-family result for generalized dihedral groups with an abelian odd-primary kernel, presented in a 13-page manuscript with the corresponding Lean formalization. It does not resolve the full Gao conjecture.
+- Nonnormal Cayley graph eigenvalues: a result in the restricted `n-k=3` regime. It does not resolve Conjecture 4.7 outside that regime.
+
+## Complete solutions
+
 - Catalan--Schett plane-tree statistic: complete all-order solution with an explicit bijection and inverse.
 - Improper partition matrices: complete all-order statistic-preserving bijection with an explicit inverse.
-
-## Complete parameter layers
-
-- Nonnormal Cayley graph eigenvalues: the full `n-k=3` layer is proved for every admissible `n`.
 
 Other Gao-related problems are being curated and actively advanced. Additional EULER results will enter this index after their public artifacts and scope statements are ready.
 
