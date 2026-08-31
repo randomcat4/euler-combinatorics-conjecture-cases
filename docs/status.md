@@ -15,6 +15,7 @@ This repository is a continuing public index rather than a count of all EULER re
 ## Complete solutions
 
 - Catalan--Schett plane-tree statistic: complete all-order solution with an explicit bijection and inverse.
+- CDK image of improper partition matrices: complete all-order characterization for Question 5.5 in arXiv v2.
 - Improper partition matrices: complete all-order statistic-preserving bijection with an explicit inverse.
 - Partition-matrix q-sum-product: complete all-order formula for Question 5.1 under the stated closed-expression contract.
 
