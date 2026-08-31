@@ -118,7 +118,7 @@ EXPECTED_VERIFICATION = {
     "cdk-improper-partition-matrix-image": "INDEPENDENTLY_VERIFIED",
     "partition-matrix-bijection": "INDEPENDENTLY_VERIFIED",
     "partition-matrix-q-sum-product": "INDEPENDENTLY_VERIFIED",
-    "zhao-restricted-zero-sum-counterexample": "SYMBOLIC_AND_EXHAUSTIVE_CHECKED",
+    "zhao-restricted-zero-sum-counterexample": "INDEPENDENTLY_VERIFIED",
 }
 
 TEXT_SUFFIXES = {".bib", ".json", ".md", ".py", ".tex", ".txt", ".yml", ".yaml"}

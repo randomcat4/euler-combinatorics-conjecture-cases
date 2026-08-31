@@ -41,8 +41,8 @@
     },
     "zhao-restricted-zero-sum-counterexample": {
       "result": "COUNTEREXAMPLE",
-      "scope": "Conjecture 6.1 disproved by one explicit eligible group and sequence",
-      "verification": "SYMBOLIC_AND_EXHAUSTIVE_CHECKED",
+      "scope": "Conjectures 6.1 and 6.2 disproved; Conjecture 6.4 lower branch refuted at C_2^7; supplemental Conjecture 1.2 witness",
+      "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     }
   },

@@ -219,35 +219,35 @@
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/check_counterexample.py",
-      "sha256": "3a983df4cbc559a8bd9f88692851fab94cb93ee6b7a0c9b8d2ee519f930db53c"
+      "sha256": "d9fa54c8fd5ba487f1f8254e4d8f598847d4989a937fd785ff88d862c7dfae2c"
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/exhaustive_summary.json",
-      "sha256": "6654a08f4856067b5107d5b7e9e3d439ed454528b1241f2a76b460ff378ed564"
+      "sha256": "88a73ab890474179e12bdf42c444164c043af2bd5726601a470fa070a7368a87"
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/problem.md",
-      "sha256": "b0126beb08bd21acf651874f5e7fb015f452fa8396f68e2a6958a4bcbf330b90"
+      "sha256": "5232536cb70fd0d80e5208091a71ef9ec57d1a59f07d3a00b774134ab2c4317e"
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/proof.md",
-      "sha256": "54b29f7d5207540b3d43f58a75b6f950f438f960a69800efc9d66731710f1c5b"
+      "sha256": "92e443dffd1b4bb94c00b71b0467afbc41696847befa36695db40185472d8b03"
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/README.md",
-      "sha256": "86626b6139c9aa6ba97a1575d4d8dfae14bd7eb34ccf63fc5a51d2ae34ea3238"
+      "sha256": "d0310194bda40baed7fe1318db84363893d7b7b202fe33abdf1cfe357cd99da5"
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/sources.md",
-      "sha256": "3e0d21b9e58f27caaa840bd7e458869e33a5cedefb05969c627a63238eb491be"
+      "sha256": "a18e6ea374a78e268d0749968c03fcfac3e910a4bad65a188a3541ee57779fec"
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/status.md",
-      "sha256": "d5204ad395c688679b40253536cc1f090260db7bb6015c5abae77c4a04b3869d"
+      "sha256": "4217e63f05d9b89bdc6d11a801052d8c0464bc48388d117043c9355ab46b970c"
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/verification.md",
-      "sha256": "770608cd8c5468a51b57b5af90ebe26311af33e2c6d4f6d3a72d67bd140aeaa3"
+      "sha256": "8b148de6b9013d9c11a1c5421fe520fa5fb9f59183222416387b5881a1f78b65"
     }
   ]
 }
