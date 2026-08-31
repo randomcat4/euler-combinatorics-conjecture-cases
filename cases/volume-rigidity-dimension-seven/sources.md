@@ -10,7 +10,7 @@ James Cruickshank, Bill Jackson, and Shin-ichi Tanigawa, “Volume Rigidity of S
 
 ## Use of the source
 
-The note uses the source paper's definitions of volume rigidity and the generic/infinitesimal equivalence. It addresses only the (d=7) specialization of Conjecture 22. The bibliography in `paper/references.bib` contains the full citation used by the note.
+The note uses the source paper's definitions of volume rigidity and the generic/infinitesimal equivalence. It addresses Conjecture 22 for every dimension \(d\ge 7\). The bibliography in `paper/references.bib` contains the full citation used by the note.
 
 No private repository, review, or coordination record is needed to interpret the mathematics in this package.
 

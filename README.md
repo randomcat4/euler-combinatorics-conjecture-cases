@@ -44,7 +44,7 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub><a href="cases/volume-rigidity-dimension-seven/">Volume rigidity</a></sub></td>
       <td><sub><a href="https://doi.org/10.1007/s00493-026-00218-x"><em>Combinatorica</em> 46 (2026), Article 23</a></sub></td>
       <td><sub>Counterexample</sub></td>
-      <td><sub>Complete dimension-seven slice</sub></td>
+      <td><sub>Conjecture 22 for every <code>d&gt;=7</code></sub></td>
       <td><sub>Independent mathematical review</sub></td>
     </tr>
     <tr>
@@ -112,11 +112,11 @@ The displayed length-12 sequence has exactly nine nonempty zero-sum occurrence-s
 
 [Open the Zhao counterexample package](cases/zhao-restricted-zero-sum-counterexample/)
 
-### Volume rigidity in dimension seven
+### Volume rigidity in dimensions d >= 7
 
 *James Cruickshank, Bill Jackson, and Shin-ichi Tanigawa · [DOI](https://doi.org/10.1007/s00493-026-00218-x) · [arXiv](https://arxiv.org/abs/2503.01647)*
 
-Conjecture 22 in the cited volume-rigidity paper predicts rigidity for a family built from a simplicial 2-sphere. The public case constructs a symbolic non-Euclidean infinitesimal motion for every six-vertex simplicial 2-sphere and disproves the complete `d=7` slice.
+Conjecture 22 in the cited volume-rigidity paper predicts rigidity for a family built from a simplicial 2-sphere. The public case constructs a symbolic non-Euclidean infinitesimal motion for every permitted simplicial 2-sphere and cone set in every dimension `d>=7`. It disproves the conjecture throughout that range, while making no exact generic-corank claim.
 
 [Open the volume-rigidity counterexample package](cases/volume-rigidity-dimension-seven/)
 
