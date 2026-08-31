@@ -11,6 +11,7 @@ Each subdirectory is a self-contained public case package. The index is organize
 
 - [`catalan-schett-plane-tree-statistic`](catalan-schett-plane-tree-statistic/)
 - [`partition-matrix-bijection`](partition-matrix-bijection/)
+- [`partition-matrix-q-sum-product`](partition-matrix-q-sum-product/)
 
 ## Partial results
 

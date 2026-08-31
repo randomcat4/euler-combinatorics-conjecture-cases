@@ -10,5 +10,6 @@ The collection uses the following primary sources.
 6. Weidong Gao, “A combinatorial problem on finite abelian groups,” *Journal of Number Theory* 58 (1996), 100–103. [DOI](https://doi.org/10.1006/jnth.1996.0067).
 7. Jujuan Zhuang and Weidong Gao, “Erdős–Ginzburg–Ziv theorem for dihedral groups of large prime index,” *European Journal of Combinatorics* 26 (2005), 1053–1059. [DOI](https://doi.org/10.1016/j.ejc.2004.06.014).
 8. Naveen K. Godara, Renu Joshi, and Eshita Mazumdar, “Combinatorial invariants for certain classes of non-abelian groups,” *Journal of Number Theory* (2026). [DOI](https://doi.org/10.1016/j.jnt.2025.11.011).
+9. C. Ryan Vinroot, “Multivariate Rogers-Szegő polynomials and flags in finite vector spaces,” arXiv:1011.0984. [arXiv](https://arxiv.org/abs/1011.0984).
 
 Case directories and linked public repositories provide theorem numbers, page anchors, dependencies, and scope boundaries.
