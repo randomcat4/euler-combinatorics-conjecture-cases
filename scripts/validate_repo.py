@@ -30,6 +30,7 @@ CASE_SLUGS = (
     "cayley-eigenvalue-codimension-three",
     "catalan-schett-plane-tree-statistic",
     "partition-matrix-bijection",
+    "partition-matrix-q-sum-product",
     "zhao-restricted-zero-sum-counterexample",
 )
 
@@ -76,6 +77,16 @@ CASE_REQUIRED = {
         "verify_bijection.py",
         "exhaustive-check.md",
     ),
+    "partition-matrix-q-sum-product": (
+        "README.md",
+        "problem.md",
+        "status.md",
+        "sources.md",
+        "verification.md",
+        "proof.md",
+        "formula-check.md",
+        "check_formula.py",
+    ),
     "zhao-restricted-zero-sum-counterexample": (
         "README.md",
         "problem.md",
@@ -93,6 +104,7 @@ EXPECTED_VERIFICATION = {
     "cayley-eigenvalue-codimension-three": "INDEPENDENTLY_VERIFIED",
     "catalan-schett-plane-tree-statistic": "INDEPENDENTLY_VERIFIED",
     "partition-matrix-bijection": "INDEPENDENTLY_VERIFIED",
+    "partition-matrix-q-sum-product": "INDEPENDENTLY_VERIFIED",
     "zhao-restricted-zero-sum-counterexample": "SYMBOLIC_AND_EXHAUSTIVE_CHECKED",
 }
 

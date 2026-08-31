@@ -13,10 +13,11 @@ python scripts/validate_repo.py
 python cases/zhao-restricted-zero-sum-counterexample/check_counterexample.py
 python cases/catalan-schett-plane-tree-statistic/check_small_cases.py
 python cases/partition-matrix-bijection/verify_bijection.py
+python cases/partition-matrix-q-sum-product/check_formula.py
 ```
 
 The checks use the Python standard library and verify the repository boundary,
-the published artifact manifest, and the three executable finite certificates.
+the published artifact manifest, and the executable finite certificates.
 
 ## Public result index
 
@@ -64,6 +65,13 @@ the published artifact manifest, and the three executable finite certificates.
       <td><sub><a href="https://doi.org/10.1016/j.jcta.2026.106213"><em>Journal of Combinatorial Theory, Series A</em> 223 (2026), Article 106213</a></sub></td>
       <td><sub>Complete solution</sub></td>
       <td><sub>Question 5.7</sub></td>
+      <td><sub>Independent mathematical review</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/partition-matrix-q-sum-product/">Partition-matrix q-sum-product</a></sub></td>
+      <td><sub><a href="https://doi.org/10.1016/j.jcta.2026.106213"><em>Journal of Combinatorial Theory, Series A</em> 223 (2026), Article 106213</a></sub></td>
+      <td><sub>Complete all-order formula</sub></td>
+      <td><sub>Question 5.1 under the stated closed-expression contract</sub></td>
       <td><sub>Independent mathematical review</sub></td>
     </tr>
     <tr>
@@ -147,6 +155,16 @@ Problem 2.18 asks for a natural statistic on rooted plane trees that directly in
 Question 5.7 asks for a direct statistic-preserving bijection between a signed class of improper partition matrices and a signed class of restricted inversion sequences. The public case gives a uniform all-order map, an explicit inverse, an exact image proof, and objectwise preservation of both statistics.
 
 [Open the partition-matrix solution](cases/partition-matrix-bijection/)
+
+### A q-difference sum-product for partition matrices
+
+*Shane Chern and Shishuo Fu · [DOI](https://doi.org/10.1016/j.jcta.2026.106213) · [arXiv](https://arxiv.org/abs/2508.21318)*
+
+Question 5.1 asks for a closed expression for the ordinary generating series of the inversion-weighted partition-matrix polynomials. The public case proves a finite q-difference specification of auxiliary word series and an all-order sum-product for `sum_{n>=1} S_n(q)t^n`, with coefficient equality in `Z[q][[t]]`.
+
+Because the source does not define a formal grammar for "closed expression," the case states the answered all-order expression contract explicitly and does not attribute that contract to the source authors.
+
+[Open the partition-matrix q-sum-product](cases/partition-matrix-q-sum-product/)
 
 ## Quick navigation
 

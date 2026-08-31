@@ -27,6 +27,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "partition-matrix-q-sum-product": {
+      "result": "PROVED",
+      "scope": "Question 5.1 under the stated all-order closed-expression contract",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "zhao-restricted-zero-sum-counterexample": {
       "result": "COUNTEREXAMPLE",
       "scope": "Conjecture 6.1 disproved by one explicit eligible group and sequence",

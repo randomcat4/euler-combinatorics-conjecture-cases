@@ -16,6 +16,7 @@ This repository is a continuing public index rather than a count of all EULER re
 
 - Catalan--Schett plane-tree statistic: complete all-order solution with an explicit bijection and inverse.
 - Improper partition matrices: complete all-order statistic-preserving bijection with an explicit inverse.
+- Partition-matrix q-sum-product: complete all-order formula for Question 5.1 under the stated closed-expression contract.
 
 Other Gao-related problems are being curated and actively advanced. Additional EULER results will enter this index after their public artifacts and scope statements are ready.
 

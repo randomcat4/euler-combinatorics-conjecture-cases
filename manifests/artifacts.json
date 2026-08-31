@@ -102,8 +102,40 @@
       "sha256": "1e038c60047f746771c8c7dddc403fcad555aed024c5c924f96252d8a0346131"
     },
     {
+      "path": "cases/partition-matrix-q-sum-product/check_formula.py",
+      "sha256": "f36790338b84dcf0375bdfa67564820ee8431cd46d338002a2e21c56571ba4ce"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/formula-check.md",
+      "sha256": "cf314544564babee9bf78e9c6dc57a28f518d1b438a12b7db31cad3ea2c9f085"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/problem.md",
+      "sha256": "067bebb421dbc278e223f000e14e16de95f00937d10e55b4341842d728bb5af1"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/proof.md",
+      "sha256": "92490ca252f134f6bdc70a85cbf6235d1dbfa0a5a3294c16212f11e83a2cd25c"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/README.md",
+      "sha256": "2e9d2af7f2af56c6304028d39177a729cdec2eee7c253d5e5b1f1a252008bf59"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/sources.md",
+      "sha256": "2a4e045d30616f7fa75b35f956db96bf95d33c8b0724fca6e55272bc5fe88698"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/status.md",
+      "sha256": "6cb27d6aa1948c6d43786b686fec6d0780aa3d0acd8914c8c59a31a57f12503f"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/verification.md",
+      "sha256": "bcfda99b3732e439d34dab17c676841b90289c8c577776f3fda977c119eecd73"
+    },
+    {
       "path": "cases/README.md",
-      "sha256": "08b52d26ac2840f95fd1b87dd2e2d5b69e7e53e877804f88bab72174c9c754cb"
+      "sha256": "f728c3a668a4be8ab1439c342e70184423116240e2a20e464c47242d5b876381"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/evidence/hyperedges.md",
