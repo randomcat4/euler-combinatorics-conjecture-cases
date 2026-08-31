@@ -1,5 +1,7 @@
 # Representation-Level Uniqueness for a Cayley-Graph Layer
 
+*Yuxuan Li, Binzhou Xia, and Sanming Zhou · [DOI](https://doi.org/10.1016/j.jcta.2025.106097) · [arXiv](https://arxiv.org/abs/2402.02427)*
+
 This case records a proof of the complete (n-k=3) layer of Conjecture 4.7 in Li, Xia, and Zhou, *The Second Largest Eigenvalue of Some Nonnormal Cayley Graphs on Symmetric Groups*.
 
 For (n\ge 5), (1\le r<n-3), and (H=C(n,n-3;r)), the proof identifies exactly which irreducible representation blocks attain the target second eigenvalue. The general argument for (n\ge 7) is symbolic; exact characteristic polynomials discharge the remaining cases (n=5,6).

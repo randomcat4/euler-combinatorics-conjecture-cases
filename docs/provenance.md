@@ -6,6 +6,6 @@ It intentionally omits operational research history, local execution paths, inte
 
 The EULER system assisted with problem curation, proof and counterexample development, exact computation, adversarial checking, and preparation of the public artifacts. Human review remains necessary for authorship, licensing, journal submission, and any claim of priority.
 
-The public [Research Kernel repository](https://github.com/randomcat4/ai4math-research-kernel) is an earlier demonstration surface. It lags behind the EULER system used for current research and is maintained as a demo rather than as a complete publication of the active system.
+The public [EULER repository](https://github.com/randomcat4/EULER) is a demonstration and reference implementation. It lags behind the EULER system used for current research and is maintained as a demo rather than as a complete publication of the active system.
 
 The public index is distributed across curated repositories and is independent of any single machine or workspace.

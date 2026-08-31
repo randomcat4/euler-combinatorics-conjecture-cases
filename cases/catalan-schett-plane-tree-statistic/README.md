@@ -1,5 +1,7 @@
 # A Plane-Tree Statistic for the Catalan–Schett Distribution
 
+*Zhicong Lin, Jing Liu, and Sherry H. F. Yan · [DOI](https://doi.org/10.1016/j.jcta.2025.106049) · [arXiv](https://arxiv.org/abs/2409.01558)*
+
 This case gives an intrinsic statistic on rooted plane trees and a complete
 bijective proof of the bivariate identity asked for in Problem 2.18 of Lin,
 Liu, and Yan, *Parity Statistics on Restricted Permutations and the

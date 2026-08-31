@@ -1,5 +1,7 @@
 # Counterexample to Zhao's Conjecture 6.1
 
+*Kevin Zhao · [arXiv:2506.21383](https://arxiv.org/abs/2506.21383)*
+
 This package records an explicit counterexample to Conjecture 6.1 in Kevin Zhao's paper *On zero-sum subsequences in a finite abelian group of length not exceeding a given number*.
 
 ## Result

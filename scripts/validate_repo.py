@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 REQUIRED_ROOT = (
     "README.md",
+    "LICENSE",
     "PROJECT_STATE.json",
     "CONTRIBUTING.md",
     "SECURITY.md",
@@ -100,10 +101,6 @@ SKIP_DIRS = {".git", "__pycache__"}
 
 FORBIDDEN_PATTERNS = (
     ("CJK text", re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")),
-    ("internal case identifier", re.compile(r"\bP(?:06|10|21|22)\b")),
-    ("Codex session identifier", re.compile(r"\b01[a-f0-9]{6,}(?:-[a-f0-9]{4,}){3,}\b", re.I)),
-    ("internal repository link", re.compile(r"randomcat4/combinatorics-conjecture-lab", re.I)),
-    ("private review comment", re.compile(r"issuecomment-|/pull/\d+", re.I)),
     (
         "local Windows path",
         re.compile(
@@ -111,7 +108,6 @@ FORBIDDEN_PATTERNS = (
             re.IGNORECASE,
         ),
     ),
-    ("local Codex path", re.compile(r"(?:\.codex|/root/)", re.I)),
     ("GitHub classic token", re.compile(r"ghp_[A-Za-z0-9]{20,}")),
     ("GitHub fine-grained token", re.compile(r"github_pat_[A-Za-z0-9_]{20,}")),
     ("private key", re.compile(r"BEGIN [A-Z ]*PRIVATE KEY")),

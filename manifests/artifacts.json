@@ -15,7 +15,7 @@
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/README.md",
-      "sha256": "0a68343a0e41536418d2cc57abd89676f0d383db7b697035521f68d2c78656a3"
+      "sha256": "a19a5611ec9aa53467966823b8085ca18e0528eb2faa3f89234b4a2c53a3d3f9"
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/small_case_summary.json",
@@ -55,7 +55,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "8aa5035b04abb1311011171d9ec0b43ea29e7a20f6f6502e307020c1a04480c3"
+      "sha256": "ebbe2bfb05f8b16e89706de6adbc6fb33035f3ff487e436785c78a90df750516"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
@@ -83,7 +83,7 @@
     },
     {
       "path": "cases/partition-matrix-bijection/README.md",
-      "sha256": "53d98b51b86f118564996574974027897e27b864b5f91f7694760b84db2a8f8e"
+      "sha256": "727c4e87ec0e59e33f27713747c05e74da29df206ba69f4ddd3080f772a0e973"
     },
     {
       "path": "cases/partition-matrix-bijection/sources.md",
@@ -127,7 +127,7 @@
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/README.md",
-      "sha256": "3a0c4f1b84d2d7ef02d87af0f6641c65f8009d4d40a61cf0f90655b4e20326db"
+      "sha256": "fa7c737b70dcb03ddb03d29f867c310d9517e3b7ad5812b38379365bfda0c077"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/sources.md",
@@ -159,7 +159,7 @@
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/README.md",
-      "sha256": "9893ac8bfae394f62c503eb3bb2c7901f3403c18546645d2ecbb2f47eca34d21"
+      "sha256": "86626b6139c9aa6ba97a1575d4d8dfae14bd7eb34ccf63fc5a51d2ae34ea3238"
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/sources.md",

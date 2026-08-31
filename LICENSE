@@ -1,0 +1,54 @@
+Dual-license notice
+===================
+
+Copyright (c) 2026 randomcat4 and contributors
+
+Code license: MIT
+-----------------
+
+Unless a file states otherwise, source code, scripts, configuration files,
+workflow files, and machine-readable schemas in this repository are licensed
+under the MIT License:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Text license: CC BY 4.0
+-----------------------
+
+Unless a file states otherwise, prose documentation, mathematical exposition,
+problem statements, proofs, manuscripts, and other written content in this
+repository are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+You may share and adapt that material for any purpose, including commercially,
+provided that you give appropriate credit, provide a link to the license, and
+indicate if changes were made. No additional restrictions may be applied.
+
+License text: https://creativecommons.org/licenses/by/4.0/legalcode
+License summary: https://creativecommons.org/licenses/by/4.0/
+
+Boundaries
+----------
+
+The licenses above apply only to material authored for this repository. Quotes,
+bibliographic metadata, linked papers, third-party names, trademarks, and other
+third-party material remain subject to their respective rights. The factual
+mathematical ideas and results are not restricted beyond what applicable law
+permits; the CC BY 4.0 license governs this repository's written expression of
+them.
