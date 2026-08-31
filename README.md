@@ -37,8 +37,8 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub><a href="cases/zhao-restricted-zero-sum-counterexample/">Zhao short zero sums</a></sub></td>
       <td><sub><a href="https://arxiv.org/abs/2506.21383">arXiv:2506.21383</a></sub></td>
       <td><sub>Counterexample</sub></td>
-      <td><sub>Conjecture 6.1</sub></td>
-      <td><sub>Symbolic classification and exhaustive exact check</sub></td>
+      <td><sub>Conjectures 6.1 and 6.2; lower branch of Conjecture 6.4; supplemental Conjecture 1.2 witness</sub></td>
+      <td><sub>Independent mathematical review and exhaustive exact checks</sub></td>
     </tr>
     <tr>
       <td><sub><a href="cases/volume-rigidity-dimension-seven/">Volume rigidity</a></sub></td>
@@ -98,17 +98,13 @@ The [public EULER repository](https://github.com/randomcat4/EULER) exposes a dem
 
 ## Counterexamples
 
-### Zhao's restricted-length zero-sum conjecture
+### Zhao's short zero-sum conjectures
 
 *Kevin Zhao · [arXiv:2506.21383](https://arxiv.org/abs/2506.21383)*
 
-Kevin Zhao's Conjecture 6.1 predicts a sharp endpoint for short zero-sum subsequences in a class of finite abelian groups. The public case gives a symbolic counterexample in
+The public case records a bounded-scope counterexample package around Zhao's short zero-sum conjectures. It disproves Conjecture 6.1 at `C_2 direct-sum C_4^3`; disproves both branches of Conjecture 6.2 using an infinite `C_n^4` family and finite witnesses; refutes the lower branch of Conjecture 6.4 at `C_2^7`; and records a supplemental even-rank witness for Conjecture 1.2.
 
-$$
-C_2\oplus C_4^3.
-$$
-
-The displayed length-12 sequence has exactly nine nonempty zero-sum occurrence-subsequences, all of length 10, and therefore none of length at most 9. The package includes the complete classification and a dependency-free exhaustive checker over all 4,095 nonempty occurrence-subsets.
+The package includes the symbolic arguments, all finite witnesses, Sidorenko's exact input `s_4(C_2^7)=15`, and a dependency-free checker for the exact finite certificates. It does not claim that every conjecture in the source paper is false, and it does not claim public priority.
 
 [Open the Zhao counterexample package](cases/zhao-restricted-zero-sum-counterexample/)
 

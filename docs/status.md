@@ -4,7 +4,7 @@ This repository is a continuing public index rather than a count of all EULER re
 
 ## Counterexamples
 
-- Zhao Conjecture 6.1: an explicit counterexample in `C_2 direct-sum C_4^3`, supported by a symbolic classification and exhaustive exact enumeration.
+- Zhao short zero-sum conjectures: Conjectures 6.1 and 6.2 are disproved; Conjecture 6.4's lower branch is refuted at `C_2^7`; Conjecture 1.2 has a supplemental even-rank witness. The package is supported by symbolic arguments, exact enumeration, and Sidorenko's cited exact value for `s_4(C_2^7)`.
 - Volume rigidity: Conjecture 22 is disproved for every dimension `d>=7` and independently reviewed.
 
 ## Partial results
