@@ -14,6 +14,7 @@ python cases/zhao-restricted-zero-sum-counterexample/check_counterexample.py
 python cases/catalan-schett-plane-tree-statistic/check_small_cases.py
 python cases/partition-matrix-bijection/verify_bijection.py
 python cases/partition-matrix-q-sum-product/check_formula.py
+python cases/cdk-improper-partition-matrix-image/mine_cdk_image.py --n-max 8 --check cases/cdk-improper-partition-matrix-image/mining_n_le_8.json
 ```
 
 The checks use the Python standard library and verify the repository boundary,
@@ -72,6 +73,13 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub><a href="https://doi.org/10.1016/j.jcta.2026.106213"><em>Journal of Combinatorial Theory, Series A</em> 223 (2026), Article 106213</a></sub></td>
       <td><sub>Complete all-order formula</sub></td>
       <td><sub>Question 5.1 under the stated closed-expression contract</sub></td>
+      <td><sub>Independent mathematical review</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/cdk-improper-partition-matrix-image/">CDK improper image</a></sub></td>
+      <td><sub><a href="https://doi.org/10.1016/j.jcta.2026.106213"><em>Journal of Combinatorial Theory, Series A</em> 223 (2026), Article 106213</a></sub></td>
+      <td><sub>Complete characterization</sub></td>
+      <td><sub>Question 5.5 in arXiv v2</sub></td>
       <td><sub>Independent mathematical review</sub></td>
     </tr>
     <tr>
@@ -165,6 +173,16 @@ Question 5.1 asks for a closed expression for the ordinary generating series of 
 Because the source does not define a formal grammar for "closed expression," the case states the answered all-order expression contract explicitly and does not attribute that contract to the source authors.
 
 [Open the partition-matrix q-sum-product](cases/partition-matrix-q-sum-product/)
+
+### The CDK image of improper partition matrices
+
+*Shane Chern and Shishuo Fu · [DOI](https://doi.org/10.1016/j.jcta.2026.106213) · [arXiv](https://arxiv.org/abs/2508.21318)*
+
+Question 5.5 in arXiv v2 asks for a characterization of the inversion sequences obtained from improper partition matrices under the Claesson-Dukes-Kubitzke bijection. The public case proves an intrinsic all-order predicate: inside the intervals cut out by the distinct values of the inversion sequence, adjacent local pairs starting at odd local position must have equal values.
+
+The source locator is version-sensitive: arXiv v1 Question 5.5 is a different direct-bijection problem, now Question 5.7 in arXiv v2.
+
+[Open the CDK image characterization](cases/cdk-improper-partition-matrix-image/)
 
 ## Quick navigation
 

@@ -70,6 +70,42 @@
       "sha256": "d3db73242b0756401c715e7a0430c599cfd46515861dc2fda9cd8314481c3a31"
     },
     {
+      "path": "cases/cdk-improper-partition-matrix-image/finite-regression.md",
+      "sha256": "57f6861488bf70add4b25d2c58bcec058926692d863b5f526f0b2b4aeb4ae6c1"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/mine_cdk_image.py",
+      "sha256": "c001de47e5e346e0d3485c051cd75d6d3d2324e5ca3d105c368ce2d2ea7368fb"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/mining_n_le_8.json",
+      "sha256": "6d6704683face9051f3c16aa3ceb424b493d263a3a9d653e534639e339c30e56"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/problem.md",
+      "sha256": "1ccba5edcde0efba02b2f5e9e2a0c74ce384951c5d7ca82505de86af4cb07a7a"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/proof.md",
+      "sha256": "f89cc13331caf2acd60af6b2b059f9228010f074da8a77474e2bbe88e054cfac"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/README.md",
+      "sha256": "62e5c5dc8f2c36740ca9bf491396b264c1453e1a6b11a9e5f7892713c4898fb9"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/sources.md",
+      "sha256": "e9d03b006789e7c3ef45464f9b1ec3fcffcea1e8f99de10f7e06d9433c8408a2"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/status.md",
+      "sha256": "79bb10f38302dfeff7d1842822072c39e212f4c6d6e698b85f07421e30448339"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/verification.md",
+      "sha256": "efe3e9324def056f618ced575a2216160dee6c330a002e278a8b8b2798464f61"
+    },
+    {
       "path": "cases/partition-matrix-bijection/exhaustive-check.md",
       "sha256": "d5863a6c504295392e25dff90e9e76721bd325b1356dd9f604d5da0c1bf6ecd9"
     },
@@ -135,7 +171,7 @@
     },
     {
       "path": "cases/README.md",
-      "sha256": "f728c3a668a4be8ab1439c342e70184423116240e2a20e464c47242d5b876381"
+      "sha256": "99abe39c732bb5cb7cab9c8b3e4c2295148089137015693774c680ad6b921ab8"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/evidence/hyperedges.md",

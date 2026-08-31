@@ -21,6 +21,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "cdk-improper-partition-matrix-image": {
+      "result": "PROVED",
+      "scope": "complete CDK image characterization for Question 5.5 in arXiv v2",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "partition-matrix-bijection": {
       "result": "PROVED",
       "scope": "complete cited open problem",
