@@ -1,0 +1,70 @@
+{
+  "method": "Direct derivative of Gram determinant det(M M^T), evaluated over finite fields with modular Gaussian elimination.",
+  "purpose": "Finite cross-check only. These ranks do not certify exact generic rank or exact generic corank.",
+  "primes": [
+    2147483647,
+    2147483629,
+    2147483587
+  ],
+  "seeds": [
+    26083101,
+    26083137,
+    26083173
+  ],
+  "summary": [
+    {
+      "d": 4,
+      "sphere_types_tested": 1,
+      "rows": 10,
+      "columns": 20,
+      "rigidity_target_rank": 10,
+      "observed_rank": 10,
+      "stable_across_tests": true
+    },
+    {
+      "d": 5,
+      "sphere_types_tested": 1,
+      "rows": 21,
+      "columns": 35,
+      "rigidity_target_rank": 20,
+      "observed_rank": 20,
+      "stable_across_tests": true
+    },
+    {
+      "d": 6,
+      "sphere_types_tested": 1,
+      "rows": 27,
+      "columns": 48,
+      "rigidity_target_rank": 27,
+      "observed_rank": 27,
+      "stable_across_tests": true
+    },
+    {
+      "d": 7,
+      "sphere_types_tested": 2,
+      "rows": 44,
+      "columns": 70,
+      "rigidity_target_rank": 42,
+      "observed_rank": 40,
+      "stable_across_tests": true
+    },
+    {
+      "d": 8,
+      "sphere_types_tested": 2,
+      "rows": 52,
+      "columns": 88,
+      "rigidity_target_rank": 52,
+      "observed_rank": 47,
+      "stable_across_tests": true
+    },
+    {
+      "d": 9,
+      "sphere_types_tested": 5,
+      "rows": 75,
+      "columns": 117,
+      "rigidity_target_rank": 72,
+      "observed_rank": 63,
+      "stable_across_tests": true
+    }
+  ]
+}

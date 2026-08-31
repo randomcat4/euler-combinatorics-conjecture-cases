@@ -5,7 +5,7 @@
   "cases": {
     "volume-rigidity-dimension-seven": {
       "result": "COUNTEREXAMPLE",
-      "scope": "complete dimension-seven slice of the cited conjecture",
+      "scope": "Conjecture 22 for every dimension d>=7",
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },

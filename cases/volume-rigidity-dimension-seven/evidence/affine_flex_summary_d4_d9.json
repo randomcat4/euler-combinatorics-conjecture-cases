@@ -1,0 +1,64 @@
+{
+  "method": "Finite-field solution of tr(P_U B)=0 for symmetric affine matrices B at specialized placements.",
+  "purpose": "Finite cross-check only. The public theorem uses only the symbolic existence of one non-Euclidean motion for d>=7.",
+  "primes": [
+    2147483647,
+    2147483629,
+    2147483587
+  ],
+  "seeds": [
+    36083101,
+    36083137,
+    36083173
+  ],
+  "summary": [
+    {
+      "d": 4,
+      "sphere_types_tested": 1,
+      "symmetric_B_variables": 10,
+      "observed_affine_symmetric_flex_dimension": 0,
+      "construction_K_space_dimension": 0,
+      "stable_across_tests": true
+    },
+    {
+      "d": 5,
+      "sphere_types_tested": 1,
+      "symmetric_B_variables": 15,
+      "observed_affine_symmetric_flex_dimension": 0,
+      "construction_K_space_dimension": 0,
+      "stable_across_tests": true
+    },
+    {
+      "d": 6,
+      "sphere_types_tested": 1,
+      "symmetric_B_variables": 21,
+      "observed_affine_symmetric_flex_dimension": 0,
+      "construction_K_space_dimension": 0,
+      "stable_across_tests": true
+    },
+    {
+      "d": 7,
+      "sphere_types_tested": 2,
+      "symmetric_B_variables": 28,
+      "observed_affine_symmetric_flex_dimension": 2,
+      "construction_K_space_dimension": 1,
+      "stable_across_tests": true
+    },
+    {
+      "d": 8,
+      "sphere_types_tested": 2,
+      "symmetric_B_variables": 36,
+      "observed_affine_symmetric_flex_dimension": 5,
+      "construction_K_space_dimension": 4,
+      "stable_across_tests": true
+    },
+    {
+      "d": 9,
+      "sphere_types_tested": 5,
+      "symmetric_B_variables": 45,
+      "observed_affine_symmetric_flex_dimension": 9,
+      "construction_K_space_dimension": 8,
+      "stable_across_tests": true
+    }
+  ]
+}

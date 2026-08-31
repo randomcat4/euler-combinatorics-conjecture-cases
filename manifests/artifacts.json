@@ -174,16 +174,24 @@
       "sha256": "99abe39c732bb5cb7cab9c8b3e4c2295148089137015693774c680ad6b921ab8"
     },
     {
+      "path": "cases/volume-rigidity-dimension-seven/evidence/affine_flex_summary_d4_d9.json",
+      "sha256": "ab14cdf8721dc42ee1ae41e8b7e6a14ea422088412fd1063c5315177eb7e9637"
+    },
+    {
       "path": "cases/volume-rigidity-dimension-seven/evidence/hyperedges.md",
       "sha256": "db140c503d658ba7e4bcb92dd9b26aa05c203a391790367ab0daf990c18dd512"
     },
     {
+      "path": "cases/volume-rigidity-dimension-seven/evidence/modular_rank_summary_d4_d9.json",
+      "sha256": "10821ec45585a48db72b968d31efea8d580fb68141f01117575595cfd129e83a"
+    },
+    {
       "path": "cases/volume-rigidity-dimension-seven/paper/main.pdf",
-      "sha256": "68a5660c2c00bf3d4707ac056c4a4a843f22e572323de448e2e8ff3525807d80"
+      "sha256": "b2759a235f54617a93e157b55beb34a1965359739851f83c72223739f7137277"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/paper/main.tex",
-      "sha256": "86bf2aa863a4a272aa810d7e3bfb1187a426f63c13cd8660c7b839e5b804cbcb"
+      "sha256": "86201ffd330442ea8d80040571c448d2e80fc6842215ce8f42fbcd428dea0da3"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/paper/references.bib",
@@ -191,23 +199,23 @@
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/problem.md",
-      "sha256": "badbfdd381807de18d9da75d5c920fc590dcff789e8233a0ef4cc7995f566f0a"
+      "sha256": "8bd003fbd4f091eac2bf798d6ce4152261dbd627909a708ef50843b34f72588c"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/README.md",
-      "sha256": "fa7c737b70dcb03ddb03d29f867c310d9517e3b7ad5812b38379365bfda0c077"
+      "sha256": "88dc13000460014b15ed756b057d41d0c72b4f291f683625fb1b5f0bf91ec595"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/sources.md",
-      "sha256": "1e7e412c154548ad6fb10eee4c7b96e19fa552fbc658ea9a336bfdc92a001e67"
+      "sha256": "13783faae94516f5f283726c302d3eb2e6373444178ec4ad4d2ccfe6573db3b3"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/status.md",
-      "sha256": "30d61870c2ecb8a604e0b1c86feb8012d7d4ecb12f9a556e00d56a73b1155ec7"
+      "sha256": "74c54d3944dc806524def703caadd58937b4f537f5e082d30899abb9134ffd99"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/verification.md",
-      "sha256": "361e842a785a83f43e30d19f0b48107b2c9e5b68b4b1b2130d53afcde43a0afd"
+      "sha256": "93515307c5e69167227096464f7fcb026aff3bf61318148bdd5b57b36b2bcfd8"
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/check_counterexample.py",
