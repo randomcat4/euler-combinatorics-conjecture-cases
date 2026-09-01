@@ -106,6 +106,38 @@
       "sha256": "efe3e9324def056f618ced575a2216160dee6c330a002e278a8b8b2798464f61"
     },
     {
+      "path": "cases/k33plus-q-index-boundary-counterexample/check_counterexample.py",
+      "sha256": "3673dd55f87c252e99d96f0743a997193fcd9a0490ff4a5284a0c79982c0abf5"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/exhaustive_summary.json",
+      "sha256": "f5e01228f7f8dbb525d9e647ac31b5c950e200122d8d7ed791a9fd929c593bc6"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/problem.md",
+      "sha256": "7350d2c681c3ec7c890c87f60e92eed1b568d26f284cc57322454e456b1cd256"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/proof.md",
+      "sha256": "409713efa89f81653b3e55435ee87a957eedf6a286b1730ba3f727b6193e887a"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/README.md",
+      "sha256": "4baaf870b021e7022bfc9af6cf738bfaa4db08e52e46ca10d3363b50ae6b4ac2"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/sources.md",
+      "sha256": "0e0780ee576e3104dacd0c657ba318b563dd2f296954dffa4b3b42ea480a0f86"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/status.md",
+      "sha256": "07ac0e6733ae40fe8a6b49c369e842254695b8579ff9f4fb8f5975a519c05728"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/verification.md",
+      "sha256": "7b3076e1f5f6eae7eb4e866658a698d2c92f0c4e5ce9908416114b2ebddd5456"
+    },
+    {
       "path": "cases/partition-matrix-bijection/exhaustive-check.md",
       "sha256": "d5863a6c504295392e25dff90e9e76721bd325b1356dd9f604d5da0c1bf6ecd9"
     },
@@ -171,7 +203,7 @@
     },
     {
       "path": "cases/README.md",
-      "sha256": "99abe39c732bb5cb7cab9c8b3e4c2295148089137015693774c680ad6b921ab8"
+      "sha256": "e4a3ff2b5f791eac1bf0cb2b20335add9bb7ebd5f01ba70f128c0f85fa44d630"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/evidence/affine_flex_summary_d4_d9.json",

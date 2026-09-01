@@ -11,6 +11,7 @@ git clone https://github.com/randomcat4/euler-combinatorics-conjecture-cases.git
 cd euler-combinatorics-conjecture-cases
 python scripts/validate_repo.py
 python cases/zhao-restricted-zero-sum-counterexample/check_counterexample.py
+python cases/k33plus-q-index-boundary-counterexample/check_counterexample.py
 python cases/catalan-schett-plane-tree-statistic/check_small_cases.py
 python cases/partition-matrix-bijection/verify_bijection.py
 python cases/partition-matrix-q-sum-product/check_formula.py
@@ -46,6 +47,13 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub>Counterexample</sub></td>
       <td><sub>Conjecture 22 for every <code>d&gt;=7</code></sub></td>
       <td><sub>Independent mathematical review</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/k33plus-q-index-boundary-counterexample/">K33+ Q-index classification</a></sub></td>
+      <td><sub><a href="https://doi.org/10.1016/j.laa.2025.10.036"><em>Linear Algebra and its Applications</em> 730 (2026), 546-565</a></sub></td>
+      <td><sub>Counterexample</sub></td>
+      <td><sub>Conjecture 5.1 at <code>s=t=3,n=6</code></sub></td>
+      <td><sub>Independent mathematical review and exhaustive exact check</sub></td>
     </tr>
     <tr>
       <td><sub><a href="https://github.com/randomcat4/gaoLEAN">Gao constant</a></sub></td>
@@ -115,6 +123,16 @@ The package includes the symbolic arguments, all finite witnesses, Sidorenko's e
 Conjecture 22 in the cited volume-rigidity paper predicts rigidity for a family built from a simplicial 2-sphere. The public case constructs a symbolic non-Euclidean infinitesimal motion for every permitted simplicial 2-sphere and cone set in every dimension `d>=7`. It disproves the conjecture throughout that range, while making no exact generic-corank claim.
 
 [Open the volume-rigidity counterexample package](cases/volume-rigidity-dimension-seven/)
+
+### A boundary counterexample to a K33+ Q-index classification
+
+*Jian Zheng, Yongtao Li, and Honghai Li · [DOI](https://doi.org/10.1016/j.laa.2025.10.036) · [arXiv](https://arxiv.org/abs/2504.07852)*
+
+Conjecture 5.1 in the cited signless-Laplacian spectral Turan paper predicts that every extremal `K_{s,t}^+`-free graph belongs to one of two displayed families for all `2<=s<=t` and `n>=s+t`. The public case gives a complete boundary counterexample at `s=t=3,n=6`: `K2 join (K3 union K1)` is `K_{3,3}^+`-free, uniquely maximizes the Q-index over the full six-vertex denominator, and is not in `L_{6,3,3}` or `Y_{6,3}`.
+
+The package does not address a separately amended sufficiently-large-`n` version and does not claim public priority.
+
+[Open the K33+ Q-index counterexample package](cases/k33plus-q-index-boundary-counterexample/)
 
 ## Partial results
 

@@ -1,0 +1,558 @@
+{
+  "belongs_to_L_or_Y": false,
+  "canonical_label_definition": {
+    "edge_order": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "label": "lexicographically minimum 15-bit upper-triangle edge string over all 6! vertex permutations"
+  },
+  "counterexample": {
+    "canonical_label": "000111111111111",
+    "charpoly_det_xI_minus_Q": [
+      1,
+      -24,
+      225,
+      -1066,
+      2700,
+      -3456,
+      1728
+    ],
+    "charpoly_factor": "(x^2 - 10x + 12)(x^4 - 14x^3 + 73x^2 - 168x + 144)",
+    "degree_sequence": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      2
+    ],
+    "description": "K2 join (K3 union K1)",
+    "edge_count": 12,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "k33plus_first_witnesses": [],
+    "k33plus_witness_count": 0,
+    "largest_root_interval": {
+      "lower": "21513853/2500000",
+      "roots_above_upper": 0,
+      "roots_in_interval": 1,
+      "upper": "86055613/10000000"
+    },
+    "q_exact": "5 + sqrt(13)",
+    "q_matrix": [
+      [
+        5,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        5,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        4,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        4,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        4,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    ]
+  },
+  "denominator": {
+    "canonical_unlabelled_graphs": 156,
+    "forbidden_embedding_side_checks_per_labelled_graph": 20,
+    "forbidden_embedding_side_plus_edge_checks_per_labelled_graph": 60,
+    "k33plus_free_canonical_graphs": 147,
+    "k33plus_free_labelled_graphs": 32237,
+    "labelled_simple_graphs": 32768,
+    "vertex_permutations_for_canonical_label": 720
+  },
+  "family_comparators": [
+    {
+      "canonical_label": "011111111011111",
+      "charpoly_det_xI_minus_Q": [
+        1,
+        -26,
+        268,
+        -1416,
+        4064,
+        -6016,
+        3584
+      ],
+      "degree_sequence": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        4
+      ],
+      "description": "K2 join C4",
+      "edge_count": 13,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "family": "L_6_3_3",
+      "is_k33plus_free": false,
+      "k33plus_first_witnesses": [
+        {
+          "other_side": [
+            1,
+            4,
+            5
+          ],
+          "plus_edge": [
+            0,
+            2
+          ],
+          "plus_side": [
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "other_side": [
+            1,
+            4,
+            5
+          ],
+          "plus_edge": [
+            0,
+            3
+          ],
+          "plus_side": [
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "other_side": [
+            1,
+            2,
+            3
+          ],
+          "plus_edge": [
+            0,
+            4
+          ],
+          "plus_side": [
+            0,
+            4,
+            5
+          ]
+        },
+        {
+          "other_side": [
+            1,
+            2,
+            3
+          ],
+          "plus_edge": [
+            0,
+            5
+          ],
+          "plus_side": [
+            0,
+            4,
+            5
+          ]
+        },
+        {
+          "other_side": [
+            0,
+            4,
+            5
+          ],
+          "plus_edge": [
+            1,
+            2
+          ],
+          "plus_side": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "k33plus_witness_count": 8,
+      "q_matrix": [
+        [
+          5,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          5,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          4,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          4,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "canonical_label": "011111111011110",
+      "charpoly_det_xI_minus_Q": [
+        1,
+        -24,
+        228,
+        -1104,
+        2880,
+        -3840,
+        2048
+      ],
+      "degree_sequence": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "description": "I2 join C4",
+      "edge_count": 12,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "family": "Y_6_3",
+      "is_k33plus_free": true,
+      "k33plus_first_witnesses": [],
+      "k33plus_witness_count": 0,
+      "q_exact": "8",
+      "q_matrix": [
+        [
+          4,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          4,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          4,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          4,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          0,
+          4
+        ]
+      ]
+    }
+  ],
+  "maximality_check": {
+    "candidate_lower_bound": "21513853/2500000",
+    "method": "exact characteristic polynomials and Sturm root counts",
+    "non_candidate_free_classes_with_root_above_candidate_lower_bound": 0,
+    "unique_extremal_unlabelled_class": true
+  },
+  "random_seed": null,
+  "scope": "boundary case s=t=3,n=6 for Conjecture 5.1",
+  "verdict": "DISPROVED"
+}
