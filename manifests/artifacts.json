@@ -203,7 +203,7 @@
     },
     {
       "path": "cases/README.md",
-      "sha256": "e4a3ff2b5f791eac1bf0cb2b20335add9bb7ebd5f01ba70f128c0f85fa44d630"
+      "sha256": "21f95a9aa410d4e9b20fb139d1cc27cb009450bade7424d015b6f18fd6fe3e72"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/evidence/affine_flex_summary_d4_d9.json",
@@ -280,6 +280,42 @@
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/verification.md",
       "sha256": "8b148de6b9013d9c11a1c5421fe520fa5fb9f59183222416387b5881a1f78b65"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/check_counterexample.py",
+      "sha256": "171736d03bfba9dd2862a956aa47511db7390a0686b512d4dbd45c61e903fd0f"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/problem.md",
+      "sha256": "df1cdc514eee09c3b9bcfd02f159ec89d9cf2c3209fd981812843ab1e30f1b63"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/proof.md",
+      "sha256": "eeb03fd7841851be71f06740d7a0ac96dd4cbfed7ce420ad0b4cfe0c6b29d333"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/README.md",
+      "sha256": "794041bbc80f074dda0181a25a6e79926d53ac1473b607a1f4aacf8d8494a293"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/sources.md",
+      "sha256": "a8be4f42559e0fd678504559a53d82391fa73540d23ba1f94d5301bb9b5169b4"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/status.md",
+      "sha256": "39d5bddbafcc13d4da08800dabfa361408a4a8cf5cabb0f67855bf3d123058ad"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/verification.md",
+      "sha256": "974934e27c36e411b654fc84d1eddf5766cd43d3c5b7806ce658dc55ba6045b6"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/verification_summary.json",
+      "sha256": "c3601bcfb391ffe2d7a07abd5cbf7f913436ba22fe73bfc2d79bf9c7af1d1752"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/word_certificate.json",
+      "sha256": "d99947e7bd9947ab4fe5015a295e1a5e51c30638eb04469472494fa04ef9e5c6"
     }
   ]
 }

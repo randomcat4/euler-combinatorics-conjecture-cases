@@ -28,6 +28,7 @@ REQUIRED_ROOT = (
 CASE_SLUGS = (
     "volume-rigidity-dimension-seven",
     "k33plus-q-index-boundary-counterexample",
+    "toroidal-grid-representation-counterexample",
     "cayley-eigenvalue-codimension-three",
     "catalan-schett-plane-tree-statistic",
     "cdk-improper-partition-matrix-image",
@@ -57,6 +58,17 @@ CASE_REQUIRED = {
         "proof.md",
         "check_counterexample.py",
         "exhaustive_summary.json",
+    ),
+    "toroidal-grid-representation-counterexample": (
+        "README.md",
+        "problem.md",
+        "status.md",
+        "sources.md",
+        "verification.md",
+        "proof.md",
+        "word_certificate.json",
+        "check_counterexample.py",
+        "verification_summary.json",
     ),
     "cayley-eigenvalue-codimension-three": (
         "README.md",
@@ -125,6 +137,7 @@ CASE_REQUIRED = {
 EXPECTED_VERIFICATION = {
     "volume-rigidity-dimension-seven": "INDEPENDENTLY_VERIFIED",
     "k33plus-q-index-boundary-counterexample": "INDEPENDENTLY_VERIFIED",
+    "toroidal-grid-representation-counterexample": "INDEPENDENTLY_VERIFIED",
     "cayley-eigenvalue-codimension-three": "INDEPENDENTLY_VERIFIED",
     "catalan-schett-plane-tree-statistic": "INDEPENDENTLY_VERIFIED",
     "cdk-improper-partition-matrix-image": "INDEPENDENTLY_VERIFIED",
