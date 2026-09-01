@@ -15,6 +15,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "toroidal-grid-representation-counterexample": {
+      "result": "COUNTEREXAMPLE",
+      "scope": "Conjecture 1 boundary case TGr_{3,5}=C_3 square C_5; disproof of the exact printed all-quantifier statement",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "cayley-eigenvalue-codimension-three": {
       "result": "PARTIAL_RESULT",
       "scope": "the n-k=3 regime of the cited conjecture only",

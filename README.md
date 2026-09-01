@@ -12,6 +12,7 @@ cd euler-combinatorics-conjecture-cases
 python scripts/validate_repo.py
 python cases/zhao-restricted-zero-sum-counterexample/check_counterexample.py
 python cases/k33plus-q-index-boundary-counterexample/check_counterexample.py
+python cases/toroidal-grid-representation-counterexample/check_counterexample.py
 python cases/catalan-schett-plane-tree-statistic/check_small_cases.py
 python cases/partition-matrix-bijection/verify_bijection.py
 python cases/partition-matrix-q-sum-product/check_formula.py
@@ -54,6 +55,13 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub>Counterexample</sub></td>
       <td><sub>Conjecture 5.1 at <code>s=t=3,n=6</code></sub></td>
       <td><sub>Independent mathematical review and exhaustive exact check</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/toroidal-grid-representation-counterexample/">Toroidal-grid representation number</a></sub></td>
+      <td><sub><a href="https://arxiv.org/abs/2507.16469v1">arXiv:2507.16469v1</a></sub></td>
+      <td><sub>Counterexample</sub></td>
+      <td><sub>Conjecture 1 at <code>TGr_{3,5}=C_3 square C_5</code></sub></td>
+      <td><sub>Independent mathematical review and exact all-pairs check</sub></td>
     </tr>
     <tr>
       <td><sub><a href="https://github.com/randomcat4/gaoLEAN">Gao constant</a></sub></td>
@@ -133,6 +141,21 @@ Conjecture 5.1 in the cited signless-Laplacian spectral Turan paper predicts tha
 The package does not address a separately amended sufficiently-large-`n` version and does not claim public priority.
 
 [Open the K33+ Q-index counterexample package](cases/k33plus-q-index-boundary-counterexample/)
+
+### A 3-uniform word for a toroidal grid boundary case
+
+*Nawaf Shafi Alshammari, Sergey Kitaev, and Artem Pyatkin · [arXiv](https://arxiv.org/abs/2507.16469v1)*
+
+Conjecture 1 in the cited toroidal-grid representation-number paper asserts
+that if `m,n >= 3` and `m+n >= 8`, then `R(TGr_{m,n}) >= 4`, where
+`TGr_{m,n}=C_m square C_n`. The public case gives a length-45 3-uniform word
+for `TGr_{3,5}=C_3 square C_5`. It proves `R(TGr_{3,5}) <= 3`, and therefore
+disproves the exact printed universal statement.
+
+The package does not classify any other toroidal grid and does not claim public
+priority.
+
+[Open the toroidal-grid representation counterexample package](cases/toroidal-grid-representation-counterexample/)
 
 ## Partial results
 
