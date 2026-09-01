@@ -6,6 +6,7 @@ This repository is a continuing public index rather than a count of all EULER re
 
 - Zhao short zero-sum conjectures: Conjectures 6.1 and 6.2 are disproved; Conjecture 6.4's lower branch is refuted at `C_2^7`; Conjecture 1.2 has a supplemental even-rank witness. The package is supported by symbolic arguments, exact enumeration, and Sidorenko's cited exact value for `s_4(C_2^7)`.
 - Volume rigidity: Conjecture 22 is disproved for every dimension `d>=7` and independently reviewed.
+- K33+ Q-index classification: Conjecture 5.1 of the cited signless-Laplacian spectral Turan paper is disproved as printed by the boundary case `s=t=3,n=6`. The graph `K2 join (K3 union K1)` is `K_{3,3}^+`-free, uniquely extremal over all six-vertex `K_{3,3}^+`-free graphs, and outside the printed `L_{6,3,3}` and `Y_{6,3}` families.
 
 ## Partial results
 

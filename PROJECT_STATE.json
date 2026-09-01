@@ -9,6 +9,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "k33plus-q-index-boundary-counterexample": {
+      "result": "COUNTEREXAMPLE",
+      "scope": "Conjecture 5.1 boundary case s=t=3,n=6; disproof of the exact printed all-quantifier statement",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "cayley-eigenvalue-codimension-three": {
       "result": "PARTIAL_RESULT",
       "scope": "the n-k=3 regime of the cited conjecture only",

@@ -13,5 +13,6 @@ The collection uses the following primary sources.
 9. Alexander Sidorenko, “On generalized Erdős–Ginzburg–Ziv constants for `Z_2^d`,” arXiv:1808.06555. [arXiv](https://arxiv.org/abs/1808.06555).
 10. C. Ryan Vinroot, “Multivariate Rogers-Szegő polynomials and flags in finite vector spaces,” arXiv:1011.0984. [arXiv](https://arxiv.org/abs/1011.0984).
 11. Anders Claesson, Mark Dukes, and Martina Kubitzke, “Partition and composition matrices,” *Journal of Combinatorial Theory, Series A* 118 (2011), 1624–1637. [DOI](https://doi.org/10.1016/j.jcta.2011.02.001), [arXiv](https://arxiv.org/abs/1006.1312).
+12. Jian Zheng, Yongtao Li, and Honghai Li, “The signless Laplacian spectral Turan problems for color-critical graphs,” *Linear Algebra and its Applications* 730 (2026), 546-565. [DOI](https://doi.org/10.1016/j.laa.2025.10.036), [arXiv](https://arxiv.org/abs/2504.07852).
 
 Case directories and linked public repositories provide theorem numbers, page anchors, dependencies, and scope boundaries.
