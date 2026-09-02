@@ -274,8 +274,44 @@
       "sha256": "49150869942b350e72b2437fe20718bfadf352b0540fb5ae506fa3b81e5b54f5"
     },
     {
+      "path": "cases/minimal-degree-three-imprimitive-groups/README.md",
+      "sha256": "56b3c49ca97006dbc32c5eadd64b86e9260e954e2f989151def1d8a54b2f6c5a"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/problem.md",
+      "sha256": "fc637939fa39afbed544ebb82d98e0ab8da9d21106df6d656ee9bf36a2824f55"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/status.md",
+      "sha256": "8ccb81a491a9505ccd8ed147e61471676fb5b1b6da2a25231e863bcbc9c4f3c5"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/sources.md",
+      "sha256": "6facee59a559dcce9b184bd249d4e56e80224c23d48bd85a9c584e743f9447eb"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/verification.md",
+      "sha256": "30fd1890de00bfabad743e9d86f88dba40fed4ad8925f03ea8ffd7616022054b"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/proof.md",
+      "sha256": "0d124629345c930e9860053dec4b291ae73969cadd51094adc41006dba7196db"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/quotient_certificate.json",
+      "sha256": "f281b6268787fee3ff38167c390acdd3887a630c488835cb432625d6f72b4953"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/check_quotient_criterion.py",
+      "sha256": "c0b02ece21a2c3e73f01920e85996ce19c21e615172b79f37c561b2fefad8496"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/verification_summary.json",
+      "sha256": "8be5894fc8b5e9cba49e1acbb1ef15507d66e5a77b98995a011e9443aa91161f"
+    },
+    {
       "path": "cases/README.md",
-      "sha256": "95ec94bf286349ce710637b8656fe5c8c9a9425c9628743d268947922a422e83"
+      "sha256": "51334c37e5d0a50c0972799bce26e8984886119e939949f1a9b68b9638d2f4b1"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/evidence/affine_flex_summary_d4_d9.json",

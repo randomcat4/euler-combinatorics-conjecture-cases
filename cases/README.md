@@ -20,6 +20,7 @@ Each subdirectory is a self-contained public case package. The index is organize
 
 ## Partial results
 
+- [`minimal-degree-three-imprimitive-groups`](minimal-degree-three-imprimitive-groups/)
 - [`cayley-eigenvalue-codimension-three`](cayley-eigenvalue-codimension-three/)
 
 The restricted-family Gao manuscript and its Lean formalization are maintained in the external [Gao Lean repository](https://github.com/randomcat4/gaoLEAN) and are linked from the main README. Neither entry is presented as a complete solution of its source conjecture.

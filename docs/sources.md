@@ -17,5 +17,6 @@ The collection uses the following primary sources.
 13. Nawaf Shafi Alshammari, Sergey Kitaev, and Artem Pyatkin, "On the representation number of grid graphs and cylindric grid graphs," arXiv:2507.16469v1. [arXiv](https://arxiv.org/abs/2507.16469v1).
 14. Maria Chudnovsky, Tung Nguyen, Alex Scott, and Paul Seymour, "The vertex sets of subtrees of a tree," *Electronic Journal of Combinatorics* 33(2) (2026), #P2.7. [DOI](https://doi.org/10.37236/14646), [arXiv](https://arxiv.org/abs/2506.03603v1).
 15. Levente Bodnar, Jun Gao, Jared Leon, Xizhi Liu, Oleg Pikhurko, and Shumin Sun, "The inducibility of 6-vertex graphs," arXiv:2606.00290v3. [arXiv](https://arxiv.org/abs/2606.00290v3).
+16. Antonio Montero and Primoz Potocnik, "Vertex-transitive graphs with small motion and transitive permutation groups with small minimal degree," *Journal of Combinatorial Theory, Series A* 216 (2025), Article 106065. [DOI](https://doi.org/10.1016/j.jcta.2025.106065), [arXiv](https://arxiv.org/abs/2405.10088v2).
 
 Case directories and linked public repositories provide theorem numbers, page anchors, dependencies, and scope boundaries.
