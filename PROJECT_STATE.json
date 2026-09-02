@@ -39,6 +39,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "steklov-three-leaf-extra-special-extremizer": {
+      "result": "PARTIAL_RESULT",
+      "scope": "complete b=3 slice of Conjecture 1.3 for three-leaf trees with matching number 3r+2, all r>=1",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "cayley-eigenvalue-codimension-three": {
       "result": "PARTIAL_RESULT",
       "scope": "the n-k=3 regime of the cited conjecture only",

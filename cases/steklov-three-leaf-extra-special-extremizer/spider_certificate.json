@@ -1,0 +1,27 @@
+{
+  "case": "steklov-three-leaf-extra-special-extremizer",
+  "result": "PARTIAL_RESULT",
+  "source": {
+    "arxiv": "2508.13466v1",
+    "target": "Conjecture 1.3, complete b=3 slice"
+  },
+  "public_scope": {
+    "leaf_count": 3,
+    "matching_number": "3r+2",
+    "parameters": "all integers r>=1",
+    "extremizer": "ES_{3,2r}=Sp_{1,1,1;2r+2,2r+1,2r}",
+    "claim": "sigma_2(T) <= sigma_2^-(ES_{3,2r}), with equality iff T is ES_{3,2r}"
+  },
+  "expected_class_denominators": {
+    "0_odd_arms": "6r+6",
+    "1_odd_arm": "6r+3+sqrt(3)",
+    "2_odd_arms": "6r+5",
+    "3_odd_arms": "6r+7"
+  },
+  "calibration": {
+    "matching_formula_arm_max": 16,
+    "r_checked": [1, 80],
+    "feasible_spiders_checked": 1067760,
+    "terminal_state": "PASS"
+  }
+}

@@ -310,8 +310,44 @@
       "sha256": "8be5894fc8b5e9cba49e1acbb1ef15507d66e5a77b98995a011e9443aa91161f"
     },
     {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/README.md",
+      "sha256": "31491a8f8fea04c3f71ea0772c20189a827382c9b5c50a864927caa19fa9541f"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/problem.md",
+      "sha256": "59417d44c90684b78a2ab3b3cc0bbb7b0c8e8a370015903aee64a0e204ca4c2b"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/status.md",
+      "sha256": "d5f686bb9197b830953479af2dfe065436911d2f457fd65cdf3413b5d65e247d"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/sources.md",
+      "sha256": "e56219fcaa8d10459288a06139a77f3956efda32edf4cb812d21b7ae230f431d"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/verification.md",
+      "sha256": "56c641761557bd337e6823df4af18b056a4a5e48258992f0f1208248ccc27c16"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/proof.md",
+      "sha256": "6dcee361900aeb6596873087b9f8f6f4a3466d1fb9b9b87618e90a7cfd9ef3e0"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/spider_certificate.json",
+      "sha256": "5d43ed6e47d6196edd6bec71d11d60e63a1dd88b5afde742fcf02bc702397650"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py",
+      "sha256": "0f44566e17f1adb2d557844227f086d051cc6c4b212d3b897470a7ba412daf43"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/verification_summary.json",
+      "sha256": "1780f912a76fba7ba7419be27ebc153a31803f88cf9bf04661c90896d3e24372"
+    },
+    {
       "path": "cases/README.md",
-      "sha256": "51334c37e5d0a50c0972799bce26e8984886119e939949f1a9b68b9638d2f4b1"
+      "sha256": "3ca3ba81cc03985ceacd234ab373fb826d227fbf628afbcf74da767deaf85c7f"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/evidence/affine_flex_summary_d4_d9.json",

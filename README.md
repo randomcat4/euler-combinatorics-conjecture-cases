@@ -16,6 +16,7 @@ python cases/toroidal-grid-representation-counterexample/check_counterexample.py
 python cases/path-set-tree-representation-counterexample/check_counterexample.py
 python cases/f29-inducibility-recursive-graphon-counterexample/check_counterexample.py
 python cases/minimal-degree-three-imprimitive-groups/check_quotient_criterion.py
+python cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py
 python cases/catalan-schett-plane-tree-statistic/check_small_cases.py
 python cases/partition-matrix-bijection/verify_bijection.py
 python cases/partition-matrix-q-sum-product/check_formula.py
@@ -93,6 +94,13 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub>Partial result</sub></td>
       <td><sub>Problem 2 display (1.2) family, all <code>m&gt;=3,k&gt;=1</code></sub></td>
       <td><sub>Independent mathematical review and exact quotient/support check</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/steklov-three-leaf-extra-special-extremizer/">Steklov three-leaf extremizer</a></sub></td>
+      <td><sub><a href="https://arxiv.org/abs/2508.13466v1">arXiv:2508.13466v1</a></sub></td>
+      <td><sub>Partial result</sub></td>
+      <td><sub>Conjecture 1.3 complete <code>b=3</code> slice, all <code>r&gt;=1</code></sub></td>
+      <td><sub>Independent mathematical review and spider arithmetic check</sub></td>
     </tr>
     <tr>
       <td><sub><a href="cases/catalan-schett-plane-tree-statistic/">Plane-tree statistic</a></sub></td>
@@ -229,6 +237,21 @@ This is a complete result for the displayed imprimitive family, not a full
 classification of all transitive permutation groups of minimal degree 3.
 
 [Open the minimal-degree-three imprimitive-groups package](cases/minimal-degree-three-imprimitive-groups/)
+
+### Steklov three-leaf extra-special extremizer
+
+*Huiqiu Lin and Da Zhao · [arXiv](https://arxiv.org/abs/2508.13466v1)*
+
+Conjecture 1.3 in the cited paper predicts an extra-special extremal tree for
+the first nonzero Steklov eigenvalue under fixed leaf count and matching
+number. The public case proves the complete `b=3` slice: every three-leaf tree
+with matching number `3r+2` satisfies
+`sigma_2(T) <= sigma_2^-(ES_{3,2r})`, with equality exactly for the spider
+whose arm lengths are `{2r+2,2r+1,2r}`.
+
+This is a partial result and does not address `b=2` or `b>=4`.
+
+[Open the Steklov three-leaf package](cases/steklov-three-leaf-extra-special-extremizer/)
 
 ### The Gao constant for generalized dihedral groups
 
