@@ -63,6 +63,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "ternary-berge-suspension-rigidity": {
+      "result": "PROVED",
+      "scope": "complete Kim Question 5.5: finite hypergraphs with no Berge cycle whose length is divisible by three",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "partition-matrix-bijection": {
       "result": "PROVED",
       "scope": "complete cited open problem",

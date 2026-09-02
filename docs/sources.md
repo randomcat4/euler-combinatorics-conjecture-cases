@@ -19,5 +19,7 @@ The collection uses the following primary sources.
 15. Levente Bodnar, Jun Gao, Jared Leon, Xizhi Liu, Oleg Pikhurko, and Shumin Sun, "The inducibility of 6-vertex graphs," arXiv:2606.00290v3. [arXiv](https://arxiv.org/abs/2606.00290v3).
 16. Antonio Montero and Primoz Potocnik, "Vertex-transitive graphs with small motion and transitive permutation groups with small minimal degree," *Journal of Combinatorial Theory, Series A* 216 (2025), Article 106065. [DOI](https://doi.org/10.1016/j.jcta.2025.106065), [arXiv](https://arxiv.org/abs/2405.10088v2).
 17. Huiqiu Lin and Da Zhao, "Comparison between the first Steklov eigenvalue and algebraic connectivity on trees," arXiv:2508.13466v1. [arXiv](https://arxiv.org/abs/2508.13466v1).
+18. Jinha Kim, "Topology of Independence Complexes and Cycle Structure of Hypergraphs," *Combinatorica* 46 (2026), Article 8. [DOI](https://doi.org/10.1007/s00493-026-00198-y), [arXiv](https://arxiv.org/abs/2408.14321).
+19. Jinha Kim, "The Homotopy Type of the Independence Complex of Graphs with No Induced Cycles of Length Divisible by 3," *European Journal of Combinatorics* 104 (2022), Article 103534. [DOI](https://doi.org/10.1016/j.ejc.2022.103534), [arXiv](https://arxiv.org/abs/2101.07131).
 
 Case directories and linked public repositories provide theorem numbers, page anchors, dependencies, and scope boundaries.
