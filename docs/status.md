@@ -15,6 +15,7 @@ This repository is a continuing public index rather than a count of all EULER re
 
 - Minimal-degree-three imprimitive groups: complete quotient criterion for the display (1.2) family `Alt(m)^k <= G <= Sym(m) wr Sym(k)` from Problem 2 of the cited paper, for all `m>=3` and `k>=1`. It does not classify all transitive permutation groups of minimal degree 3.
 - Steklov three-leaf extra-special extremizer: complete infinite `b=3` slice of Conjecture 1.3 of the cited Steklov-tree paper, for all three-leaf trees with matching number `3r+2` and all `r>=1`. It does not address `b=2` or `b>=4`.
+- Orthogonal-tree obstructions: two seven-vertex induced-minimal nonrepresentable graphs avoiding the previously identified gem, house, and HVN obstructions. This disproves the three-obstruction sufficiency rule for Question 15 but does not solve the full orthogonal-tree characterization problem.
 - Gao constant: a restricted-family result for generalized dihedral groups with an abelian odd-primary kernel, presented in a 13-page manuscript with the corresponding Lean formalization. It does not resolve the full Gao conjecture.
 - Nonnormal Cayley graph eigenvalues: a result in the restricted `n-k=3` regime. It does not resolve Conjecture 4.7 outside that regime.
 

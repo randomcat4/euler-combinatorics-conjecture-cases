@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "case_slug": "orthogonal-tree-seven-vertex-obstructions",
+  "result": "PARTIAL_RESULT",
+  "result_type": "STRICT_PARTIAL_RESULT",
+  "public_scope": "two induced-minimal seven-vertex obstructions to the gem/house/HVN sufficiency rule for orthogonal-tree representability; full Question 15 remains open",
+  "source": {
+    "paper": "Maria Axenovich, Dingyuan Liu, and Arsenii Sagdeev, Ramsey problems for graphs in Euclidean spaces and Cartesian powers",
+    "arxiv": "2512.15516v2",
+    "locator": "Appendix B.2, Orthogonal trees, Question 15, physical PDF page 27"
+  },
+  "claim": "The seven-vertex graphs H_adj=F@UeW and H_dis=F@UuO avoid the gem, house, and HVN induced obstructions, are not orthogonal-tree representable, and are induced-minimal with that property.",
+  "definitions": [
+    "orthogonal-tree representability as equality at value 1 in a positive weighted tree metric",
+    "exact even leaf powers for graphs with at least two vertices",
+    "gem, house, and HVN five-vertex induced obstructions",
+    "induced-minimal nonrepresentable graph outside the three old obstructions"
+  ],
+  "verification": {
+    "status": "INDEPENDENTLY_VERIFIED",
+    "verdict": "CORRECT",
+    "review_type": "fresh read-only mathematical review",
+    "covered_scope": "the exact strict partial result curated here"
+  },
+  "finite_checks": {
+    "old_obstruction_freeness": "checked directly for both seven-vertex graphs",
+    "deletion_witnesses": "fourteen exact rational positive weighted-tree witnesses checked",
+    "topology_metadata": "seven-marked denominator 143816 and blocker counts recorded"
+  },
+  "boundaries": {
+    "full_question_15": "OPEN",
+    "seven_vertex_classification": "not claimed",
+    "finite_search_role": "certificate metadata and witness support, not a replacement for the symbolic nonrepresentability proofs",
+    "proof_assistant": "not provided",
+    "novelty": "NOT_ESTABLISHED",
+    "priority": "NOT_ESTABLISHED"
+  }
+}

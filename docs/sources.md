@@ -21,5 +21,7 @@ The collection uses the following primary sources.
 17. Huiqiu Lin and Da Zhao, "Comparison between the first Steklov eigenvalue and algebraic connectivity on trees," arXiv:2508.13466v1. [arXiv](https://arxiv.org/abs/2508.13466v1).
 18. Jinha Kim, "Topology of Independence Complexes and Cycle Structure of Hypergraphs," *Combinatorica* 46 (2026), Article 8. [DOI](https://doi.org/10.1007/s00493-026-00198-y), [arXiv](https://arxiv.org/abs/2408.14321).
 19. Jinha Kim, "The Homotopy Type of the Independence Complex of Graphs with No Induced Cycles of Length Divisible by 3," *European Journal of Combinatorics* 104 (2022), Article 103534. [DOI](https://doi.org/10.1016/j.ejc.2022.103534), [arXiv](https://arxiv.org/abs/2101.07131).
+20. Maria Axenovich, Dingyuan Liu, and Arsenii Sagdeev, "Ramsey problems for graphs in Euclidean spaces and Cartesian powers," arXiv:2512.15516v2. [arXiv](https://arxiv.org/abs/2512.15516).
+21. Andreas Brandstadt, Van Bang Le, and Dieter Rautenbach, "Exact leaf powers," *Theoretical Computer Science* 411 (2010), 2968-2977. [DOI](https://doi.org/10.1016/j.tcs.2010.04.027).
 
 Case directories and linked public repositories provide theorem numbers, page anchors, dependencies, and scope boundaries.

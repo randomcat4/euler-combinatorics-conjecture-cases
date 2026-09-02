@@ -45,6 +45,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "orthogonal-tree-seven-vertex-obstructions": {
+      "result": "PARTIAL_RESULT",
+      "scope": "two induced-minimal seven-vertex obstructions to the gem/house/HVN sufficiency rule for orthogonal-tree representability; full Question 15 remains open",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "cayley-eigenvalue-codimension-three": {
       "result": "PARTIAL_RESULT",
       "scope": "the n-k=3 regime of the cited conjecture only",
