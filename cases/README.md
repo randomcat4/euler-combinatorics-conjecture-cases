@@ -5,6 +5,7 @@ Each subdirectory is a self-contained public case package. The index is organize
 ## Counterexamples
 
 - [`k33plus-q-index-boundary-counterexample`](k33plus-q-index-boundary-counterexample/)
+- [`f29-inducibility-recursive-graphon-counterexample`](f29-inducibility-recursive-graphon-counterexample/)
 - [`path-set-tree-representation-counterexample`](path-set-tree-representation-counterexample/)
 - [`toroidal-grid-representation-counterexample`](toroidal-grid-representation-counterexample/)
 - [`zhao-restricted-zero-sum-counterexample`](zhao-restricted-zero-sum-counterexample/)
