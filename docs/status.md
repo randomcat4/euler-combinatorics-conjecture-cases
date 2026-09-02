@@ -26,7 +26,7 @@ This repository is a continuing public index rather than a count of all EULER re
 - Improper partition matrices: complete all-order statistic-preserving bijection with an explicit inverse.
 - Partition-matrix q-sum-product: complete all-order formula for Question 5.1 under the stated closed-expression contract.
 - Ternary-Berge-free hypergraph independence complexes: complete solution of Kim's Question 5.5 for all finite hypergraphs with no Berge cycle whose length is divisible by three.
-- Entropy-bounded Sidon concentration stability: complete solution of the Section 5 unnumbered open problem in Li, Gavalakis, and Kontoyiannis, giving an explicit function of `C` and `D` for arbitrary discrete finite-entropy random variables on arbitrary abelian groups.
+- Entropy-bounded Sidon concentration stability: complete solution of the Section 5 unnumbered open problem in Li, Gavalakis, and Kontoyiannis, giving an explicit function of `C` and `D` for arbitrary discrete finite-entropy random variables on arbitrary abelian groups; the same case also proves the fixed-`D` optimal stability modulus `M(C,D)=D/log(1/C)*(1+o(1))`.
 
 Other Gao-related problems are being curated and actively advanced. Additional EULER results will enter this index after their public artifacts and scope statements are ready.
 
