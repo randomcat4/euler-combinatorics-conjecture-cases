@@ -27,6 +27,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "f29-inducibility-recursive-graphon-counterexample": {
+      "result": "COUNTEREXAMPLE",
+      "scope": "Conjecture 4.7 equality lambda_F29=24/1555; disproof by an equal-measure six-part recursive graphon witness",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "cayley-eigenvalue-codimension-three": {
       "result": "PARTIAL_RESULT",
       "scope": "the n-k=3 regime of the cited conjecture only",

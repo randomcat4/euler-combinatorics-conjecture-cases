@@ -238,8 +238,44 @@
       "sha256": "e130bc044f9baa39818b4b3e4cf6611d759c05901f74c1f63cda1cd4fb56bc53"
     },
     {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/README.md",
+      "sha256": "914c949ac512dbd4d93588f2f49fd018f0d17acb78bcfcf882cf8ffca74599ef"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/problem.md",
+      "sha256": "67f913b5af01df0dabd9bb7accdbbff03aa9c37aada51c1af2a5f6a5b05ec956"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/status.md",
+      "sha256": "72cb51e160f2077d56cc56ca487f49136f812617998cdf199be7b5eaa389d39a"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/sources.md",
+      "sha256": "315cc24fe63ecef50d0a2860f3b251929052723286f4f97e87396f8ec3300902"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/verification.md",
+      "sha256": "d27ffafd1f11469dc00dfb9c3ccdb1475763492be9ec5be9207bb5011dfcd236"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/proof.md",
+      "sha256": "401b6891e2fe2508008f25c1af7fa111de7e2e5474b9f6fb1fd451328a5a9d74"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/counterexample_certificate.json",
+      "sha256": "d2697deb6558e3ff42ab684939d0914fb385f76bf5df30dbfaee9df9f1c06ec4"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/check_counterexample.py",
+      "sha256": "0af757c83908df8c47fb3a2bc5489f02a4d9627b922bf4ef0ecea34bf0753ac9"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/verification_summary.json",
+      "sha256": "49150869942b350e72b2437fe20718bfadf352b0540fb5ae506fa3b81e5b54f5"
+    },
+    {
       "path": "cases/README.md",
-      "sha256": "2652cc541dd9602de043b8e998a995f0264f69d16ca2a61bfc65eb7316b81bdb"
+      "sha256": "95ec94bf286349ce710637b8656fe5c8c9a9425c9628743d268947922a422e83"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/evidence/affine_flex_summary_d4_d9.json",

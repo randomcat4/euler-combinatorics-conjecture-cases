@@ -14,6 +14,7 @@ python cases/zhao-restricted-zero-sum-counterexample/check_counterexample.py
 python cases/k33plus-q-index-boundary-counterexample/check_counterexample.py
 python cases/toroidal-grid-representation-counterexample/check_counterexample.py
 python cases/path-set-tree-representation-counterexample/check_counterexample.py
+python cases/f29-inducibility-recursive-graphon-counterexample/check_counterexample.py
 python cases/catalan-schett-plane-tree-statistic/check_small_cases.py
 python cases/partition-matrix-bijection/verify_bijection.py
 python cases/partition-matrix-q-sum-product/check_formula.py
@@ -70,6 +71,13 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub>Counterexample</sub></td>
       <td><sub>Unnumbered sufficiency question after Theorem 3.2; five-vertex family</sub></td>
       <td><sub>Independent mathematical review and exact all-tree check</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/f29-inducibility-recursive-graphon-counterexample/">F29 inducibility</a></sub></td>
+      <td><sub><a href="https://arxiv.org/abs/2606.00290v3">arXiv:2606.00290v3</a></sub></td>
+      <td><sub>Counterexample</sub></td>
+      <td><sub>Conjecture 4.7 equality <code>lambda_F29=24/1555</code></sub></td>
+      <td><sub>Independent mathematical review and exact recursive-density check</sub></td>
     </tr>
     <tr>
       <td><sub><a href="https://github.com/randomcat4/gaoLEAN">Gao constant</a></sub></td>
@@ -179,6 +187,21 @@ The package does not propose a corrected characterization and does not claim
 public priority.
 
 [Open the path-set tree representation counterexample package](cases/path-set-tree-representation-counterexample/)
+
+### An F29 recursive-graphon counterexample
+
+*Levente Bodnar, Jun Gao, Jared Leon, Xizhi Liu, Oleg Pikhurko, and Shumin Sun · [arXiv](https://arxiv.org/abs/2606.00290v3)*
+
+Conjecture 4.7 in the cited inducibility paper states that
+`lambda_F29=24/1555` for `F29=(6,{03,04,13,15,45})`. Under the source
+normalization, the equal-measure six-part recursive graphon pattern
+`off=010100000100101;diag=RRRRRR` has exact density
+`6232/402745 = 24/1555 + 16/402745`, so it disproves the stated equality.
+
+The package does not determine the true inducibility value of `F29`, classify
+any other six-vertex graph, or claim public priority.
+
+[Open the F29 inducibility counterexample package](cases/f29-inducibility-recursive-graphon-counterexample/)
 
 ## Partial results
 

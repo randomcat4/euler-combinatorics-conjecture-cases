@@ -16,5 +16,6 @@ The collection uses the following primary sources.
 12. Jian Zheng, Yongtao Li, and Honghai Li, “The signless Laplacian spectral Turan problems for color-critical graphs,” *Linear Algebra and its Applications* 730 (2026), 546-565. [DOI](https://doi.org/10.1016/j.laa.2025.10.036), [arXiv](https://arxiv.org/abs/2504.07852).
 13. Nawaf Shafi Alshammari, Sergey Kitaev, and Artem Pyatkin, "On the representation number of grid graphs and cylindric grid graphs," arXiv:2507.16469v1. [arXiv](https://arxiv.org/abs/2507.16469v1).
 14. Maria Chudnovsky, Tung Nguyen, Alex Scott, and Paul Seymour, "The vertex sets of subtrees of a tree," *Electronic Journal of Combinatorics* 33(2) (2026), #P2.7. [DOI](https://doi.org/10.37236/14646), [arXiv](https://arxiv.org/abs/2506.03603v1).
+15. Levente Bodnar, Jun Gao, Jared Leon, Xizhi Liu, Oleg Pikhurko, and Shumin Sun, "The inducibility of 6-vertex graphs," arXiv:2606.00290v3. [arXiv](https://arxiv.org/abs/2606.00290v3).
 
 Case directories and linked public repositories provide theorem numbers, page anchors, dependencies, and scope boundaries.
