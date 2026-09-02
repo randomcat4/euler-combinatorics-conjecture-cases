@@ -9,7 +9,8 @@ Information Theory* 72(3):1553-1568 (2026). [DOI](https://doi.org/10.1109/TIT.20
 
 The relevant source problem is the unnumbered open problem in Section 5,
 physical PDF page 16 of arXiv:2506.20813v2. Proposition 5.2 and condition (42)
-are on physical PDF page 14.
+are on physical PDF page 14. Section 5 spans physical PDF pages 13-16, and
+Example 5.4 spans physical PDF pages 15-16.
 
 ## Status Evidence
 
@@ -24,4 +25,7 @@ problem. It is used only as status evidence, not as a proof dependency.
 
 The proof uses the source definitions and condition (42), together with
 standard Shannon entropy identities, Tonelli's theorem for nonnegative series,
-and Markov's inequality. No publisher PDF is redistributed in this repository.
+Markov's inequality, the elementary maximum-atom entropy bound, elementary
+properties of the principal real branch of Lambert's `W` function, and the
+positive-difference bound for Sidon subsets of an interval. No publisher PDF is
+redistributed in this repository.

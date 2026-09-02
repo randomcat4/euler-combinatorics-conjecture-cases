@@ -18,11 +18,26 @@ f(C,D) = 1                                         for C>=1.
 
 For every fixed finite `D`, this function tends to `0` as `C` tends to `0`.
 
+A verified quantitative extension also determines the leading-order optimal
+stability modulus. If `M(C,D)` is the worst possible minimum mass that must be
+deleted to leave a Sidon support among distributions with `H(X)<=D` and defect
+at most `C`, then for every fixed `D>0`,
+
+```text
+M(C,D) = D/log(1/C) * (1+o(1))  as C -> 0.
+```
+
+The extension includes an optimized Lambert-W threshold bound, finite-support
+integer constructions showing the matching fixed-`D` lower constant, and a
+separate low-entropy regime where the sharp order is `sqrt(C)`.
+
 ## Contents
 
 - [problem.md](problem.md) states the original source problem and the exact
   public scope.
 - [proof.md](proof.md) gives the self-contained proof.
+- [optimal_modulus.md](optimal_modulus.md) gives the verified quantitative
+  extension and its proof.
 - [verification.md](verification.md) records the independent mathematical
   verification and the finite-probe boundary.
 - [status.md](status.md) separates correctness, completeness, priority, and
@@ -39,5 +54,5 @@ The proof covers arbitrary discrete random variables of finite entropy on
 arbitrary abelian groups, with no finite-support, minimum-atom, moment, or group
 structure hypothesis beyond those stated in [problem.md](problem.md).
 
-The release does not claim that the displayed function is optimal. It does not
-claim public priority.
+The release does not claim exact finite-parameter optimality of the displayed
+bounds, and it does not claim public priority.

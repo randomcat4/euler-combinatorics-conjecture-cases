@@ -18,6 +18,16 @@
     },
     "limit": "for each fixed finite D, f(C,D)->0 as C->0"
   },
+  "optimal_modulus_extension": {
+    "status": "INDEPENDENTLY_VERIFIED",
+    "review_count": 2,
+    "scope": "same random-variable class as the main theorem",
+    "fixed_D_rate": "for every fixed D>0, M(C,D)=D/log(1/C)*(1+o(1)) as C->0",
+    "upper_bound": "M(C,D)<=min{1-exp(-D), D(x+1)/x^2} for C,D>0, x=2W_0(0.5*sqrt(D log 2/C))",
+    "lower_bound_family": "finite integer no-carry dense blocks",
+    "low_entropy_regime": "there are D_C with M(C,D_C)=Theta(sqrt(C))",
+    "finite_parameter_optimality": "not claimed"
+  },
   "verification": {
     "status": "INDEPENDENTLY_VERIFIED",
     "verdicts": [
@@ -25,6 +35,11 @@
       "CORRECT"
     ],
     "review_count": 2,
+    "extension_verdicts": [
+      "CORRECT",
+      "CORRECT"
+    ],
+    "extension_review_count": 2,
     "finite_probe_role": "sanity check only, not a proof premise"
   },
   "boundaries": {

@@ -150,9 +150,9 @@ the published artifact manifest, and the executable finite certificates.
     <tr>
       <td><sub><a href="cases/entropy-bounded-sidon-concentration-stability/">Entropy-bounded Sidon concentration</a></sub></td>
       <td><sub><a href="https://doi.org/10.1109/TIT.2026.3653549"><em>IEEE Transactions on Information Theory</em> 72(3):1553-1568 (2026)</a></sub></td>
-      <td><sub>Complete solution</sub></td>
-      <td><sub>Section 5 unnumbered open problem for arbitrary abelian groups</sub></td>
-      <td><sub>Two independent mathematical reviews and finite sanity probes</sub></td>
+      <td><sub>Complete solution with optimal-modulus extension</sub></td>
+      <td><sub>Section 5 unnumbered open problem for arbitrary abelian groups; fixed-<code>D</code> optimal stability rate</sub></td>
+      <td><sub>Independent mathematical reviews of the solution and extension, plus finite sanity probes</sub></td>
     </tr>
     <tr>
       <td><sub><a href="cases/cayley-eigenvalue-codimension-three/">Cayley eigenvalues</a></sub></td>
@@ -382,7 +382,11 @@ explicit bound
 `min{1, 2D/log(1/C) + sqrt(C)/log 2}` for `0<C<1`, endpoint values `0` at
 `C=0` and `1` for `C>=1`, and the required fixed-`D` limit as `C->0`.
 
-The package does not claim optimality of the bound or public priority.
+The package also proves the leading-order optimal stability modulus
+`M(C,D)=D/log(1/C)*(1+o(1))` for each fixed `D>0`, via a Lambert-W optimized
+threshold upper bound and finite integer no-carry lower-bound constructions.
+It separately records a low-entropy joint regime with `sqrt(C)` order. The
+package does not claim exact finite-parameter optimality or public priority.
 
 [Open the entropy-bounded Sidon concentration solution](cases/entropy-bounded-sidon-concentration-stability/)
 

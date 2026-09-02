@@ -1,5 +1,9 @@
 # Proof
 
+This file proves the explicit stability function answering the source open
+problem. The optimized leading-order modulus and its matching lower-bound
+constructions are proved separately in [optimal_modulus.md](optimal_modulus.md).
+
 Let
 
 ```text

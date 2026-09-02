@@ -60,7 +60,8 @@ P(X in B) >= 1 - f(C,D).
 
 ## Public Result
 
-This case proves that the following explicit function answers the question:
+This case proves that the following explicit function answers the source
+question:
 
 ```text
 f(C,D) =
@@ -70,4 +71,32 @@ f(C,D) =
 ```
 
 The claim is a complete solution to the source open problem under the stated
-finite-entropy convention. It does not assert optimality of `f`.
+finite-entropy convention.
+
+## Quantitative Extension
+
+For the same class of random variables, define
+
+```text
+d_Sid(X) = inf P(X notin B),
+```
+
+where the infimum runs over Sidon subsets `B` of `supp(X)`, and define
+
+```text
+M(C,D) = sup d_Sid(X),
+```
+
+where the supremum runs over all ambient abelian groups and all discrete
+finite-entropy `X` satisfying `H(X)<=D` and condition (42) with defect at most
+`C`.
+
+The verified extension proves that for every fixed `D>0`,
+
+```text
+M(C,D) = D/log(1/C) * (1+o(1))  as C -> 0.
+```
+
+It also gives a closed-form optimized threshold upper bound and a low-entropy
+joint regime in which the correct order is `sqrt(C)`. These statements refine
+the stability modulus; they do not assert exact finite-parameter optimality.

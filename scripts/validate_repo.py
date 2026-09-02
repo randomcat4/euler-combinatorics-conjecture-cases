@@ -181,6 +181,7 @@ CASE_REQUIRED = {
         "sources.md",
         "verification.md",
         "proof.md",
+        "optimal_modulus.md",
         "check_sidon_stability.py",
         "verification_summary.json",
     ),

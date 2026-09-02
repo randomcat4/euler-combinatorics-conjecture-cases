@@ -77,7 +77,7 @@
     },
     "entropy-bounded-sidon-concentration-stability": {
       "result": "PROVED",
-      "scope": "complete Section 5 unnumbered open problem: entropy-bounded Sidon concentration stability for arbitrary abelian groups",
+      "scope": "complete Section 5 unnumbered open problem: entropy-bounded Sidon concentration stability for arbitrary abelian groups; verified fixed-D optimal stability modulus",
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },

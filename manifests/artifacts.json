@@ -3,7 +3,7 @@
   "artifacts": [
     {
       "path": "cases/README.md",
-      "sha256": "19e56d8f6a5c8699882eb91e79765810406ec78e92f263f66e19e7284dc67353"
+      "sha256": "e29ba0dbac1beda5b28ce7d93e315012a6ff60dc7edad6fbeb136ddb924d4b2c"
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/README.md",
@@ -111,35 +111,39 @@
     },
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/README.md",
-      "sha256": "63d5c8389caa15aa0936d11edeb8a42e8cf4f14e0b15d7c4a101564d89f980b5"
+      "sha256": "7c0a2307315cf66a153f539e769376019660fd1e9438be650a434009489867ff"
     },
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/check_sidon_stability.py",
-      "sha256": "3341f34dd01a2f09c565cc9adec1b8130868d655bbed090b5fe83a9eb2be9aef"
+      "sha256": "9abc0eccd772a6846ec152e0c6fc34ba67ee906d53610218b19e6d8aab380c12"
+    },
+    {
+      "path": "cases/entropy-bounded-sidon-concentration-stability/optimal_modulus.md",
+      "sha256": "58ca6edd070095ea150fc04a8dd4da2a6ee35776d9f58f268b56408c7a5d5062"
     },
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/problem.md",
-      "sha256": "601bdcbaa928f07148b40837e8ce28f274bc797ba110c3130863abe8163e56f6"
+      "sha256": "46f224489468bd347a8f1bf546321c12081a71205873d0bd0ca6c532797cb3ef"
     },
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/proof.md",
-      "sha256": "1911d7941893986cc06207aa05dabdd65b5697c99b21fdac466886b4f155f641"
+      "sha256": "73b02e0ca14f86cc45b61c4e0f27062595337e33e8ee2e0c39252ba9d90c1ecd"
     },
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/sources.md",
-      "sha256": "02d04d2841e5abb294fef99b9e4ccd51793c045122ed8195dd06f55670a00faa"
+      "sha256": "88fafbcf7dd5300398bd8c747bfc2b5d313b8554a43ba9a82bb72f6d475c303e"
     },
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/status.md",
-      "sha256": "122f379fbd0f3ded3d942adad22d3c71a071e120128beca761f6570c828fa65a"
+      "sha256": "57b73e34887d1e14a331b24ee2494ac7fb9b1cb1d20e706bca22fd5dd85b5346"
     },
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/verification.md",
-      "sha256": "81b656afa3914760334c1261226b46fc6947df107e44a4bf9446c7f15b907620"
+      "sha256": "162adbe122c44b6e7e395b3403e88e3897ada9b5e11e8b7a9fbb5fd04616781f"
     },
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/verification_summary.json",
-      "sha256": "cc3b7401060a8a9c12b18fa47c176291343f6f1b1b7993e12f389b91161ad050"
+      "sha256": "0b10d47df7a2f4e86681b721beb89ef8a369ba24e28f82c991b761fba2610b29"
     },
     {
       "path": "cases/f29-inducibility-recursive-graphon-counterexample/README.md",
