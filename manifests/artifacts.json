@@ -202,8 +202,44 @@
       "sha256": "bcfda99b3732e439d34dab17c676841b90289c8c577776f3fda977c119eecd73"
     },
     {
+      "path": "cases/path-set-tree-representation-counterexample/README.md",
+      "sha256": "86a7db81ce060d8f716332964eecb28f6815cca98aec19030d73cb9ae9226399"
+    },
+    {
+      "path": "cases/path-set-tree-representation-counterexample/problem.md",
+      "sha256": "10d60e4465f5c22effb60398c817640effb5509b2df4bd9f254e0b27f221ab8e"
+    },
+    {
+      "path": "cases/path-set-tree-representation-counterexample/proof.md",
+      "sha256": "0f9e8d4e5a1c8c8881f7d54502f87ab64a720a5eae725eb50a178b33226a8241"
+    },
+    {
+      "path": "cases/path-set-tree-representation-counterexample/sources.md",
+      "sha256": "32e366703d9bd3fbec32f1e2db77c3e2df190a6a6b04237994d0abc2bfb157ff"
+    },
+    {
+      "path": "cases/path-set-tree-representation-counterexample/status.md",
+      "sha256": "ffa2346bf37f0ced8515e398cd3b0a105179fd1b3ad3e03feb1087fd16f46eb0"
+    },
+    {
+      "path": "cases/path-set-tree-representation-counterexample/verification.md",
+      "sha256": "bc1f2451d062275101143f63a089053e76de23c9488a75c8c674858297669126"
+    },
+    {
+      "path": "cases/path-set-tree-representation-counterexample/counterexample_certificate.json",
+      "sha256": "eb2d23e898d306413664b7b38726b7324c23103d6eabfe0c626d1612a2f1e444"
+    },
+    {
+      "path": "cases/path-set-tree-representation-counterexample/check_counterexample.py",
+      "sha256": "a3f8ca3243adfb2e945c15d0e42ce2487155de048fef0a83da8220957193ed7c"
+    },
+    {
+      "path": "cases/path-set-tree-representation-counterexample/verification_summary.json",
+      "sha256": "e130bc044f9baa39818b4b3e4cf6611d759c05901f74c1f63cda1cd4fb56bc53"
+    },
+    {
       "path": "cases/README.md",
-      "sha256": "21f95a9aa410d4e9b20fb139d1cc27cb009450bade7424d015b6f18fd6fe3e72"
+      "sha256": "2652cc541dd9602de043b8e998a995f0264f69d16ca2a61bfc65eb7316b81bdb"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/evidence/affine_flex_summary_d4_d9.json",

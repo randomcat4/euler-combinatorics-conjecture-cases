@@ -21,6 +21,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "path-set-tree-representation-counterexample": {
+      "result": "COUNTEREXAMPLE",
+      "scope": "unnumbered sufficiency question after Theorem 3.2; five-vertex family",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "cayley-eigenvalue-codimension-three": {
       "result": "PARTIAL_RESULT",
       "scope": "the n-k=3 regime of the cited conjecture only",

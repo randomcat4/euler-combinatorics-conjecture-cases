@@ -8,6 +8,7 @@ This repository is a continuing public index rather than a count of all EULER re
 - Volume rigidity: Conjecture 22 is disproved for every dimension `d>=7` and independently reviewed.
 - K33+ Q-index classification: Conjecture 5.1 of the cited signless-Laplacian spectral Turan paper is disproved as printed by the boundary case `s=t=3,n=6`. The graph `K2 join (K3 union K1)` is `K_{3,3}^+`-free, uniquely extremal over all six-vertex `K_{3,3}^+`-free graphs, and outside the printed `L_{6,3,3}` and `Y_{6,3}` families.
 - Toroidal-grid representation number: Conjecture 1 of the cited word-representation paper is disproved as printed by a length-45 3-uniform word for `TGr_{3,5}=C_3 square C_5`, giving `R(TGr_{3,5}) <= 3` despite the printed lower bound `R(TGr_{m,n}) >= 4` for `m,n >= 3` and `m+n >= 8`.
+- Path-set tree representation: the sufficiency question after Theorem 3.2 of the cited path-set paper is disproved by a five-subset family on `{0,1,2,3,4}` satisfying finite Helly, chordal intersection graph, and every local Tucker interval condition, but admitting no tree whose path vertex sets include all five members.
 
 ## Partial results
 

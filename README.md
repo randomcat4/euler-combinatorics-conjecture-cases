@@ -13,6 +13,7 @@ python scripts/validate_repo.py
 python cases/zhao-restricted-zero-sum-counterexample/check_counterexample.py
 python cases/k33plus-q-index-boundary-counterexample/check_counterexample.py
 python cases/toroidal-grid-representation-counterexample/check_counterexample.py
+python cases/path-set-tree-representation-counterexample/check_counterexample.py
 python cases/catalan-schett-plane-tree-statistic/check_small_cases.py
 python cases/partition-matrix-bijection/verify_bijection.py
 python cases/partition-matrix-q-sum-product/check_formula.py
@@ -62,6 +63,13 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub>Counterexample</sub></td>
       <td><sub>Conjecture 1 at <code>TGr_{3,5}=C_3 square C_5</code></sub></td>
       <td><sub>Independent mathematical review and exact all-pairs check</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/path-set-tree-representation-counterexample/">Path-set tree representation</a></sub></td>
+      <td><sub><a href="https://arxiv.org/abs/2506.03603v1">arXiv:2506.03603v1</a> / <a href="https://doi.org/10.37236/14646">DOI</a></sub></td>
+      <td><sub>Counterexample</sub></td>
+      <td><sub>Unnumbered sufficiency question after Theorem 3.2; five-vertex family</sub></td>
+      <td><sub>Independent mathematical review and exact all-tree check</sub></td>
     </tr>
     <tr>
       <td><sub><a href="https://github.com/randomcat4/gaoLEAN">Gao constant</a></sub></td>
@@ -156,6 +164,21 @@ The package does not classify any other toroidal grid and does not claim public
 priority.
 
 [Open the toroidal-grid representation counterexample package](cases/toroidal-grid-representation-counterexample/)
+
+### A five-set obstruction to path-set tree representation
+
+*Maria Chudnovsky, Tung Nguyen, Alex Scott, and Paul Seymour · [DOI](https://doi.org/10.37236/14646) · [arXiv](https://arxiv.org/abs/2506.03603v1)*
+
+The source asks whether finite Helly, chordality of the intersection graph, and
+Tucker's interval condition on every local trace family are sufficient for a
+finite family of subsets of `W` to be realized as vertex sets of paths in a tree
+on vertex set exactly `W`. The public case gives a family of five subsets of
+`{0,1,2,3,4}` satisfying all three conditions, then proves no such tree exists.
+
+The package does not propose a corrected characterization and does not claim
+public priority.
+
+[Open the path-set tree representation counterexample package](cases/path-set-tree-representation-counterexample/)
 
 ## Partial results
 
