@@ -1,0 +1,49 @@
+{
+  "case_slug": "entropy-bounded-sidon-concentration-stability",
+  "result": "PROVED",
+  "result_type": "COMPLETE_SOLUTION",
+  "source": {
+    "arxiv": "2506.20813v2",
+    "doi": "10.1109/TIT.2026.3653549",
+    "locator": "Section 5 unnumbered open problem, physical PDF page 16",
+    "condition_locator": "Proposition 5.2 and condition (42), physical PDF page 14",
+    "log_base": "natural"
+  },
+  "claim": {
+    "scope": "arbitrary discrete finite-entropy random variables on arbitrary abelian groups",
+    "function": {
+      "C_eq_0": "0",
+      "C_between_0_and_1": "min{1, 2D/log(1/C) + sqrt(C)/log 2}",
+      "C_ge_1": "1"
+    },
+    "limit": "for each fixed finite D, f(C,D)->0 as C->0"
+  },
+  "verification": {
+    "status": "INDEPENDENTLY_VERIFIED",
+    "verdicts": [
+      "CORRECT",
+      "CORRECT"
+    ],
+    "review_count": 2,
+    "finite_probe_role": "sanity check only, not a proof premise"
+  },
+  "boundaries": {
+    "novelty": "NOT_ESTABLISHED",
+    "priority": "NOT_ESTABLISHED",
+    "optimality": "not claimed",
+    "formalization": "not Lean encoded",
+    "publisher_materials": "not redistributed"
+  },
+  "finite_probe_summary": {
+    "groups": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C2xC2"
+    ],
+    "max_denominator": 6,
+    "expected_distribution_count": 995
+  }
+}
