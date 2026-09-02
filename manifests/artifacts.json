@@ -106,6 +106,42 @@
       "sha256": "efe3e9324def056f618ced575a2216160dee6c330a002e278a8b8b2798464f61"
     },
     {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/check_counterexample.py",
+      "sha256": "0af757c83908df8c47fb3a2bc5489f02a4d9627b922bf4ef0ecea34bf0753ac9"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/counterexample_certificate.json",
+      "sha256": "d2697deb6558e3ff42ab684939d0914fb385f76bf5df30dbfaee9df9f1c06ec4"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/problem.md",
+      "sha256": "67f913b5af01df0dabd9bb7accdbbff03aa9c37aada51c1af2a5f6a5b05ec956"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/proof.md",
+      "sha256": "401b6891e2fe2508008f25c1af7fa111de7e2e5474b9f6fb1fd451328a5a9d74"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/README.md",
+      "sha256": "914c949ac512dbd4d93588f2f49fd018f0d17acb78bcfcf882cf8ffca74599ef"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/sources.md",
+      "sha256": "315cc24fe63ecef50d0a2860f3b251929052723286f4f97e87396f8ec3300902"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/status.md",
+      "sha256": "72cb51e160f2077d56cc56ca487f49136f812617998cdf199be7b5eaa389d39a"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/verification.md",
+      "sha256": "d27ffafd1f11469dc00dfb9c3ccdb1475763492be9ec5be9207bb5011dfcd236"
+    },
+    {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/verification_summary.json",
+      "sha256": "49150869942b350e72b2437fe20718bfadf352b0540fb5ae506fa3b81e5b54f5"
+    },
+    {
       "path": "cases/k33plus-q-index-boundary-counterexample/check_counterexample.py",
       "sha256": "3673dd55f87c252e99d96f0743a997193fcd9a0490ff4a5284a0c79982c0abf5"
     },
@@ -136,6 +172,42 @@
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/verification.md",
       "sha256": "7b3076e1f5f6eae7eb4e866658a698d2c92f0c4e5ce9908416114b2ebddd5456"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/check_quotient_criterion.py",
+      "sha256": "c0b02ece21a2c3e73f01920e85996ce19c21e615172b79f37c561b2fefad8496"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/problem.md",
+      "sha256": "fc637939fa39afbed544ebb82d98e0ab8da9d21106df6d656ee9bf36a2824f55"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/proof.md",
+      "sha256": "0d124629345c930e9860053dec4b291ae73969cadd51094adc41006dba7196db"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/quotient_certificate.json",
+      "sha256": "f281b6268787fee3ff38167c390acdd3887a630c488835cb432625d6f72b4953"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/README.md",
+      "sha256": "56b3c49ca97006dbc32c5eadd64b86e9260e954e2f989151def1d8a54b2f6c5a"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/sources.md",
+      "sha256": "6facee59a559dcce9b184bd249d4e56e80224c23d48bd85a9c584e743f9447eb"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/status.md",
+      "sha256": "8ccb81a491a9505ccd8ed147e61471676fb5b1b6da2a25231e863bcbc9c4f3c5"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/verification.md",
+      "sha256": "30fd1890de00bfabad743e9d86f88dba40fed4ad8925f03ea8ffd7616022054b"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/verification_summary.json",
+      "sha256": "8be5894fc8b5e9cba49e1acbb1ef15507d66e5a77b98995a011e9443aa91161f"
     },
     {
       "path": "cases/partition-matrix-bijection/exhaustive-check.md",
@@ -202,8 +274,12 @@
       "sha256": "bcfda99b3732e439d34dab17c676841b90289c8c577776f3fda977c119eecd73"
     },
     {
-      "path": "cases/path-set-tree-representation-counterexample/README.md",
-      "sha256": "86a7db81ce060d8f716332964eecb28f6815cca98aec19030d73cb9ae9226399"
+      "path": "cases/path-set-tree-representation-counterexample/check_counterexample.py",
+      "sha256": "a3f8ca3243adfb2e945c15d0e42ce2487155de048fef0a83da8220957193ed7c"
+    },
+    {
+      "path": "cases/path-set-tree-representation-counterexample/counterexample_certificate.json",
+      "sha256": "eb2d23e898d306413664b7b38726b7324c23103d6eabfe0c626d1612a2f1e444"
     },
     {
       "path": "cases/path-set-tree-representation-counterexample/problem.md",
@@ -212,6 +288,10 @@
     {
       "path": "cases/path-set-tree-representation-counterexample/proof.md",
       "sha256": "0f9e8d4e5a1c8c8881f7d54502f87ab64a720a5eae725eb50a178b33226a8241"
+    },
+    {
+      "path": "cases/path-set-tree-representation-counterexample/README.md",
+      "sha256": "86a7db81ce060d8f716332964eecb28f6815cca98aec19030d73cb9ae9226399"
     },
     {
       "path": "cases/path-set-tree-representation-counterexample/sources.md",
@@ -226,128 +306,116 @@
       "sha256": "bc1f2451d062275101143f63a089053e76de23c9488a75c8c674858297669126"
     },
     {
-      "path": "cases/path-set-tree-representation-counterexample/counterexample_certificate.json",
-      "sha256": "eb2d23e898d306413664b7b38726b7324c23103d6eabfe0c626d1612a2f1e444"
-    },
-    {
-      "path": "cases/path-set-tree-representation-counterexample/check_counterexample.py",
-      "sha256": "a3f8ca3243adfb2e945c15d0e42ce2487155de048fef0a83da8220957193ed7c"
-    },
-    {
       "path": "cases/path-set-tree-representation-counterexample/verification_summary.json",
       "sha256": "e130bc044f9baa39818b4b3e4cf6611d759c05901f74c1f63cda1cd4fb56bc53"
     },
     {
-      "path": "cases/f29-inducibility-recursive-graphon-counterexample/README.md",
-      "sha256": "914c949ac512dbd4d93588f2f49fd018f0d17acb78bcfcf882cf8ffca74599ef"
-    },
-    {
-      "path": "cases/f29-inducibility-recursive-graphon-counterexample/problem.md",
-      "sha256": "67f913b5af01df0dabd9bb7accdbbff03aa9c37aada51c1af2a5f6a5b05ec956"
-    },
-    {
-      "path": "cases/f29-inducibility-recursive-graphon-counterexample/status.md",
-      "sha256": "72cb51e160f2077d56cc56ca487f49136f812617998cdf199be7b5eaa389d39a"
-    },
-    {
-      "path": "cases/f29-inducibility-recursive-graphon-counterexample/sources.md",
-      "sha256": "315cc24fe63ecef50d0a2860f3b251929052723286f4f97e87396f8ec3300902"
-    },
-    {
-      "path": "cases/f29-inducibility-recursive-graphon-counterexample/verification.md",
-      "sha256": "d27ffafd1f11469dc00dfb9c3ccdb1475763492be9ec5be9207bb5011dfcd236"
-    },
-    {
-      "path": "cases/f29-inducibility-recursive-graphon-counterexample/proof.md",
-      "sha256": "401b6891e2fe2508008f25c1af7fa111de7e2e5474b9f6fb1fd451328a5a9d74"
-    },
-    {
-      "path": "cases/f29-inducibility-recursive-graphon-counterexample/counterexample_certificate.json",
-      "sha256": "d2697deb6558e3ff42ab684939d0914fb385f76bf5df30dbfaee9df9f1c06ec4"
-    },
-    {
-      "path": "cases/f29-inducibility-recursive-graphon-counterexample/check_counterexample.py",
-      "sha256": "0af757c83908df8c47fb3a2bc5489f02a4d9627b922bf4ef0ecea34bf0753ac9"
-    },
-    {
-      "path": "cases/f29-inducibility-recursive-graphon-counterexample/verification_summary.json",
-      "sha256": "49150869942b350e72b2437fe20718bfadf352b0540fb5ae506fa3b81e5b54f5"
-    },
-    {
-      "path": "cases/minimal-degree-three-imprimitive-groups/README.md",
-      "sha256": "56b3c49ca97006dbc32c5eadd64b86e9260e954e2f989151def1d8a54b2f6c5a"
-    },
-    {
-      "path": "cases/minimal-degree-three-imprimitive-groups/problem.md",
-      "sha256": "fc637939fa39afbed544ebb82d98e0ab8da9d21106df6d656ee9bf36a2824f55"
-    },
-    {
-      "path": "cases/minimal-degree-three-imprimitive-groups/status.md",
-      "sha256": "8ccb81a491a9505ccd8ed147e61471676fb5b1b6da2a25231e863bcbc9c4f3c5"
-    },
-    {
-      "path": "cases/minimal-degree-three-imprimitive-groups/sources.md",
-      "sha256": "6facee59a559dcce9b184bd249d4e56e80224c23d48bd85a9c584e743f9447eb"
-    },
-    {
-      "path": "cases/minimal-degree-three-imprimitive-groups/verification.md",
-      "sha256": "30fd1890de00bfabad743e9d86f88dba40fed4ad8925f03ea8ffd7616022054b"
-    },
-    {
-      "path": "cases/minimal-degree-three-imprimitive-groups/proof.md",
-      "sha256": "0d124629345c930e9860053dec4b291ae73969cadd51094adc41006dba7196db"
-    },
-    {
-      "path": "cases/minimal-degree-three-imprimitive-groups/quotient_certificate.json",
-      "sha256": "f281b6268787fee3ff38167c390acdd3887a630c488835cb432625d6f72b4953"
-    },
-    {
-      "path": "cases/minimal-degree-three-imprimitive-groups/check_quotient_criterion.py",
-      "sha256": "c0b02ece21a2c3e73f01920e85996ce19c21e615172b79f37c561b2fefad8496"
-    },
-    {
-      "path": "cases/minimal-degree-three-imprimitive-groups/verification_summary.json",
-      "sha256": "8be5894fc8b5e9cba49e1acbb1ef15507d66e5a77b98995a011e9443aa91161f"
-    },
-    {
-      "path": "cases/steklov-three-leaf-extra-special-extremizer/README.md",
-      "sha256": "31491a8f8fea04c3f71ea0772c20189a827382c9b5c50a864927caa19fa9541f"
-    },
-    {
-      "path": "cases/steklov-three-leaf-extra-special-extremizer/problem.md",
-      "sha256": "59417d44c90684b78a2ab3b3cc0bbb7b0c8e8a370015903aee64a0e204ca4c2b"
-    },
-    {
-      "path": "cases/steklov-three-leaf-extra-special-extremizer/status.md",
-      "sha256": "d5f686bb9197b830953479af2dfe065436911d2f457fd65cdf3413b5d65e247d"
-    },
-    {
-      "path": "cases/steklov-three-leaf-extra-special-extremizer/sources.md",
-      "sha256": "e56219fcaa8d10459288a06139a77f3956efda32edf4cb812d21b7ae230f431d"
-    },
-    {
-      "path": "cases/steklov-three-leaf-extra-special-extremizer/verification.md",
-      "sha256": "56c641761557bd337e6823df4af18b056a4a5e48258992f0f1208248ccc27c16"
-    },
-    {
-      "path": "cases/steklov-three-leaf-extra-special-extremizer/proof.md",
-      "sha256": "6dcee361900aeb6596873087b9f8f6f4a3466d1fb9b9b87618e90a7cfd9ef3e0"
-    },
-    {
-      "path": "cases/steklov-three-leaf-extra-special-extremizer/spider_certificate.json",
-      "sha256": "5d43ed6e47d6196edd6bec71d11d60e63a1dd88b5afde742fcf02bc702397650"
+      "path": "cases/README.md",
+      "sha256": "f75a99738f833855c9eca3d28457d1231cae74798c7b11c59ab27a7abaa96a5a"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py",
       "sha256": "0f44566e17f1adb2d557844227f086d051cc6c4b212d3b897470a7ba412daf43"
     },
     {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/problem.md",
+      "sha256": "59417d44c90684b78a2ab3b3cc0bbb7b0c8e8a370015903aee64a0e204ca4c2b"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/proof.md",
+      "sha256": "6dcee361900aeb6596873087b9f8f6f4a3466d1fb9b9b87618e90a7cfd9ef3e0"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/README.md",
+      "sha256": "31491a8f8fea04c3f71ea0772c20189a827382c9b5c50a864927caa19fa9541f"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/sources.md",
+      "sha256": "e56219fcaa8d10459288a06139a77f3956efda32edf4cb812d21b7ae230f431d"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/spider_certificate.json",
+      "sha256": "5d43ed6e47d6196edd6bec71d11d60e63a1dd88b5afde742fcf02bc702397650"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/status.md",
+      "sha256": "d5f686bb9197b830953479af2dfe065436911d2f457fd65cdf3413b5d65e247d"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/verification.md",
+      "sha256": "56c641761557bd337e6823df4af18b056a4a5e48258992f0f1208248ccc27c16"
+    },
+    {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/verification_summary.json",
       "sha256": "1780f912a76fba7ba7419be27ebc153a31803f88cf9bf04661c90896d3e24372"
     },
     {
-      "path": "cases/README.md",
-      "sha256": "3ca3ba81cc03985ceacd234ab373fb826d227fbf628afbcf74da767deaf85c7f"
+      "path": "cases/ternary-berge-suspension-rigidity/check_statement_certificate.py",
+      "sha256": "e09f9e3ef78972e91c98e521184f3fa198bd5995f8ccbb6c04f51fa2f4854e46"
+    },
+    {
+      "path": "cases/ternary-berge-suspension-rigidity/problem.md",
+      "sha256": "bbd9d87670c52474653c6e3e03cc7410e30e5c1cdec6cb52305e7aca30ce45ec"
+    },
+    {
+      "path": "cases/ternary-berge-suspension-rigidity/proof.md",
+      "sha256": "b2223f24a68aa4e2c8dc6291d8e1e9ecdc9750c6c7c2ff8190feab11b0fc5a82"
+    },
+    {
+      "path": "cases/ternary-berge-suspension-rigidity/README.md",
+      "sha256": "cf55c8d5765eb9002a305eb97c1b225f7b5962093c7d02864355d568f9d2bb84"
+    },
+    {
+      "path": "cases/ternary-berge-suspension-rigidity/sources.md",
+      "sha256": "76156785de802d60b5ec1ab5dffd08e685a616ff381f5e38f8069c5797b23329"
+    },
+    {
+      "path": "cases/ternary-berge-suspension-rigidity/status.md",
+      "sha256": "36ec6b34fd3313978a0bf6a1e04e9dee20d4c2c9c249c02515f88dde465f5437"
+    },
+    {
+      "path": "cases/ternary-berge-suspension-rigidity/verification.md",
+      "sha256": "0f0daaf1fa1756b344a8b3ada0fe4349f16c390f96bbe7a444cc49f4392627f6"
+    },
+    {
+      "path": "cases/ternary-berge-suspension-rigidity/verification_summary.json",
+      "sha256": "89eaf2d7c12c3dda2df810f569ff7dc01df98d3338c2add35b911a84577d9452"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/check_counterexample.py",
+      "sha256": "171736d03bfba9dd2862a956aa47511db7390a0686b512d4dbd45c61e903fd0f"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/problem.md",
+      "sha256": "df1cdc514eee09c3b9bcfd02f159ec89d9cf2c3209fd981812843ab1e30f1b63"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/proof.md",
+      "sha256": "eeb03fd7841851be71f06740d7a0ac96dd4cbfed7ce420ad0b4cfe0c6b29d333"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/README.md",
+      "sha256": "794041bbc80f074dda0181a25a6e79926d53ac1473b607a1f4aacf8d8494a293"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/sources.md",
+      "sha256": "a8be4f42559e0fd678504559a53d82391fa73540d23ba1f94d5301bb9b5169b4"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/status.md",
+      "sha256": "39d5bddbafcc13d4da08800dabfa361408a4a8cf5cabb0f67855bf3d123058ad"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/verification.md",
+      "sha256": "974934e27c36e411b654fc84d1eddf5766cd43d3c5b7806ce658dc55ba6045b6"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/verification_summary.json",
+      "sha256": "c3601bcfb391ffe2d7a07abd5cbf7f913436ba22fe73bfc2d79bf9c7af1d1752"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/word_certificate.json",
+      "sha256": "d99947e7bd9947ab4fe5015a295e1a5e51c30638eb04469472494fa04ef9e5c6"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/evidence/affine_flex_summary_d4_d9.json",
@@ -424,42 +492,6 @@
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/verification.md",
       "sha256": "8b148de6b9013d9c11a1c5421fe520fa5fb9f59183222416387b5881a1f78b65"
-    },
-    {
-      "path": "cases/toroidal-grid-representation-counterexample/check_counterexample.py",
-      "sha256": "171736d03bfba9dd2862a956aa47511db7390a0686b512d4dbd45c61e903fd0f"
-    },
-    {
-      "path": "cases/toroidal-grid-representation-counterexample/problem.md",
-      "sha256": "df1cdc514eee09c3b9bcfd02f159ec89d9cf2c3209fd981812843ab1e30f1b63"
-    },
-    {
-      "path": "cases/toroidal-grid-representation-counterexample/proof.md",
-      "sha256": "eeb03fd7841851be71f06740d7a0ac96dd4cbfed7ce420ad0b4cfe0c6b29d333"
-    },
-    {
-      "path": "cases/toroidal-grid-representation-counterexample/README.md",
-      "sha256": "794041bbc80f074dda0181a25a6e79926d53ac1473b607a1f4aacf8d8494a293"
-    },
-    {
-      "path": "cases/toroidal-grid-representation-counterexample/sources.md",
-      "sha256": "a8be4f42559e0fd678504559a53d82391fa73540d23ba1f94d5301bb9b5169b4"
-    },
-    {
-      "path": "cases/toroidal-grid-representation-counterexample/status.md",
-      "sha256": "39d5bddbafcc13d4da08800dabfa361408a4a8cf5cabb0f67855bf3d123058ad"
-    },
-    {
-      "path": "cases/toroidal-grid-representation-counterexample/verification.md",
-      "sha256": "974934e27c36e411b654fc84d1eddf5766cd43d3c5b7806ce658dc55ba6045b6"
-    },
-    {
-      "path": "cases/toroidal-grid-representation-counterexample/verification_summary.json",
-      "sha256": "c3601bcfb391ffe2d7a07abd5cbf7f913436ba22fe73bfc2d79bf9c7af1d1752"
-    },
-    {
-      "path": "cases/toroidal-grid-representation-counterexample/word_certificate.json",
-      "sha256": "d99947e7bd9947ab4fe5015a295e1a5e51c30638eb04469472494fa04ef9e5c6"
     }
   ]
 }

@@ -17,6 +17,7 @@ Each subdirectory is a self-contained public case package. The index is organize
 - [`cdk-improper-partition-matrix-image`](cdk-improper-partition-matrix-image/)
 - [`partition-matrix-bijection`](partition-matrix-bijection/)
 - [`partition-matrix-q-sum-product`](partition-matrix-q-sum-product/)
+- [`ternary-berge-suspension-rigidity`](ternary-berge-suspension-rigidity/)
 
 ## Partial results
 

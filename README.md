@@ -21,6 +21,7 @@ python cases/catalan-schett-plane-tree-statistic/check_small_cases.py
 python cases/partition-matrix-bijection/verify_bijection.py
 python cases/partition-matrix-q-sum-product/check_formula.py
 python cases/cdk-improper-partition-matrix-image/mine_cdk_image.py --n-max 8 --check cases/cdk-improper-partition-matrix-image/mining_n_le_8.json
+python cases/ternary-berge-suspension-rigidity/check_statement_certificate.py
 ```
 
 The checks use the Python standard library and verify the repository boundary,
@@ -128,6 +129,13 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub><a href="https://doi.org/10.1016/j.jcta.2026.106213"><em>Journal of Combinatorial Theory, Series A</em> 223 (2026), Article 106213</a></sub></td>
       <td><sub>Complete characterization</sub></td>
       <td><sub>Question 5.5 in arXiv v2</sub></td>
+      <td><sub>Independent mathematical review</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/ternary-berge-suspension-rigidity/">Ternary-Berge hypergraphs</a></sub></td>
+      <td><sub><a href="https://doi.org/10.1007/s00493-026-00198-y"><em>Combinatorica</em> 46 (2026), Article 8</a></sub></td>
+      <td><sub>Complete solution</sub></td>
+      <td><sub>Question 5.5 for finite hypergraphs with no ternary Berge cycle</sub></td>
       <td><sub>Independent mathematical review</sub></td>
     </tr>
     <tr>
@@ -314,6 +322,20 @@ Question 5.5 in arXiv v2 asks for a characterization of the inversion sequences 
 The source locator is version-sensitive: arXiv v1 Question 5.5 is a different direct-bijection problem, now Question 5.7 in arXiv v2.
 
 [Open the CDK image characterization](cases/cdk-improper-partition-matrix-image/)
+
+### Ternary-Berge-free hypergraph independence complexes
+
+*Jinha Kim · [DOI](https://doi.org/10.1007/s00493-026-00198-y) · [arXiv](https://arxiv.org/abs/2408.14321)*
+
+Question 5.5 asks whether every finite hypergraph with no Berge cycle whose
+length is divisible by three has independence complex contractible or homotopy
+equivalent to a sphere. The public case proves the complete statement by
+combining edge-star graphification, Kim's ternary-graph theorem, Kim's
+star-cluster suspension theorem, and a finite-CW suspension-rigidity argument.
+
+The package does not claim public priority.
+
+[Open the ternary-Berge suspension-rigidity solution](cases/ternary-berge-suspension-rigidity/)
 
 ## Quick navigation
 

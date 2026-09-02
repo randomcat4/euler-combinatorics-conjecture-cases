@@ -24,6 +24,7 @@ This repository is a continuing public index rather than a count of all EULER re
 - CDK image of improper partition matrices: complete all-order characterization for Question 5.5 in arXiv v2.
 - Improper partition matrices: complete all-order statistic-preserving bijection with an explicit inverse.
 - Partition-matrix q-sum-product: complete all-order formula for Question 5.1 under the stated closed-expression contract.
+- Ternary-Berge-free hypergraph independence complexes: complete solution of Kim's Question 5.5 for all finite hypergraphs with no Berge cycle whose length is divisible by three.
 
 Other Gao-related problems are being curated and actively advanced. Additional EULER results will enter this index after their public artifacts and scope statements are ready.
 
