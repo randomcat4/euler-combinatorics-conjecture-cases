@@ -33,6 +33,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "minimal-degree-three-imprimitive-groups": {
+      "result": "PARTIAL_RESULT",
+      "scope": "Problem 2 display (1.2) imprimitive family Alt(m)^k <= G <= Sym(m) wr Sym(k), all m>=3 and k>=1",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "cayley-eigenvalue-codimension-three": {
       "result": "PARTIAL_RESULT",
       "scope": "the n-k=3 regime of the cited conjecture only",

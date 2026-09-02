@@ -13,6 +13,7 @@ This repository is a continuing public index rather than a count of all EULER re
 
 ## Partial results
 
+- Minimal-degree-three imprimitive groups: complete quotient criterion for the display (1.2) family `Alt(m)^k <= G <= Sym(m) wr Sym(k)` from Problem 2 of the cited paper, for all `m>=3` and `k>=1`. It does not classify all transitive permutation groups of minimal degree 3.
 - Gao constant: a restricted-family result for generalized dihedral groups with an abelian odd-primary kernel, presented in a 13-page manuscript with the corresponding Lean formalization. It does not resolve the full Gao conjecture.
 - Nonnormal Cayley graph eigenvalues: a result in the restricted `n-k=3` regime. It does not resolve Conjecture 4.7 outside that regime.
 

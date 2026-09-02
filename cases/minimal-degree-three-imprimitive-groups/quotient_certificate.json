@@ -1,0 +1,41 @@
+{
+  "case": "minimal-degree-three-imprimitive-groups",
+  "result": "PARTIAL_RESULT",
+  "source": {
+    "arxiv": "2405.10088v2",
+    "doi": "10.1016/j.jcta.2025.106065",
+    "target": "Problem 2 and display (1.2)"
+  },
+  "public_scope": {
+    "m_min": 3,
+    "k_min": 1,
+    "family": "Alt(m)^k <= G <= Sym(m) wr Sym(k) in the standard imprimitive product action",
+    "criterion": "G is transitive and mu(G)=3 iff H is transitive and K has no Hamming-weight-one vector"
+  },
+  "calibration": {
+    "m_for_brutal_lift_check": 3,
+    "expected_by_k": {
+      "1": {
+        "quotient_order": 2,
+        "subgroups": 2,
+        "transitive_mu3": 1,
+        "transitive_mu2": 1,
+        "nontransitive": 0
+      },
+      "2": {
+        "quotient_order": 8,
+        "subgroups": 10,
+        "transitive_mu3": 4,
+        "transitive_mu2": 1,
+        "nontransitive": 5
+      },
+      "3": {
+        "quotient_order": 48,
+        "subgroups": 98,
+        "transitive_mu3": 23,
+        "transitive_mu2": 2,
+        "nontransitive": 73
+      }
+    }
+  }
+}

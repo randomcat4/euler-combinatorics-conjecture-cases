@@ -15,6 +15,7 @@ python cases/k33plus-q-index-boundary-counterexample/check_counterexample.py
 python cases/toroidal-grid-representation-counterexample/check_counterexample.py
 python cases/path-set-tree-representation-counterexample/check_counterexample.py
 python cases/f29-inducibility-recursive-graphon-counterexample/check_counterexample.py
+python cases/minimal-degree-three-imprimitive-groups/check_quotient_criterion.py
 python cases/catalan-schett-plane-tree-statistic/check_small_cases.py
 python cases/partition-matrix-bijection/verify_bijection.py
 python cases/partition-matrix-q-sum-product/check_formula.py
@@ -85,6 +86,13 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub>Partial result with formal proof</sub></td>
       <td><sub>Restricted odd-primary generalized dihedral family</sub></td>
       <td><sub>Lean-checked manuscript theorem</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/minimal-degree-three-imprimitive-groups/">Minimal-degree-three imprimitive groups</a></sub></td>
+      <td><sub><a href="https://doi.org/10.1016/j.jcta.2025.106065"><em>Journal of Combinatorial Theory, Series A</em> 216 (2025), Article 106065</a></sub></td>
+      <td><sub>Partial result</sub></td>
+      <td><sub>Problem 2 display (1.2) family, all <code>m&gt;=3,k&gt;=1</code></sub></td>
+      <td><sub>Independent mathematical review and exact quotient/support check</sub></td>
     </tr>
     <tr>
       <td><sub><a href="cases/catalan-schett-plane-tree-statistic/">Plane-tree statistic</a></sub></td>
@@ -204,6 +212,23 @@ any other six-vertex graph, or claim public priority.
 [Open the F29 inducibility counterexample package](cases/f29-inducibility-recursive-graphon-counterexample/)
 
 ## Partial results
+
+### Minimal-degree-three imprimitive groups
+
+*Antonio Montero and Primoz Potocnik · [DOI](https://doi.org/10.1016/j.jcta.2025.106065) · [arXiv](https://arxiv.org/abs/2405.10088v2)*
+
+Problem 2 in the cited paper asks for a detailed description of transitive
+permutation groups of minimal degree 3, including the displayed imprimitive
+family `Alt(m)^k <= G <= Sym(m) wr Sym(k)`. The public case proves the
+complete quotient criterion for that family, for every `m>=3` and `k>=1`:
+transitivity is exactly transitivity of the top projection, and minimal degree
+3 is obtained exactly when the base parity kernel has no Hamming-weight-one
+vector.
+
+This is a complete result for the displayed imprimitive family, not a full
+classification of all transitive permutation groups of minimal degree 3.
+
+[Open the minimal-degree-three imprimitive-groups package](cases/minimal-degree-three-imprimitive-groups/)
 
 ### The Gao constant for generalized dihedral groups
 
