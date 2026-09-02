@@ -210,6 +210,42 @@
       "sha256": "8be5894fc8b5e9cba49e1acbb1ef15507d66e5a77b98995a011e9443aa91161f"
     },
     {
+      "path": "cases/orthogonal-tree-seven-vertex-obstructions/check_counterexamples.py",
+      "sha256": "167c5498ba1472f2d252bd79cc067cfc86c55c36c7d80691aa51c1d5c56f94da"
+    },
+    {
+      "path": "cases/orthogonal-tree-seven-vertex-obstructions/counterexample_certificate.json",
+      "sha256": "89a01af1bf8bd20540e2c3198b65aa785a8e7120b5d8a2dfa242d6d961dc26ec"
+    },
+    {
+      "path": "cases/orthogonal-tree-seven-vertex-obstructions/problem.md",
+      "sha256": "66c38bc3dcbe436ed1c1fc0fcf49f895bb8a023b000e083ea2ae9886f8e93211"
+    },
+    {
+      "path": "cases/orthogonal-tree-seven-vertex-obstructions/proof.md",
+      "sha256": "d83a1085c79c70f172d726eea40d700ee5229baede52c4b82c1c75fb35c26fc5"
+    },
+    {
+      "path": "cases/orthogonal-tree-seven-vertex-obstructions/README.md",
+      "sha256": "18160d85a329286fd736277cedad7b006f139d0d0373215ce1ba86379dee213c"
+    },
+    {
+      "path": "cases/orthogonal-tree-seven-vertex-obstructions/sources.md",
+      "sha256": "7ab67067be2be18ca7b7625066b05bf293f6f26a5ff2addd3e059518df1621fa"
+    },
+    {
+      "path": "cases/orthogonal-tree-seven-vertex-obstructions/status.md",
+      "sha256": "1cdc86ae812157baec5c506f6566b90626e05ecc398cc4a555f05de83d90ba66"
+    },
+    {
+      "path": "cases/orthogonal-tree-seven-vertex-obstructions/verification.md",
+      "sha256": "aaa35935ee171652314bbe62c13a5fe51e5c3abb0b81271a6f87bef94f09084f"
+    },
+    {
+      "path": "cases/orthogonal-tree-seven-vertex-obstructions/verification_summary.json",
+      "sha256": "6e55269c34dadf8d97ab6907250eb821d3f97334fa815105b84be7a2f4480073"
+    },
+    {
       "path": "cases/partition-matrix-bijection/exhaustive-check.md",
       "sha256": "d5863a6c504295392e25dff90e9e76721bd325b1356dd9f604d5da0c1bf6ecd9"
     },
@@ -311,7 +347,7 @@
     },
     {
       "path": "cases/README.md",
-      "sha256": "f75a99738f833855c9eca3d28457d1231cae74798c7b11c59ab27a7abaa96a5a"
+      "sha256": "484c38a5956433fb916164b4010971a0d6cead40b6b3d65df016e80fd0f6a808"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py",

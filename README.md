@@ -17,6 +17,7 @@ python cases/path-set-tree-representation-counterexample/check_counterexample.py
 python cases/f29-inducibility-recursive-graphon-counterexample/check_counterexample.py
 python cases/minimal-degree-three-imprimitive-groups/check_quotient_criterion.py
 python cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py
+python cases/orthogonal-tree-seven-vertex-obstructions/check_counterexamples.py
 python cases/catalan-schett-plane-tree-statistic/check_small_cases.py
 python cases/partition-matrix-bijection/verify_bijection.py
 python cases/partition-matrix-q-sum-product/check_formula.py
@@ -102,6 +103,13 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub>Partial result</sub></td>
       <td><sub>Conjecture 1.3 complete <code>b=3</code> slice, all <code>r&gt;=1</code></sub></td>
       <td><sub>Independent mathematical review and spider arithmetic check</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/orthogonal-tree-seven-vertex-obstructions/">Orthogonal-tree obstructions</a></sub></td>
+      <td><sub><a href="https://arxiv.org/abs/2512.15516">arXiv:2512.15516v2</a></sub></td>
+      <td><sub>Partial result</sub></td>
+      <td><sub>Two seven-vertex induced-minimal obstructions to the gem/house/HVN sufficiency rule; full Question 15 remains open</sub></td>
+      <td><sub>Independent mathematical review and exact finite checks</sub></td>
     </tr>
     <tr>
       <td><sub><a href="cases/catalan-schett-plane-tree-statistic/">Plane-tree statistic</a></sub></td>
@@ -260,6 +268,22 @@ whose arm lengths are `{2r+2,2r+1,2r}`.
 This is a partial result and does not address `b=2` or `b>=4`.
 
 [Open the Steklov three-leaf package](cases/steklov-three-leaf-extra-special-extremizer/)
+
+### Seven-vertex orthogonal-tree obstructions
+
+*Maria Axenovich, Dingyuan Liu, and Arsenii Sagdeev · [arXiv](https://arxiv.org/abs/2512.15516)*
+
+Question 15 asks for a characterization of graphs representable by orthogonal
+trees. The public case proves two seven-vertex induced-minimal obstructions
+outside the previously identified gem, house, and HVN obstructions. The two
+graphs are certified as nonrepresentable by exact tree-metric arguments, while
+each proper induced subgraph is representable.
+
+This disproves the three-obstruction sufficiency rule. It does not solve the
+full orthogonal-tree characterization problem or classify all seven-vertex
+obstructions.
+
+[Open the orthogonal-tree obstruction package](cases/orthogonal-tree-seven-vertex-obstructions/)
 
 ### The Gao constant for generalized dihedral groups
 
