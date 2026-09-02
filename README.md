@@ -23,6 +23,7 @@ python cases/partition-matrix-bijection/verify_bijection.py
 python cases/partition-matrix-q-sum-product/check_formula.py
 python cases/cdk-improper-partition-matrix-image/mine_cdk_image.py --n-max 8 --check cases/cdk-improper-partition-matrix-image/mining_n_le_8.json
 python cases/ternary-berge-suspension-rigidity/check_statement_certificate.py
+python cases/entropy-bounded-sidon-concentration-stability/check_sidon_stability.py
 ```
 
 The checks use the Python standard library and verify the repository boundary,
@@ -145,6 +146,13 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub>Complete solution</sub></td>
       <td><sub>Question 5.5 for finite hypergraphs with no ternary Berge cycle</sub></td>
       <td><sub>Independent mathematical review</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/entropy-bounded-sidon-concentration-stability/">Entropy-bounded Sidon concentration</a></sub></td>
+      <td><sub><a href="https://doi.org/10.1109/TIT.2026.3653549"><em>IEEE Transactions on Information Theory</em> 72(3):1553-1568 (2026)</a></sub></td>
+      <td><sub>Complete solution</sub></td>
+      <td><sub>Section 5 unnumbered open problem for arbitrary abelian groups</sub></td>
+      <td><sub>Two independent mathematical reviews and finite sanity probes</sub></td>
     </tr>
     <tr>
       <td><sub><a href="cases/cayley-eigenvalue-codimension-three/">Cayley eigenvalues</a></sub></td>
@@ -360,6 +368,23 @@ star-cluster suspension theorem, and a finite-CW suspension-rigidity argument.
 The package does not claim public priority.
 
 [Open the ternary-Berge suspension-rigidity solution](cases/ternary-berge-suspension-rigidity/)
+
+### Entropy-bounded Sidon concentration stability
+
+*Rupert Li, Lampros Gavalakis, and Ioannis Kontoyiannis · [DOI](https://doi.org/10.1109/TIT.2026.3653549) · [arXiv](https://arxiv.org/abs/2506.20813v2)*
+
+The Section 5 unnumbered open problem in the cited entropic additive-energy
+paper asks whether the minimum-atom dependence in Proposition 5.2 can be
+replaced by a stability function depending only on the defect `C` and entropy
+bound `D`. The public case proves the complete statement for arbitrary
+discrete finite-entropy random variables on arbitrary abelian groups, with
+explicit bound
+`min{1, 2D/log(1/C) + sqrt(C)/log 2}` for `0<C<1`, endpoint values `0` at
+`C=0` and `1` for `C>=1`, and the required fixed-`D` limit as `C->0`.
+
+The package does not claim optimality of the bound or public priority.
+
+[Open the entropy-bounded Sidon concentration solution](cases/entropy-bounded-sidon-concentration-stability/)
 
 ## Quick navigation
 

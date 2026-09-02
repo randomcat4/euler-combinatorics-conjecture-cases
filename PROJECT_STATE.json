@@ -75,6 +75,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "entropy-bounded-sidon-concentration-stability": {
+      "result": "PROVED",
+      "scope": "complete Section 5 unnumbered open problem: entropy-bounded Sidon concentration stability for arbitrary abelian groups",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "partition-matrix-bijection": {
       "result": "PROVED",
       "scope": "complete cited open problem",

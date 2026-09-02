@@ -18,6 +18,7 @@ Each subdirectory is a self-contained public case package. The index is organize
 - [`partition-matrix-bijection`](partition-matrix-bijection/)
 - [`partition-matrix-q-sum-product`](partition-matrix-q-sum-product/)
 - [`ternary-berge-suspension-rigidity`](ternary-berge-suspension-rigidity/)
+- [`entropy-bounded-sidon-concentration-stability`](entropy-bounded-sidon-concentration-stability/)
 
 ## Partial results
 
