@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "graph": "2C4",
+  "vertices": 8,
+  "edges": [
+    [0, 1],
+    [1, 2],
+    [2, 3],
+    [3, 0],
+    [4, 5],
+    [5, 6],
+    [6, 7],
+    [7, 4]
+  ],
+  "total_spanning_subgraphs": 256,
+  "minimum_possible_max_degree_multiplicity": 4,
+  "theorem_bound": 4,
+  "distribution_by_max_degree_multiplicity": {
+    "4": 170,
+    "5": 16,
+    "6": 64,
+    "8": 6
+  },
+  "optimal_profile_counts": {
+    "(0,4,4)": 20,
+    "(1,4,3)": 32,
+    "(2,2,4)": 8,
+    "(2,4,2)": 48,
+    "(3,4,1)": 32,
+    "(4,0,4)": 2,
+    "(4,2,2)": 8,
+    "(4,4,0)": 20
+  },
+  "interpretation": "The disjoint union of two 4-cycles attains floor(8/3)+2=4, so the integer bound cannot be lowered to 3 in this slice."
+}

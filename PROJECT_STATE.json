@@ -45,6 +45,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "minimum-degree-two-degree-multiplicity": {
+      "result": "PARTIAL_RESULT",
+      "scope": "complete delta(G)=2 slice of Alon--Wei Conjecture 1.2 / Ma--Xie Conjecture 5.4 for all finite simple graphs on n>=3 vertices",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "orthogonal-tree-seven-vertex-obstructions": {
       "result": "PARTIAL_RESULT",
       "scope": "two induced-minimal seven-vertex obstructions to the gem/house/HVN sufficiency rule for orthogonal-tree representability; full Question 15 remains open",

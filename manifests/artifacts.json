@@ -2,14 +2,6 @@
   "schema_version": 1,
   "artifacts": [
     {
-      "path": "cases/README.md",
-      "sha256": "e29ba0dbac1beda5b28ce7d93e315012a6ff60dc7edad6fbeb136ddb924d4b2c"
-    },
-    {
-      "path": "cases/catalan-schett-plane-tree-statistic/README.md",
-      "sha256": "a19a5611ec9aa53467966823b8085ca18e0528eb2faa3f89234b4a2c53a3d3f9"
-    },
-    {
       "path": "cases/catalan-schett-plane-tree-statistic/check_small_cases.py",
       "sha256": "3d21b0b304f7951828b35307981e9b9c6d65c94f540e87eb379f04b966c94b15"
     },
@@ -20,6 +12,10 @@
     {
       "path": "cases/catalan-schett-plane-tree-statistic/proof.md",
       "sha256": "7164a0821a8a6c45a14734ec7031a366825d55b2cd2af5ff9f9d66e86ddf61f3"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/README.md",
+      "sha256": "a19a5611ec9aa53467966823b8085ca18e0528eb2faa3f89234b4a2c53a3d3f9"
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/small_case_summary.json",
@@ -36,10 +32,6 @@
     {
       "path": "cases/catalan-schett-plane-tree-statistic/verification.md",
       "sha256": "12b24e9ef80d0b5663515c7ee8dac8e9751ba8fb8c2033e910e82b2c690e5957"
-    },
-    {
-      "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "ce10efac31e0b20fd6ea35761d4103910616bedb32f5b7a9b5a0a7f862ede758"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/evidence/low_order_cases.json",
@@ -62,6 +54,10 @@
       "sha256": "fa2c0f3b41aaa6be3eb22d87f6be1f5183ed19d47a62e64161fdf241e4086bb8"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/README.md",
+      "sha256": "ce10efac31e0b20fd6ea35761d4103910616bedb32f5b7a9b5a0a7f862ede758"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
       "sha256": "2d51704227c60b792c5b7adf4557a5e5b57e98b31df1e366121e72b9262e9bf2"
     },
@@ -72,10 +68,6 @@
     {
       "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
       "sha256": "d3db73242b0756401c715e7a0430c599cfd46515861dc2fda9cd8314481c3a31"
-    },
-    {
-      "path": "cases/cdk-improper-partition-matrix-image/README.md",
-      "sha256": "62e5c5dc8f2c36740ca9bf491396b264c1453e1a6b11a9e5f7892713c4898fb9"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/finite-regression.md",
@@ -98,6 +90,10 @@
       "sha256": "f89cc13331caf2acd60af6b2b059f9228010f074da8a77474e2bbe88e054cfac"
     },
     {
+      "path": "cases/cdk-improper-partition-matrix-image/README.md",
+      "sha256": "62e5c5dc8f2c36740ca9bf491396b264c1453e1a6b11a9e5f7892713c4898fb9"
+    },
+    {
       "path": "cases/cdk-improper-partition-matrix-image/sources.md",
       "sha256": "e9d03b006789e7c3ef45464f9b1ec3fcffcea1e8f99de10f7e06d9433c8408a2"
     },
@@ -108,10 +104,6 @@
     {
       "path": "cases/cdk-improper-partition-matrix-image/verification.md",
       "sha256": "efe3e9324def056f618ced575a2216160dee6c330a002e278a8b8b2798464f61"
-    },
-    {
-      "path": "cases/entropy-bounded-sidon-concentration-stability/README.md",
-      "sha256": "7c0a2307315cf66a153f539e769376019660fd1e9438be650a434009489867ff"
     },
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/check_sidon_stability.py",
@@ -130,6 +122,10 @@
       "sha256": "73b02e0ca14f86cc45b61c4e0f27062595337e33e8ee2e0c39252ba9d90c1ecd"
     },
     {
+      "path": "cases/entropy-bounded-sidon-concentration-stability/README.md",
+      "sha256": "7c0a2307315cf66a153f539e769376019660fd1e9438be650a434009489867ff"
+    },
+    {
       "path": "cases/entropy-bounded-sidon-concentration-stability/sources.md",
       "sha256": "88fafbcf7dd5300398bd8c747bfc2b5d313b8554a43ba9a82bb72f6d475c303e"
     },
@@ -144,10 +140,6 @@
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/verification_summary.json",
       "sha256": "0b10d47df7a2f4e86681b721beb89ef8a369ba24e28f82c991b761fba2610b29"
-    },
-    {
-      "path": "cases/f29-inducibility-recursive-graphon-counterexample/README.md",
-      "sha256": "914c949ac512dbd4d93588f2f49fd018f0d17acb78bcfcf882cf8ffca74599ef"
     },
     {
       "path": "cases/f29-inducibility-recursive-graphon-counterexample/check_counterexample.py",
@@ -166,6 +158,10 @@
       "sha256": "401b6891e2fe2508008f25c1af7fa111de7e2e5474b9f6fb1fd451328a5a9d74"
     },
     {
+      "path": "cases/f29-inducibility-recursive-graphon-counterexample/README.md",
+      "sha256": "914c949ac512dbd4d93588f2f49fd018f0d17acb78bcfcf882cf8ffca74599ef"
+    },
+    {
       "path": "cases/f29-inducibility-recursive-graphon-counterexample/sources.md",
       "sha256": "315cc24fe63ecef50d0a2860f3b251929052723286f4f97e87396f8ec3300902"
     },
@@ -180,10 +176,6 @@
     {
       "path": "cases/f29-inducibility-recursive-graphon-counterexample/verification_summary.json",
       "sha256": "49150869942b350e72b2437fe20718bfadf352b0540fb5ae506fa3b81e5b54f5"
-    },
-    {
-      "path": "cases/k33plus-q-index-boundary-counterexample/README.md",
-      "sha256": "4baaf870b021e7022bfc9af6cf738bfaa4db08e52e46ca10d3363b50ae6b4ac2"
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/check_counterexample.py",
@@ -202,6 +194,10 @@
       "sha256": "409713efa89f81653b3e55435ee87a957eedf6a286b1730ba3f727b6193e887a"
     },
     {
+      "path": "cases/k33plus-q-index-boundary-counterexample/README.md",
+      "sha256": "4baaf870b021e7022bfc9af6cf738bfaa4db08e52e46ca10d3363b50ae6b4ac2"
+    },
+    {
       "path": "cases/k33plus-q-index-boundary-counterexample/sources.md",
       "sha256": "0e0780ee576e3104dacd0c657ba318b563dd2f296954dffa4b3b42ea480a0f86"
     },
@@ -212,10 +208,6 @@
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/verification.md",
       "sha256": "7b3076e1f5f6eae7eb4e866658a698d2c92f0c4e5ce9908416114b2ebddd5456"
-    },
-    {
-      "path": "cases/minimal-degree-three-imprimitive-groups/README.md",
-      "sha256": "56b3c49ca97006dbc32c5eadd64b86e9260e954e2f989151def1d8a54b2f6c5a"
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/check_quotient_criterion.py",
@@ -234,6 +226,10 @@
       "sha256": "f281b6268787fee3ff38167c390acdd3887a630c488835cb432625d6f72b4953"
     },
     {
+      "path": "cases/minimal-degree-three-imprimitive-groups/README.md",
+      "sha256": "56b3c49ca97006dbc32c5eadd64b86e9260e954e2f989151def1d8a54b2f6c5a"
+    },
+    {
       "path": "cases/minimal-degree-three-imprimitive-groups/sources.md",
       "sha256": "6facee59a559dcce9b184bd249d4e56e80224c23d48bd85a9c584e743f9447eb"
     },
@@ -250,8 +246,40 @@
       "sha256": "8be5894fc8b5e9cba49e1acbb1ef15507d66e5a77b98995a011e9443aa91161f"
     },
     {
-      "path": "cases/orthogonal-tree-seven-vertex-obstructions/README.md",
-      "sha256": "18160d85a329286fd736277cedad7b006f139d0d0373215ce1ba86379dee213c"
+      "path": "cases/minimum-degree-two-degree-multiplicity/check_sharpness.py",
+      "sha256": "cee24004b17ae47be22e941c517a7abcaf63d0bb5af83482065525a523d1712b"
+    },
+    {
+      "path": "cases/minimum-degree-two-degree-multiplicity/problem.md",
+      "sha256": "5951c2249d608efe57d9700b38084cbcb90c67ba5ac28a0922acda436918aad1"
+    },
+    {
+      "path": "cases/minimum-degree-two-degree-multiplicity/proof.md",
+      "sha256": "141a4960f93afd93a015ed61e46d8005f345a6ab012834a505c2fe2de077d1cf"
+    },
+    {
+      "path": "cases/minimum-degree-two-degree-multiplicity/README.md",
+      "sha256": "5739ad53ef2a48be64eeec6f2cc4e611f04b6402c0043a4fded5736122117627"
+    },
+    {
+      "path": "cases/minimum-degree-two-degree-multiplicity/sharpness_summary.json",
+      "sha256": "faabee387157e00e8861734ecd08b1d905a9c6f2e7c1730974e285bdd5dfbe81"
+    },
+    {
+      "path": "cases/minimum-degree-two-degree-multiplicity/sources.md",
+      "sha256": "5fe2e317a965cff5124ad009d1f62e7f04f1bc8c3303eb0f397eb8a2fcbfae9e"
+    },
+    {
+      "path": "cases/minimum-degree-two-degree-multiplicity/status.md",
+      "sha256": "5421bfb1041748652a1bee10838280db61dc4116c187bb79fa08df3b83cb66d2"
+    },
+    {
+      "path": "cases/minimum-degree-two-degree-multiplicity/verification.md",
+      "sha256": "0635791fc63b8767aa85e45d77832b7b9572df8331fdc6fbfc3b626c6d6ad781"
+    },
+    {
+      "path": "cases/minimum-degree-two-degree-multiplicity/verification_summary.json",
+      "sha256": "8a3f2569d5d8b43d1dae435e674455d1d25350a751f394d1c460c3d1d46cf739"
     },
     {
       "path": "cases/orthogonal-tree-seven-vertex-obstructions/check_counterexamples.py",
@@ -270,6 +298,10 @@
       "sha256": "d83a1085c79c70f172d726eea40d700ee5229baede52c4b82c1c75fb35c26fc5"
     },
     {
+      "path": "cases/orthogonal-tree-seven-vertex-obstructions/README.md",
+      "sha256": "18160d85a329286fd736277cedad7b006f139d0d0373215ce1ba86379dee213c"
+    },
+    {
       "path": "cases/orthogonal-tree-seven-vertex-obstructions/sources.md",
       "sha256": "7ab67067be2be18ca7b7625066b05bf293f6f26a5ff2addd3e059518df1621fa"
     },
@@ -286,10 +318,6 @@
       "sha256": "6e55269c34dadf8d97ab6907250eb821d3f97334fa815105b84be7a2f4480073"
     },
     {
-      "path": "cases/partition-matrix-bijection/README.md",
-      "sha256": "727c4e87ec0e59e33f27713747c05e74da29df206ba69f4ddd3080f772a0e973"
-    },
-    {
       "path": "cases/partition-matrix-bijection/exhaustive-check.md",
       "sha256": "d5863a6c504295392e25dff90e9e76721bd325b1356dd9f604d5da0c1bf6ecd9"
     },
@@ -300,6 +328,10 @@
     {
       "path": "cases/partition-matrix-bijection/proof.md",
       "sha256": "a797ce62d1284d5e7102b7b37777cbca732542cc5f48dbdedc26db3e496bfb69"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/README.md",
+      "sha256": "727c4e87ec0e59e33f27713747c05e74da29df206ba69f4ddd3080f772a0e973"
     },
     {
       "path": "cases/partition-matrix-bijection/sources.md",
@@ -318,10 +350,6 @@
       "sha256": "1e038c60047f746771c8c7dddc403fcad555aed024c5c924f96252d8a0346131"
     },
     {
-      "path": "cases/partition-matrix-q-sum-product/README.md",
-      "sha256": "2e9d2af7f2af56c6304028d39177a729cdec2eee7c253d5e5b1f1a252008bf59"
-    },
-    {
       "path": "cases/partition-matrix-q-sum-product/check_formula.py",
       "sha256": "f36790338b84dcf0375bdfa67564820ee8431cd46d338002a2e21c56571ba4ce"
     },
@@ -338,6 +366,10 @@
       "sha256": "92490ca252f134f6bdc70a85cbf6235d1dbfa0a5a3294c16212f11e83a2cd25c"
     },
     {
+      "path": "cases/partition-matrix-q-sum-product/README.md",
+      "sha256": "2e9d2af7f2af56c6304028d39177a729cdec2eee7c253d5e5b1f1a252008bf59"
+    },
+    {
       "path": "cases/partition-matrix-q-sum-product/sources.md",
       "sha256": "2a4e045d30616f7fa75b35f956db96bf95d33c8b0724fca6e55272bc5fe88698"
     },
@@ -348,10 +380,6 @@
     {
       "path": "cases/partition-matrix-q-sum-product/verification.md",
       "sha256": "bcfda99b3732e439d34dab17c676841b90289c8c577776f3fda977c119eecd73"
-    },
-    {
-      "path": "cases/path-set-tree-representation-counterexample/README.md",
-      "sha256": "86a7db81ce060d8f716332964eecb28f6815cca98aec19030d73cb9ae9226399"
     },
     {
       "path": "cases/path-set-tree-representation-counterexample/check_counterexample.py",
@@ -370,6 +398,10 @@
       "sha256": "0f9e8d4e5a1c8c8881f7d54502f87ab64a720a5eae725eb50a178b33226a8241"
     },
     {
+      "path": "cases/path-set-tree-representation-counterexample/README.md",
+      "sha256": "86a7db81ce060d8f716332964eecb28f6815cca98aec19030d73cb9ae9226399"
+    },
+    {
       "path": "cases/path-set-tree-representation-counterexample/sources.md",
       "sha256": "32e366703d9bd3fbec32f1e2db77c3e2df190a6a6b04237994d0abc2bfb157ff"
     },
@@ -386,8 +418,8 @@
       "sha256": "e130bc044f9baa39818b4b3e4cf6611d759c05901f74c1f63cda1cd4fb56bc53"
     },
     {
-      "path": "cases/steklov-three-leaf-extra-special-extremizer/README.md",
-      "sha256": "31491a8f8fea04c3f71ea0772c20189a827382c9b5c50a864927caa19fa9541f"
+      "path": "cases/README.md",
+      "sha256": "e8bbfc3f1b8df02c2c4d32f8238e1bc7db45592d73df7208e6b7b70b62c6236f"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py",
@@ -400,6 +432,10 @@
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/proof.md",
       "sha256": "6dcee361900aeb6596873087b9f8f6f4a3466d1fb9b9b87618e90a7cfd9ef3e0"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/README.md",
+      "sha256": "31491a8f8fea04c3f71ea0772c20189a827382c9b5c50a864927caa19fa9541f"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/sources.md",
@@ -422,10 +458,6 @@
       "sha256": "1780f912a76fba7ba7419be27ebc153a31803f88cf9bf04661c90896d3e24372"
     },
     {
-      "path": "cases/ternary-berge-suspension-rigidity/README.md",
-      "sha256": "cf55c8d5765eb9002a305eb97c1b225f7b5962093c7d02864355d568f9d2bb84"
-    },
-    {
       "path": "cases/ternary-berge-suspension-rigidity/check_statement_certificate.py",
       "sha256": "e09f9e3ef78972e91c98e521184f3fa198bd5995f8ccbb6c04f51fa2f4854e46"
     },
@@ -436,6 +468,10 @@
     {
       "path": "cases/ternary-berge-suspension-rigidity/proof.md",
       "sha256": "b2223f24a68aa4e2c8dc6291d8e1e9ecdc9750c6c7c2ff8190feab11b0fc5a82"
+    },
+    {
+      "path": "cases/ternary-berge-suspension-rigidity/README.md",
+      "sha256": "cf55c8d5765eb9002a305eb97c1b225f7b5962093c7d02864355d568f9d2bb84"
     },
     {
       "path": "cases/ternary-berge-suspension-rigidity/sources.md",
@@ -454,10 +490,6 @@
       "sha256": "89eaf2d7c12c3dda2df810f569ff7dc01df98d3338c2add35b911a84577d9452"
     },
     {
-      "path": "cases/toroidal-grid-representation-counterexample/README.md",
-      "sha256": "794041bbc80f074dda0181a25a6e79926d53ac1473b607a1f4aacf8d8494a293"
-    },
-    {
       "path": "cases/toroidal-grid-representation-counterexample/check_counterexample.py",
       "sha256": "171736d03bfba9dd2862a956aa47511db7390a0686b512d4dbd45c61e903fd0f"
     },
@@ -468,6 +500,10 @@
     {
       "path": "cases/toroidal-grid-representation-counterexample/proof.md",
       "sha256": "eeb03fd7841851be71f06740d7a0ac96dd4cbfed7ce420ad0b4cfe0c6b29d333"
+    },
+    {
+      "path": "cases/toroidal-grid-representation-counterexample/README.md",
+      "sha256": "794041bbc80f074dda0181a25a6e79926d53ac1473b607a1f4aacf8d8494a293"
     },
     {
       "path": "cases/toroidal-grid-representation-counterexample/sources.md",
@@ -488,10 +524,6 @@
     {
       "path": "cases/toroidal-grid-representation-counterexample/word_certificate.json",
       "sha256": "d99947e7bd9947ab4fe5015a295e1a5e51c30638eb04469472494fa04ef9e5c6"
-    },
-    {
-      "path": "cases/volume-rigidity-dimension-seven/README.md",
-      "sha256": "88dc13000460014b15ed756b057d41d0c72b4f291f683625fb1b5f0bf91ec595"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/evidence/affine_flex_summary_d4_d9.json",
@@ -522,6 +554,10 @@
       "sha256": "8bd003fbd4f091eac2bf798d6ce4152261dbd627909a708ef50843b34f72588c"
     },
     {
+      "path": "cases/volume-rigidity-dimension-seven/README.md",
+      "sha256": "88dc13000460014b15ed756b057d41d0c72b4f291f683625fb1b5f0bf91ec595"
+    },
+    {
       "path": "cases/volume-rigidity-dimension-seven/sources.md",
       "sha256": "13783faae94516f5f283726c302d3eb2e6373444178ec4ad4d2ccfe6573db3b3"
     },
@@ -532,10 +568,6 @@
     {
       "path": "cases/volume-rigidity-dimension-seven/verification.md",
       "sha256": "93515307c5e69167227096464f7fcb026aff3bf61318148bdd5b57b36b2bcfd8"
-    },
-    {
-      "path": "cases/zhao-restricted-zero-sum-counterexample/README.md",
-      "sha256": "d0310194bda40baed7fe1318db84363893d7b7b202fe33abdf1cfe357cd99da5"
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/check_counterexample.py",
@@ -552,6 +584,10 @@
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/proof.md",
       "sha256": "92e443dffd1b4bb94c00b71b0467afbc41696847befa36695db40185472d8b03"
+    },
+    {
+      "path": "cases/zhao-restricted-zero-sum-counterexample/README.md",
+      "sha256": "d0310194bda40baed7fe1318db84363893d7b7b202fe33abdf1cfe357cd99da5"
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/sources.md",
