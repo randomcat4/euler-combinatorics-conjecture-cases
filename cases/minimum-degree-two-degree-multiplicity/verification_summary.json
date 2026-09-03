@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "case": "minimum-degree-two-degree-multiplicity",
+  "result": "PARTIAL_RESULT",
+  "mathematical_status": "PROVED",
+  "public_scope": "Complete delta(G)=2 slice for finite simple graphs on n>=3 vertices.",
+  "source_problem": "Alon--Wei Conjecture 1.2 / Ma--Xie Conjecture 5.4",
+  "verification": "INDEPENDENTLY_VERIFIED",
+  "independent_mathematical_reviews": 2,
+  "sharpness_certificate": "2C4 exhaustive spanning-subgraph enumeration",
+  "novelty": "NOT_ESTABLISHED",
+  "finite_computation_role": "Sharpness certificate and regression only; not a substitute for the general proof."
+}

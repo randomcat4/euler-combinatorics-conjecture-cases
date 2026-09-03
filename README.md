@@ -17,6 +17,7 @@ python cases/path-set-tree-representation-counterexample/check_counterexample.py
 python cases/f29-inducibility-recursive-graphon-counterexample/check_counterexample.py
 python cases/minimal-degree-three-imprimitive-groups/check_quotient_criterion.py
 python cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py
+python cases/minimum-degree-two-degree-multiplicity/check_sharpness.py
 python cases/orthogonal-tree-seven-vertex-obstructions/check_counterexamples.py
 python cases/catalan-schett-plane-tree-statistic/check_small_cases.py
 python cases/partition-matrix-bijection/verify_bijection.py
@@ -104,6 +105,13 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub>Partial result</sub></td>
       <td><sub>Conjecture 1.3 complete <code>b=3</code> slice, all <code>r&gt;=1</code></sub></td>
       <td><sub>Independent mathematical review and spider arithmetic check</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/minimum-degree-two-degree-multiplicity/">Minimum-degree-two degree multiplicity</a></sub></td>
+      <td><sub><a href="https://doi.org/10.1017/S0963548322000220"><em>Combinatorics, Probability and Computing</em> 32(2) (2023), 223-232</a>; <a href="https://doi.org/10.1016/j.jctb.2025.04.008"><em>Journal of Combinatorial Theory, Series B</em> 175 (2025), 203-243</a></sub></td>
+      <td><sub>Partial result</sub></td>
+      <td><sub>Complete <code>delta(G)=2</code> slice of Alon--Wei Conjecture 1.2 / Ma--Xie Conjecture 5.4</sub></td>
+      <td><sub>Two independent mathematical reviews and exact <code>2C4</code> sharpness check</sub></td>
     </tr>
     <tr>
       <td><sub><a href="cases/orthogonal-tree-seven-vertex-obstructions/">Orthogonal-tree obstructions</a></sub></td>
@@ -276,6 +284,23 @@ whose arm lengths are `{2r+2,2r+1,2r}`.
 This is a partial result and does not address `b=2` or `b>=4`.
 
 [Open the Steklov three-leaf package](cases/steklov-three-leaf-extra-special-extremizer/)
+
+### Minimum-degree-two degree multiplicity
+
+*Noga Alon and Fan Wei · [DOI](https://doi.org/10.1017/S0963548322000220) · [arXiv](https://arxiv.org/abs/2108.02685v2); Jie Ma and Shengjie Xie · [DOI](https://doi.org/10.1016/j.jctb.2025.04.008) · [arXiv](https://arxiv.org/abs/2406.05675v1)*
+
+The public case proves the complete `delta(G)=2` slice of the degree-multiplicity
+problem: every finite simple graph on `n>=3` vertices with minimum degree two
+has a spanning subgraph `H` such that every degree class of `H` has size at most
+`floor(n/3)+2`. The proof allows disconnected graphs, unbounded maximum degree,
+parallel edges in the compressed pseudokernel, and kernel loops arising from
+closed degree-two threads.
+
+The graph `2C4` attains the integer bound, so the bound cannot be lowered to
+`3` at `n=8`. This is a partial result for the general minimum-degree
+conjecture and does not claim the stronger bounds for `delta(G)>2`.
+
+[Open the minimum-degree-two degree-multiplicity package](cases/minimum-degree-two-degree-multiplicity/)
 
 ### Seven-vertex orthogonal-tree obstructions
 
