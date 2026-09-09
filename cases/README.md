@@ -25,6 +25,7 @@ Each subdirectory is a self-contained public case package. The index is organize
 - [`minimal-degree-three-imprimitive-groups`](minimal-degree-three-imprimitive-groups/)
 - [`steklov-three-leaf-extra-special-extremizer`](steklov-three-leaf-extra-special-extremizer/)
 - [`minimum-degree-two-degree-multiplicity`](minimum-degree-two-degree-multiplicity/)
+- [`five-point-sixteen-shattering`](five-point-sixteen-shattering/)
 - [`orthogonal-tree-seven-vertex-obstructions`](orthogonal-tree-seven-vertex-obstructions/)
 - [`cayley-eigenvalue-codimension-three`](cayley-eigenvalue-codimension-three/)
 

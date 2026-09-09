@@ -18,6 +18,7 @@ python cases/f29-inducibility-recursive-graphon-counterexample/check_counterexam
 python cases/minimal-degree-three-imprimitive-groups/check_quotient_criterion.py
 python cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py
 python cases/minimum-degree-two-degree-multiplicity/check_sharpness.py
+python cases/five-point-sixteen-shattering/check_crossing_obstruction.py
 python cases/orthogonal-tree-seven-vertex-obstructions/check_counterexamples.py
 python cases/catalan-schett-plane-tree-statistic/check_small_cases.py
 python cases/partition-matrix-bijection/verify_bijection.py
@@ -112,6 +113,13 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub>Partial result</sub></td>
       <td><sub>Complete <code>delta(G)=2</code> slice of Alon--Wei Conjecture 1.2 / Ma--Xie Conjecture 5.4</sub></td>
       <td><sub>Two independent mathematical reviews and exact <code>2C4</code> sharpness check</sub></td>
+    </tr>
+    <tr>
+      <td><sub><a href="cases/five-point-sixteen-shattering/">Five-point permutation shattering</a></sub></td>
+      <td><sub><a href="https://doi.org/10.1007/s00493-026-00201-6"><em>Combinatorica</em> 46 (2026), Article 10</a></sub></td>
+      <td><sub>Partial result</sub></td>
+      <td><sub>Complete <code>k=5</code> slice of Conjecture 4.2, all <code>1&lt;=t&lt;=16</code></sub></td>
+      <td><sub>Two independent mathematical reviews and a finite crossing-obstruction check</sub></td>
     </tr>
     <tr>
       <td><sub><a href="cases/orthogonal-tree-seven-vertex-obstructions/">Orthogonal-tree obstructions</a></sub></td>
@@ -301,6 +309,22 @@ The graph `2C4` attains the integer bound, so the bound cannot be lowered to
 conjecture and does not claim the stronger bounds for `delta(G)>2`.
 
 [Open the minimum-degree-two degree-multiplicity package](cases/minimum-degree-two-degree-multiplicity/)
+
+### Five-point sixteen-shattering permutation families
+
+*Antonio Girao, Lukas Michel, and Youri Tamitegama · [DOI](https://doi.org/10.1007/s00493-026-00201-6) · [arXiv](https://arxiv.org/abs/2407.05773v1)*
+
+The public case proves the complete `k=5` slice of Conjecture 4.2. For every
+`n>=5`, one preselected family of
+`O(sqrt(log n * log log n))` permutations of `[n]` induces at least 16
+relative orders on every five-element subset. Consequently
+`f_5(n,t)=o(log n)` for every fixed `1<=t<=16`.
+
+This does not address general `k` or determine the exact growth rate. The
+proof is analytic; its finite checker covers only the crossing-partition
+lemma used in the construction.
+
+[Open the five-point sixteen-shattering package](cases/five-point-sixteen-shattering/)
 
 ### Seven-vertex orthogonal-tree obstructions
 

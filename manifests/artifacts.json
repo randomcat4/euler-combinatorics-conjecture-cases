@@ -178,6 +178,38 @@
       "sha256": "49150869942b350e72b2437fe20718bfadf352b0540fb5ae506fa3b81e5b54f5"
     },
     {
+      "path": "cases/five-point-sixteen-shattering/check_crossing_obstruction.py",
+      "sha256": "f9ab1b9a5d235c68464fad730f090ca5c8498dd26b244ee080b646b002735200"
+    },
+    {
+      "path": "cases/five-point-sixteen-shattering/problem.md",
+      "sha256": "776ab88c6ba306e6747dd2c6cfba5d8a281d6b0067449396abf70b6b6752b6db"
+    },
+    {
+      "path": "cases/five-point-sixteen-shattering/proof.md",
+      "sha256": "472a99967ac433ea59cc7b24d13f75a534cee859f224552207ee5cf3253c99b9"
+    },
+    {
+      "path": "cases/five-point-sixteen-shattering/README.md",
+      "sha256": "35d08f176d31f6aa55484f53212623156f751816128d7499cc920fc6ab20e772"
+    },
+    {
+      "path": "cases/five-point-sixteen-shattering/sources.md",
+      "sha256": "6efe7de33704f9f0075408fc2cc22d9ac15b37341e2739b716bf2e4e7715f1b5"
+    },
+    {
+      "path": "cases/five-point-sixteen-shattering/status.md",
+      "sha256": "dfbd7711f3d8ba7bad25c0a80584f306811272d13bdffd7cd1084c4c9dc676d4"
+    },
+    {
+      "path": "cases/five-point-sixteen-shattering/verification.md",
+      "sha256": "640a7000cde441338d24846e750483a647236a91283f932dacfae7af54c392a9"
+    },
+    {
+      "path": "cases/five-point-sixteen-shattering/verification_summary.json",
+      "sha256": "d75a0a947fa3abcc8a4ce34fe087f8fc00833fdaccf3740863997cf7a6d017b1"
+    },
+    {
       "path": "cases/k33plus-q-index-boundary-counterexample/check_counterexample.py",
       "sha256": "3673dd55f87c252e99d96f0743a997193fcd9a0490ff4a5284a0c79982c0abf5"
     },
@@ -419,7 +451,7 @@
     },
     {
       "path": "cases/README.md",
-      "sha256": "e8bbfc3f1b8df02c2c4d32f8238e1bc7db45592d73df7208e6b7b70b62c6236f"
+      "sha256": "b65f53062437e820d7218d0b9682aa6d480ff9354570a4bfd93146b2e6f87f8f"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py",

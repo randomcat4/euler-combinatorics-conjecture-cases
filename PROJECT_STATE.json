@@ -51,6 +51,12 @@
       "verification": "INDEPENDENTLY_VERIFIED",
       "novelty": "NOT_ESTABLISHED"
     },
+    "five-point-sixteen-shattering": {
+      "result": "PARTIAL_RESULT",
+      "scope": "complete k=5 slice of Girao--Michel--Tamitegama Conjecture 4.2 for all n>=5 and all 1<=t<=16",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "novelty": "NOT_ESTABLISHED"
+    },
     "orthogonal-tree-seven-vertex-obstructions": {
       "result": "PARTIAL_RESULT",
       "scope": "two induced-minimal seven-vertex obstructions to the gem/house/HVN sufficiency rule for orthogonal-tree representability; full Question 15 remains open",
