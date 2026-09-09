@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "case": "five-point-sixteen-shattering",
+  "result": "PARTIAL_RESULT",
+  "mathematical_status": "PROVED",
+  "public_scope": "Complete k=5 slice of Conjecture 4.2 for every n>=5 and every 1<=t<=16.",
+  "verification": "INDEPENDENTLY_VERIFIED",
+  "independent_mathematical_reviews": 2,
+  "formalization": "LEAN_PARTIALLY_CHECKED_CROSSING_LEMMA_ONLY",
+  "novelty": "NOT_ESTABLISHED",
+  "finite_computation_role": "Auxiliary sanity check only; the universal result follows from the analytic proof."
+}
