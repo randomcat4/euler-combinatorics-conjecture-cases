@@ -1,0 +1,231 @@
+{
+  "status": "EXACT_RATIONAL_FORMULA_CHECK",
+  "method": "classical exterior-square and unsigned-incidence models; exact Fraction/SymPy arithmetic",
+  "audits": [
+    {
+      "n": 8,
+      "m": 4,
+      "model": "wedge",
+      "ambient_dimension": 28,
+      "line_norm_squared": "4/3",
+      "joint_spectrum": [
+        {
+          "p": "2/3",
+          "B3": "6",
+          "multiplicity": 3
+        },
+        {
+          "p": "4/3",
+          "B3": "-6",
+          "multiplicity": 3
+        }
+      ],
+      "formula_check": true
+    },
+    {
+      "n": 8,
+      "m": 4,
+      "model": "pair",
+      "ambient_dimension": 28,
+      "line_norm_squared": "7/5",
+      "joint_spectrum": [
+        {
+          "p": "2/5",
+          "B3": "18",
+          "multiplicity": 1
+        },
+        {
+          "p": "14/15",
+          "B3": "-6",
+          "multiplicity": 3
+        },
+        {
+          "p": "7/5",
+          "B3": "-24",
+          "multiplicity": 2
+        }
+      ],
+      "formula_check": true
+    },
+    {
+      "n": 9,
+      "m": 5,
+      "model": "wedge",
+      "ambient_dimension": 36,
+      "line_norm_squared": "9/7",
+      "joint_spectrum": [
+        {
+          "p": "5/7",
+          "B3": "8",
+          "multiplicity": 3
+        },
+        {
+          "p": "9/7",
+          "B3": "-8",
+          "multiplicity": 3
+        }
+      ],
+      "formula_check": true
+    },
+    {
+      "n": 9,
+      "m": 5,
+      "model": "pair",
+      "ambient_dimension": 36,
+      "line_norm_squared": "4/3",
+      "joint_spectrum": [
+        {
+          "p": "10/21",
+          "B3": "30",
+          "multiplicity": 1
+        },
+        {
+          "p": "20/21",
+          "B3": "-6",
+          "multiplicity": 3
+        },
+        {
+          "p": "4/3",
+          "B3": "-30",
+          "multiplicity": 2
+        }
+      ],
+      "formula_check": true
+    },
+    {
+      "n": 10,
+      "m": 6,
+      "model": "wedge",
+      "ambient_dimension": 45,
+      "line_norm_squared": "5/4",
+      "joint_spectrum": [
+        {
+          "p": "3/4",
+          "B3": "10",
+          "multiplicity": 3
+        },
+        {
+          "p": "5/4",
+          "B3": "-10",
+          "multiplicity": 3
+        }
+      ],
+      "formula_check": true
+    },
+    {
+      "n": 10,
+      "m": 6,
+      "model": "pair",
+      "ambient_dimension": 45,
+      "line_norm_squared": "9/7",
+      "joint_spectrum": [
+        {
+          "p": "15/28",
+          "B3": "42",
+          "multiplicity": 1
+        },
+        {
+          "p": "27/28",
+          "B3": "-6",
+          "multiplicity": 3
+        },
+        {
+          "p": "9/7",
+          "B3": "-36",
+          "multiplicity": 2
+        }
+      ],
+      "formula_check": true
+    },
+    {
+      "n": 11,
+      "m": 7,
+      "model": "wedge",
+      "ambient_dimension": 55,
+      "line_norm_squared": "11/9",
+      "joint_spectrum": [
+        {
+          "p": "7/9",
+          "B3": "12",
+          "multiplicity": 3
+        },
+        {
+          "p": "11/9",
+          "B3": "-12",
+          "multiplicity": 3
+        }
+      ],
+      "formula_check": true
+    },
+    {
+      "n": 11,
+      "m": 7,
+      "model": "pair",
+      "ambient_dimension": 55,
+      "line_norm_squared": "5/4",
+      "joint_spectrum": [
+        {
+          "p": "7/12",
+          "B3": "54",
+          "multiplicity": 1
+        },
+        {
+          "p": "35/36",
+          "B3": "-6",
+          "multiplicity": 3
+        },
+        {
+          "p": "5/4",
+          "B3": "-42",
+          "multiplicity": 2
+        }
+      ],
+      "formula_check": true
+    },
+    {
+      "n": 12,
+      "m": 8,
+      "model": "wedge",
+      "ambient_dimension": 66,
+      "line_norm_squared": "6/5",
+      "joint_spectrum": [
+        {
+          "p": "4/5",
+          "B3": "14",
+          "multiplicity": 3
+        },
+        {
+          "p": "6/5",
+          "B3": "-14",
+          "multiplicity": 3
+        }
+      ],
+      "formula_check": true
+    },
+    {
+      "n": 12,
+      "m": 8,
+      "model": "pair",
+      "ambient_dimension": 66,
+      "line_norm_squared": "11/9",
+      "joint_spectrum": [
+        {
+          "p": "28/45",
+          "B3": "66",
+          "multiplicity": 1
+        },
+        {
+          "p": "44/45",
+          "B3": "-6",
+          "multiplicity": 3
+        },
+        {
+          "p": "11/9",
+          "B3": "-48",
+          "multiplicity": 2
+        }
+      ],
+      "formula_check": true
+    }
+  ]
+}

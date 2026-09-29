@@ -27,6 +27,9 @@ the package as an independently reviewed proof of the `n-k=3` slice.
 - `status.md` separates correctness, external review, and priority.
 - `sources.md` identifies the public primary sources.
 - `verification.md` records the completed audit and its limitations.
+- `four_marked_partial_cone.md` proves a four-marked four-cycle cone and states
+  the remaining deep boundary face explicitly.
+- `check_four_marked.py` validates its public exact regression certificates.
 - `paper/full_conjecture.pdf` is the complete seven-page proof.
 - `paper/main.tex` and `paper/main.pdf` are the earlier `n-k=3` note.
 - `evidence/low_order_cases.json` contains the exact certificates for that
