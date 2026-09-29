@@ -34,8 +34,24 @@
       "sha256": "12b24e9ef80d0b5663515c7ee8dac8e9751ba8fb8c2033e910e82b2c690e5957"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/check_four_marked.py",
+      "sha256": "8be905d9f5b2f6f3ed54c0c66e10745ca1a2c96236a89adf10f7874277aaa382"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/evidence/four_marked/b1_content.json",
+      "sha256": "6f5d4ca2705934e95b0f5d0034e17bd049ca6c4532abc6e9361af6ab01319a4d"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/evidence/four_marked/b2_models.json",
+      "sha256": "07da0df7373e6ce96613111361beb946077668fc78598a06f188c2d434f687ed"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/evidence/low_order_cases.json",
       "sha256": "e6b8c4bf7c62868628723cb078ee1e225726f57b63c2cf270efb60e6bc37db80"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/four_marked_partial_cone.md",
+      "sha256": "9468a639f1daebf3a06a68609903ce1fb44ec3ac965196ea7fb6f4a8c3864812"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/paper/full_conjecture.pdf",
@@ -63,7 +79,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "efc98ea9a55f89cb127caf80d4de3208232bfbf3ad1d299a4f7f285a1e261767"
+      "sha256": "1267e6ee1d7f1c904f8cc4d2b71eae14cf146bfec1162444512e6001de1eb08f"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
@@ -71,11 +87,11 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/status.md",
-      "sha256": "ba55383175885041814d286e3db20c4306ace4422f72c0f5422ace5ebccf6fb1"
+      "sha256": "7349cea811b8b2fb366927ddc0f6bf3ba354c840ca638a058c879778f2412447"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
-      "sha256": "6bbab7748875327b612264a65f81ef60ef9252367145bc3934d6b1a27d1b42b5"
+      "sha256": "3bb0088a930cabb3592e024dddd972d5483053c5c31f46a7981152b51af00028"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/finite-regression.md",

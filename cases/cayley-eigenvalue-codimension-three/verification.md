@@ -36,3 +36,12 @@ verification remains valid for the restricted slice and is recorded in
 
 Verification of correctness does not establish novelty or priority. The case
 does not claim any result for the separate `k=n-1` problems.
+
+## Four-marked extension
+
+The hit-ray content argument and middle-ray compensation were independently
+audited. The public certificates exhaust 76 stable low-tail patterns for the
+hit ray and run ten exact rational model checks for the two dangerous
+representations in the middle ray. The checker verifies those records and the
+absence of exceptional rows. The analytic large-tail estimates and positive
+decompositions remain the general proof.

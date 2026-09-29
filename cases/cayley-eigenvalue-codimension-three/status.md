@@ -9,6 +9,8 @@
 - Earlier slice: the `n-k=3` note remains `INDEPENDENTLY_VERIFIED`.
 - Full-proof verification: `INTERNALLY_AUDITED`; an independent domain referee
   is still pending.
+- Verified extension: for `n>=8`, the four-marked four-cycle monotone cone is
+  standard-only whenever `f(1)>0`; the face `f(0)=f(1)=0` remains open.
 - Paper state: `PUBLIC_DRAFT_ARTIFACT`.
 - Public novelty or priority: `NOT_ESTABLISHED`.
 
