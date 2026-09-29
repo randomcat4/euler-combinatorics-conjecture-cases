@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "n": 7,
+      "k": 3,
+      "predicted_dimension": 3,
+      "constraint_dimension": 3,
+      "actual_target_eigenspace_dimension": 3,
+      "pass": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "predicted_dimension": 1,
+      "constraint_dimension": 1,
+      "actual_target_eigenspace_dimension": 1,
+      "pass": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "predicted_dimension": 3,
+      "constraint_dimension": 3,
+      "actual_target_eigenspace_dimension": 3,
+      "pass": true
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "predicted_dimension": 1,
+      "constraint_dimension": 1,
+      "actual_target_eigenspace_dimension": 1,
+      "pass": true
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "predicted_dimension": 1,
+      "constraint_dimension": 1,
+      "actual_target_eigenspace_dimension": 1,
+      "pass": true
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "predicted_dimension": 2,
+      "constraint_dimension": 2,
+      "actual_target_eigenspace_dimension": 2,
+      "pass": true
+    },
+    {
+      "n": 9,
+      "k": 3,
+      "predicted_dimension": 1,
+      "constraint_dimension": 1,
+      "actual_target_eigenspace_dimension": 1,
+      "pass": true
+    }
+  ],
+  "scope": "Finite exact natural-module checks; the general proof is analytic."
+}

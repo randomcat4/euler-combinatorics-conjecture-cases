@@ -36,3 +36,12 @@ verification remains valid for the restricted slice and is recorded in
 
 Verification of correctness does not establish novelty or priority. The case
 does not claim any result for the separate `k=n-1` problems.
+
+## Weighted positive-cone extension
+
+The extension proof was audited separately at the fixed-space, parity, and
+multiplicity steps. A dependency-free exact checker tests seven configurations
+for `k=3,4`, including overlapping local hyperedges, components killed by a
+proper hard constraint, and a configuration in which local hyperedges cover
+all vertices. In every case the direct target-eigenspace nullity equals both
+the constraint-space nullity and the predicted `c-1`.

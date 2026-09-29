@@ -34,6 +34,10 @@
       "sha256": "12b24e9ef80d0b5663515c7ee8dac8e9751ba8fb8c2033e910e82b2c690e5957"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/check_weighted_positive_cone.py",
+      "sha256": "7dcd54ce1b58527004685fa89e07114859ef1e7592e463ea2daba1ae5994ad92"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/evidence/low_order_cases.json",
       "sha256": "e6b8c4bf7c62868628723cb078ee1e225726f57b63c2cf270efb60e6bc37db80"
     },
@@ -63,7 +67,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "efc98ea9a55f89cb127caf80d4de3208232bfbf3ad1d299a4f7f285a1e261767"
+      "sha256": "7247551c176d8b653bde6c10aa77e4477ac6f46dffc5e16eca7e2490964e8f66"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
@@ -71,11 +75,19 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/status.md",
-      "sha256": "ba55383175885041814d286e3db20c4306ace4422f72c0f5422ace5ebccf6fb1"
+      "sha256": "c1f9afabab58a2dfd1cdcb86da419ddc6ed7795c54a59d4c56243d3af8057e4d"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
-      "sha256": "6bbab7748875327b612264a65f81ef60ef9252367145bc3934d6b1a27d1b42b5"
+      "sha256": "14bda512dda7b78c9a49c02d24686252db7f42c8b09f939e6b6efc08e0914d0b"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/weighted_positive_cone.md",
+      "sha256": "5b4648db6d61bdf18345f1091b587a24ce1590b213426149c77ee2e7145ff285"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/weighted_positive_cone_summary.json",
+      "sha256": "157c726aac99b08b464783f2f00f69aa5d0087ca9e1d23f03529e6526b13ff8e"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/finite-regression.md",
