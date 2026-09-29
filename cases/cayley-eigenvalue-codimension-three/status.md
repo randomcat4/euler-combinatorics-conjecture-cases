@@ -9,6 +9,9 @@
 - Earlier slice: the `n-k=3` note remains `INDEPENDENTLY_VERIFIED`.
 - Full-proof verification: `INTERNALLY_AUDITED`; an independent domain referee
   is still pending.
+- Verified extension: closed monotone orbit-weight cones for all three-cycles
+  and for four-cycles with two or three marked points, including exact `n=6`
+  equality classifications.
 - Paper state: `PUBLIC_DRAFT_ARTIFACT`.
 - Public novelty or priority: `NOT_ESTABLISHED`.
 

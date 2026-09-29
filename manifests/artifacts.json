@@ -34,8 +34,28 @@
       "sha256": "12b24e9ef80d0b5663515c7ee8dac8e9751ba8fb8c2033e910e82b2c690e5957"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/check_monotone_cones.py",
+      "sha256": "b38dde91e10b866c6db89f2cafdfc79777cde48c3643d8480ef7f52d162aea9a"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/evidence/low_order_cases.json",
       "sha256": "e6b8c4bf7c62868628723cb078ee1e225726f57b63c2cf270efb60e6bc37db80"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/evidence/monotone/k4r2n6.json",
+      "sha256": "5c5180a922dc79c0060a9fecdc0251d73da77d7846179205e6ead83ec1369ae6"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/evidence/monotone/k4r3b1.json",
+      "sha256": "6937753f2ea331d167c7e8cd6685fd810e2435b010c8cec1ff903105c75c31c8"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/evidence/monotone/k4r3n6.json",
+      "sha256": "583435f7d8b150a06d5f914dde49bd118fb9af4d351e218b325e8ac1f6db5663"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/monotone_orbit_cones.md",
+      "sha256": "2a663f70cab8ab38a8fd61339482bbfacb30d55923220a6b882994b565a32624"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/paper/full_conjecture.pdf",
@@ -63,7 +83,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "efc98ea9a55f89cb127caf80d4de3208232bfbf3ad1d299a4f7f285a1e261767"
+      "sha256": "d3b31bee8dac984bd58a9ea5f83650aa178380e69e3cc09e702df44af79f8604"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
@@ -71,11 +91,11 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/status.md",
-      "sha256": "ba55383175885041814d286e3db20c4306ace4422f72c0f5422ace5ebccf6fb1"
+      "sha256": "fd8ce92bf579977e4c062b03f9c9c98c6ebd7e43dc3c789e8354190f02075e24"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
-      "sha256": "6bbab7748875327b612264a65f81ef60ef9252367145bc3934d6b1a27d1b42b5"
+      "sha256": "39f5b5a50838574e1164cb36d892d7a8e677f8f0ada6919cf4c978589fbc09a4"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/finite-regression.md",
