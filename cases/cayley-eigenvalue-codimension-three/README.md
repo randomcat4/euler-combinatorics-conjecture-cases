@@ -27,6 +27,10 @@ the package as an independently reviewed proof of the `n-k=3` slice.
 - `status.md` separates correctness, external review, and priority.
 - `sources.md` identifies the public primary sources.
 - `verification.md` records the completed audit and its limitations.
+- `weighted_positive_cone.md` proves a support-weighted extension with an
+  exact hypergraph-component formula for the standard top space.
+- `check_weighted_positive_cone.py` checks representative component formulas
+  in exact arithmetic using only the Python standard library.
 - `paper/full_conjecture.pdf` is the complete seven-page proof.
 - `paper/main.tex` and `paper/main.pdf` are the earlier `n-k=3` note.
 - `evidence/low_order_cases.json` contains the exact certificates for that
@@ -34,7 +38,8 @@ the package as an independently reviewed proof of the `n-k=3` slice.
 
 ## Scope and priority
 
-The mathematical statement covers the full range of Conjecture 4.7. It does
+The primary mathematical statement covers the full range of Conjecture 4.7,
+and the weighted extension records a new positive-cone consequence. The case does
 not address the different `k=n-1` questions in the source paper. The full
 proof has passed a detailed internal audit, but has not yet been independently
 refereed by a domain expert. Public novelty or priority is `NOT_ESTABLISHED`.

@@ -9,6 +9,8 @@
 - Earlier slice: the `n-k=3` note remains `INDEPENDENTLY_VERIFIED`.
 - Full-proof verification: `INTERNALLY_AUDITED`; an independent domain referee
   is still pending.
+- Verified extension: a positive cone of support-weighted `k`-cycle operators,
+  with exact standard-space dimension and regular multiplicity formulas.
 - Paper state: `PUBLIC_DRAFT_ARTIFACT`.
 - Public novelty or priority: `NOT_ESTABLISHED`.
 
