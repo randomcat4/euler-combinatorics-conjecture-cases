@@ -1,0 +1,2514 @@
+{
+  "status": "EXACT_S6_H_TYPE_CERTIFICATE",
+  "theorem_status": "PROVED_HERE__FRESH_VERIFICATION_REQUIRED",
+  "classification": "Aldous numerical property holds on the full positive monotone cone; a nonstandard tie occurs iff b=c=d",
+  "nonstandard_tie_face": "b=c=d with arbitrary 0<a<=b; the extra representation is lambda=(2,2,2)",
+  "parameters": "0<a<=b<=c<=d; effective operator b*K4+(c-b)*B2+(d-c)*B3",
+  "ray_definition": "Bj is the sum of all 4-cycles whose support meets R={1,2,3} in at least j points",
+  "degeneracy": "intersection zero is impossible, hence B1=K4 and a is operator-invisible",
+  "standard_target_H_type": {
+    "lambda": [
+      5,
+      1
+    ],
+    "alpha": [
+      3
+    ],
+    "beta": [
+      2,
+      1
+    ]
+  },
+  "standard_target_ray_coefficients": {
+    "K4": 18,
+    "B1": 18,
+    "B2": 24,
+    "B3": 12
+  },
+  "ray_degrees": {
+    "K4": 90,
+    "B1": 90,
+    "B2": 72,
+    "B3": 18
+  },
+  "all_nondegree_endpoints_at_most_standard": true,
+  "nondegree_endpoint_equality_types": {
+    "K4": [
+      {
+        "lambda": [
+          5,
+          1
+        ],
+        "alpha": [
+          3
+        ],
+        "beta": [
+          3
+        ]
+      },
+      {
+        "lambda": [
+          5,
+          1
+        ],
+        "alpha": [
+          3
+        ],
+        "beta": [
+          2,
+          1
+        ]
+      },
+      {
+        "lambda": [
+          5,
+          1
+        ],
+        "alpha": [
+          2,
+          1
+        ],
+        "beta": [
+          3
+        ]
+      },
+      {
+        "lambda": [
+          2,
+          2,
+          2
+        ],
+        "alpha": [
+          2,
+          1
+        ],
+        "beta": [
+          2,
+          1
+        ]
+      },
+      {
+        "lambda": [
+          2,
+          2,
+          2
+        ],
+        "alpha": [
+          1,
+          1,
+          1
+        ],
+        "beta": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "B1": [
+      {
+        "lambda": [
+          5,
+          1
+        ],
+        "alpha": [
+          3
+        ],
+        "beta": [
+          3
+        ]
+      },
+      {
+        "lambda": [
+          5,
+          1
+        ],
+        "alpha": [
+          3
+        ],
+        "beta": [
+          2,
+          1
+        ]
+      },
+      {
+        "lambda": [
+          5,
+          1
+        ],
+        "alpha": [
+          2,
+          1
+        ],
+        "beta": [
+          3
+        ]
+      },
+      {
+        "lambda": [
+          2,
+          2,
+          2
+        ],
+        "alpha": [
+          2,
+          1
+        ],
+        "beta": [
+          2,
+          1
+        ]
+      },
+      {
+        "lambda": [
+          2,
+          2,
+          2
+        ],
+        "alpha": [
+          1,
+          1,
+          1
+        ],
+        "beta": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "B2": [
+      {
+        "lambda": [
+          5,
+          1
+        ],
+        "alpha": [
+          3
+        ],
+        "beta": [
+          2,
+          1
+        ]
+      }
+    ],
+    "B3": [
+      {
+        "lambda": [
+          5,
+          1
+        ],
+        "alpha": [
+          3
+        ],
+        "beta": [
+          2,
+          1
+        ]
+      }
+    ]
+  },
+  "lambda_222_tie_data": [
+    {
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "B2_and_B3_target_differences": {
+        "B2": "9",
+        "B3": "9"
+      }
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "beta": [
+        1,
+        1,
+        1
+      ],
+      "B2_and_B3_target_differences": {
+        "B2": "12",
+        "B3": "6"
+      }
+    }
+  ],
+  "branching_integrity_checks": [
+    {
+      "lambda": [
+        6
+      ],
+      "Specht_dimension": 1,
+      "sum_of_H_isotypic_ranks": 1
+    },
+    {
+      "lambda": [
+        5,
+        1
+      ],
+      "Specht_dimension": 5,
+      "sum_of_H_isotypic_ranks": 5
+    },
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "Specht_dimension": 9,
+      "sum_of_H_isotypic_ranks": 9
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "Specht_dimension": 10,
+      "sum_of_H_isotypic_ranks": 10
+    },
+    {
+      "lambda": [
+        3,
+        3
+      ],
+      "Specht_dimension": 5,
+      "sum_of_H_isotypic_ranks": 5
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "Specht_dimension": 16,
+      "sum_of_H_isotypic_ranks": 16
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "Specht_dimension": 10,
+      "sum_of_H_isotypic_ranks": 10
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        2
+      ],
+      "Specht_dimension": 5,
+      "sum_of_H_isotypic_ranks": 5
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "Specht_dimension": 9,
+      "sum_of_H_isotypic_ranks": 9
+    },
+    {
+      "lambda": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Specht_dimension": 5,
+      "sum_of_H_isotypic_ranks": 5
+    },
+    {
+      "lambda": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Specht_dimension": 1,
+      "sum_of_H_isotypic_ranks": 1
+    }
+  ],
+  "H_types": [
+    {
+      "lambda": [
+        6
+      ],
+      "alpha": [
+        3
+      ],
+      "beta": [
+        3
+      ],
+      "H_irrep_dimension": 1,
+      "LR_multiplicity": 1,
+      "is_degree": true,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 90",
+          "trace": "90",
+          "target_minus_block_characteristic_polynomial": "x + 72",
+          "scalar": "90",
+          "target_difference": "-72",
+          "endpoint_at_most_target": false,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 90",
+          "trace": "90",
+          "target_minus_block_characteristic_polynomial": "x + 72",
+          "scalar": "90",
+          "target_difference": "-72",
+          "endpoint_at_most_target": false,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 72",
+          "trace": "72",
+          "target_minus_block_characteristic_polynomial": "x + 48",
+          "scalar": "72",
+          "target_difference": "-48",
+          "endpoint_at_most_target": false,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 18",
+          "trace": "18",
+          "target_minus_block_characteristic_polynomial": "x + 6",
+          "scalar": "18",
+          "target_difference": "-6",
+          "endpoint_at_most_target": false,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        5,
+        1
+      ],
+      "alpha": [
+        3
+      ],
+      "beta": [
+        3
+      ],
+      "H_irrep_dimension": 1,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 18",
+          "trace": "18",
+          "target_minus_block_characteristic_polynomial": "x",
+          "scalar": "18",
+          "target_difference": "0",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": true
+        },
+        "B1": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 18",
+          "trace": "18",
+          "target_minus_block_characteristic_polynomial": "x",
+          "scalar": "18",
+          "target_difference": "0",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": true
+        },
+        "B2": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 12",
+          "trace": "12",
+          "target_minus_block_characteristic_polynomial": "x - 12",
+          "scalar": "12",
+          "target_difference": "12",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 6",
+          "trace": "6",
+          "target_minus_block_characteristic_polynomial": "x - 6",
+          "scalar": "6",
+          "target_difference": "6",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        5,
+        1
+      ],
+      "alpha": [
+        3
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": true,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 18)**2",
+          "trace": "36",
+          "target_minus_block_characteristic_polynomial": "x**2",
+          "scalar": "18",
+          "target_difference": "0",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": true
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 18)**2",
+          "trace": "36",
+          "target_minus_block_characteristic_polynomial": "x**2",
+          "scalar": "18",
+          "target_difference": "0",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": true
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 24)**2",
+          "trace": "48",
+          "target_minus_block_characteristic_polynomial": "x**2",
+          "scalar": "24",
+          "target_difference": "0",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": true
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 12)**2",
+          "trace": "24",
+          "target_minus_block_characteristic_polynomial": "x**2",
+          "scalar": "12",
+          "target_difference": "0",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": true
+        }
+      }
+    },
+    {
+      "lambda": [
+        5,
+        1
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        3
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 18)**2",
+          "trace": "36",
+          "target_minus_block_characteristic_polynomial": "x**2",
+          "scalar": "18",
+          "target_difference": "0",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": true
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 18)**2",
+          "trace": "36",
+          "target_minus_block_characteristic_polynomial": "x**2",
+          "scalar": "18",
+          "target_difference": "0",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": true
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 6)**2",
+          "trace": "12",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "6",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 6)**2",
+          "trace": "-12",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "-6",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "alpha": [
+        3
+      ],
+      "beta": [
+        3
+      ],
+      "H_irrep_dimension": 1,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 10",
+          "trace": "-10",
+          "target_minus_block_characteristic_polynomial": "x - 28",
+          "scalar": "-10",
+          "target_difference": "28",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 10",
+          "trace": "-10",
+          "target_minus_block_characteristic_polynomial": "x - 28",
+          "scalar": "-10",
+          "target_difference": "28",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 8",
+          "trace": "-8",
+          "target_minus_block_characteristic_polynomial": "x - 32",
+          "scalar": "-8",
+          "target_difference": "32",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 2",
+          "trace": "-2",
+          "target_minus_block_characteristic_polynomial": "x - 14",
+          "scalar": "-2",
+          "target_difference": "14",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "alpha": [
+        3
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 10)**2",
+          "trace": "-20",
+          "target_minus_block_characteristic_polynomial": "(x - 28)**2",
+          "scalar": "-10",
+          "target_difference": "28",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 10)**2",
+          "trace": "-20",
+          "target_minus_block_characteristic_polynomial": "(x - 28)**2",
+          "scalar": "-10",
+          "target_difference": "28",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 8)**2",
+          "trace": "-16",
+          "target_minus_block_characteristic_polynomial": "(x - 32)**2",
+          "scalar": "-8",
+          "target_difference": "32",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 4)**2",
+          "trace": "8",
+          "target_minus_block_characteristic_polynomial": "(x - 8)**2",
+          "scalar": "4",
+          "target_difference": "8",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        3
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 10)**2",
+          "trace": "-20",
+          "target_minus_block_characteristic_polynomial": "(x - 28)**2",
+          "scalar": "-10",
+          "target_difference": "28",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 10)**2",
+          "trace": "-20",
+          "target_minus_block_characteristic_polynomial": "(x - 28)**2",
+          "scalar": "-10",
+          "target_difference": "28",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 14)**2",
+          "trace": "-28",
+          "target_minus_block_characteristic_polynomial": "(x - 38)**2",
+          "scalar": "-14",
+          "target_difference": "38",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 2)**2",
+          "trace": "-4",
+          "target_minus_block_characteristic_polynomial": "(x - 14)**2",
+          "scalar": "-2",
+          "target_difference": "14",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 4,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x + 10)**4",
+          "trace": "-40",
+          "target_minus_block_characteristic_polynomial": "(x - 28)**4",
+          "scalar": "-10",
+          "target_difference": "28",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x + 10)**4",
+          "trace": "-40",
+          "target_minus_block_characteristic_polynomial": "(x - 28)**4",
+          "scalar": "-10",
+          "target_difference": "28",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x + 5)**4",
+          "trace": "-20",
+          "target_minus_block_characteristic_polynomial": "(x - 29)**4",
+          "scalar": "-5",
+          "target_difference": "29",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x + 5)**4",
+          "trace": "-20",
+          "target_minus_block_characteristic_polynomial": "(x - 17)**4",
+          "scalar": "-5",
+          "target_difference": "17",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "alpha": [
+        3
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 24)**2",
+          "scalar": "0",
+          "target_difference": "24",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 12)**2",
+          "scalar": "0",
+          "target_difference": "12",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "alpha": [
+        3
+      ],
+      "beta": [
+        1,
+        1,
+        1
+      ],
+      "H_irrep_dimension": 1,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 1,
+          "characteristic_polynomial": "x",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 1,
+          "characteristic_polynomial": "x",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 6",
+          "trace": "-6",
+          "target_minus_block_characteristic_polynomial": "x - 30",
+          "scalar": "-6",
+          "target_difference": "30",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 6",
+          "trace": "6",
+          "target_minus_block_characteristic_polynomial": "x - 6",
+          "scalar": "6",
+          "target_difference": "6",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        3
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 24)**2",
+          "scalar": "0",
+          "target_difference": "24",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 12)**2",
+          "scalar": "0",
+          "target_difference": "12",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 4,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 4,
+          "characteristic_polynomial": "x**4",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**4",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 4,
+          "characteristic_polynomial": "x**4",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**4",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x - 3)**4",
+          "trace": "12",
+          "target_minus_block_characteristic_polynomial": "(x - 21)**4",
+          "scalar": "3",
+          "target_difference": "21",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x + 3)**4",
+          "trace": "-12",
+          "target_minus_block_characteristic_polynomial": "(x - 15)**4",
+          "scalar": "-3",
+          "target_difference": "15",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "beta": [
+        3
+      ],
+      "H_irrep_dimension": 1,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 1,
+          "characteristic_polynomial": "x",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 1,
+          "characteristic_polynomial": "x",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 6",
+          "trace": "-6",
+          "target_minus_block_characteristic_polynomial": "x - 30",
+          "scalar": "-6",
+          "target_difference": "30",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 6",
+          "trace": "6",
+          "target_minus_block_characteristic_polynomial": "x - 6",
+          "scalar": "6",
+          "target_difference": "6",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        3,
+        3
+      ],
+      "alpha": [
+        3
+      ],
+      "beta": [
+        3
+      ],
+      "H_irrep_dimension": 1,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 18",
+          "trace": "-18",
+          "target_minus_block_characteristic_polynomial": "x - 36",
+          "scalar": "-18",
+          "target_difference": "36",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 18",
+          "trace": "-18",
+          "target_minus_block_characteristic_polynomial": "x - 36",
+          "scalar": "-18",
+          "target_difference": "36",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 12",
+          "trace": "-12",
+          "target_minus_block_characteristic_polynomial": "x - 36",
+          "scalar": "-12",
+          "target_difference": "36",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 6",
+          "trace": "-6",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "-6",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        3,
+        3
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 4,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x + 18)**4",
+          "trace": "-72",
+          "target_minus_block_characteristic_polynomial": "(x - 36)**4",
+          "scalar": "-18",
+          "target_difference": "36",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x + 18)**4",
+          "trace": "-72",
+          "target_minus_block_characteristic_polynomial": "(x - 36)**4",
+          "scalar": "-18",
+          "target_difference": "36",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x + 15)**4",
+          "trace": "-60",
+          "target_minus_block_characteristic_polynomial": "(x - 39)**4",
+          "scalar": "-15",
+          "target_difference": "39",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x + 3)**4",
+          "trace": "-12",
+          "target_minus_block_characteristic_polynomial": "(x - 15)**4",
+          "scalar": "-3",
+          "target_difference": "15",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "alpha": [
+        3
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 3)**2",
+          "trace": "-6",
+          "target_minus_block_characteristic_polynomial": "(x - 27)**2",
+          "scalar": "-3",
+          "target_difference": "27",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 6)**2",
+          "trace": "-12",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "-6",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        3
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 6)**2",
+          "trace": "12",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "6",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 3)**2",
+          "trace": "6",
+          "target_minus_block_characteristic_polynomial": "(x - 9)**2",
+          "scalar": "3",
+          "target_difference": "9",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 4,
+      "LR_multiplicity": 2,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 8,
+          "characteristic_polynomial": "x**8",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**8",
+          "multiplicity_space_characteristic_polynomial": "x**2",
+          "multiplicity_space_eigenvalues": [
+            "0"
+          ],
+          "target_differences": [
+            "18"
+          ],
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 8,
+          "characteristic_polynomial": "x**8",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**8",
+          "multiplicity_space_characteristic_polynomial": "x**2",
+          "multiplicity_space_eigenvalues": [
+            "0"
+          ],
+          "target_differences": [
+            "18"
+          ],
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 8,
+          "characteristic_polynomial": "x**8",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 24)**8",
+          "multiplicity_space_characteristic_polynomial": "x**2",
+          "multiplicity_space_eigenvalues": [
+            "0"
+          ],
+          "target_differences": [
+            "24"
+          ],
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 8,
+          "characteristic_polynomial": "x**8",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 12)**8",
+          "multiplicity_space_characteristic_polynomial": "x**2",
+          "multiplicity_space_eigenvalues": [
+            "0"
+          ],
+          "target_differences": [
+            "12"
+          ],
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        1,
+        1,
+        1
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 6)**2",
+          "trace": "-12",
+          "target_minus_block_characteristic_polynomial": "(x - 30)**2",
+          "scalar": "-6",
+          "target_difference": "30",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 3)**2",
+          "trace": "-6",
+          "target_minus_block_characteristic_polynomial": "(x - 15)**2",
+          "scalar": "-3",
+          "target_difference": "15",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 3)**2",
+          "trace": "6",
+          "target_minus_block_characteristic_polynomial": "(x - 21)**2",
+          "scalar": "3",
+          "target_difference": "21",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 6)**2",
+          "trace": "12",
+          "target_minus_block_characteristic_polynomial": "(x - 6)**2",
+          "scalar": "6",
+          "target_difference": "6",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "alpha": [
+        3
+      ],
+      "beta": [
+        1,
+        1,
+        1
+      ],
+      "H_irrep_dimension": 1,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 1,
+          "characteristic_polynomial": "x",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 1,
+          "characteristic_polynomial": "x",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 6",
+          "trace": "6",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "6",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 6",
+          "trace": "-6",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "-6",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 4,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 4,
+          "characteristic_polynomial": "x**4",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**4",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 4,
+          "characteristic_polynomial": "x**4",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**4",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x + 3)**4",
+          "trace": "-12",
+          "target_minus_block_characteristic_polynomial": "(x - 27)**4",
+          "scalar": "-3",
+          "target_difference": "27",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x - 3)**4",
+          "trace": "12",
+          "target_minus_block_characteristic_polynomial": "(x - 9)**4",
+          "scalar": "3",
+          "target_difference": "9",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        1,
+        1,
+        1
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 24)**2",
+          "scalar": "0",
+          "target_difference": "24",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 12)**2",
+          "scalar": "0",
+          "target_difference": "12",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "beta": [
+        3
+      ],
+      "H_irrep_dimension": 1,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 1,
+          "characteristic_polynomial": "x",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 1,
+          "characteristic_polynomial": "x",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 6",
+          "trace": "6",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "6",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 6",
+          "trace": "-6",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "-6",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 18)**2",
+          "scalar": "0",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 24)**2",
+          "scalar": "0",
+          "target_difference": "24",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "x**2",
+          "trace": "0",
+          "target_minus_block_characteristic_polynomial": "(x - 12)**2",
+          "scalar": "0",
+          "target_difference": "12",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        2
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 4,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x - 18)**4",
+          "trace": "72",
+          "target_minus_block_characteristic_polynomial": "x**4",
+          "scalar": "18",
+          "target_difference": "0",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": true
+        },
+        "B1": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x - 18)**4",
+          "trace": "72",
+          "target_minus_block_characteristic_polynomial": "x**4",
+          "scalar": "18",
+          "target_difference": "0",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": true
+        },
+        "B2": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x - 15)**4",
+          "trace": "60",
+          "target_minus_block_characteristic_polynomial": "(x - 9)**4",
+          "scalar": "15",
+          "target_difference": "9",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x - 3)**4",
+          "trace": "12",
+          "target_minus_block_characteristic_polynomial": "(x - 9)**4",
+          "scalar": "3",
+          "target_difference": "9",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        2
+      ],
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "beta": [
+        1,
+        1,
+        1
+      ],
+      "H_irrep_dimension": 1,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 18",
+          "trace": "18",
+          "target_minus_block_characteristic_polynomial": "x",
+          "scalar": "18",
+          "target_difference": "0",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": true
+        },
+        "B1": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 18",
+          "trace": "18",
+          "target_minus_block_characteristic_polynomial": "x",
+          "scalar": "18",
+          "target_difference": "0",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": true
+        },
+        "B2": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 12",
+          "trace": "12",
+          "target_minus_block_characteristic_polynomial": "x - 12",
+          "scalar": "12",
+          "target_difference": "12",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 6",
+          "trace": "6",
+          "target_minus_block_characteristic_polynomial": "x - 6",
+          "scalar": "6",
+          "target_difference": "6",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 4,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x - 10)**4",
+          "trace": "40",
+          "target_minus_block_characteristic_polynomial": "(x - 8)**4",
+          "scalar": "10",
+          "target_difference": "8",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x - 10)**4",
+          "trace": "40",
+          "target_minus_block_characteristic_polynomial": "(x - 8)**4",
+          "scalar": "10",
+          "target_difference": "8",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x - 5)**4",
+          "trace": "20",
+          "target_minus_block_characteristic_polynomial": "(x - 19)**4",
+          "scalar": "5",
+          "target_difference": "19",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 4,
+          "characteristic_polynomial": "(x - 5)**4",
+          "trace": "20",
+          "target_minus_block_characteristic_polynomial": "(x - 7)**4",
+          "scalar": "5",
+          "target_difference": "7",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        1,
+        1,
+        1
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 10)**2",
+          "trace": "20",
+          "target_minus_block_characteristic_polynomial": "(x - 8)**2",
+          "scalar": "10",
+          "target_difference": "8",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 10)**2",
+          "trace": "20",
+          "target_minus_block_characteristic_polynomial": "(x - 8)**2",
+          "scalar": "10",
+          "target_difference": "8",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 14)**2",
+          "trace": "28",
+          "target_minus_block_characteristic_polynomial": "(x - 10)**2",
+          "scalar": "14",
+          "target_difference": "10",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 2)**2",
+          "trace": "4",
+          "target_minus_block_characteristic_polynomial": "(x - 10)**2",
+          "scalar": "2",
+          "target_difference": "10",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 10)**2",
+          "trace": "20",
+          "target_minus_block_characteristic_polynomial": "(x - 8)**2",
+          "scalar": "10",
+          "target_difference": "8",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 10)**2",
+          "trace": "20",
+          "target_minus_block_characteristic_polynomial": "(x - 8)**2",
+          "scalar": "10",
+          "target_difference": "8",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 8)**2",
+          "trace": "16",
+          "target_minus_block_characteristic_polynomial": "(x - 16)**2",
+          "scalar": "8",
+          "target_difference": "16",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 4)**2",
+          "trace": "-8",
+          "target_minus_block_characteristic_polynomial": "(x - 16)**2",
+          "scalar": "-4",
+          "target_difference": "16",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "beta": [
+        1,
+        1,
+        1
+      ],
+      "H_irrep_dimension": 1,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 10",
+          "trace": "10",
+          "target_minus_block_characteristic_polynomial": "x - 8",
+          "scalar": "10",
+          "target_difference": "8",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 10",
+          "trace": "10",
+          "target_minus_block_characteristic_polynomial": "x - 8",
+          "scalar": "10",
+          "target_difference": "8",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 8",
+          "trace": "8",
+          "target_minus_block_characteristic_polynomial": "x - 16",
+          "scalar": "8",
+          "target_difference": "16",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 1,
+          "characteristic_polynomial": "x - 2",
+          "trace": "2",
+          "target_minus_block_characteristic_polynomial": "x - 10",
+          "scalar": "2",
+          "target_difference": "10",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "alpha": [
+        2,
+        1
+      ],
+      "beta": [
+        1,
+        1,
+        1
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 18)**2",
+          "trace": "-36",
+          "target_minus_block_characteristic_polynomial": "(x - 36)**2",
+          "scalar": "-18",
+          "target_difference": "36",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 18)**2",
+          "trace": "-36",
+          "target_minus_block_characteristic_polynomial": "(x - 36)**2",
+          "scalar": "-18",
+          "target_difference": "36",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 6)**2",
+          "trace": "-12",
+          "target_minus_block_characteristic_polynomial": "(x - 30)**2",
+          "scalar": "-6",
+          "target_difference": "30",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x - 6)**2",
+          "trace": "12",
+          "target_minus_block_characteristic_polynomial": "(x - 6)**2",
+          "scalar": "6",
+          "target_difference": "6",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "beta": [
+        2,
+        1
+      ],
+      "H_irrep_dimension": 2,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 18)**2",
+          "trace": "-36",
+          "target_minus_block_characteristic_polynomial": "(x - 36)**2",
+          "scalar": "-18",
+          "target_difference": "36",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 18)**2",
+          "trace": "-36",
+          "target_minus_block_characteristic_polynomial": "(x - 36)**2",
+          "scalar": "-18",
+          "target_difference": "36",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 24)**2",
+          "trace": "-48",
+          "target_minus_block_characteristic_polynomial": "(x - 48)**2",
+          "scalar": "-24",
+          "target_difference": "48",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 2,
+          "characteristic_polynomial": "(x + 12)**2",
+          "trace": "-24",
+          "target_minus_block_characteristic_polynomial": "(x - 24)**2",
+          "scalar": "-12",
+          "target_difference": "24",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "beta": [
+        1,
+        1,
+        1
+      ],
+      "H_irrep_dimension": 1,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 18",
+          "trace": "-18",
+          "target_minus_block_characteristic_polynomial": "x - 36",
+          "scalar": "-18",
+          "target_difference": "36",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 18",
+          "trace": "-18",
+          "target_minus_block_characteristic_polynomial": "x - 36",
+          "scalar": "-18",
+          "target_difference": "36",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 12",
+          "trace": "-12",
+          "target_minus_block_characteristic_polynomial": "x - 36",
+          "scalar": "-12",
+          "target_difference": "36",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 6",
+          "trace": "-6",
+          "target_minus_block_characteristic_polynomial": "x - 18",
+          "scalar": "-6",
+          "target_difference": "18",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    },
+    {
+      "lambda": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "beta": [
+        1,
+        1,
+        1
+      ],
+      "H_irrep_dimension": 1,
+      "LR_multiplicity": 1,
+      "is_degree": false,
+      "is_standard_target_type": false,
+      "rays": {
+        "K4": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 90",
+          "trace": "-90",
+          "target_minus_block_characteristic_polynomial": "x - 108",
+          "scalar": "-90",
+          "target_difference": "108",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B1": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 90",
+          "trace": "-90",
+          "target_minus_block_characteristic_polynomial": "x - 108",
+          "scalar": "-90",
+          "target_difference": "108",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B2": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 72",
+          "trace": "-72",
+          "target_minus_block_characteristic_polynomial": "x - 96",
+          "scalar": "-72",
+          "target_difference": "96",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        },
+        "B3": {
+          "dimension": 1,
+          "characteristic_polynomial": "x + 18",
+          "trace": "-18",
+          "target_minus_block_characteristic_polynomial": "x - 30",
+          "scalar": "-18",
+          "target_difference": "30",
+          "endpoint_at_most_target": true,
+          "endpoint_equal_target": false
+        }
+      }
+    }
+  ],
+  "exact": true,
+  "fixed_n_exhaustive_proof_certificate": true,
+  "arithmetic": "integer/rational standard-polytabloid matrices; no floats",
+  "sympy": "1.14.0"
+}

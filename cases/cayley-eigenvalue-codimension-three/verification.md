@@ -36,3 +36,12 @@ verification remains valid for the restricted slice and is recorded in
 
 Verification of correctness does not establish novelty or priority. The case
 does not claim any result for the separate `k=n-1` problems.
+
+## Monotone orbit-weight extensions
+
+The three-cycle theorem passed three adversarial proof audits. The four-cycle
+endpoint arguments were checked independently at the two-box and three-box
+content inequalities, the positive decomposition for the middle threshold,
+and the exact `n=6` boundaries. The public checker recomputes the decisive gap
+conditions from the exact certificates. The remaining risks are domain-expert
+review and novelty, not an unrecorded finite search.
