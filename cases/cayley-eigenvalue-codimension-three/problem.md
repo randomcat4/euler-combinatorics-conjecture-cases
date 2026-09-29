@@ -1,17 +1,22 @@
 # Problem
 
-For integers (1\le r<k<n), let (C(n,k;r)) be the set of (k)-cycles in (S_n) whose support contains ([r]=\{1,\ldots,r\}). These inverse-closed sets define generally nonnormal Cayley graphs.
+For integers `1<=r<k<n`, let `C(n,k;r)` be the set of `k`-cycles in `S_n`
+whose support contains `[r]={1,...,r}`. These inverse-closed sets define
+generally nonnormal Cayley graphs.
 
-Conjecture 4.7 of Li, Xia, and Zhou asks for a representation-level uniqueness classification of the irreducible blocks attaining the relevant second eigenvalue. This case addresses only the restricted regime (k=n-3):
+Li, Xia, and Zhou proved the value of the relevant second eigenvalue and asked
+for the following sharper representation-level statement in their Conjecture
+4.7.
 
-- if (n) is odd, the target eigenvalue is attained only by the standard representation ((n-1,1));
-- if (n) is even, the strictly second eigenvalue is attained exactly by ((n-1,1)) and its sign twist ((2,1^{n-2})).
+> Suppose `n>=5` and `1<=r<k<=n-2`. If `k` is even, the second largest
+> eigenvalue is attained only by the standard representation `(n-1,1)`. If
+> `k` is odd, the strictly second largest eigenvalue is attained exactly by
+> `(n-1,1)` and its sign twist `(2,1^(n-2))`.
 
-In either case the target value is
+The public proof in this case establishes the conjecture throughout that
+range. It also gives the block multiplicity `n-r-1`, and hence regular
+representation multiplicity `(n-1)(n-r-1)` for even `k` and twice that for odd
+`k`.
 
-\[
-\mu_{n,r}=\frac{(n-5)!(n-r-2)}6
-\bigl(2n^2-nr-r^2-8n+5r\bigr),
-\]
-
-with multiplicity (n-r-1) inside each attaining block.
+This is a uniqueness statement. The numerical eigenvalue itself was known
+before this case.

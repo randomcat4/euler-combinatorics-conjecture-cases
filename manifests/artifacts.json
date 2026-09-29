@@ -38,6 +38,10 @@
       "sha256": "e6b8c4bf7c62868628723cb078ee1e225726f57b63c2cf270efb60e6bc37db80"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/paper/full_conjecture.pdf",
+      "sha256": "48d03a6871dbfe704b56b0180fef67cfe83d20da39fc667926e869c39d927fd1"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/paper/main.pdf",
       "sha256": "1303f92da7a94c271cc7998a634f066ab030dc31685b678bc3ef064589be7243"
     },
@@ -51,23 +55,27 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/problem.md",
-      "sha256": "fa2c0f3b41aaa6be3eb22d87f6be1f5183ed19d47a62e64161fdf241e4086bb8"
+      "sha256": "3e94ec582afa98fa190aad2b34883a21bea12ee6767b7652b8d55cc9b1fab2b6"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/proof_outline.md",
+      "sha256": "e33c566144561ba9ae9300d1e731701531aad515681ed4aa8a4c7d222568f643"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "ce10efac31e0b20fd6ea35761d4103910616bedb32f5b7a9b5a0a7f862ede758"
+      "sha256": "efc98ea9a55f89cb127caf80d4de3208232bfbf3ad1d299a4f7f285a1e261767"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
-      "sha256": "2d51704227c60b792c5b7adf4557a5e5b57e98b31df1e366121e72b9262e9bf2"
+      "sha256": "bdfb1806f90defd9f63e1737d41004bedadf694b3ab7e0f6a1c6b36e670fe9fe"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/status.md",
-      "sha256": "92ef97fb19148c520cb0bf176561b811cdbac58f82e48db8a603a72d55dd67f9"
+      "sha256": "ba55383175885041814d286e3db20c4306ace4422f72c0f5422ace5ebccf6fb1"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
-      "sha256": "d3db73242b0756401c715e7a0430c599cfd46515861dc2fda9cd8314481c3a31"
+      "sha256": "6bbab7748875327b612264a65f81ef60ef9252367145bc3934d6b1a27d1b42b5"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/finite-regression.md",
@@ -451,7 +459,7 @@
     },
     {
       "path": "cases/README.md",
-      "sha256": "b65f53062437e820d7218d0b9682aa6d480ff9354570a4bfd93146b2e6f87f8f"
+      "sha256": "a91fe3aedf2b7e4bd12cdc078fe618a53a13692abf38b85a3fe2316b1f579b68"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py",

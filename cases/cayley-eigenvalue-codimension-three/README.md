@@ -1,26 +1,40 @@
-# Representation-Level Uniqueness for a Cayley-Graph Layer
+# Representation-Level Uniqueness for Support-Constrained Cycle Walks
 
 *Yuxuan Li, Binzhou Xia, and Sanming Zhou · [DOI](https://doi.org/10.1016/j.jcta.2025.106097) · [arXiv](https://arxiv.org/abs/2402.02427)*
 
-This case records a partial result in the (n-k=3) regime of Conjecture 4.7 in Li, Xia, and Zhou, *The Second Largest Eigenvalue of Some Nonnormal Cayley Graphs on Symmetric Groups*.
+This case records a proof of Conjecture 4.7 in Li, Xia, and Zhou,
+*The Second Largest Eigenvalue of Some Nonnormal Cayley Graphs on Symmetric
+Groups*.
 
-For (n\ge 5), (1\le r<n-3), and (H=C(n,n-3;r)), the proof identifies exactly which irreducible representation blocks attain the target second eigenvalue. The general argument for (n\ge 7) is symbolic; exact characteristic polynomials discharge the remaining cases (n=5,6).
+For every `n>=5` and `1<=r<k<=n-2`, let `C(n,k;r)` be the set of `k`-cycles
+whose support contains `{1,...,r}`. The relevant eigenvalue was already known:
+the new conclusion is the exact classification of the irreducible blocks that
+attain it. When `k` is even, only the standard representation attains the
+second eigenvalue. When `k` is odd, exactly the standard representation and
+its sign twist attain the strictly second eigenvalue.
 
-This is one of the first cleaned, publicly releasable results from the Euler system's case library for conjectures posed by authors who had published in top-tier combinatorics journals within the preceding 24 months.
+The seven-page full proof is in `paper/full_conjecture.pdf`. It makes the
+published induction strict by proving the missing endpoint `r=k-1`, then
+handles the exceptional `k=n-2` layer using the published boundary results and
+three finite exact cases. The earlier nine-page note and its source remain in
+the package as an independently reviewed proof of the `n-k=3` slice.
 
 ## Contents
 
-- `problem.md` states the original conjecture and the exact layer addressed here.
-- `status.md` gives the mathematical and publication status.
+- `problem.md` states Conjecture 4.7 and the resolved parameter range.
+- `proof_outline.md` records the dependency graph and the finite-computation
+  boundary of the full proof.
+- `status.md` separates correctness, external review, and priority.
 - `sources.md` identifies the public primary sources.
-- `verification.md` summarizes the completed mathematical, computational, and paper-level checks.
-- `paper/main.tex` is the self-contained English note.
-- `paper/main.pdf` is the compiled nine-page note.
-- `paper/references.bib` contains the public bibliography.
-- `evidence/low_order_cases.json` gives compact machine-readable summaries for the three load-bearing low-order cases.
+- `verification.md` records the completed audit and its limitations.
+- `paper/full_conjecture.pdf` is the complete seven-page proof.
+- `paper/main.tex` and `paper/main.pdf` are the earlier `n-k=3` note.
+- `evidence/low_order_cases.json` contains the exact certificates for that
+  earlier slice.
 
 ## Scope and priority
 
-The result addresses only the (n-k=3) regime of Conjecture 4.7. It is a partial result and makes no assertion about other parameter regimes.
-
-Public novelty or priority: `NOT_ESTABLISHED`.
+The mathematical statement covers the full range of Conjecture 4.7. It does
+not address the different `k=n-1` questions in the source paper. The full
+proof has passed a detailed internal audit, but has not yet been independently
+refereed by a domain expert. Public novelty or priority is `NOT_ESTABLISHED`.

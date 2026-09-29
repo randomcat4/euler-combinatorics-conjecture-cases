@@ -64,9 +64,9 @@
       "novelty": "NOT_ESTABLISHED"
     },
     "cayley-eigenvalue-codimension-three": {
-      "result": "PARTIAL_RESULT",
-      "scope": "the n-k=3 regime of the cited conjecture only",
-      "verification": "INDEPENDENTLY_VERIFIED",
+      "result": "PROVED",
+      "scope": "complete Conjecture 4.7 for all n>=5 and 1<=r<k<=n-2",
+      "verification": "INTERNALLY_AUDITED",
       "novelty": "NOT_ESTABLISHED"
     },
     "catalan-schett-plane-tree-statistic": {

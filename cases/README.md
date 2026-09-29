@@ -27,7 +27,7 @@ Each subdirectory is a self-contained public case package. The index is organize
 - [`minimum-degree-two-degree-multiplicity`](minimum-degree-two-degree-multiplicity/)
 - [`five-point-sixteen-shattering`](five-point-sixteen-shattering/)
 - [`orthogonal-tree-seven-vertex-obstructions`](orthogonal-tree-seven-vertex-obstructions/)
-- [`cayley-eigenvalue-codimension-three`](cayley-eigenvalue-codimension-three/)
+- [`cayley-eigenvalue-codimension-three`](cayley-eigenvalue-codimension-three/) (complete Conjecture 4.7; historical slug retained)
 
 The restricted-family Gao manuscript and its Lean formalization are maintained in the external [Gao Lean repository](https://github.com/randomcat4/gaoLEAN) and are linked from the main README. Neither entry is presented as a complete solution of its source conjecture.
 

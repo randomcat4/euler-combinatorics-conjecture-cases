@@ -173,9 +173,9 @@ the published artifact manifest, and the executable finite certificates.
     <tr>
       <td><sub><a href="cases/cayley-eigenvalue-codimension-three/">Cayley eigenvalues</a></sub></td>
       <td><sub><a href="https://doi.org/10.1016/j.jcta.2025.106097"><em>Journal of Combinatorial Theory, Series A</em> 218 (2026), Article 106097</a></sub></td>
-      <td><sub>Partial parameter result</sub></td>
-      <td><sub>The <code>n-k=3</code> regime of Conjecture 4.7 only</sub></td>
-      <td><sub>Independent mathematical review</sub></td>
+      <td><sub>Complete solution</sub></td>
+      <td><sub>Conjecture 4.7 for all <code>n&gt;=5</code> and <code>1&lt;=r&lt;k&lt;=n-2</code></sub></td>
+      <td><sub>Internal proof audit; earlier <code>n-k=3</code> slice independently reviewed</sub></td>
     </tr>
   </tbody>
 </table>
@@ -358,15 +358,21 @@ for every nontrivial finite abelian odd-primary group $A$. This is a restricted-
 
 Other Gao-related problems are being curated and actively advanced. Their public packages will be added when the corresponding arguments and release materials are ready.
 
+## Complete solutions
+
 ### Nonnormal Cayley graph eigenvalues
 
 *Yuxuan Li, Binzhou Xia, and Sanming Zhou · [DOI](https://doi.org/10.1016/j.jcta.2025.106097) · [arXiv](https://arxiv.org/abs/2402.02427)*
 
-Conjecture 4.7 concerns representation-level uniqueness for a family of nonnormal Cayley graphs on symmetric groups. The public case establishes a result in the restricted `k=n-3` regime, with a symbolic general argument and exact low-order certificates. It does not resolve the conjecture outside that regime.
+Conjecture 4.7 concerns representation-level uniqueness for a family of
+nonnormal Cayley graphs on symmetric groups. The public case proves the full
+conjecture for every `n>=5` and `1<=r<k<=n-2`: the known target value is
+attained only by the standard representation for even `k`, and exactly by the
+standard representation and its sign twist for odd `k`. The package retains
+the earlier independently reviewed `n-k=3` note. The full proof has passed an
+internal audit; independent domain review and public priority remain open.
 
 [Open the Cayley eigenvalue package](cases/cayley-eigenvalue-codimension-three/)
-
-## Complete solutions
 
 ### A Catalan--Schett statistic on plane trees
 
