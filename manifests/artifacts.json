@@ -34,8 +34,24 @@
       "sha256": "12b24e9ef80d0b5663515c7ee8dac8e9751ba8fb8c2033e910e82b2c690e5957"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/check_product_activity.py",
+      "sha256": "23d5e864e82dc2490853d95f741226a92433b60beeee70eedf2d7bb2d12e21c6"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/evidence/low_order_cases.json",
       "sha256": "e6b8c4bf7c62868628723cb078ee1e225726f57b63c2cf270efb60e6bc37db80"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/evidence/product_activity/n5ray_certificate.json",
+      "sha256": "47397be33ae955feae8f1b3baa0291d1da146b1c3275efb2c9f74fbac37846cd"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/evidence/product_activity/n5ray_range.json",
+      "sha256": "7416345ff2bf6078605f335e2e22ec68565b67f45fd36e1f1f400ca0d369a686"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/evidence/product_activity/reflected_diagnostic.json",
+      "sha256": "3920b380d950cc7ade44211751d5ba3898f48250df6843dd10f725f31e235391"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/paper/full_conjecture.pdf",
@@ -58,12 +74,16 @@
       "sha256": "3e94ec582afa98fa190aad2b34883a21bea12ee6767b7652b8d55cc9b1fab2b6"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/product_activity.md",
+      "sha256": "f8a8235f4ac78d326046bfb23d45244266bf25b2457f067f75ccd218dd4a2317"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/proof_outline.md",
       "sha256": "e33c566144561ba9ae9300d1e731701531aad515681ed4aa8a4c7d222568f643"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "efc98ea9a55f89cb127caf80d4de3208232bfbf3ad1d299a4f7f285a1e261767"
+      "sha256": "b75a9b0b7ee8e234a750365c1103a34804b24c386e56b91adfb4732c34dace37"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
@@ -71,11 +91,11 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/status.md",
-      "sha256": "ba55383175885041814d286e3db20c4306ace4422f72c0f5422ace5ebccf6fb1"
+      "sha256": "3ca7834b9616a72a0188c7227eb63447738f67d316f55104af2fb9947d0ec6df"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
-      "sha256": "6bbab7748875327b612264a65f81ef60ef9252367145bc3934d6b1a27d1b42b5"
+      "sha256": "14e3209f0d97f7e901d7f130bcc80e307d25d64ed21974f5ab7783c129e4ed8a"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/finite-regression.md",

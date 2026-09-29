@@ -36,3 +36,13 @@ verification remains valid for the restricted slice and is recorded in
 
 Verification of correctness does not establish novelty or priority. The case
 does not claim any result for the separate `k=n-1` problems.
+
+## Product-activity extensions
+
+The one-exceptional-activity theorem received two independent proof checks.
+The three-cycle two-exception theorem was verified in each of its three
+parameter regimes and in a separate audit of their union and target formula.
+The `n=5` four-scale ray was reconstructed from its integer gap forms; the
+public certificate contains eleven positive-coefficient principal minors and
+the strengthened `q>=13/5` range. The reflected finite scan is labeled as a
+diagnostic and is not part of the proof.

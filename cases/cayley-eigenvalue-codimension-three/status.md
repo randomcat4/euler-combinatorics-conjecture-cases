@@ -9,6 +9,8 @@
 - Earlier slice: the `n-k=3` note remains `INDEPENDENTLY_VERIFIED`.
 - Full-proof verification: `INTERNALLY_AUDITED`; an independent domain referee
   is still pending.
+- Separate partial extension: three proved product-activity families; the
+  arbitrary-activity problem remains open.
 - Paper state: `PUBLIC_DRAFT_ARTIFACT`.
 - Public novelty or priority: `NOT_ESTABLISHED`.
 

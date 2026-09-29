@@ -27,6 +27,9 @@ the package as an independently reviewed proof of the `n-k=3` slice.
 - `status.md` separates correctness, external review, and priority.
 - `sources.md` identifies the public primary sources.
 - `verification.md` records the completed audit and its limitations.
+- `product_activity.md` records three product-activity theorem families and
+  their explicit target values or comparison certificates.
+- `check_product_activity.py` validates the public exact `n=5` certificate.
 - `paper/full_conjecture.pdf` is the complete seven-page proof.
 - `paper/main.tex` and `paper/main.pdf` are the earlier `n-k=3` note.
 - `evidence/low_order_cases.json` contains the exact certificates for that
