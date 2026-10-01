@@ -1,0 +1,56 @@
+{
+  "status": "PASS_FINITE",
+  "tolerance": 1e-09,
+  "dependencies": {
+    "numpy": "2.3.5"
+  },
+  "six_vertex": {
+    "all_labeled_graphs": 32768,
+    "feasible_graphs": 32237,
+    "maximum_q": 8.605551275463991,
+    "expected_q": 8.60555127546399,
+    "labeled_maximizers": 60,
+    "maximizer_isomorphism_types": 1,
+    "next_lower_q": 8.449489742783188,
+    "gap": 0.1560615326808037,
+    "K2_join_C4_forbidden": true,
+    "I2_join_C4_forbidden": false,
+    "I2_join_C4_q": 8.0
+  },
+  "two_universal_class": {
+    "5": {
+      "residual_graphs_checked": 8,
+      "feasible": 8,
+      "also_K33_free": 8,
+      "two_regular_equality_residuals": 1,
+      "maximum_q": 8.0,
+      "q_star": 8.0
+    },
+    "6": {
+      "residual_graphs_checked": 64,
+      "feasible": 38,
+      "also_K33_free": 38,
+      "two_regular_equality_residuals": 0,
+      "maximum_q": 8.605551275463984,
+      "q_star": 8.82842712474619
+    },
+    "7": {
+      "residual_graphs_checked": 1024,
+      "feasible": 238,
+      "also_K33_free": 238,
+      "two_regular_equality_residuals": 12,
+      "maximum_q": 9.70156211871643,
+      "q_star": 9.701562118716424
+    },
+    "8": {
+      "residual_graphs_checked": 32768,
+      "feasible": 1768,
+      "also_K33_free": 1768,
+      "two_regular_equality_residuals": 70,
+      "maximum_q": 10.605551275463993,
+      "q_star": 10.60555127546399
+    }
+  },
+  "failures": [],
+  "limitation": "The n=6 search is exhaustive over all labeled graphs. The K2-join-R classification is exhaustive only for 5 <= n <= 8. Spectral comparisons use float64 eigensolvers."
+}

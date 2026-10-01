@@ -1,4 +1,20 @@
-# The CDK image of improper partition matrices
+# The CDK image and independent pair orientations
+
+**Source problem:** Question 5.5 of Chern--Fu, arXiv v2. [Original statement and sources](problem.md).
+
+**[Read the clean proof PDF](paper/extension.pdf)**
+
+**Extension pass (+2h).** The value-interval condition completely describes the improper image under the CDK bijection. Allowing unequal matched pairs gives every pair-swap orbit, its one-sided representatives, the binomial directional distribution and an exact row-nonempty enumeration.
+
+**Initial pass (2h).** The initial note proved the all-order value-interval characterization.
+
+The swaps preserve column sizes and every cell cardinality. The row-nonempty condition restricts possible records, not their orientations. Public priority is not established.
+
+[Extension case files and independent checks](extension/)
+
+## Initial public package
+
+The original description and public files below document the initial pass. They remain available; the extension manuscript above gives the later scope.
 
 *Shane Chern and Shishuo Fu · [DOI](https://doi.org/10.1016/j.jcta.2026.106213) · [arXiv](https://arxiv.org/abs/2508.21318)*
 
@@ -23,7 +39,7 @@ only \(e\), its sorted set of values, the label order, and equality of adjacent
 entries. The inverse partition matrix is used in the proof, not as the
 definition of the right-hand side.
 
-## Contents
+### Contents
 
 - [Problem](problem.md): definitions, source locator, and exact theorem scope.
 - [Proof](proof.md): CDK inverse structure and both inclusions.
@@ -38,7 +54,7 @@ definition of the right-hand side.
   eight.
 - [Certificate](mining_n_le_8.json): compact output of the finite check.
 
-## Result at a glance
+### Result at a glance
 
 Let \(\Pi_n:PM_n\to I_n\) be the CDK bijection in the form used by Chern and
 Fu. For every `n >= 1`,

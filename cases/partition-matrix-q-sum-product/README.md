@@ -1,4 +1,20 @@
-# A q-difference sum-product for partition matrices
+# Partition-matrix q-series and cell cardinalities
+
+**Source problem:** Question 5.1 of Chern--Fu, arXiv v2. [Original statement and sources](problem.md).
+
+**[Read the clean proof PDF](paper/extension.pdf)**
+
+**Extension pass (+2h).** A complete column-word proof gives the original sum-product. Each fixed column series then has a standard basic-hypergeometric expression, and the same formula extends to arbitrary multiplicative cell-cardinality weights.
+
+**Initial pass (2h).** The initial note specified the column series by finite q-difference equations.
+
+The full ordinary generating series is formal. Analytic convergence is asserted only for each fixed column series when |q|<1. Public priority is not established.
+
+[Extension case files and independent checks](extension/)
+
+## Initial public package
+
+The original description and public files below document the initial pass. They remain available; the extension manuscript above gives the later scope.
 
 *Shane Chern and Shishuo Fu · [DOI](https://doi.org/10.1016/j.jcta.2026.106213) · [arXiv](https://arxiv.org/abs/2508.21318)*
 
@@ -21,7 +37,7 @@ by a finite equation or recurrence and with a uniqueness proof. The result
 below satisfies that contract without using the original partition-matrix
 enumeration as an oracle.
 
-## Contents
+### Contents
 
 - [Problem](problem.md): source definitions, source locator, and exact public
   scope.
@@ -37,7 +53,7 @@ enumeration as an oracle.
 - [Checker](check_formula.py): a standard-library finite regression through
   size eight.
 
-## Result at a glance
+### Result at a glance
 
 Let \(T_q f(t)=f(qt)\). For each `k >= 1`, let \(R_k(q,t)\in
 \mathbb{Z}[q][[t]]\) be the unique constant-term-one solution of

@@ -28,8 +28,10 @@ python cases/ternary-berge-suspension-rigidity/check_statement_certificate.py
 python cases/entropy-bounded-sidon-concentration-stability/check_sidon_stability.py
 ```
 
-The checks use the Python standard library and verify the repository boundary,
-the published artifact manifest, and the executable finite certificates.
+The initial-pass checks above use the Python standard library and verify the repository boundary,
+the published artifact manifest, and the executable finite certificates. Each new extension package
+has its own reproduction instructions and recorded coverage; spectral checks list their additional
+dependencies and numerical tolerances.
 
 ## Public result index
 
@@ -37,7 +39,7 @@ Every public result remains listed below. The first rows are the current extensi
 
 <code>2h</code> marks an outcome from the initial two-hour EULER research window. <code>+2h</code> marks an outcome from the later extension allocation; extension work may resume an interrupted earlier run and may reuse the earlier case state, so it should not be read as an independent four-hour rerun or as two full additional hours on every case.
 
-For <code>+2h</code> results transferred from the private research repository, the public artifact is the clean proof PDF only; internal review, audit, routing, and verdict files are not mirrored into this repository.
+Each updated <code>+2h</code> case includes a clean proof PDF and a companion package with the original problem, a proof guide, sources, precise status, and reproducible independent checks where available. Finite tests and numerical agreement are distinguished from general proofs. The original public files remain available as the initial-pass record; internal review transcripts, audit logs, routing, and verdict files are not mirrored into this repository.
 
 <table>
   <thead>
@@ -52,59 +54,59 @@ For <code>+2h</code> results transferred from the private research repository, t
   <tbody>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2025.106065">Montero–Potočnik, <em>JCTA</em> 216 (2025)</a><br>Problem 2</td>
-      <td><a href="cases/minimal-degree-three-imprimitive-groups/"><strong>Minimal-degree-three groups</strong></a><br>Classification</td>
+      <td><a href="cases/minimal-degree-three-imprimitive-groups/"><strong>Minimal-degree-three groups</strong></a><br>Classification<br><a href="cases/minimal-degree-three-imprimitive-groups/paper/extension.pdf">Proof PDF</a></td>
       <td>All transitive permutation groups of minimal degree 3 via intrinsic blocks, invariant binary codes and cocycles; regular cyclic top actions are classified up to permutation conjugacy.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review; finite calibration is supplementary.</td>
+      <td>Independent model proof review; exact cyclic-code and cocycle checks through 12 blocks.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2025.106049">Lin–Liu–Yan, <em>JCTA</em> 215 (2025)</a><br>Problem 2.18</td>
-      <td><a href="cases/catalan-schett-plane-tree-statistic/"><strong>Plane-tree statistic</strong></a><br>Complete solution + run refinement</td>
+      <td><a href="cases/catalan-schett-plane-tree-statistic/"><strong>Plane-tree statistic</strong></a><br>Complete solution + run refinement<br><a href="cases/catalan-schett-plane-tree-statistic/paper/extension.pdf">Proof PDF</a></td>
       <td>Explicit tree/permutation bijection solves the original joint identity and retains the complete inverse ascending-run composition, with arbitrary multiplicative run weights.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review; finite checks are supplementary.</td>
+      <td>Independent model proof review; exact full-signature enumeration through 9 edges.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2026.106213">Chern–Fu, <em>JCTA</em> 223 (2026)</a><br>Question 5.7</td>
-      <td><a href="cases/partition-matrix-bijection/"><strong>Partition-matrix bijection</strong></a><br>Complete solution + full-class refinement</td>
+      <td><a href="cases/partition-matrix-bijection/"><strong>Partition-matrix bijection</strong></a><br>Complete solution + full-class refinement<br><a href="cases/partition-matrix-bijection/paper/extension.pdf">Proof PDF</a></td>
       <td>Explicit mutual inverses for the minus and full classes; preserves <code>v=dist</code>, dimension and the full ordered column-parity signature, with Eulerian/Stirling enumerations.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review and exact finite regression.</td>
+      <td>Independent model proof review; exact three-way bijection and signature checks through size 8.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2026.106213">Chern–Fu, <em>JCTA</em> 223 (2026)</a><br>Question 5.1</td>
-      <td><a href="cases/partition-matrix-q-sum-product/"><strong>Partition-matrix q-series</strong></a><br>Complete formula + cell-size refinement</td>
+      <td><a href="cases/partition-matrix-q-sum-product/"><strong>Partition-matrix q-series</strong></a><br>Complete formula + cell-size refinement<br><a href="cases/partition-matrix-q-sum-product/paper/extension.pdf">Proof PDF</a></td>
       <td>Self-contained sum-product solution; standard basic-hypergeometric form for every fixed column series; arbitrary multiplicative weights for all cell cardinalities.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review; coefficient checks are supplementary.</td>
+      <td>Independent model proof review; exact coefficients through size 8 and numerical series cross-checks.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2026.106213">Chern–Fu, <em>JCTA</em> 223 (2026)</a><br>Question 5.5</td>
-      <td><a href="cases/cdk-improper-partition-matrix-image/"><strong>CDK improper image</strong></a><br>Complete characterization + orbit theorem</td>
+      <td><a href="cases/cdk-improper-partition-matrix-image/"><strong>CDK improper image</strong></a><br>Complete characterization + orbit theorem<br><a href="cases/cdk-improper-partition-matrix-image/paper/extension.pdf">Proof PDF</a></td>
       <td>Intrinsic value-interval characterization, followed by the complete commuting pair-swap orbit classification, one-sided images, defect distribution and exact row-nonempty enumeration.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review; finite checks are supplementary.</td>
+      <td>Independent model proof review; exact CDK, orbit and counting checks through size 8.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2025.106097">Li–Xia–Zhou, <em>JCTA</em> 218 (2026)</a><br>Conjecture 4.7</td>
-      <td><a href="https://github.com/randomcat4/euler-combinatorics-conjecture-cases/pull/17"><strong>Cayley representation uniqueness</strong></a><br>Complete solution</td>
+      <td><a href="https://github.com/randomcat4/euler-combinatorics-conjecture-cases/pull/17"><strong>Cayley representation uniqueness</strong></a><br>Complete solution (proof draft)<br><a href="https://github.com/randomcat4/euler-combinatorics-conjecture-cases/blob/case/cayley-c47-complete/cases/cayley-eigenvalue-codimension-three/paper/full_conjecture.pdf">Proof PDF in PR #17</a></td>
       <td>Every <code>n&gt;=5</code> and <code>1&lt;=r&lt;k&lt;=n-2</code>; exact attaining representations are classified. The separate <code>k=n-1</code> questions are excluded.</td>
       <td><code>+2h</code></td>
-      <td>Three proof-critical finite boundary cases are described in the proof; fresh domain review is still pending.</td>
+      <td>Three quoted finite boundary computations; exact implementation is not supplied. Domain review pending.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.laa.2025.10.036">Zheng–Li–Li, <em>LAA</em> 730 (2026)</a><br>Conjecture 5.1</td>
-      <td><a href="cases/k33plus-q-index-boundary-counterexample/"><strong>K33+ Q-index classification</strong></a><br>Counterexample + structural theorem</td>
+      <td><a href="cases/k33plus-q-index-boundary-counterexample/"><strong>K33+ Q-index classification</strong></a><br>Counterexample + structural theorem<br><a href="cases/k33plus-q-index-boundary-counterexample/paper/extension.pdf">Proof PDF</a></td>
       <td>Analytic unique optimum at <code>s=t=3,n=6</code>; exact classification in the full two-universal-vertex class for <code>n&gt;=7</code>; source families fail at <code>n=8</code> and every <code>n&gt;=10</code>. No unrestricted large-order maximizer classification is claimed.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review; the exact <code>n=7,8</code> census is supplementary.</td>
+      <td>Independent model proof review; exhaustive six-vertex containment tests with numerical spectra.</td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2508.13466v1">Lin–Zhao, arXiv:2508.13466v1</a><br>Conjecture 1.3</td>
-      <td><a href="cases/steklov-three-leaf-extra-special-extremizer/"><strong>Steklov extremizer</strong></a><br>Complete solution + strengthening</td>
+      <td><a href="cases/steklov-three-leaf-extra-special-extremizer/"><strong>Steklov extremizer</strong></a><br>Complete solution + strengthening<br><a href="cases/steklov-three-leaf-extra-special-extremizer/paper/extension.pdf">Proof PDF</a></td>
       <td>All <code>b&gt;=2</code> and <code>r&gt;=1</code>; strengthens matching equality to <code>nu(T)&gt;=br+2</code>, proves unique equality, and gives the sharp optimum for every central leaf split at minimum diameter.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review; auxiliary formal identities do not replace the general proof.</td>
+      <td>Independent model proof review; trees through 12 vertices and numerical checks of both Steklov formulations.</td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2506.21383">arXiv:2506.21383</a><br>Conjectures 6.1, 6.2 and 6.4</td>
@@ -120,7 +122,6 @@ For <code>+2h</code> results transferred from the private research repository, t
       <td><code>2h</code></td>
       <td>Lean-checked manuscript theorem.</td>
     </tr>
-
     <tr>
       <td><a href="https://doi.org/10.1007/s00493-026-00218-x"><em>Combinatorica</em> 46 (2026), Article 23</a><br>Conjecture 22</td>
       <td><a href="cases/volume-rigidity-dimension-seven/"><strong>Volume rigidity</strong></a><br>Counterexample</td>
@@ -211,15 +212,17 @@ Conjecture 22 in the cited volume-rigidity paper predicts rigidity for a family 
 
 [Open the volume-rigidity counterexample package](cases/volume-rigidity-dimension-seven/)
 
-### A boundary counterexample to a K33+ Q-index classification
+### A counterexample and a sharp two-universal-vertex theorem
 
 *Jian Zheng, Yongtao Li, and Honghai Li · [DOI](https://doi.org/10.1016/j.laa.2025.10.036) · [arXiv](https://arxiv.org/abs/2504.07852)*
 
-Conjecture 5.1 in the cited signless-Laplacian spectral Turan paper predicts that every extremal `K_{s,t}^+`-free graph belongs to one of two displayed families for all `2<=s<=t` and `n>=s+t`. The public case gives a complete boundary counterexample at `s=t=3,n=6`: `K2 join (K3 union K1)` is `K_{3,3}^+`-free, uniquely maximizes the Q-index over the full six-vertex denominator, and is not in `L_{6,3,3}` or `Y_{6,3}`.
+**Initial 2h.** The initial package certified the six-vertex counterexample by an exact finite enumeration.
 
-The package does not address a separately amended sufficiently-large-`n` version and does not claim public priority.
+**+2h extension.** The six-vertex counterexample is proved uniquely optimal by an elementary complement argument. For all n>=7, the note determines the sharp Q-index and every equality graph in the entire two-universal-vertex class. The source classification also fails at n=8 and at every n>=10.
 
-[Open the K33+ Q-index counterexample package](cases/k33plus-q-index-boundary-counterexample/)
+The unrestricted large-order maximizing graphs are not classified. The infinite-order obstruction does not assume that the displayed constructions are unrestricted maximizers.
+
+[Read the proof PDF](cases/k33plus-q-index-boundary-counterexample/paper/extension.pdf) · [Open the case](cases/k33plus-q-index-boundary-counterexample/)
 
 ### A 3-uniform word for a toroidal grid boundary case
 
@@ -268,37 +271,7 @@ any other six-vertex graph, or claim public priority.
 
 ## Partial results
 
-### Minimal-degree-three imprimitive groups
 
-*Antonio Montero and Primoz Potocnik · [DOI](https://doi.org/10.1016/j.jcta.2025.106065) · [arXiv](https://arxiv.org/abs/2405.10088v2)*
-
-Problem 2 in the cited paper asks for a detailed description of transitive
-permutation groups of minimal degree 3, including the displayed imprimitive
-family `Alt(m)^k <= G <= Sym(m) wr Sym(k)`. The public case proves the
-complete quotient criterion for that family, for every `m>=3` and `k>=1`:
-transitivity is exactly transitivity of the top projection, and minimal degree
-3 is obtained exactly when the base parity kernel has no Hamming-weight-one
-vector.
-
-This is a complete result for the displayed imprimitive family, not a full
-classification of all transitive permutation groups of minimal degree 3.
-
-[Open the minimal-degree-three imprimitive-groups package](cases/minimal-degree-three-imprimitive-groups/)
-
-### Steklov three-leaf extra-special extremizer
-
-*Huiqiu Lin and Da Zhao · [arXiv](https://arxiv.org/abs/2508.13466v1)*
-
-Conjecture 1.3 in the cited paper predicts an extra-special extremal tree for
-the first nonzero Steklov eigenvalue under fixed leaf count and matching
-number. The public case proves the complete `b=3` slice: every three-leaf tree
-with matching number `3r+2` satisfies
-`sigma_2(T) <= sigma_2^-(ES_{3,2r})`, with equality exactly for the spider
-whose arm lengths are `{2r+2,2r+1,2r}`.
-
-This is a partial result and does not address `b=2` or `b>=4`.
-
-[Open the Steklov three-leaf package](cases/steklov-three-leaf-extra-special-extremizer/)
 
 ### Minimum-degree-two degree multiplicity
 
@@ -365,51 +338,91 @@ for every nontrivial finite abelian odd-primary group $A$. This is a restricted-
 
 Other Gao-related problems are being curated and actively advanced. Their public packages will be added when the corresponding arguments and release materials are ready.
 
+## Proof draft under review
+
 ### Nonnormal Cayley graph eigenvalues
 
 *Yuxuan Li, Binzhou Xia, and Sanming Zhou · [DOI](https://doi.org/10.1016/j.jcta.2025.106097) · [arXiv](https://arxiv.org/abs/2402.02427)*
 
-Conjecture 4.7 concerns representation-level uniqueness for a family of nonnormal Cayley graphs on symmetric groups. The public case establishes a result in the restricted `k=n-3` regime, with a symbolic general argument and exact low-order certificates. It does not resolve the conjecture outside that regime.
+Conjecture 4.7 concerns representation-level uniqueness for a family of nonnormal Cayley graphs on symmetric groups. The initial 2h package establishes the `k=n-3` slice. The +2h proof draft in [PR #17](https://github.com/randomcat4/euler-combinatorics-conjecture-cases/pull/17) covers every `n>=5, 1<=r<k<=n-2`; its three quoted finite computations remain a stated reproducibility limit. The separate `k=n-1` questions are excluded.
 
 [Open the Cayley eigenvalue package](cases/cayley-eigenvalue-codimension-three/)
 
 ## Complete solutions
 
-### A Catalan--Schett statistic on plane trees
+### The Steklov extremizer for every leaf count
+
+*Huiqiu Lin and Da Zhao · [arXiv](https://arxiv.org/abs/2508.13466v1)*
+
+**Initial 2h.** The initial package proved the complete three-leaf slice.
+
+**+2h extension.** For every b>=2 and integer r>=1, the matching threshold nu(T)>=br+2 implies the conjectured sharp Steklov bound, with the unique equality tree. The note also determines the sharp optimum for each positive-integer central leaf split at the smallest possible diameter.
+
+The trees are finite, simple and unweighted, with counting measure on the leaf boundary. The two-leaf path endpoint is explicit.
+
+[Read the proof PDF](cases/steklov-three-leaf-extra-special-extremizer/paper/extension.pdf) · [Open the case](cases/steklov-three-leaf-extra-special-extremizer/)
+
+
+### Minimal-degree-three groups
+
+*Antonio Montero and Primoz Potocnik · [DOI](https://doi.org/10.1016/j.jcta.2025.106065) · [arXiv](https://arxiv.org/abs/2405.10088v2)*
+
+**Initial 2h.** The initial note proved the quotient criterion for the displayed imprimitive family.
+
+**+2h extension.** All transitive permutation groups of minimal degree three are described by intrinsic alternating blocks, invariant binary codes and cocycles. The note gives full permutation-conjugacy criteria and classifies every regular cyclic top action, including even lengths.
+
+Conjugacy means conjugacy of permutation actions, not abstract group isomorphism or unrestricted equivalence of cyclic codes.
+
+[Read the proof PDF](cases/minimal-degree-three-imprimitive-groups/paper/extension.pdf) · [Open the case](cases/minimal-degree-three-imprimitive-groups/)
+
+
+### Plane trees and inverse ascending runs
 
 *Zhicong Lin, Jing Liu, and Sherry H. F. Yan · [DOI](https://doi.org/10.1016/j.jcta.2025.106049) · [arXiv](https://arxiv.org/abs/2409.01558)*
 
-Problem 2.18 asks for a natural statistic on rooted plane trees that directly interprets a bivariate distribution on 231-avoiding permutations. The public case defines an intrinsic terminating tree statistic and gives an explicit all-order bijection, inverse, and objectwise preservation proof.
+**Initial 2h.** The initial note gave the intrinsic tree statistic and its original two-statistic bijection.
 
-[Open the plane-tree solution](cases/catalan-schett-plane-tree-statistic/)
+**+2h extension.** The original joint tree/permutation identity is proved by explicit inverse constructions. The extension retains the entire inverse ascending-run composition and allows arbitrary multiplicative run weights, including zero weights and disjoint d-packet statistics.
 
-### A direct bijection for improper partition matrices
+The coefficient formulas are formal power-series identities; classical Catalan coefficient formulas are attributed.
 
-*Shane Chern and Shishuo Fu · [DOI](https://doi.org/10.1016/j.jcta.2026.106213) · [arXiv](https://arxiv.org/abs/2508.21318)*
+[Read the proof PDF](cases/catalan-schett-plane-tree-statistic/paper/extension.pdf) · [Open the case](cases/catalan-schett-plane-tree-statistic/)
 
-Question 5.7 asks for a direct statistic-preserving bijection between a signed class of improper partition matrices and a signed class of restricted inversion sequences. The public case gives a uniform all-order map, an explicit inverse, an exact image proof, and objectwise preservation of both statistics.
-
-[Open the partition-matrix solution](cases/partition-matrix-bijection/)
-
-### A q-difference sum-product for partition matrices
+### A cyclic-partition bijection for partition matrices
 
 *Shane Chern and Shishuo Fu · [DOI](https://doi.org/10.1016/j.jcta.2026.106213) · [arXiv](https://arxiv.org/abs/2508.21318)*
 
-Question 5.1 asks for a closed expression for the ordinary generating series of the inversion-weighted partition-matrix polynomials. The public case proves a finite q-difference specification of auxiliary word series and an all-order sum-product for `sum_{n>=1} S_n(q)t^n`, with coefficient equality in `Z[q][[t]]`.
+**Initial 2h.** The initial note established the statistic-preserving minus bijection.
 
-Because the source does not define a formal grammar for "closed expression," the case states the answered all-order expression contract explicitly and does not attribute that contract to the source authors.
+**+2h extension.** A common cyclic set partition gives explicit inverse maps for the original minus classes and the full classes. Dimension and the complete ordered column-parity signature are retained, with Eulerian and Stirling enumerations.
 
-[Open the partition-matrix q-sum-product](cases/partition-matrix-q-sum-product/)
+The source already related existence of the minus and full bijections; the note attributes that reduction and the known enumerations.
 
-### The CDK image of improper partition matrices
+[Read the proof PDF](cases/partition-matrix-bijection/paper/extension.pdf) · [Open the case](cases/partition-matrix-bijection/)
+
+### Partition-matrix q-series and cell cardinalities
 
 *Shane Chern and Shishuo Fu · [DOI](https://doi.org/10.1016/j.jcta.2026.106213) · [arXiv](https://arxiv.org/abs/2508.21318)*
 
-Question 5.5 in arXiv v2 asks for a characterization of the inversion sequences obtained from improper partition matrices under the Claesson-Dukes-Kubitzke bijection. The public case proves an intrinsic all-order predicate: inside the intervals cut out by the distinct values of the inversion sequence, adjacent local pairs starting at odd local position must have equal values.
+**Initial 2h.** The initial note specified the column series by finite q-difference equations.
 
-The source locator is version-sensitive: arXiv v1 Question 5.5 is a different direct-bijection problem, now Question 5.7 in arXiv v2.
+**+2h extension.** A complete column-word proof gives the original sum-product. Each fixed column series then has a standard basic-hypergeometric expression, and the same formula extends to arbitrary multiplicative cell-cardinality weights.
 
-[Open the CDK image characterization](cases/cdk-improper-partition-matrix-image/)
+The full ordinary generating series is formal. Analytic convergence is asserted only for each fixed column series when |q|<1.
+
+[Read the proof PDF](cases/partition-matrix-q-sum-product/paper/extension.pdf) · [Open the case](cases/partition-matrix-q-sum-product/)
+
+### The CDK image and independent pair orientations
+
+*Shane Chern and Shishuo Fu · [DOI](https://doi.org/10.1016/j.jcta.2026.106213) · [arXiv](https://arxiv.org/abs/2508.21318)*
+
+**Initial 2h.** The initial note proved the all-order value-interval characterization.
+
+**+2h extension.** The value-interval condition completely describes the improper image under the CDK bijection. Allowing unequal matched pairs gives every pair-swap orbit, its one-sided representatives, the binomial directional distribution and an exact row-nonempty enumeration.
+
+The swaps preserve column sizes and every cell cardinality. The row-nonempty condition restricts possible records, not their orientations.
+
+[Read the proof PDF](cases/cdk-improper-partition-matrix-image/paper/extension.pdf) · [Open the case](cases/cdk-improper-partition-matrix-image/)
 
 ### Ternary-Berge-free hypergraph independence complexes
 

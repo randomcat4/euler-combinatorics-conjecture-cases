@@ -1,4 +1,20 @@
-# Minimal-Degree-Three Imprimitive Groups
+# Minimal-degree-three groups
+
+**Source problem:** Problem 2 of Montero--Potocnik. [Original statement and sources](problem.md).
+
+**[Read the clean proof PDF](paper/extension.pdf)**
+
+**Extension pass (+2h).** All transitive permutation groups of minimal degree three are described by intrinsic alternating blocks, invariant binary codes and cocycles. The note gives full permutation-conjugacy criteria and classifies every regular cyclic top action, including even lengths.
+
+**Initial pass (2h).** The initial note proved the quotient criterion for the displayed imprimitive family.
+
+Conjugacy means conjugacy of permutation actions, not abstract group isomorphism or unrestricted equivalence of cyclic codes. Public priority is not established.
+
+[Extension case files and independent checks](extension/)
+
+## Initial public package
+
+The original description and public files below document the initial pass. They remain available; the extension manuscript above gives the later scope.
 
 *Antonio Montero and Primoz Potocnik · [DOI](https://doi.org/10.1016/j.jcta.2025.106065) · [arXiv](https://arxiv.org/abs/2405.10088v2)*
 
@@ -30,7 +46,7 @@ at least two unless \(K=0\), and a cocycle
 \(c\in Z^1(H,\mathbb{F}_2^k/K)\). It does not claim the conjugacy quotient or
 a classification of all transitive permutation groups of minimal degree three.
 
-## Contents
+### Contents
 
 - [Problem](problem.md): source locator, notation, and exact public scope.
 - [Proof](proof.md): transitivity, support trichotomy, and cocycle

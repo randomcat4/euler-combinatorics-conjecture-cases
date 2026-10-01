@@ -10,10 +10,24 @@
       "novelty": "NOT_ESTABLISHED"
     },
     "k33plus-q-index-boundary-counterexample": {
-      "result": "COUNTEREXAMPLE",
-      "scope": "Conjecture 5.1 boundary case s=t=3,n=6; disproof of the exact printed all-quantifier statement",
+      "result": "COUNTEREXAMPLE_AND_STRUCTURAL_THEOREM",
+      "scope": "Conjecture 5.1: analytic unique optimum at s=t=3,n=6; sharp two-universal-vertex classification; obstruction at n=8 and every n>=10. Unrestricted large-order classification remains open",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "initial_pass": {
+        "result": "COUNTEREXAMPLE",
+        "scope": "Conjecture 5.1 boundary case s=t=3,n=6; disproof of the exact printed all-quantifier statement"
+      },
+      "pass": "+2h",
+      "proof_pdf": "cases/k33plus-q-index-boundary-counterexample/paper/extension.pdf",
+      "extension_verification": {
+        "proof_review": "INDEPENDENT_MODEL_REVIEW_NO_UNRESOLVED_DEFECT_REPORTED",
+        "finite_check": "EXACT_COMBINATORICS_AND_NUMERICAL_SPECTRA",
+        "details": "cases/k33plus-q-index-boundary-counterexample/extension/verification.md",
+        "proof_pdf_sha256": "862d78503263063778398dd51caf25b86b7d81f02fd1792fd757cc6da136d958",
+        "human_domain_review": "NOT_ESTABLISHED",
+        "formalization": "NOT_ESTABLISHED"
+      }
     },
     "toroidal-grid-representation-counterexample": {
       "result": "COUNTEREXAMPLE",
@@ -34,16 +48,44 @@
       "novelty": "NOT_ESTABLISHED"
     },
     "minimal-degree-three-imprimitive-groups": {
-      "result": "PARTIAL_RESULT",
-      "scope": "Problem 2 display (1.2) imprimitive family Alt(m)^k <= G <= Sym(m) wr Sym(k), all m>=3 and k>=1",
+      "result": "CLASSIFICATION",
+      "scope": "All transitive minimal-degree-three permutation actions; full conjugacy criterion and every regular cyclic top, including even lengths",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "initial_pass": {
+        "result": "PARTIAL_RESULT",
+        "scope": "Problem 2 display (1.2) imprimitive family Alt(m)^k <= G <= Sym(m) wr Sym(k), all m>=3 and k>=1"
+      },
+      "pass": "+2h",
+      "proof_pdf": "cases/minimal-degree-three-imprimitive-groups/paper/extension.pdf",
+      "extension_verification": {
+        "proof_review": "INDEPENDENT_MODEL_REVIEW_NO_UNRESOLVED_DEFECT_REPORTED",
+        "finite_check": "FINITE_EXACT",
+        "details": "cases/minimal-degree-three-imprimitive-groups/extension/verification.md",
+        "proof_pdf_sha256": "c21a5c0371cbe47cc3736d9ae3bfd0609b8213584b4aafa49f33430348b81080",
+        "human_domain_review": "NOT_ESTABLISHED",
+        "formalization": "NOT_ESTABLISHED"
+      }
     },
     "steklov-three-leaf-extra-special-extremizer": {
-      "result": "PARTIAL_RESULT",
-      "scope": "complete b=3 slice of Conjecture 1.3 for three-leaf trees with matching number 3r+2, all r>=1",
+      "result": "COMPLETE_SOLUTION",
+      "scope": "Conjecture 1.3 for all b>=2,r>=1; matching threshold nu(T)>=br+2, unique equality and sharp minimum-diameter central-split refinement",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "initial_pass": {
+        "result": "PARTIAL_RESULT",
+        "scope": "complete b=3 slice of Conjecture 1.3 for three-leaf trees with matching number 3r+2, all r>=1"
+      },
+      "pass": "+2h",
+      "proof_pdf": "cases/steklov-three-leaf-extra-special-extremizer/paper/extension.pdf",
+      "extension_verification": {
+        "proof_review": "INDEPENDENT_MODEL_REVIEW_NO_UNRESOLVED_DEFECT_REPORTED",
+        "finite_check": "EXACT_COMBINATORICS_AND_NUMERICAL_SPECTRA",
+        "details": "cases/steklov-three-leaf-extra-special-extremizer/extension/verification.md",
+        "proof_pdf_sha256": "927c1e39f1a9afad82c768acdc295a2bcd470190cd068c955b5f9d07f4423672",
+        "human_domain_review": "NOT_ESTABLISHED",
+        "formalization": "NOT_ESTABLISHED"
+      }
     },
     "minimum-degree-two-degree-multiplicity": {
       "result": "PARTIAL_RESULT",
@@ -70,16 +112,44 @@
       "novelty": "NOT_ESTABLISHED"
     },
     "catalan-schett-plane-tree-statistic": {
-      "result": "PROVED",
-      "scope": "complete cited open problem",
+      "result": "COMPLETE_SOLUTION",
+      "scope": "Problem 2.18 plus full inverse ascending-run composition and arbitrary multiplicative run weights",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "initial_pass": {
+        "result": "PROVED",
+        "scope": "complete cited open problem"
+      },
+      "pass": "+2h",
+      "proof_pdf": "cases/catalan-schett-plane-tree-statistic/paper/extension.pdf",
+      "extension_verification": {
+        "proof_review": "INDEPENDENT_MODEL_REVIEW_NO_UNRESOLVED_DEFECT_REPORTED",
+        "finite_check": "FINITE_EXACT",
+        "details": "cases/catalan-schett-plane-tree-statistic/extension/verification.md",
+        "proof_pdf_sha256": "13f9114aa9ab03fce811750ea51937caacb116fb47931125fb7f5f80898d583c",
+        "human_domain_review": "NOT_ESTABLISHED",
+        "formalization": "NOT_ESTABLISHED"
+      }
     },
     "cdk-improper-partition-matrix-image": {
-      "result": "PROVED",
-      "scope": "complete CDK image characterization for Question 5.5 in arXiv v2",
+      "result": "COMPLETE_SOLUTION",
+      "scope": "Question 5.5: CDK improper image, all independent pair-orientation orbits, one-sided images and exact defect enumeration",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "initial_pass": {
+        "result": "PROVED",
+        "scope": "complete CDK image characterization for Question 5.5 in arXiv v2"
+      },
+      "pass": "+2h",
+      "proof_pdf": "cases/cdk-improper-partition-matrix-image/paper/extension.pdf",
+      "extension_verification": {
+        "proof_review": "INDEPENDENT_MODEL_REVIEW_NO_UNRESOLVED_DEFECT_REPORTED",
+        "finite_check": "FINITE_EXACT",
+        "details": "cases/cdk-improper-partition-matrix-image/extension/verification.md",
+        "proof_pdf_sha256": "cc4cd69c52774fa64643478946f94adb5dbd0f7bc08fccf0c82ce7a91f1dcdd0",
+        "human_domain_review": "NOT_ESTABLISHED",
+        "formalization": "NOT_ESTABLISHED"
+      }
     },
     "ternary-berge-suspension-rigidity": {
       "result": "PROVED",
@@ -94,16 +164,44 @@
       "novelty": "NOT_ESTABLISHED"
     },
     "partition-matrix-bijection": {
-      "result": "PROVED",
-      "scope": "complete cited open problem",
+      "result": "COMPLETE_SOLUTION",
+      "scope": "Question 5.7: original minus and full classes, explicit inverses, dimension and full ordered column parity signature",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "initial_pass": {
+        "result": "PROVED",
+        "scope": "complete cited open problem"
+      },
+      "pass": "+2h",
+      "proof_pdf": "cases/partition-matrix-bijection/paper/extension.pdf",
+      "extension_verification": {
+        "proof_review": "INDEPENDENT_MODEL_REVIEW_NO_UNRESOLVED_DEFECT_REPORTED",
+        "finite_check": "FINITE_EXACT",
+        "details": "cases/partition-matrix-bijection/extension/verification.md",
+        "proof_pdf_sha256": "ea708f8d316177ffb0dcb20e47037f7539b87520eafd3302fb1a72a63ef098d0",
+        "human_domain_review": "NOT_ESTABLISHED",
+        "formalization": "NOT_ESTABLISHED"
+      }
     },
     "partition-matrix-q-sum-product": {
-      "result": "PROVED",
-      "scope": "Question 5.1 under the stated all-order closed-expression contract",
+      "result": "COMPLETE_SOLUTION",
+      "scope": "Question 5.1: sum-product, standard basic-hypergeometric expression for each column, arbitrary cell-cardinality weights",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "initial_pass": {
+        "result": "PROVED",
+        "scope": "Question 5.1 under the stated all-order closed-expression contract"
+      },
+      "pass": "+2h",
+      "proof_pdf": "cases/partition-matrix-q-sum-product/paper/extension.pdf",
+      "extension_verification": {
+        "proof_review": "INDEPENDENT_MODEL_REVIEW_NO_UNRESOLVED_DEFECT_REPORTED",
+        "finite_check": "FINITE_EXACT_AND_NUMERICAL_SERIES",
+        "details": "cases/partition-matrix-q-sum-product/extension/verification.md",
+        "proof_pdf_sha256": "e4909c197b2f309787e7f10f1593ab4ae785223ce3610e7659134812ef73525b",
+        "human_domain_review": "NOT_ESTABLISHED",
+        "formalization": "NOT_ESTABLISHED"
+      }
     },
     "zhao-restricted-zero-sum-counterexample": {
       "result": "COUNTEREXAMPLE",

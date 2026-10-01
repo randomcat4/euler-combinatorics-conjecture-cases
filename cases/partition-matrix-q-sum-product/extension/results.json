@@ -1,0 +1,473 @@
+{
+  "problem": "partition-matrix-q-sum-product",
+  "status": "PASS_FINITE_EXACT_AND_NUMERIC",
+  "claim_scope": "partition-matrix inversion sum-product, q-Borel transform, and cell-size refinement",
+  "coverage": {
+    "coefficient_degree_n": [
+      1,
+      8
+    ],
+    "direct_matrix_enumeration": true,
+    "exact_column_word_dynamic_program": true,
+    "cell_weight_families": [
+      "affine",
+      "with_zero",
+      "signed"
+    ],
+    "q_borel_exact_rational_checks": "q in {1/2,2/3}, k<=5, coefficients through 8",
+    "hypergeometric_numeric_checks": "two (q,t) points, k<=4"
+  },
+  "per_n": [
+    {
+      "n": 1,
+      "partition_matrices": 1,
+      "S_n_q_coefficients_low_to_high": [
+        1
+      ],
+      "cell_profile_terms": 1,
+      "weighted_coefficients": {
+        "affine": [
+          3
+        ],
+        "with_zero": [
+          2
+        ],
+        "signed": [
+          -2
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "partition_matrices": 2,
+      "S_n_q_coefficients_low_to_high": [
+        2
+      ],
+      "cell_profile_terms": 2,
+      "weighted_coefficients": {
+        "affine": [
+          14
+        ],
+        "with_zero": [
+          7
+        ],
+        "signed": [
+          9
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "partition_matrices": 6,
+      "S_n_q_coefficients_low_to_high": [
+        5,
+        1
+      ],
+      "cell_profile_terms": 4,
+      "weighted_coefficients": {
+        "affine": [
+          91,
+          27
+        ],
+        "with_zero": [
+          28,
+          8
+        ],
+        "signed": [
+          -46,
+          -8
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "partition_matrices": 24,
+      "S_n_q_coefficients_low_to_high": [
+        15,
+        7,
+        2
+      ],
+      "cell_profile_terms": 8,
+      "weighted_coefficients": {
+        "affine": [
+          751,
+          459,
+          90
+        ],
+        "with_zero": [
+          166,
+          100,
+          24
+        ],
+        "signed": [
+          282,
+          124,
+          40
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "partition_matrices": 120,
+      "S_n_q_coefficients_low_to_high": [
+        53,
+        41,
+        20,
+        5,
+        1
+      ],
+      "cell_profile_terms": 19,
+      "weighted_coefficients": {
+        "affine": [
+          7551,
+          7191,
+          2964,
+          687,
+          75
+        ],
+        "with_zero": [
+          1126,
+          1046,
+          456,
+          82,
+          18
+        ],
+        "signed": [
+          -2046,
+          -1518,
+          -792,
+          -194,
+          -50
+        ]
+      }
+    },
+    {
+      "n": 6,
+      "partition_matrices": 720,
+      "S_n_q_coefficients_low_to_high": [
+        217,
+        240,
+        161,
+        68,
+        24,
+        8,
+        2
+      ],
+      "cell_profile_terms": 41,
+      "weighted_coefficients": {
+        "affine": [
+          89613,
+          117152,
+          72073,
+          27872,
+          7196,
+          2640,
+          210
+        ],
+        "with_zero": [
+          9059,
+          11591,
+          7390,
+          2739,
+          851,
+          288
+        ],
+        "signed": [
+          17173,
+          18289,
+          12770,
+          5389,
+          2085,
+          680,
+          200
+        ]
+      }
+    },
+    {
+      "n": 7,
+      "partition_matrices": 5040,
+      "S_n_q_coefficients_low_to_high": [
+        1014,
+        1475,
+        1253,
+        716,
+        334,
+        154,
+        62,
+        22,
+        9,
+        1
+      ],
+      "cell_profile_terms": 84,
+      "weighted_coefficients": {
+        "affine": [
+          1226462,
+          2049921,
+          1667691,
+          891092,
+          347270,
+          149066,
+          43622,
+          12066,
+          4467,
+          147
+        ],
+        "with_zero": [
+          83800,
+          137356,
+          114224,
+          60492,
+          25032,
+          10872,
+          2904,
+          924,
+          492
+        ],
+        "signed": [
+          -163930,
+          -230058,
+          -200332,
+          -115358,
+          -56738,
+          -26452,
+          -11348,
+          -4100,
+          -1740,
+          -200
+        ]
+      }
+    },
+    {
+      "n": 8,
+      "partition_matrices": 40320,
+      "S_n_q_coefficients_low_to_high": [
+        5335,
+        9677,
+        9950,
+        7066,
+        4034,
+        2192,
+        1098,
+        527,
+        271,
+        108,
+        40,
+        18,
+        4
+      ],
+      "cell_profile_terms": 164,
+      "weighted_coefficients": {
+        "affine": [
+          19018755,
+          38829577,
+          39201926,
+          26502150,
+          13439802,
+          6599764,
+          2791966,
+          1078027,
+          493727,
+          162512,
+          35016,
+          16218,
+          2628
+        ],
+        "with_zero": [
+          876839,
+          1757663,
+          1798782,
+          1217969,
+          636059,
+          320276,
+          133220,
+          52986,
+          26514,
+          7104,
+          1152,
+          432,
+          216
+        ],
+        "signed": [
+          1755919,
+          3078143,
+          3212462,
+          2304105,
+          1364315,
+          758056,
+          394512,
+          195130,
+          102894,
+          41372,
+          16480,
+          7480,
+          1680
+        ]
+      }
+    }
+  ],
+  "q0_coefficients_n0_to_n8": [
+    0,
+    1,
+    2,
+    5,
+    15,
+    53,
+    217,
+    1014,
+    5335
+  ],
+  "q1_coefficients_n1_to_n8": [
+    1,
+    2,
+    6,
+    24,
+    120,
+    720,
+    5040,
+    40320
+  ],
+  "exact_q_borel": [
+    {
+      "q": "1/2",
+      "k": 1,
+      "max_coefficient": 8,
+      "equal": true
+    },
+    {
+      "q": "1/2",
+      "k": 2,
+      "max_coefficient": 8,
+      "equal": true
+    },
+    {
+      "q": "1/2",
+      "k": 3,
+      "max_coefficient": 8,
+      "equal": true
+    },
+    {
+      "q": "1/2",
+      "k": 4,
+      "max_coefficient": 8,
+      "equal": true
+    },
+    {
+      "q": "1/2",
+      "k": 5,
+      "max_coefficient": 8,
+      "equal": true
+    },
+    {
+      "q": "2/3",
+      "k": 1,
+      "max_coefficient": 8,
+      "equal": true
+    },
+    {
+      "q": "2/3",
+      "k": 2,
+      "max_coefficient": 8,
+      "equal": true
+    },
+    {
+      "q": "2/3",
+      "k": 3,
+      "max_coefficient": 8,
+      "equal": true
+    },
+    {
+      "q": "2/3",
+      "k": 4,
+      "max_coefficient": 8,
+      "equal": true
+    },
+    {
+      "q": "2/3",
+      "k": 5,
+      "max_coefficient": 8,
+      "equal": true
+    }
+  ],
+  "hypergeometric_numeric": [
+    {
+      "q": "0.2",
+      "t": "0.03",
+      "k": 1,
+      "word_truncation_degree": 32,
+      "hypergeometric_terms": 400,
+      "absolute_difference": "5.730990274799508247E-51",
+      "word_tail_bound": "5.730990274799508247422680412371134020618556701030927835051546391752577E-51",
+      "within_bound": true
+    },
+    {
+      "q": "0.2",
+      "t": "0.03",
+      "k": 2,
+      "word_truncation_degree": 32,
+      "hypergeometric_terms": 400,
+      "absolute_difference": "2.51958681703942819629E-49",
+      "word_tail_bound": "5.079996453157277160250171914893617021276595744680851063829787234042553E-41",
+      "within_bound": true
+    },
+    {
+      "q": "0.2",
+      "t": "0.03",
+      "k": 3,
+      "word_truncation_degree": 32,
+      "hypergeometric_terms": 400,
+      "absolute_difference": "5.608845126808275914350E-48",
+      "word_tail_bound": "3.395951031058528830980290308080109890109890109890109890109890109890110E-35",
+      "within_bound": true
+    },
+    {
+      "q": "0.2",
+      "t": "0.03",
+      "k": 4,
+      "word_truncation_degree": 32,
+      "hypergeometric_terms": 400,
+      "absolute_difference": "8.4341396191642407719462E-47",
+      "word_tail_bound": "4.661207616431843469732114813562507636363636363636363636363636363636364E-31",
+      "within_bound": true
+    },
+    {
+      "q": "0.45",
+      "t": "0.015",
+      "k": 1,
+      "word_truncation_degree": 32,
+      "hypergeometric_terms": 400,
+      "absolute_difference": "6.57015052E-61",
+      "word_tail_bound": "6.570150506710495355392470577646633090101522842639593908629441624365482E-61",
+      "within_bound": true
+    },
+    {
+      "q": "0.45",
+      "t": "0.015",
+      "k": 2,
+      "word_truncation_degree": 32,
+      "hypergeometric_terms": 400,
+      "absolute_difference": "5.6023683531E-59",
+      "word_tail_bound": "5.730990274799508247422680412371134020618556701030927835051546391752577E-51",
+      "within_bound": true
+    },
+    {
+      "q": "0.45",
+      "t": "0.015",
+      "k": 3,
+      "word_truncation_degree": 32,
+      "hypergeometric_terms": 400,
+      "absolute_difference": "2.290205113044E-57",
+      "word_tail_bound": "3.767121113006938878115325293772980687817977985162385471204188481675393E-45",
+      "within_bound": true
+    },
+    {
+      "q": "0.45",
+      "t": "0.015",
+      "k": 4,
+      "word_truncation_degree": 32,
+      "hypergeometric_terms": 400,
+      "absolute_difference": "6.0118759323347E-56",
+      "word_tail_bound": "5.079996453157277160250171914893617021276595744680851063829787234042553E-41",
+      "within_bound": true
+    }
+  ]
+}

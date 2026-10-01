@@ -1,0 +1,103 @@
+{
+  "status": "PASS_FINITE",
+  "scope": {
+    "n_min": 1,
+    "n_max": 8,
+    "arithmetic": "exact integers"
+  },
+  "checks": [
+    "CDK inverse construction and round trip for every inversion sequence",
+    "matched-pair criterion for improper matrices",
+    "complete orbit records, 2^d sizes, cell-cardinality invariance, and binomial orientation distribution",
+    "inclusion-exclusion polynomial for every positive composition",
+    "H_n(2)=n! and H_n(0)=improper count"
+  ],
+  "summary": {
+    "1": {
+      "partition_matrices": 1,
+      "orbit_polynomial_coefficients": [
+        1
+      ],
+      "orbits": 1,
+      "improper_matrices": 1,
+      "H_n_at_2": 1
+    },
+    "2": {
+      "partition_matrices": 2,
+      "orbit_polynomial_coefficients": [
+        2
+      ],
+      "orbits": 2,
+      "improper_matrices": 2,
+      "H_n_at_2": 2
+    },
+    "3": {
+      "partition_matrices": 6,
+      "orbit_polynomial_coefficients": [
+        4,
+        1
+      ],
+      "orbits": 5,
+      "improper_matrices": 4,
+      "H_n_at_2": 6
+    },
+    "4": {
+      "partition_matrices": 24,
+      "orbit_polynomial_coefficients": [
+        10,
+        7
+      ],
+      "orbits": 17,
+      "improper_matrices": 10,
+      "H_n_at_2": 24
+    },
+    "5": {
+      "partition_matrices": 120,
+      "orbit_polynomial_coefficients": [
+        28,
+        40,
+        3
+      ],
+      "orbits": 71,
+      "improper_matrices": 28,
+      "H_n_at_2": 120
+    },
+    "6": {
+      "partition_matrices": 720,
+      "orbit_polynomial_coefficients": [
+        88,
+        214,
+        51
+      ],
+      "orbits": 353,
+      "improper_matrices": 88,
+      "H_n_at_2": 720
+    },
+    "7": {
+      "partition_matrices": 5040,
+      "orbit_polynomial_coefficients": [
+        304,
+        1138,
+        579,
+        18
+      ],
+      "orbits": 2039,
+      "improper_matrices": 304,
+      "H_n_at_2": 5040
+    },
+    "8": {
+      "partition_matrices": 40320,
+      "orbit_polynomial_coefficients": [
+        1144,
+        6154,
+        5541,
+        588
+      ],
+      "orbits": 13427,
+      "improper_matrices": 1144,
+      "H_n_at_2": 40320
+    }
+  },
+  "failures": [],
+  "limitation": "Finite exhaustive verification through n=8; it is not a proof for arbitrary n."
+}
