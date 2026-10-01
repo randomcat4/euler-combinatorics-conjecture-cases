@@ -10,8 +10,8 @@
 - Earlier slice: the `n-k=3` note remains `INDEPENDENTLY_VERIFIED`.
 - Full-proof verification: historical gate `INTERNALLY_AUDITED`, now supplemented
   by an independent adversarial model review of the argument and its inputs.
-  An independent human domain referee is still pending.
-- Paper state: `PUBLIC_DRAFT_ARTIFACT`.
+  Initial human review is completed; see the [review statement](../../docs/provenance.md). A completed specialist referee process is not claimed.
+- Paper state: `MERGED_PUBLIC_PROOF`.
 - Public novelty or priority: `NOT_ESTABLISHED`.
 
 The public package makes no authorship, journal-submission, publication,

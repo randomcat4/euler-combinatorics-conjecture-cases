@@ -1,3 +1,6 @@
+> Initial-pass record. For the current result and review status, see the
+> [extension package](extension/) and [case overview](README.md).
+
 # Proof of the Three-Leaf Slice
 
 Let \(r\geq1\), and let \(T\) be a finite tree with exactly three leaves and

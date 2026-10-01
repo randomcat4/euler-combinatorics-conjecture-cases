@@ -1,3 +1,6 @@
+> Initial-pass record. For the current result and review status, see the
+> [extension package](extension/) and [case overview](README.md).
+
 # Status
 
 ## Mathematical result

@@ -12,6 +12,9 @@ The trees are finite, simple and unweighted, with counting measure on the leaf b
 
 [Extension case files and independent checks](extension/)
 
+<details>
+<summary>Historical initial-pass package (the current result is above)</summary>
+
 ## Initial public package
 
 The original description and public files below document the initial pass. They remain available; the extension manuscript above gives the later scope.
@@ -56,3 +59,15 @@ conjecture for \(b=2\) or \(b\geq4\), and it does not claim public priority.
   reproduction of the arithmetic and matching checks.
 
 Public novelty or priority is **NOT_ESTABLISHED**. See [Status](status.md).
+
+</details>
+
+## Review and reuse
+
+These proofs were generated autonomously by EULER and are released under the
+[MIT License](../../LICENSE), with research-credit and priority claims waived.
+The [review record](../../docs/provenance.md) describes Sol High and Opus 4.8
+xhigh re-review, initial human review by the author and doctoral students at
+ETH Zürich and Peking University, and the invitation to specialists for
+preliminary counterexample review. Mathematical and computational scope is
+stated separately in this package.

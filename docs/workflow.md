@@ -34,3 +34,10 @@ Public files contain only the mathematical material needed to understand, reprod
 ## 7. Priority boundary
 
 Mathematical correctness and novelty or priority are tracked separately. Unless a dedicated literature review has established otherwise, the public status remains `NOT_ESTABLISHED`.
+
+## Current review and reuse policy
+
+See [provenance](provenance.md) for the completed LLM re-review and initial
+human review, and the specialist invitations for counterexamples. All original
+proofs and code are MIT licensed; research-credit and priority claims are waived.
+Historical novelty status does not reserve priority.
