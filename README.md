@@ -13,12 +13,16 @@ ETH Zürich (Swiss Federal Institute of Technology Zurich), and one doctoral
 student at Peking University**. For counterexamples, we invited experts in the
 relevant fields to conduct a preliminary follow-up review.
 
-We waive claims to research credit and priority for these EULER-generated
-proofs. **All proofs, manuscripts, documentation, and code authored for this
-repository are openly released under the MIT License.** Citations to the
-original problems and prior work are retained, as is the MIT license notice.
+To the best of our knowledge, when these results were released, no proofs or
+counterexamples resolving the corresponding problems or stated cases had
+appeared in the literature. These proofs were generated autonomously, end to
+end, by EULER, and we do not consider the developers to have made substantive
+mathematical contributions to the proofs themselves. Results produced through
+collaboration between humans and EULER will be published in a separate repository.
 
-[Review details](docs/provenance.md) · [MIT License](LICENSE)
+We waive claims to research credit and priority for these autonomously
+generated EULER proofs. **All proofs, manuscripts, documentation, and code
+authored for this repository are openly released under the MIT License.**
 
 [Reproduce in 60 seconds](docs/reproduce.md)
 
