@@ -23,7 +23,7 @@ This repository is a continuing public index rather than a count of all EULER re
 - Minimal-degree-three groups: the initial displayed-family quotient criterion is retained; the extension gives the intrinsic alternating-block/code/cocycle parametrization of all transitive minimal-degree-three actions and the full cyclic-top conjugacy classification.
 - Steklov extremizer: the initial b=3 slice is retained; the extension proves the all-leaf theorem for b>=2 and r>=1, strengthens matching equality to nu(T)>=br+2, and determines the sharp central-split bound and equality trees.
 
-- Nonnormal Cayley graph eigenvalues: complete proof of Conjecture 4.7 for every `n>=5` and `1<=r<k<=n-2`. An independent model review examines the general argument and its published inputs; all three finite inputs now have reproducible rational characteristic polynomials and Sturm certificates. Human domain review remains pending.
+- Nonnormal Cayley graph eigenvalues: complete proof of Conjecture 4.7 for every `n>=5` and `1<=r<k<=n-2`. An independent model review examines the general argument and its published inputs; all three finite inputs now have reproducible rational characteristic polynomials and Sturm certificates. Initial human review is completed; see [the review record](provenance.md).
 - Catalan--Schett plane-tree statistic: complete all-order solution with an explicit bijection and inverse, extended to the full inverse ascending-run composition and arbitrary multiplicative run weights.
 - CDK image of improper partition matrices: complete characterization for Question 5.5 in arXiv v2, extended to commuting pair-swap orbits, one-sided images, defect distributions and exact row-nonempty enumeration.
 - Improper partition matrices: explicit mutual inverses for the minus and full classes, preserving semi-weight, dimension and the complete ordered column-parity signature, with attributed Eulerian/Stirling counts.
@@ -34,3 +34,11 @@ This repository is a continuing public index rather than a count of all EULER re
 Other Gao-related problems are being curated and actively advanced. Additional EULER results will enter this index after their public artifacts and scope statements are ready.
 
 Each local case records its status in its own directory and in `PROJECT_STATE.json`. Public novelty and priority remain `NOT_ESTABLISHED` unless a release explicitly records a completed prior-art determination.
+
+## Merged release and reuse
+
+PR #17 and PR #22 are merged. The current eight-case extensions are published,
+with their earlier restricted results retained as historical records.
+All repository-authored proofs and code are MIT licensed, with research-credit
+and priority claims waived. The [review record](provenance.md) identifies the
+LLM re-review, initial human review, and counterexample-specialist invitations.

@@ -7,7 +7,10 @@
       "result": "COUNTEREXAMPLE",
       "scope": "Conjecture 22 for every dimension d>=7",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "k33plus-q-index-boundary-counterexample": {
       "result": "COUNTEREXAMPLE_AND_STRUCTURAL_THEOREM",
@@ -25,27 +28,41 @@
         "finite_check": "EXACT_COMBINATORICS_AND_NUMERICAL_SPECTRA",
         "details": "cases/k33plus-q-index-boundary-counterexample/extension/verification.md",
         "proof_pdf_sha256": "862d78503263063778398dd51caf25b86b7d81f02fd1792fd757cc6da136d958",
-        "human_domain_review": "NOT_ESTABLISHED",
-        "formalization": "NOT_ESTABLISHED"
-      }
+        "human_domain_review": "INITIAL_REVIEW_COMPLETED_SPECIALIST_COMPLETION_NOT_CLAIMED",
+        "formalization": "NOT_ESTABLISHED",
+        "initial_human_review": "COMPLETED_MAINTAINER_REPORTED",
+        "release_status": "MERGED"
+      },
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "toroidal-grid-representation-counterexample": {
       "result": "COUNTEREXAMPLE",
       "scope": "Conjecture 1 boundary case TGr_{3,5}=C_3 square C_5; disproof of the exact printed all-quantifier statement",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "path-set-tree-representation-counterexample": {
       "result": "COUNTEREXAMPLE",
       "scope": "unnumbered sufficiency question after Theorem 3.2; five-vertex family",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "f29-inducibility-recursive-graphon-counterexample": {
       "result": "COUNTEREXAMPLE",
       "scope": "Conjecture 4.7 equality lambda_F29=24/1555; disproof by an equal-measure six-part recursive graphon witness",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "minimal-degree-three-imprimitive-groups": {
       "result": "CLASSIFICATION",
@@ -63,9 +80,14 @@
         "finite_check": "FINITE_EXACT",
         "details": "cases/minimal-degree-three-imprimitive-groups/extension/verification.md",
         "proof_pdf_sha256": "c21a5c0371cbe47cc3736d9ae3bfd0609b8213584b4aafa49f33430348b81080",
-        "human_domain_review": "NOT_ESTABLISHED",
-        "formalization": "NOT_ESTABLISHED"
-      }
+        "human_domain_review": "INITIAL_REVIEW_COMPLETED_SPECIALIST_COMPLETION_NOT_CLAIMED",
+        "formalization": "NOT_ESTABLISHED",
+        "initial_human_review": "COMPLETED_MAINTAINER_REPORTED",
+        "release_status": "MERGED"
+      },
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "steklov-three-leaf-extra-special-extremizer": {
       "result": "COMPLETE_SOLUTION",
@@ -83,27 +105,41 @@
         "finite_check": "EXACT_COMBINATORICS_AND_NUMERICAL_SPECTRA",
         "details": "cases/steklov-three-leaf-extra-special-extremizer/extension/verification.md",
         "proof_pdf_sha256": "927c1e39f1a9afad82c768acdc295a2bcd470190cd068c955b5f9d07f4423672",
-        "human_domain_review": "NOT_ESTABLISHED",
-        "formalization": "NOT_ESTABLISHED"
-      }
+        "human_domain_review": "INITIAL_REVIEW_COMPLETED_SPECIALIST_COMPLETION_NOT_CLAIMED",
+        "formalization": "NOT_ESTABLISHED",
+        "initial_human_review": "COMPLETED_MAINTAINER_REPORTED",
+        "release_status": "MERGED"
+      },
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "minimum-degree-two-degree-multiplicity": {
       "result": "PARTIAL_RESULT",
       "scope": "complete delta(G)=2 slice of Alon--Wei Conjecture 1.2 / Ma--Xie Conjecture 5.4 for all finite simple graphs on n>=3 vertices",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "five-point-sixteen-shattering": {
       "result": "PARTIAL_RESULT",
       "scope": "complete k=5 slice of Girao--Michel--Tamitegama Conjecture 4.2 for all n>=5 and all 1<=t<=16",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "orthogonal-tree-seven-vertex-obstructions": {
       "result": "PARTIAL_RESULT",
       "scope": "two induced-minimal seven-vertex obstructions to the gem/house/HVN sufficiency rule for orthogonal-tree representability; full Question 15 remains open",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "cayley-eigenvalue-codimension-three": {
       "result": "PROVED",
@@ -113,12 +149,33 @@
       "extension_verification": {
         "proof_review": "INDEPENDENT_MODEL_REVIEW",
         "finite_check": "PASS_EXACT_FINITE",
-        "finite_parameters": [[6,4,1], [6,4,2], [7,5,1]],
+        "finite_parameters": [
+          [
+            6,
+            4,
+            1
+          ],
+          [
+            6,
+            4,
+            2
+          ],
+          [
+            7,
+            5,
+            1
+          ]
+        ],
         "details": "cases/cayley-eigenvalue-codimension-three/extension/verification.md",
         "proof_pdf_sha256": "4f2afed176da116cf8c01b7c8d7e60e290d391476d7375a254fbe61d1dfdae6d",
-        "human_domain_review": "NOT_ESTABLISHED",
-        "formalization": "NOT_ESTABLISHED"
-      }
+        "human_domain_review": "INITIAL_REVIEW_COMPLETED_SPECIALIST_COMPLETION_NOT_CLAIMED",
+        "formalization": "NOT_ESTABLISHED",
+        "initial_human_review": "COMPLETED_MAINTAINER_REPORTED",
+        "release_status": "MERGED"
+      },
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "catalan-schett-plane-tree-statistic": {
       "result": "COMPLETE_SOLUTION",
@@ -136,9 +193,14 @@
         "finite_check": "FINITE_EXACT",
         "details": "cases/catalan-schett-plane-tree-statistic/extension/verification.md",
         "proof_pdf_sha256": "13f9114aa9ab03fce811750ea51937caacb116fb47931125fb7f5f80898d583c",
-        "human_domain_review": "NOT_ESTABLISHED",
-        "formalization": "NOT_ESTABLISHED"
-      }
+        "human_domain_review": "INITIAL_REVIEW_COMPLETED_SPECIALIST_COMPLETION_NOT_CLAIMED",
+        "formalization": "NOT_ESTABLISHED",
+        "initial_human_review": "COMPLETED_MAINTAINER_REPORTED",
+        "release_status": "MERGED"
+      },
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "cdk-improper-partition-matrix-image": {
       "result": "COMPLETE_SOLUTION",
@@ -156,21 +218,32 @@
         "finite_check": "FINITE_EXACT",
         "details": "cases/cdk-improper-partition-matrix-image/extension/verification.md",
         "proof_pdf_sha256": "cc4cd69c52774fa64643478946f94adb5dbd0f7bc08fccf0c82ce7a91f1dcdd0",
-        "human_domain_review": "NOT_ESTABLISHED",
-        "formalization": "NOT_ESTABLISHED"
-      }
+        "human_domain_review": "INITIAL_REVIEW_COMPLETED_SPECIALIST_COMPLETION_NOT_CLAIMED",
+        "formalization": "NOT_ESTABLISHED",
+        "initial_human_review": "COMPLETED_MAINTAINER_REPORTED",
+        "release_status": "MERGED"
+      },
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "ternary-berge-suspension-rigidity": {
       "result": "PROVED",
       "scope": "complete Kim Question 5.5: finite hypergraphs with no Berge cycle whose length is divisible by three",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "entropy-bounded-sidon-concentration-stability": {
       "result": "PROVED",
       "scope": "complete Section 5 unnumbered open problem: entropy-bounded Sidon concentration stability for arbitrary abelian groups; verified fixed-D optimal stability modulus",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "partition-matrix-bijection": {
       "result": "COMPLETE_SOLUTION",
@@ -188,9 +261,14 @@
         "finite_check": "FINITE_EXACT",
         "details": "cases/partition-matrix-bijection/extension/verification.md",
         "proof_pdf_sha256": "ea708f8d316177ffb0dcb20e47037f7539b87520eafd3302fb1a72a63ef098d0",
-        "human_domain_review": "NOT_ESTABLISHED",
-        "formalization": "NOT_ESTABLISHED"
-      }
+        "human_domain_review": "INITIAL_REVIEW_COMPLETED_SPECIALIST_COMPLETION_NOT_CLAIMED",
+        "formalization": "NOT_ESTABLISHED",
+        "initial_human_review": "COMPLETED_MAINTAINER_REPORTED",
+        "release_status": "MERGED"
+      },
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "partition-matrix-q-sum-product": {
       "result": "COMPLETE_SOLUTION",
@@ -208,15 +286,23 @@
         "finite_check": "FINITE_EXACT_AND_NUMERICAL_SERIES",
         "details": "cases/partition-matrix-q-sum-product/extension/verification.md",
         "proof_pdf_sha256": "e4909c197b2f309787e7f10f1593ab4ae785223ce3610e7659134812ef73525b",
-        "human_domain_review": "NOT_ESTABLISHED",
-        "formalization": "NOT_ESTABLISHED"
-      }
+        "human_domain_review": "INITIAL_REVIEW_COMPLETED_SPECIALIST_COMPLETION_NOT_CLAIMED",
+        "formalization": "NOT_ESTABLISHED",
+        "initial_human_review": "COMPLETED_MAINTAINER_REPORTED",
+        "release_status": "MERGED"
+      },
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     },
     "zhao-restricted-zero-sum-counterexample": {
       "result": "COUNTEREXAMPLE",
       "scope": "Conjectures 6.1 and 6.2 disproved; Conjecture 6.4 lower branch refuted at C_2^7; supplemental Conjecture 1.2 witness",
       "verification": "INDEPENDENTLY_VERIFIED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     }
   },
   "external_releases": {
@@ -227,5 +313,30 @@
       "verification": "LEAN_CHECKED",
       "novelty": "NOT_ESTABLISHED"
     }
+  },
+  "release_policy": {
+    "generation": "EULER_AUTONOMOUS_END_TO_END",
+    "license": "MIT",
+    "research_credit_claim": "WAIVED",
+    "priority_claim": "WAIVED",
+    "llm_rereview": [
+      "Sol High",
+      "Opus 4.8 xhigh"
+    ],
+    "initial_human_review": {
+      "status": "COMPLETED",
+      "participants": [
+        "the author",
+        "one doctoral student at ETH Zürich",
+        "one doctoral student at Peking University"
+      ],
+      "source": "repository maintainer"
+    },
+    "counterexample_specialist_review": "INVITED_FOR_PRELIMINARY_FOLLOWUP",
+    "merged_prs": [
+      17,
+      22
+    ],
+    "details": "docs/provenance.md"
   }
 }

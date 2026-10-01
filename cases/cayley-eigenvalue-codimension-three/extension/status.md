@@ -5,7 +5,7 @@
 - Three finite proof inputs: PASS_EXACT_FINITE. The public checker regenerates rational characteristic polynomials, threshold multiplicities and Sturm root counts for every irreducible block in the three listed cases.
 - Numerical spectra: supplementary cross-checks, not the finite certificate.
 - Earlier n-k=3 package: preserved unchanged as the initial public result.
-- Human domain review and proof-assistant formalization: not established for the full theorem.
+- Initial human review: completed as recorded in the [repository review statement](../../../docs/provenance.md). Proof-assistant formalization is not established for the full theorem.
 - Public priority and novelty: NOT_ESTABLISHED.
 
-The PR remains a draft for review. The newly supplied exact implementation closes the former reproducibility gap for the three finite inputs; it does not turn model review into external mathematical certification.
+The PR has been merged into the public repository. The newly supplied exact implementation closes the former reproducibility gap for the three finite inputs; it does not turn model review into external mathematical certification.

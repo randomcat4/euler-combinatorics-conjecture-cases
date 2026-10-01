@@ -1,3 +1,6 @@
+> Initial-pass record. For the current result and review status, see the
+> [extension package](extension/) and [case overview](README.md).
+
 # Counterexample
 
 Let `H` be the graph on vertices `0,1,2,3,4,5` with edge set

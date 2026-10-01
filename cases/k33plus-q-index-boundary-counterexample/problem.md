@@ -1,3 +1,6 @@
+> Initial-pass record. For the current result and review status, see the
+> [extension package](extension/) and [case overview](README.md).
+
 # Problem
 
 Let `Q(G)=D(G)+A(G)` be the signless Laplacian matrix of a graph `G`, and let `q(G)` be the spectral radius of `Q(G)`.

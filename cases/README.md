@@ -21,7 +21,7 @@ Each subdirectory is a self-contained public case package. The index is organize
 - [`entropy-bounded-sidon-concentration-stability`](entropy-bounded-sidon-concentration-stability/) - complete solution plus verified fixed-`D` optimal-modulus extension
 - [`minimal-degree-three-imprimitive-groups`](minimal-degree-three-imprimitive-groups/) - full alternating-block/code/cocycle parametrization and cyclic-top conjugacy classification
 - [`steklov-three-leaf-extra-special-extremizer`](steklov-three-leaf-extra-special-extremizer/) - all-leaf theorem, matching-threshold strengthening and sharp central-split refinement
-- [`cayley-eigenvalue-codimension-three`](cayley-eigenvalue-codimension-three/) - full Conjecture 4.7 proof draft with exact finite certificates; human domain review pending
+- [`cayley-eigenvalue-codimension-three`](cayley-eigenvalue-codimension-three/) - full Conjecture 4.7 proof with exact finite certificates; merged release and initial human review recorded
 
 ## Partial results
 
@@ -33,3 +33,13 @@ The restricted-family Gao manuscript and its Lean formalization are maintained i
 
 Directory names are descriptive and independent of internal research identifiers.
 Historical directory names are retained for stable links when an extension broadens the scope. Updated cases keep their original files and add an `extension/` package with the current problem, proof guide, status, sources and reproducible verification.
+
+## Review and reuse
+
+These proofs were generated autonomously by EULER and are released under the
+[MIT License](../LICENSE), with research-credit and priority claims waived.
+The [review record](../docs/provenance.md) describes Sol High and Opus 4.8
+xhigh re-review, initial human review by the author and doctoral students at
+ETH Zürich and Peking University, and the invitation to specialists for
+preliminary counterexample review. Mathematical and computational scope is
+stated separately in this package.

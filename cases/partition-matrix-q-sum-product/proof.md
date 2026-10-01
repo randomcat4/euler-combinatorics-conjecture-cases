@@ -1,3 +1,6 @@
+> Initial-pass record. For the current result and review status, see the
+> [extension package](extension/) and [case overview](README.md).
+
 # An all-order q-difference sum-product
 
 Let \(T_q\) be the q-shift operator on formal power series in `t`:

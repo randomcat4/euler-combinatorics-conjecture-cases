@@ -4,6 +4,24 @@ This repository is a growing public index of curated mathematical outcomes produ
 
 It records the portion of a broader research program that has completed its public curation process.
 
+## Generation, review, and open release
+
+The proofs in this repository were generated autonomously, end to end, by EULER.
+LLM re-review was completed using **Sol High** and **Opus 4.8 xhigh**.
+Initial human review was carried out by **the author, one doctoral student at
+ETH Zürich (Swiss Federal Institute of Technology Zurich), and one doctoral
+student at Peking University**. For counterexamples, we invited experts in the
+relevant fields to conduct a preliminary follow-up review.
+
+We waive claims to research credit and priority for these EULER-generated
+proofs. **All proofs, manuscripts, documentation, and code authored for this
+repository are openly released under the MIT License.** Citations to the
+original problems and prior work are retained, as is the MIT license notice.
+
+Review participation is in an individual capacity, not institutional
+endorsement or journal acceptance. See [review and provenance](docs/provenance.md)
+for the review stages and [LICENSE](LICENSE) for reuse terms.
+
 ## Reproduce in 60 seconds
 
 ```bash
@@ -35,7 +53,7 @@ dependencies and numerical tolerances.
 
 ## Public result index
 
-Every public result remains listed below. The first rows are the current extension-review batch, placed first for reviewer convenience; this ordering is not a ranking.
+Every public result remains listed below. The first rows are the merged extension-release batch, placed first for reviewer convenience; this ordering is not a ranking.
 
 <code>2h</code> marks an outcome from the initial two-hour EULER research window. <code>+2h</code> marks an outcome from the later extension allocation; extension work may resume an interrupted earlier run and may reuse the earlier case state, so it should not be read as an independent four-hour rerun or as two full additional hours on every case.
 
@@ -89,10 +107,10 @@ Each updated <code>+2h</code> case includes a clean proof PDF and a companion pa
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2025.106097">Li–Xia–Zhou, <em>JCTA</em> 218 (2026)</a><br>Conjecture 4.7</td>
-      <td><a href="cases/cayley-eigenvalue-codimension-three/"><strong>Cayley representation uniqueness</strong></a><br>Complete solution (proof draft)<br><a href="cases/cayley-eigenvalue-codimension-three/paper/full_conjecture.pdf">Proof PDF</a></td>
+      <td><a href="cases/cayley-eigenvalue-codimension-three/"><strong>Cayley representation uniqueness</strong></a><br>Complete solution<br><a href="cases/cayley-eigenvalue-codimension-three/paper/full_conjecture.pdf">Proof PDF</a></td>
       <td>Every <code>n&gt;=5</code> and <code>1&lt;=r&lt;k&lt;=n-2</code>; exact attaining representations are classified. The separate <code>k=n-1</code> questions are excluded.</td>
       <td><code>+2h</code></td>
-      <td>Independent model proof review; exact rational block and Sturm certificates for three finite inputs. Human domain review pending.</td>
+      <td>Independent model proof review; exact rational block and Sturm certificates for three finite inputs. Initial human review completed; see the review statement above.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.laa.2025.10.036">Zheng–Li–Li, <em>LAA</em> 730 (2026)</a><br>Conjecture 5.1</td>
@@ -344,7 +362,7 @@ Other Gao-related problems are being curated and actively advanced. Their public
 
 *Yuxuan Li, Binzhou Xia, and Sanming Zhou · [DOI](https://doi.org/10.1016/j.jcta.2025.106097) · [arXiv](https://arxiv.org/abs/2402.02427)*
 
-Conjecture 4.7 concerns representation-level uniqueness for a family of nonnormal Cayley graphs on symmetric groups. The initial 2h package establishes the `k=n-3` slice. The +2h proof draft in [PR #17](https://github.com/randomcat4/euler-combinatorics-conjecture-cases/pull/17) covers every `n>=5, 1<=r<k<=n-2`; its three finite inputs now have public rational characteristic polynomials and Sturm certificates. The separate `k=n-1` questions are excluded. Human domain review remains pending.
+Conjecture 4.7 concerns representation-level uniqueness for a family of nonnormal Cayley graphs on symmetric groups. The initial 2h package establishes the `k=n-3` slice. The merged +2h proof in [PR #17](https://github.com/randomcat4/euler-combinatorics-conjecture-cases/pull/17) covers every `n>=5, 1<=r<k<=n-2`; its three finite inputs now have public rational characteristic polynomials and Sturm certificates. The separate `k=n-1` questions are excluded. Initial human review and LLM re-review are recorded in the review statement above.
 
 [Open the Cayley eigenvalue package](cases/cayley-eigenvalue-codimension-three/)
 
@@ -478,11 +496,11 @@ package does not claim exact finite-parameter optimality or public priority.
 
 This is an independent research archive produced with the EULER system. The cited authors, journals, publishers, and source repositories are not presented as maintainers or endorsers of this archive.
 
-Authorship, licensing, journal submission, and priority decisions remain part of the human publication process.
+The author and participating reviewers are described above. We waive research-credit and priority claims for EULER-generated proofs; citations to prior work are retained.
 
 ## License
 
-Source code is licensed under the MIT License. Written mathematical content,
-documentation, proofs, and manuscripts are licensed under Creative Commons
-Attribution 4.0 International (CC BY 4.0). See [LICENSE](LICENSE) for the exact
-scope and terms.
+All proofs, manuscripts, documentation, and code authored for this repository
+are released under the [MIT License](LICENSE). Third-party material retains
+its own rights and license. We make no research-credit or priority claim for
+the EULER-generated proofs.

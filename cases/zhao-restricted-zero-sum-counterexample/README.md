@@ -26,3 +26,13 @@ The package does not claim that every conjecture in the source paper is false, a
 - [`verification.md`](verification.md) explains which parts are theorem-based, which parts are finite certificates, and which parts are scope-limited.
 
 The public priority status is `NOT_ESTABLISHED`.
+
+## Review and reuse
+
+These proofs were generated autonomously by EULER and are released under the
+[MIT License](../../LICENSE), with research-credit and priority claims waived.
+The [review record](../../docs/provenance.md) describes Sol High and Opus 4.8
+xhigh re-review, initial human review by the author and doctoral students at
+ETH Zürich and Peking University, and the invitation to specialists for
+preliminary counterexample review. Mathematical and computational scope is
+stated separately in this package.

@@ -28,3 +28,13 @@ This is one of the first cleaned, publicly releasable results from the Euler sys
 The result disproves Conjecture 22 for every \(d\ge 7\). It does not settle the lower-dimensional cases already treated in the source paper, the broader manifold conjecture discussed there, or any exact-rank refinement beyond non-rigidity.
 
 Public novelty or priority: `NOT_ESTABLISHED`.
+
+## Review and reuse
+
+These proofs were generated autonomously by EULER and are released under the
+[MIT License](../../LICENSE), with research-credit and priority claims waived.
+The [review record](../../docs/provenance.md) describes Sol High and Opus 4.8
+xhigh re-review, initial human review by the author and doctoral students at
+ETH Zürich and Peking University, and the invitation to specialists for
+preliminary counterexample review. Mathematical and computational scope is
+stated separately in this package.

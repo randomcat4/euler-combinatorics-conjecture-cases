@@ -1,3 +1,6 @@
+> Initial-pass record. For the current result and review status, see the
+> [extension package](extension/) and [case overview](README.md).
+
 # The CDK image characterization
 
 We prove that, for every `n >= 1`,

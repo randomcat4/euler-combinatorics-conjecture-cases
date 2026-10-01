@@ -19,7 +19,7 @@
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/extension/README.md",
-      "sha256": "d0bbd2e87c85bdd2e7d72ec52b739da53a40f217eae7526f7053a523660c6814"
+      "sha256": "b6798cdd61c03f9eb0d7c1ed66429882f881537f8cd29e0a60a735316f78a3ae"
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/extension/results.json",
@@ -31,7 +31,7 @@
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/extension/status.md",
-      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+      "sha256": "5fda30326955afbf780e54c87fe9f9cbe0344d76f7b59eb5f49d49023058c6a3"
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/extension/verification.md",
@@ -43,15 +43,15 @@
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/problem.md",
-      "sha256": "6a210aa242b0294c23bee306b84d4fae2ed2f90504dc64d3cdac441331e48854"
+      "sha256": "08e5da7235145145011db3f9735ecfe8793297db0bdbeac0f22ef8ff0015f7e3"
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/proof.md",
-      "sha256": "7164a0821a8a6c45a14734ec7031a366825d55b2cd2af5ff9f9d66e86ddf61f3"
+      "sha256": "20a40b0866758e6f1687bfa502173e3aa9bb3efa7164c2fbba4bf8999e2e74b8"
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/README.md",
-      "sha256": "27d680abda65758ca339348f48ac9f69fdfccd8d4672aca15e8a2b5132d9554b"
+      "sha256": "64fbf099b618345baec0fbd1bd2e3efd0a9fa0e88e052ab91c7d5bdd6cfd7e6d"
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/small_case_summary.json",
@@ -63,11 +63,11 @@
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/status.md",
-      "sha256": "0c89571e892898f7b863dd82fb1a323f3c9a8f99c133498bf4761d186b0bbf1a"
+      "sha256": "c06ebd7c9e8cedf8376b99813757cd443eab06ef9b07cbee4ee29ec6e12fea6c"
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/verification.md",
-      "sha256": "12b24e9ef80d0b5663515c7ee8dac8e9751ba8fb8c2033e910e82b2c690e5957"
+      "sha256": "35f654b6c143f5e88ed24891b05b5f85a4f725721b327139ce243e4f05328637"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/evidence/low_order_cases.json",
@@ -87,7 +87,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/extension/README.md",
-      "sha256": "5a31c783a2b75010640196a1d48fe9c180320563fa3353eccae7f724f30b25b6"
+      "sha256": "27e39ea50cb2be0ca50e7cbc17390d2dc567d5e34d54d03f8276edc1b033db6e"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/extension/requirements.txt",
@@ -103,7 +103,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/extension/status.md",
-      "sha256": "37949534f0a5e64075277a916e01ecc816b47d29d5684f60600a540261fdb6fb"
+      "sha256": "c4519b2ecd0f1973b7d2cc160f4fbb775073deab082e66c87d00755872618c8a"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/extension/verification.md",
@@ -135,7 +135,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "47983e1cf0f61fc5504d23a7663bdd5c1bb92868f9f54156a82c8aaa2398889b"
+      "sha256": "6fa4cc5ada58f81ca71689232cbe6981f95e2274d24c05ecff050440a6ab901c"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
@@ -143,7 +143,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/status.md",
-      "sha256": "3d13bc28bcab56e169b8b78fcda67ef94f847c90bf678542f870ce6c1a5de5da"
+      "sha256": "95c374abe45a8b906b3619e3dc16275543f6fe4603f7390bfb1fd73b7ec12ca5"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
@@ -163,7 +163,7 @@
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/extension/README.md",
-      "sha256": "c2a593a822e6573db3c42159aaf3ae780675f315e4a1023892bb2e6b7180288a"
+      "sha256": "102ce3f5fe460a5b14add0074940229f196152ed1b7780270977edf062fb1c98"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/extension/requirements.txt",
@@ -179,7 +179,7 @@
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/extension/status.md",
-      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+      "sha256": "5fda30326955afbf780e54c87fe9f9cbe0344d76f7b59eb5f49d49023058c6a3"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/extension/verification.md",
@@ -203,15 +203,15 @@
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/problem.md",
-      "sha256": "1ccba5edcde0efba02b2f5e9e2a0c74ce384951c5d7ca82505de86af4cb07a7a"
+      "sha256": "c1c7f767e85e9f6e4ee7824a00678b1c8eb4b64668edceb573c116b401276e88"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/proof.md",
-      "sha256": "f89cc13331caf2acd60af6b2b059f9228010f074da8a77474e2bbe88e054cfac"
+      "sha256": "3a4cc7be9203dea71816339d117a38087f7e809a305ec763b0039a353034d09c"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/README.md",
-      "sha256": "b48983db2e99ea64317cdd714d018ffeb7369c7775f96a2c5185e487255f3dad"
+      "sha256": "d82f996ace6a36de4b59d79184e4c26958bdb477b11826d5604b26307ea203d8"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/sources.md",
@@ -219,11 +219,11 @@
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/status.md",
-      "sha256": "79bb10f38302dfeff7d1842822072c39e212f4c6d6e698b85f07421e30448339"
+      "sha256": "8b2d445f9b67c03c31dc79a0f0a449f587fee70b120913e436327719ccf3019b"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/verification.md",
-      "sha256": "efe3e9324def056f618ced575a2216160dee6c330a002e278a8b8b2798464f61"
+      "sha256": "7708fa24b6b27295928c0acc98f9c1cbe622feeb8a94ab5c79360a2c4298e839"
     },
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/check_sidon_stability.py",
@@ -243,7 +243,7 @@
     },
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/README.md",
-      "sha256": "7c0a2307315cf66a153f539e769376019660fd1e9438be650a434009489867ff"
+      "sha256": "97ff51fd4150987ccc422528af7d51951d4b2258eb6463049758d49b53461239"
     },
     {
       "path": "cases/entropy-bounded-sidon-concentration-stability/sources.md",
@@ -279,7 +279,7 @@
     },
     {
       "path": "cases/f29-inducibility-recursive-graphon-counterexample/README.md",
-      "sha256": "914c949ac512dbd4d93588f2f49fd018f0d17acb78bcfcf882cf8ffca74599ef"
+      "sha256": "a42234ca53c4e10771f5a9da451d39797fef3f8815c429e8e3463da3a222d295"
     },
     {
       "path": "cases/f29-inducibility-recursive-graphon-counterexample/sources.md",
@@ -311,7 +311,7 @@
     },
     {
       "path": "cases/five-point-sixteen-shattering/README.md",
-      "sha256": "35d08f176d31f6aa55484f53212623156f751816128d7499cc920fc6ab20e772"
+      "sha256": "4f18d36de6ff42c25a387d0436be60f6efba6523635492797de64e8b4ea22e09"
     },
     {
       "path": "cases/five-point-sixteen-shattering/sources.md",
@@ -351,7 +351,7 @@
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/extension/README.md",
-      "sha256": "5407d832399f36bb87a1193b49187db1d93438435fc71cc3c3d7551d8836d3f4"
+      "sha256": "fcdbb18f23fcb2482c706c42ce1f1c2347a4c1d145639c5c20ea844a3f7f680e"
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/extension/requirements.txt",
@@ -367,7 +367,7 @@
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/extension/status.md",
-      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+      "sha256": "5fda30326955afbf780e54c87fe9f9cbe0344d76f7b59eb5f49d49023058c6a3"
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/extension/verification.md",
@@ -379,15 +379,15 @@
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/problem.md",
-      "sha256": "7350d2c681c3ec7c890c87f60e92eed1b568d26f284cc57322454e456b1cd256"
+      "sha256": "2170d4ca9b4b116841cca41993028da24d516b5fef1285b0d7d0bd906e47ec21"
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/proof.md",
-      "sha256": "409713efa89f81653b3e55435ee87a957eedf6a286b1730ba3f727b6193e887a"
+      "sha256": "306e1e371c7bbe25b3b7f564ebc2779a5adc224278a8b6f53536d5c0be2e018b"
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/README.md",
-      "sha256": "1feade07e578b7203307a935d60e7dc4d3c0c0f331297a85a435fc2139cc01f8"
+      "sha256": "aa9d5a96915074d6c73f6ac027d7dde362008e0e09df27eeba9ca3c8c5f5e3d3"
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/sources.md",
@@ -395,11 +395,11 @@
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/status.md",
-      "sha256": "07ac0e6733ae40fe8a6b49c369e842254695b8579ff9f4fb8f5975a519c05728"
+      "sha256": "6615ec2b2c211249db732adc870c8469d2fcbb7af336008853ae45ef7ebf76c6"
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/verification.md",
-      "sha256": "7b3076e1f5f6eae7eb4e866658a698d2c92f0c4e5ce9908416114b2ebddd5456"
+      "sha256": "89e711f98b6b5b8365d8bb99d0b21caa8b7432a6abdd65e170666b6805ce6f0d"
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/check_quotient_criterion.py",
@@ -419,7 +419,7 @@
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/extension/README.md",
-      "sha256": "84e5b3222e909772f2e8eb03d9e4a91c57ffce83a3c2bf83f170e31d14b4ab87"
+      "sha256": "6bd170a7d11da9ec5fff7bdf48b1410057be3b50292de8ee2d97571e0e9f4005"
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/extension/results.json",
@@ -431,7 +431,7 @@
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/extension/status.md",
-      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+      "sha256": "5fda30326955afbf780e54c87fe9f9cbe0344d76f7b59eb5f49d49023058c6a3"
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/extension/verification.md",
@@ -443,11 +443,11 @@
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/problem.md",
-      "sha256": "fc637939fa39afbed544ebb82d98e0ab8da9d21106df6d656ee9bf36a2824f55"
+      "sha256": "41ab8ad9167c2501ae8da04022ef006275e1a1df0b743d2704a3a5c4de93745d"
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/proof.md",
-      "sha256": "0d124629345c930e9860053dec4b291ae73969cadd51094adc41006dba7196db"
+      "sha256": "7cfd6dc0bcdb25904139de84bee687f6ca8341ef95ad59161fc388f078a7ae86"
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/quotient_certificate.json",
@@ -455,7 +455,7 @@
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/README.md",
-      "sha256": "60e19c290740d6945667ce846c64d83fcda74bd6bd4a97bdad8f727799ff79f5"
+      "sha256": "f5f4b3e75a7727a6a0428cf10b8e56839a0b0e60eb1541d56388aab4554e9667"
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/sources.md",
@@ -463,11 +463,11 @@
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/status.md",
-      "sha256": "8ccb81a491a9505ccd8ed147e61471676fb5b1b6da2a25231e863bcbc9c4f3c5"
+      "sha256": "176e62f82db8533b608b4319830100a64e3e8fc4974f59c3dd5fe504e30f6227"
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/verification.md",
-      "sha256": "30fd1890de00bfabad743e9d86f88dba40fed4ad8925f03ea8ffd7616022054b"
+      "sha256": "b0f0019776f1a532018059501ffdd90347976caaefbe49b1ae2699406cf5e052"
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/verification_summary.json",
@@ -487,7 +487,7 @@
     },
     {
       "path": "cases/minimum-degree-two-degree-multiplicity/README.md",
-      "sha256": "5739ad53ef2a48be64eeec6f2cc4e611f04b6402c0043a4fded5736122117627"
+      "sha256": "4eb3a87549dc6494cd77bc149001c8748b1d3e5ba6196bee4d92aff596389493"
     },
     {
       "path": "cases/minimum-degree-two-degree-multiplicity/sharpness_summary.json",
@@ -527,7 +527,7 @@
     },
     {
       "path": "cases/orthogonal-tree-seven-vertex-obstructions/README.md",
-      "sha256": "18160d85a329286fd736277cedad7b006f139d0d0373215ce1ba86379dee213c"
+      "sha256": "f4dfd65acc07a6633d362909cd5a1269ce0eebd62c95edf430ce1098a8406c61"
     },
     {
       "path": "cases/orthogonal-tree-seven-vertex-obstructions/sources.md",
@@ -563,7 +563,7 @@
     },
     {
       "path": "cases/partition-matrix-bijection/extension/README.md",
-      "sha256": "b9169ad524ca5b0d0fcb83580122154277145b8f1de57d7d6de6cfa42b895ba4"
+      "sha256": "809e6cf88e53d06a5dd7949842e5b89d053afc5ca432ccc6ae8f4e0cc38fb545"
     },
     {
       "path": "cases/partition-matrix-bijection/extension/results.json",
@@ -575,7 +575,7 @@
     },
     {
       "path": "cases/partition-matrix-bijection/extension/status.md",
-      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+      "sha256": "5fda30326955afbf780e54c87fe9f9cbe0344d76f7b59eb5f49d49023058c6a3"
     },
     {
       "path": "cases/partition-matrix-bijection/extension/verification.md",
@@ -587,15 +587,15 @@
     },
     {
       "path": "cases/partition-matrix-bijection/problem.md",
-      "sha256": "79086d1dfbee0ec991b837718fb1ead743cf201525b06c8d7e321f272d0ed53b"
+      "sha256": "6d298c9cd75521bc63874ed1bdcbffd6d636d23d0854f8d695816c1eb1b19972"
     },
     {
       "path": "cases/partition-matrix-bijection/proof.md",
-      "sha256": "a797ce62d1284d5e7102b7b37777cbca732542cc5f48dbdedc26db3e496bfb69"
+      "sha256": "4623b1dd1f5774e839fb779a84469a478ab3a2d4d62bed8af63fe040356e40a5"
     },
     {
       "path": "cases/partition-matrix-bijection/README.md",
-      "sha256": "3fa0910e73cd56264d24b83b3fd7a7dd382cbeafe03f1f28a8a3439a12b023ba"
+      "sha256": "6fa6abfa8260bc0c408a059fd23975b884d25675deaa17877071fb94afaab24a"
     },
     {
       "path": "cases/partition-matrix-bijection/sources.md",
@@ -603,11 +603,11 @@
     },
     {
       "path": "cases/partition-matrix-bijection/status.md",
-      "sha256": "b0018bcd0ae91a1d7965c87105685911573e9b255628b1669fab12143ae62801"
+      "sha256": "8db309289b8b0d7ed8a986e20542dccc6322d0651889bade99fe324da93cc748"
     },
     {
       "path": "cases/partition-matrix-bijection/verification.md",
-      "sha256": "dcf7fcdd9ccfd268455f1e8dd00ebb1d23e90754d0b9a6f7fae0906cf012eaca"
+      "sha256": "ccc0060daa33ead6d104eae35cfb71c7512788a9452b0883117265798750f38b"
     },
     {
       "path": "cases/partition-matrix-bijection/verify_bijection.py",
@@ -631,7 +631,7 @@
     },
     {
       "path": "cases/partition-matrix-q-sum-product/extension/README.md",
-      "sha256": "0083c086f335989112e88c02489bc90b6445891cdbd3fc64b2ab16e429d53ddb"
+      "sha256": "94c4eb4d28b2ec52044cb7ee12e6a7aa1712cac0fcd32d68db2e764af18b4d8e"
     },
     {
       "path": "cases/partition-matrix-q-sum-product/extension/results.json",
@@ -643,7 +643,7 @@
     },
     {
       "path": "cases/partition-matrix-q-sum-product/extension/status.md",
-      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+      "sha256": "5fda30326955afbf780e54c87fe9f9cbe0344d76f7b59eb5f49d49023058c6a3"
     },
     {
       "path": "cases/partition-matrix-q-sum-product/extension/verification.md",
@@ -659,15 +659,15 @@
     },
     {
       "path": "cases/partition-matrix-q-sum-product/problem.md",
-      "sha256": "067bebb421dbc278e223f000e14e16de95f00937d10e55b4341842d728bb5af1"
+      "sha256": "d52bb9b83b37364e1cbfa86cc488c8485e7ffd04eda5cea0a0003945c06c8800"
     },
     {
       "path": "cases/partition-matrix-q-sum-product/proof.md",
-      "sha256": "92490ca252f134f6bdc70a85cbf6235d1dbfa0a5a3294c16212f11e83a2cd25c"
+      "sha256": "2c23f640327389c14e8924f5d1badb022409a0dd235280c68814b25395e4d289"
     },
     {
       "path": "cases/partition-matrix-q-sum-product/README.md",
-      "sha256": "020e6f5c973abc19673df3fdc036e796b268b2871e8036b8aad63b739c92fdd5"
+      "sha256": "431cfb69ed4dbf84924544cfb2373d97c4b44b67ea6fa33590023b090ea7d720"
     },
     {
       "path": "cases/partition-matrix-q-sum-product/sources.md",
@@ -675,11 +675,11 @@
     },
     {
       "path": "cases/partition-matrix-q-sum-product/status.md",
-      "sha256": "6cb27d6aa1948c6d43786b686fec6d0780aa3d0acd8914c8c59a31a57f12503f"
+      "sha256": "fb746d63cf40e91a75a75d0a5076c9e84851d8bda3b6d9d32cf15bdf38513cd6"
     },
     {
       "path": "cases/partition-matrix-q-sum-product/verification.md",
-      "sha256": "bcfda99b3732e439d34dab17c676841b90289c8c577776f3fda977c119eecd73"
+      "sha256": "4624d6768071f04a0dc367fddd844b55ea1edb7b2e4e6fffbc972a0597a0edea"
     },
     {
       "path": "cases/path-set-tree-representation-counterexample/check_counterexample.py",
@@ -699,7 +699,7 @@
     },
     {
       "path": "cases/path-set-tree-representation-counterexample/README.md",
-      "sha256": "86a7db81ce060d8f716332964eecb28f6815cca98aec19030d73cb9ae9226399"
+      "sha256": "832eed6fffc6e5017b431aa79f136d5740b710645becd53359672c5181085224"
     },
     {
       "path": "cases/path-set-tree-representation-counterexample/sources.md",
@@ -719,7 +719,7 @@
     },
     {
       "path": "cases/README.md",
-      "sha256": "43e8dbc64d9184405132ca1e3d89b07ca53578081bd3559b290acb2ea3251fbb"
+      "sha256": "419393728396fa09118f94755392910bc44c0122661fbb5934f4ee4da38b6f7c"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py",
@@ -739,7 +739,7 @@
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/README.md",
-      "sha256": "90306369aafb3ac3972d1d6f791235181a5c570691f6071eec2577b50bbe2435"
+      "sha256": "a3e15dc582dcf47d594af061e180104b1c40545f6d1b9800a26a5149a9ad7714"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/requirements.txt",
@@ -755,7 +755,7 @@
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/status.md",
-      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+      "sha256": "5fda30326955afbf780e54c87fe9f9cbe0344d76f7b59eb5f49d49023058c6a3"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/verification.md",
@@ -767,15 +767,15 @@
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/problem.md",
-      "sha256": "59417d44c90684b78a2ab3b3cc0bbb7b0c8e8a370015903aee64a0e204ca4c2b"
+      "sha256": "1527536901113590031a790106477241d1b79d874ab344dcaa2b083130745a74"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/proof.md",
-      "sha256": "6dcee361900aeb6596873087b9f8f6f4a3466d1fb9b9b87618e90a7cfd9ef3e0"
+      "sha256": "54cf09fe65b7e104fdc9b770289d0340720f50ca16c597c7d49a6ccc1499153b"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/README.md",
-      "sha256": "bc5a324d4a3af895c454b903c3eab13c30cf4e7bf347b93bd59e5b11e1dd26d6"
+      "sha256": "1794c3fddf123d3f91961f253bad3a5667e8301e786034e65dc9970315f12c1f"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/sources.md",
@@ -787,11 +787,11 @@
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/status.md",
-      "sha256": "d5f686bb9197b830953479af2dfe065436911d2f457fd65cdf3413b5d65e247d"
+      "sha256": "34ed2c3480d880db10fc30a89cae641e2e5021e1fb2552aa6deee32342f3b8e9"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/verification.md",
-      "sha256": "56c641761557bd337e6823df4af18b056a4a5e48258992f0f1208248ccc27c16"
+      "sha256": "f5fddafa40b2679057ef555f455df2b791301db4e0691e187d62e228e29c4488"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/verification_summary.json",
@@ -811,7 +811,7 @@
     },
     {
       "path": "cases/ternary-berge-suspension-rigidity/README.md",
-      "sha256": "cf55c8d5765eb9002a305eb97c1b225f7b5962093c7d02864355d568f9d2bb84"
+      "sha256": "b957b988d9b08e82f452db93c1632d28f1320a57c6730fd6c2303de993e51ccc"
     },
     {
       "path": "cases/ternary-berge-suspension-rigidity/sources.md",
@@ -843,7 +843,7 @@
     },
     {
       "path": "cases/toroidal-grid-representation-counterexample/README.md",
-      "sha256": "794041bbc80f074dda0181a25a6e79926d53ac1473b607a1f4aacf8d8494a293"
+      "sha256": "bbdd412eb2bd0efbf8a48de2057ba4ae80b39bd8d8474c38548e7b8f170317eb"
     },
     {
       "path": "cases/toroidal-grid-representation-counterexample/sources.md",
@@ -895,7 +895,7 @@
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/README.md",
-      "sha256": "88dc13000460014b15ed756b057d41d0c72b4f291f683625fb1b5f0bf91ec595"
+      "sha256": "17306b8cbbc6ed5296dc3dced1e3329d59e10982cac7a396196f3cbc2d4241b0"
     },
     {
       "path": "cases/volume-rigidity-dimension-seven/sources.md",
@@ -927,7 +927,7 @@
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/README.md",
-      "sha256": "d0310194bda40baed7fe1318db84363893d7b7b202fe33abdf1cfe357cd99da5"
+      "sha256": "6e49cd4c5abc92b3e312ffeee2dcf1353f2795d229f707fdba422f39c1a9dd88"
     },
     {
       "path": "cases/zhao-restricted-zero-sum-counterexample/sources.md",
