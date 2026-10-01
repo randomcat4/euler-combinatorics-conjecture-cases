@@ -89,10 +89,10 @@ Each updated <code>+2h</code> case includes a clean proof PDF and a companion pa
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2025.106097">Li–Xia–Zhou, <em>JCTA</em> 218 (2026)</a><br>Conjecture 4.7</td>
-      <td><a href="https://github.com/randomcat4/euler-combinatorics-conjecture-cases/pull/17"><strong>Cayley representation uniqueness</strong></a><br>Complete solution (proof draft)<br><a href="https://github.com/randomcat4/euler-combinatorics-conjecture-cases/blob/case/cayley-c47-complete/cases/cayley-eigenvalue-codimension-three/paper/full_conjecture.pdf">Proof PDF in PR #17</a></td>
+      <td><a href="cases/cayley-eigenvalue-codimension-three/"><strong>Cayley representation uniqueness</strong></a><br>Complete solution (proof draft)<br><a href="cases/cayley-eigenvalue-codimension-three/paper/full_conjecture.pdf">Proof PDF</a></td>
       <td>Every <code>n&gt;=5</code> and <code>1&lt;=r&lt;k&lt;=n-2</code>; exact attaining representations are classified. The separate <code>k=n-1</code> questions are excluded.</td>
       <td><code>+2h</code></td>
-      <td>Three quoted finite boundary computations; exact implementation is not supplied. Domain review pending.</td>
+      <td>Independent model proof review; exact rational block and Sturm certificates for three finite inputs. Human domain review pending.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.laa.2025.10.036">Zheng–Li–Li, <em>LAA</em> 730 (2026)</a><br>Conjecture 5.1</td>
@@ -338,17 +338,15 @@ for every nontrivial finite abelian odd-primary group $A$. This is a restricted-
 
 Other Gao-related problems are being curated and actively advanced. Their public packages will be added when the corresponding arguments and release materials are ready.
 
-## Proof draft under review
+## Complete solutions
 
 ### Nonnormal Cayley graph eigenvalues
 
 *Yuxuan Li, Binzhou Xia, and Sanming Zhou · [DOI](https://doi.org/10.1016/j.jcta.2025.106097) · [arXiv](https://arxiv.org/abs/2402.02427)*
 
-Conjecture 4.7 concerns representation-level uniqueness for a family of nonnormal Cayley graphs on symmetric groups. The initial 2h package establishes the `k=n-3` slice. The +2h proof draft in [PR #17](https://github.com/randomcat4/euler-combinatorics-conjecture-cases/pull/17) covers every `n>=5, 1<=r<k<=n-2`; its three quoted finite computations remain a stated reproducibility limit. The separate `k=n-1` questions are excluded.
+Conjecture 4.7 concerns representation-level uniqueness for a family of nonnormal Cayley graphs on symmetric groups. The initial 2h package establishes the `k=n-3` slice. The +2h proof draft in [PR #17](https://github.com/randomcat4/euler-combinatorics-conjecture-cases/pull/17) covers every `n>=5, 1<=r<k<=n-2`; its three finite inputs now have public rational characteristic polynomials and Sturm certificates. The separate `k=n-1` questions are excluded. Human domain review remains pending.
 
 [Open the Cayley eigenvalue package](cases/cayley-eigenvalue-codimension-three/)
-
-## Complete solutions
 
 ### The Steklov extremizer for every leaf count
 

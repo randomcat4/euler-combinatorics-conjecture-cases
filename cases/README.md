@@ -21,13 +21,13 @@ Each subdirectory is a self-contained public case package. The index is organize
 - [`entropy-bounded-sidon-concentration-stability`](entropy-bounded-sidon-concentration-stability/) - complete solution plus verified fixed-`D` optimal-modulus extension
 - [`minimal-degree-three-imprimitive-groups`](minimal-degree-three-imprimitive-groups/) - full alternating-block/code/cocycle parametrization and cyclic-top conjugacy classification
 - [`steklov-three-leaf-extra-special-extremizer`](steklov-three-leaf-extra-special-extremizer/) - all-leaf theorem, matching-threshold strengthening and sharp central-split refinement
+- [`cayley-eigenvalue-codimension-three`](cayley-eigenvalue-codimension-three/) - full Conjecture 4.7 proof draft with exact finite certificates; human domain review pending
 
 ## Partial results
 
 - [`minimum-degree-two-degree-multiplicity`](minimum-degree-two-degree-multiplicity/)
 - [`five-point-sixteen-shattering`](five-point-sixteen-shattering/)
 - [`orthogonal-tree-seven-vertex-obstructions`](orthogonal-tree-seven-vertex-obstructions/)
-- [`cayley-eigenvalue-codimension-three`](cayley-eigenvalue-codimension-three/) - the initial slice; the full proof and its finite certificates are in [PR #17](https://github.com/randomcat4/euler-combinatorics-conjecture-cases/pull/17)
 
 The restricted-family Gao manuscript and its Lean formalization are maintained in the external [Gao Lean repository](https://github.com/randomcat4/gaoLEAN) and are linked from the main README. Neither entry is presented as a complete solution of its source conjecture.
 

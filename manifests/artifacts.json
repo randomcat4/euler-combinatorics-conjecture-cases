@@ -74,6 +74,46 @@
       "sha256": "e6b8c4bf7c62868628723cb078ee1e225726f57b63c2cf270efb60e6bc37db80"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/extension/check.py",
+      "sha256": "c70486367477b2187fa2a5fc81d74a1c03a2d2f43bb0f5833bc1cc01e016917a"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/extension/problem.md",
+      "sha256": "04a9bbe6f72cef6b1cef581e2b911b0ad835ec55bd0de72aec7b37fd4dfc2639"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/extension/proof.md",
+      "sha256": "3fbe03359d5b23afaf8309d7674372527d8af933b5da53d76bf6c9ad89fba821"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/extension/README.md",
+      "sha256": "5a31c783a2b75010640196a1d48fe9c180320563fa3353eccae7f724f30b25b6"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/extension/requirements.txt",
+      "sha256": "4b9e8258d2945cac6b69a295c9871188b18adf1233b8920bc0677d86dfc5e723"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/extension/results.json",
+      "sha256": "58df1ef7d980f428f1d863b5fa147e99021e41eec7943928fe57752b2c4a24e1"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/extension/sources.md",
+      "sha256": "f52e59f166ce2de436b581ce0193fd068d1cad1825eefa24f26e9b3d690ed0e9"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/extension/status.md",
+      "sha256": "37949534f0a5e64075277a916e01ecc816b47d29d5684f60600a540261fdb6fb"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/extension/verification.md",
+      "sha256": "01593cca52857a0126091664893cd6000db7ca406152d8a289bb9a4428208917"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/paper/full_conjecture.pdf",
+      "sha256": "4f2afed176da116cf8c01b7c8d7e60e290d391476d7375a254fbe61d1dfdae6d"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/paper/main.pdf",
       "sha256": "1303f92da7a94c271cc7998a634f066ab030dc31685b678bc3ef064589be7243"
     },
@@ -87,23 +127,27 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/problem.md",
-      "sha256": "fa2c0f3b41aaa6be3eb22d87f6be1f5183ed19d47a62e64161fdf241e4086bb8"
+      "sha256": "3e94ec582afa98fa190aad2b34883a21bea12ee6767b7652b8d55cc9b1fab2b6"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/proof_outline.md",
+      "sha256": "1d6c280ac8282315bfb4dbb2b22ae4a4925bf8821afe78324a5b70696bf463a7"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "ce10efac31e0b20fd6ea35761d4103910616bedb32f5b7a9b5a0a7f862ede758"
+      "sha256": "47983e1cf0f61fc5504d23a7663bdd5c1bb92868f9f54156a82c8aaa2398889b"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
-      "sha256": "2d51704227c60b792c5b7adf4557a5e5b57e98b31df1e366121e72b9262e9bf2"
+      "sha256": "bdfb1806f90defd9f63e1737d41004bedadf694b3ab7e0f6a1c6b36e670fe9fe"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/status.md",
-      "sha256": "92ef97fb19148c520cb0bf176561b811cdbac58f82e48db8a603a72d55dd67f9"
+      "sha256": "3d13bc28bcab56e169b8b78fcda67ef94f847c90bf678542f870ce6c1a5de5da"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
-      "sha256": "d3db73242b0756401c715e7a0430c599cfd46515861dc2fda9cd8314481c3a31"
+      "sha256": "0d3fd308b25f3a1bce2808c99236b741ec8344deeb87b950563e455f1d572aa0"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/extension/check.py",
@@ -675,7 +719,7 @@
     },
     {
       "path": "cases/README.md",
-      "sha256": "cda278158a72b77bfd1dc4e5cca72ca36e9cefda5c9a966c61fd690703084a37"
+      "sha256": "43e8dbc64d9184405132ca1e3d89b07ca53578081bd3559b290acb2ea3251fbb"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py",

@@ -14,5 +14,8 @@ Johannes Siemons and Alexandre Zalesski, “On the Second Largest Eigenvalue of 
 
 - [Version of record](https://doi.org/10.1007/s10801-021-01080-4)
 
-The bibliography in `paper/references.bib` contains both citations used by the note. No private repository, review, or coordination record is needed to interpret the mathematics in this package.
+The bibliography in `paper/references.bib` contains both citations used by the
+earlier `n-k=3` note. The full proof uses the same two public sources. No
+private repository, review, or coordination record is needed to interpret the
+mathematics in this package.
 
