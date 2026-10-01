@@ -1,4 +1,20 @@
-# A Plane-Tree Statistic for the Catalan–Schett Distribution
+# Plane trees and inverse ascending runs
+
+**Source problem:** Problem 2.18 of Lin--Liu--Yan. [Original statement and sources](problem.md).
+
+**[Read the clean proof PDF](paper/extension.pdf)**
+
+**Extension pass (+2h).** The original joint tree/permutation identity is proved by explicit inverse constructions. The extension retains the entire inverse ascending-run composition and allows arbitrary multiplicative run weights, including zero weights and disjoint d-packet statistics.
+
+**Initial pass (2h).** The initial note gave the intrinsic tree statistic and its original two-statistic bijection.
+
+The coefficient formulas are formal power-series identities; classical Catalan coefficient formulas are attributed. Public priority is not established.
+
+[Extension case files and independent checks](extension/)
+
+## Initial public package
+
+The original description and public files below document the initial pass. They remain available; the extension manuscript above gives the later scope.
 
 *Zhicong Lin, Jing Liu, and Sherry H. F. Yan · [DOI](https://doi.org/10.1016/j.jcta.2025.106049) · [arXiv](https://arxiv.org/abs/2409.01558)*
 
@@ -24,7 +40,7 @@ system's case library for conjectures and open problems posed by authors who
 had published in leading combinatorics journals within the preceding 24
 months.
 
-## Contents
+### Contents
 
 - [problem.md](problem.md) states the original problem, definitions, and the
   semantic requirement that the statistic be intrinsic to plane trees.
@@ -40,7 +56,7 @@ months.
 - [small_case_summary.json](small_case_summary.json) records the checker's
   compact output.
 
-## Scope of the claim
+### Scope of the claim
 
 The all-order proof, rather than the finite computation, establishes the
 identity. The computation is included only to expose conventions, boundary

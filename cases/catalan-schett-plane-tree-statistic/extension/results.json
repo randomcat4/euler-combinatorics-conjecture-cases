@@ -1,0 +1,321 @@
+{
+  "problem": "catalan-schett-plane-tree-runs",
+  "status": "PASS_FINITE_EXACT",
+  "claim_scope": "plane-tree to 231-avoiding-permutation bijection with full inverse ascending-run composition",
+  "coverage": {
+    "n_range": [
+      0,
+      9
+    ],
+    "tree_enumeration": "all rooted plane trees",
+    "permutation_enumeration": "all permutations filtered directly for 231 avoidance",
+    "weight_families": [
+      "affine",
+      "with_zero",
+      "signed"
+    ],
+    "universal_finite_check": "equality of the full ordered run-list signature"
+  },
+  "per_n": [
+    {
+      "n": 0,
+      "plane_trees": 1,
+      "avoiders_231": 1,
+      "cut_pairs": 0,
+      "distinct_full_signatures": 1,
+      "full_signature_sha256": "48540848deeda8471bd1f0413b3d9d17b1e1e474e10f6598b8d7a3c7e6d0b792",
+      "distinct_original_stat_pairs": 1,
+      "original_joint_sha256": "c2023d1d4cce1cbccb7a589bc4523c72aab97ebab54137acf19893eaab6cd50a",
+      "weighted_coefficient_vectors": {
+        "affine": {
+          "0": 1
+        },
+        "with_zero": {
+          "0": 1
+        },
+        "signed": {
+          "0": 1
+        }
+      },
+      "bijection_exact": true,
+      "ordered_run_signature_equal": true,
+      "original_joint_statistic_equal": true
+    },
+    {
+      "n": 1,
+      "plane_trees": 1,
+      "avoiders_231": 1,
+      "cut_pairs": 1,
+      "distinct_full_signatures": 1,
+      "full_signature_sha256": "3a8f31c61f4ba8ea0ec3c0277453b4428fdc9795b96587a51077b5508340e950",
+      "distinct_original_stat_pairs": 1,
+      "original_joint_sha256": "c2023d1d4cce1cbccb7a589bc4523c72aab97ebab54137acf19893eaab6cd50a",
+      "weighted_coefficient_vectors": {
+        "affine": {
+          "0": 3
+        },
+        "with_zero": {
+          "0": 3
+        },
+        "signed": {
+          "0": -2
+        }
+      },
+      "bijection_exact": true,
+      "ordered_run_signature_equal": true,
+      "original_joint_statistic_equal": true
+    },
+    {
+      "n": 2,
+      "plane_trees": 2,
+      "avoiders_231": 2,
+      "cut_pairs": 2,
+      "distinct_full_signatures": 2,
+      "full_signature_sha256": "c998cb625f34c9f2c8a2f44fc81953b50aad0c0d57acd59cd7a9e01d5e9d212e",
+      "distinct_original_stat_pairs": 2,
+      "original_joint_sha256": "fea3591e66d3ecd5b57a9543531a60cf51b8bcb7fb4c03e77ebe2fc49de4caf6",
+      "weighted_coefficient_vectors": {
+        "affine": {
+          "0": 5,
+          "1": 9
+        },
+        "with_zero": {
+          "0": 4,
+          "1": 9
+        },
+        "signed": {
+          "0": 5,
+          "1": 4
+        }
+      },
+      "bijection_exact": true,
+      "ordered_run_signature_equal": true,
+      "original_joint_statistic_equal": true
+    },
+    {
+      "n": 3,
+      "plane_trees": 5,
+      "avoiders_231": 5,
+      "cut_pairs": 5,
+      "distinct_full_signatures": 4,
+      "full_signature_sha256": "5c8174286c91710f80d459d2748452d761b649d3954ed4fe8b296ea1a93b6135",
+      "distinct_original_stat_pairs": 3,
+      "original_joint_sha256": "016487138adf36b6c4d42ce58dc678b21da76047c1ec19edb590992acca5d9bb",
+      "weighted_coefficient_vectors": {
+        "affine": {
+          "0": 7,
+          "1": 72
+        },
+        "with_zero": {
+          "0": 0,
+          "1": 63
+        },
+        "signed": {
+          "0": -10,
+          "1": -38
+        }
+      },
+      "bijection_exact": true,
+      "ordered_run_signature_equal": true,
+      "original_joint_statistic_equal": true
+    },
+    {
+      "n": 4,
+      "plane_trees": 14,
+      "avoiders_231": 14,
+      "cut_pairs": 14,
+      "distinct_full_signatures": 10,
+      "full_signature_sha256": "98361c6d4bf0fa31b145fccd134c6658216a0bf33856534e830a53583bdbb0ff",
+      "distinct_original_stat_pairs": 5,
+      "original_joint_sha256": "8b190885d4d355e299efa308f5eeee4d07e3967a2e7657b17112c60fc2a00c0d",
+      "weighted_coefficient_vectors": {
+        "affine": {
+          "0": 9,
+          "1": 314,
+          "2": 171
+        },
+        "with_zero": {
+          "0": 6,
+          "1": 176,
+          "2": 153
+        },
+        "signed": {
+          "0": 17,
+          "1": 210,
+          "2": 56
+        }
+      },
+      "bijection_exact": true,
+      "ordered_run_signature_equal": true,
+      "original_joint_statistic_equal": true
+    },
+    {
+      "n": 5,
+      "plane_trees": 42,
+      "avoiders_231": 42,
+      "cut_pairs": 42,
+      "distinct_full_signatures": 21,
+      "full_signature_sha256": "b676015e4c468fb99749230544e44d70420c2147f3204b9670b63fb39038f270",
+      "distinct_original_stat_pairs": 6,
+      "original_joint_sha256": "1a40d228e1ba33067dde5eb417548481b95c0f061190118ea68c268b27261a6c",
+      "weighted_coefficient_vectors": {
+        "affine": {
+          "0": 11,
+          "1": 1000,
+          "2": 2283
+        },
+        "with_zero": {
+          "0": 7,
+          "1": 330,
+          "2": 1563
+        },
+        "signed": {
+          "0": -26,
+          "1": -870,
+          "2": -882
+        }
+      },
+      "bijection_exact": true,
+      "ordered_run_signature_equal": true,
+      "original_joint_statistic_equal": true
+    },
+    {
+      "n": 6,
+      "plane_trees": 132,
+      "avoiders_231": 132,
+      "cut_pairs": 132,
+      "distinct_full_signatures": 50,
+      "full_signature_sha256": "3631c01e87b5ce45177168ce94e2e4c183d1d8569177325b72d0817de16cf841",
+      "distinct_original_stat_pairs": 9,
+      "original_joint_sha256": "3b12d534117a0e2662550ada1d8a616465cc6f162729fcbcc9b4d3335f3f68f3",
+      "weighted_coefficient_vectors": {
+        "affine": {
+          "0": 13,
+          "1": 2611,
+          "2": 16116,
+          "3": 4212
+        },
+        "with_zero": {
+          "0": 0,
+          "1": 722,
+          "2": 7482,
+          "3": 3105
+        },
+        "signed": {
+          "0": 37,
+          "1": 2980,
+          "2": 7647,
+          "3": 1004
+        }
+      },
+      "bijection_exact": true,
+      "ordered_run_signature_equal": true,
+      "original_joint_statistic_equal": true
+    },
+    {
+      "n": 7,
+      "plane_trees": 429,
+      "avoiders_231": 429,
+      "cut_pairs": 429,
+      "distinct_full_signatures": 106,
+      "full_signature_sha256": "7bd61df93b71e6e3f63dc9504c87264d62f5c7e74864264b271db2658c9d66fe",
+      "distinct_original_stat_pairs": 10,
+      "original_joint_sha256": "be16af0639acb90e4e98670ba1ec2189eb101d82414589fbbeaa5e1da924b96f",
+      "weighted_coefficient_vectors": {
+        "affine": {
+          "0": 15,
+          "1": 5936,
+          "2": 80276,
+          "3": 78900
+        },
+        "with_zero": {
+          "0": 9,
+          "1": 1645,
+          "2": 24906,
+          "3": 43221
+        },
+        "signed": {
+          "0": -50,
+          "1": -8876,
+          "2": -47964,
+          "3": -22150
+        }
+      },
+      "bijection_exact": true,
+      "ordered_run_signature_equal": true,
+      "original_joint_statistic_equal": true
+    },
+    {
+      "n": 8,
+      "plane_trees": 1430,
+      "avoiders_231": 1430,
+      "cut_pairs": 1430,
+      "distinct_full_signatures": 244,
+      "full_signature_sha256": "84333abc2ad075c9b9b0279052557b96df3b36934fa98b2d3f1a03ebbe790532",
+      "distinct_original_stat_pairs": 14,
+      "original_joint_sha256": "41d79e34ed5cb5b98f575d21e5c915032931b4e70fa040010f3eb37a041aba0b",
+      "weighted_coefficient_vectors": {
+        "affine": {
+          "0": 17,
+          "1": 12180,
+          "2": 317270,
+          "3": 769876,
+          "4": 117927
+        },
+        "with_zero": {
+          "0": 10,
+          "1": 2472,
+          "2": 74080,
+          "3": 295216,
+          "4": 70749
+        },
+        "signed": {
+          "0": 65,
+          "1": 23700,
+          "2": 242270,
+          "3": 262084,
+          "4": 20400
+        }
+      },
+      "bijection_exact": true,
+      "ordered_run_signature_equal": true,
+      "original_joint_statistic_equal": true
+    },
+    {
+      "n": 9,
+      "plane_trees": 4862,
+      "avoiders_231": 4862,
+      "cut_pairs": 4862,
+      "distinct_full_signatures": 517,
+      "full_signature_sha256": "96efbee082c1a59498a979a771f92afed5f926d7498d87009c5684f99db225ac",
+      "distinct_original_stat_pairs": 15,
+      "original_joint_sha256": "b5d4bc3367d447488e52704e005fbf9c128d3178af4eddba84180bf0dcc0302f",
+      "weighted_coefficient_vectors": {
+        "affine": {
+          "0": 19,
+          "1": 23088,
+          "2": 1059894,
+          "3": 5219160,
+          "4": 2844585
+        },
+        "with_zero": {
+          "0": 0,
+          "1": 3681,
+          "2": 201636,
+          "3": 1401570,
+          "4": 1259658
+        },
+        "signed": {
+          "0": -82,
+          "1": -57900,
+          "2": -1042722,
+          "3": -2199780,
+          "4": -579170
+        }
+      },
+      "bijection_exact": true,
+      "ordered_run_signature_equal": true,
+      "original_joint_statistic_equal": true
+    }
+  ]
+}

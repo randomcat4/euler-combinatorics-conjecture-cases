@@ -1,4 +1,20 @@
-# Boundary Counterexample to the K33+ Q-Index Classification
+# A counterexample and a sharp two-universal-vertex theorem
+
+**Source problem:** Conjecture 5.1 of Zheng--Li--Li. [Original statement and sources](problem.md).
+
+**[Read the clean proof PDF](paper/extension.pdf)**
+
+**Extension pass (+2h).** The six-vertex counterexample is proved uniquely optimal by an elementary complement argument. For all n>=7, the note determines the sharp Q-index and every equality graph in the entire two-universal-vertex class. The source classification also fails at n=8 and at every n>=10.
+
+**Initial pass (2h).** The initial package certified the six-vertex counterexample by an exact finite enumeration.
+
+The unrestricted large-order maximizing graphs are not classified. The infinite-order obstruction does not assume that the displayed constructions are unrestricted maximizers. Public priority is not established.
+
+[Extension case files and independent checks](extension/)
+
+## Initial public package
+
+The original description and public files below document the initial pass. They remain available; the extension manuscript above gives the later scope.
 
 *Jian Zheng, Yongtao Li, and Honghai Li - [DOI](https://doi.org/10.1016/j.laa.2025.10.036) - [arXiv](https://arxiv.org/abs/2504.07852)*
 
@@ -14,7 +30,7 @@ the graph `K2 join (K3 union K1)` is `K_{3,3}^+`-free, uniquely maximizes the Q-
 
 This case does not address a separately amended or intended sufficiently-large-`n` version of the conjecture, and it does not claim public priority.
 
-## Contents
+### Contents
 
 - [problem.md](problem.md) records the source statement, definitions, scope, and non-claims.
 - [proof.md](proof.md) gives the displayed counterexample and the finite maximality certificate.

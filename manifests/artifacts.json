@@ -6,6 +6,42 @@
       "sha256": "3d21b0b304f7951828b35307981e9b9c6d65c94f540e87eb379f04b966c94b15"
     },
     {
+      "path": "cases/catalan-schett-plane-tree-statistic/extension/check.py",
+      "sha256": "4c1ea21a535f792ff42abf8f332a7b996213ba21d2e27c9b2768fdc0c793bd13"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/extension/problem.md",
+      "sha256": "77c596d3c6338694dbe07d31e2975e5a7a987bbe15b2c0d41bb095947781bdfd"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/extension/proof.md",
+      "sha256": "e1d323572f58b24d0c45e044a13bd59b5a9822c9bc61dfb49c9fd25ee46c97d9"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/extension/README.md",
+      "sha256": "d0bbd2e87c85bdd2e7d72ec52b739da53a40f217eae7526f7053a523660c6814"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/extension/results.json",
+      "sha256": "cd60ca1af325d6d05315e2e0129f4e2a1bd96b28fe111c34498557a6baafe8ad"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/extension/sources.md",
+      "sha256": "59fbd45cb786a8afe2e4e85636df3412cacbfcf324682e2a4d90fadda474b9a0"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/extension/status.md",
+      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/extension/verification.md",
+      "sha256": "f4a9e8246f7ed3184009496d7fc3608ec957f8de8ea308685614460ae5779f54"
+    },
+    {
+      "path": "cases/catalan-schett-plane-tree-statistic/paper/extension.pdf",
+      "sha256": "13f9114aa9ab03fce811750ea51937caacb116fb47931125fb7f5f80898d583c"
+    },
+    {
       "path": "cases/catalan-schett-plane-tree-statistic/problem.md",
       "sha256": "6a210aa242b0294c23bee306b84d4fae2ed2f90504dc64d3cdac441331e48854"
     },
@@ -15,7 +51,7 @@
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/README.md",
-      "sha256": "a19a5611ec9aa53467966823b8085ca18e0528eb2faa3f89234b4a2c53a3d3f9"
+      "sha256": "27d680abda65758ca339348f48ac9f69fdfccd8d4672aca15e8a2b5132d9554b"
     },
     {
       "path": "cases/catalan-schett-plane-tree-statistic/small_case_summary.json",
@@ -114,6 +150,42 @@
       "sha256": "0d3fd308b25f3a1bce2808c99236b741ec8344deeb87b950563e455f1d572aa0"
     },
     {
+      "path": "cases/cdk-improper-partition-matrix-image/extension/check.py",
+      "sha256": "f7fe41ffd6101e10e391be79d378e9590780638228827e4299fea668ec23844f"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/extension/problem.md",
+      "sha256": "3962e4412c8481d37124c839c31b44fdf82da36aef58d8a0178d85eed51940b7"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/extension/proof.md",
+      "sha256": "39f5857c4e624a3d60dc3457b5aa0be7c4d1ed76d388e9df3bea3753d7a53fe1"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/extension/README.md",
+      "sha256": "c2a593a822e6573db3c42159aaf3ae780675f315e4a1023892bb2e6b7180288a"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/extension/requirements.txt",
+      "sha256": "fc0b16c87dafc905dac5f82e4b543eff2c682fd6e470a579dc67cbc672273fbc"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/extension/results.json",
+      "sha256": "94473346183c2178c2c7ff92844536f64eb7f01982403284913ae05310b8914a"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/extension/sources.md",
+      "sha256": "12074df3f3150b6500dc468d275edfd93f7189bf5259f9922a37e9a1ed3902ec"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/extension/status.md",
+      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+    },
+    {
+      "path": "cases/cdk-improper-partition-matrix-image/extension/verification.md",
+      "sha256": "7421ad2a4d960b0ec3fb8312deac5479365d7a8728cef81807c33bb29d0004bb"
+    },
+    {
       "path": "cases/cdk-improper-partition-matrix-image/finite-regression.md",
       "sha256": "57f6861488bf70add4b25d2c58bcec058926692d863b5f526f0b2b4aeb4ae6c1"
     },
@@ -126,6 +198,10 @@
       "sha256": "6d6704683face9051f3c16aa3ceb424b493d263a3a9d653e534639e339c30e56"
     },
     {
+      "path": "cases/cdk-improper-partition-matrix-image/paper/extension.pdf",
+      "sha256": "cc4cd69c52774fa64643478946f94adb5dbd0f7bc08fccf0c82ce7a91f1dcdd0"
+    },
+    {
       "path": "cases/cdk-improper-partition-matrix-image/problem.md",
       "sha256": "1ccba5edcde0efba02b2f5e9e2a0c74ce384951c5d7ca82505de86af4cb07a7a"
     },
@@ -135,7 +211,7 @@
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/README.md",
-      "sha256": "62e5c5dc8f2c36740ca9bf491396b264c1453e1a6b11a9e5f7892713c4898fb9"
+      "sha256": "b48983db2e99ea64317cdd714d018ffeb7369c7775f96a2c5185e487255f3dad"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/sources.md",
@@ -262,6 +338,46 @@
       "sha256": "f5e01228f7f8dbb525d9e647ac31b5c950e200122d8d7ed791a9fd929c593bc6"
     },
     {
+      "path": "cases/k33plus-q-index-boundary-counterexample/extension/check.py",
+      "sha256": "1474c63a56c585f9a0958ea179fedeb8db27beef7db5eb3741e2a820b71cb684"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/extension/problem.md",
+      "sha256": "9db39b14b7b3d56733e1b81a45534c0625badc7f7a1b483300c41f0f3701ae5c"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/extension/proof.md",
+      "sha256": "f0a6673d2678d4a37b0bcc4dbc1bde37bc38650bfd3b58db5f6222ffef9a7266"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/extension/README.md",
+      "sha256": "5407d832399f36bb87a1193b49187db1d93438435fc71cc3c3d7551d8836d3f4"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/extension/requirements.txt",
+      "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/extension/results.json",
+      "sha256": "c50c99cc125b6db480c2e50419d3b6374c1e5d0fd2980f1739c6f4ca786b8a67"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/extension/sources.md",
+      "sha256": "942c42086928abb0e1c74b0586526d38dd8d51a536be10a2836f2e7c77a9bda3"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/extension/status.md",
+      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/extension/verification.md",
+      "sha256": "4dc28d5593cc8ab0f2f25296c8137feaeefd7ca354f108ff7183168c7cf5288c"
+    },
+    {
+      "path": "cases/k33plus-q-index-boundary-counterexample/paper/extension.pdf",
+      "sha256": "862d78503263063778398dd51caf25b86b7d81f02fd1792fd757cc6da136d958"
+    },
+    {
       "path": "cases/k33plus-q-index-boundary-counterexample/problem.md",
       "sha256": "7350d2c681c3ec7c890c87f60e92eed1b568d26f284cc57322454e456b1cd256"
     },
@@ -271,7 +387,7 @@
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/README.md",
-      "sha256": "4baaf870b021e7022bfc9af6cf738bfaa4db08e52e46ca10d3363b50ae6b4ac2"
+      "sha256": "1feade07e578b7203307a935d60e7dc4d3c0c0f331297a85a435fc2139cc01f8"
     },
     {
       "path": "cases/k33plus-q-index-boundary-counterexample/sources.md",
@@ -290,6 +406,42 @@
       "sha256": "c0b02ece21a2c3e73f01920e85996ce19c21e615172b79f37c561b2fefad8496"
     },
     {
+      "path": "cases/minimal-degree-three-imprimitive-groups/extension/check.py",
+      "sha256": "37c8687d6c9a67518eba43385c252c768ecbe475b0fbf543fa880a0ae45fff50"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/extension/problem.md",
+      "sha256": "07133ebf2609dd91ff9d62ba0ccada2895d2184d15299ca5be0d8e8148a80e7a"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/extension/proof.md",
+      "sha256": "53a86156c122f26f14d88301828e2e7746dd5d85a398c8844f730437bdee6fbd"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/extension/README.md",
+      "sha256": "84e5b3222e909772f2e8eb03d9e4a91c57ffce83a3c2bf83f170e31d14b4ab87"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/extension/results.json",
+      "sha256": "16ee7a6d31762b89150946b28fd615c4780e5fc019e812de0dfc8b28b3867a4f"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/extension/sources.md",
+      "sha256": "e7c0d51da5de630d870188f09ed8c5b16c0fe3e32483eba7e57ceec98488509d"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/extension/status.md",
+      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/extension/verification.md",
+      "sha256": "a1f4051ae837e6844f6ec2c36c1f948b1886bbe4acefc4443eb383f7d7e55fe6"
+    },
+    {
+      "path": "cases/minimal-degree-three-imprimitive-groups/paper/extension.pdf",
+      "sha256": "c21a5c0371cbe47cc3736d9ae3bfd0609b8213584b4aafa49f33430348b81080"
+    },
+    {
       "path": "cases/minimal-degree-three-imprimitive-groups/problem.md",
       "sha256": "fc637939fa39afbed544ebb82d98e0ab8da9d21106df6d656ee9bf36a2824f55"
     },
@@ -303,7 +455,7 @@
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/README.md",
-      "sha256": "56b3c49ca97006dbc32c5eadd64b86e9260e954e2f989151def1d8a54b2f6c5a"
+      "sha256": "60e19c290740d6945667ce846c64d83fcda74bd6bd4a97bdad8f727799ff79f5"
     },
     {
       "path": "cases/minimal-degree-three-imprimitive-groups/sources.md",
@@ -398,6 +550,42 @@
       "sha256": "d5863a6c504295392e25dff90e9e76721bd325b1356dd9f604d5da0c1bf6ecd9"
     },
     {
+      "path": "cases/partition-matrix-bijection/extension/check.py",
+      "sha256": "c9dfd5ff579ba31d2158097ff3fe53186cfa7a273518733a3b357df06c3b2f60"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/extension/problem.md",
+      "sha256": "a41148bde45bd8b342a312f2cdc2b7de457bcacde7159f9107119574f9a00406"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/extension/proof.md",
+      "sha256": "0aa1bd3b61fa6df2cf7c30bb673b8e5157f9b9027d6f29055a0c80e48f72b498"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/extension/README.md",
+      "sha256": "b9169ad524ca5b0d0fcb83580122154277145b8f1de57d7d6de6cfa42b895ba4"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/extension/results.json",
+      "sha256": "72679b72c85e1d9388806e43c66534bd9d7efaaa226654a2615f2f158c73d2f7"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/extension/sources.md",
+      "sha256": "177fa4a201c963045d89f8b498b0ce49b508ff611f5fae4d08145e0b1a53373f"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/extension/status.md",
+      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/extension/verification.md",
+      "sha256": "7a8a08eb235b9504d988a7a6abfd0fc5f57abe12ba98285b1036ff22a286d1f3"
+    },
+    {
+      "path": "cases/partition-matrix-bijection/paper/extension.pdf",
+      "sha256": "ea708f8d316177ffb0dcb20e47037f7539b87520eafd3302fb1a72a63ef098d0"
+    },
+    {
       "path": "cases/partition-matrix-bijection/problem.md",
       "sha256": "79086d1dfbee0ec991b837718fb1ead743cf201525b06c8d7e321f272d0ed53b"
     },
@@ -407,7 +595,7 @@
     },
     {
       "path": "cases/partition-matrix-bijection/README.md",
-      "sha256": "727c4e87ec0e59e33f27713747c05e74da29df206ba69f4ddd3080f772a0e973"
+      "sha256": "3fa0910e73cd56264d24b83b3fd7a7dd382cbeafe03f1f28a8a3439a12b023ba"
     },
     {
       "path": "cases/partition-matrix-bijection/sources.md",
@@ -430,8 +618,44 @@
       "sha256": "f36790338b84dcf0375bdfa67564820ee8431cd46d338002a2e21c56571ba4ce"
     },
     {
+      "path": "cases/partition-matrix-q-sum-product/extension/check.py",
+      "sha256": "f32906e27f99a9599ead5051c8d8520870ccedf46cadcf70ac93d817f635dc6a"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/extension/problem.md",
+      "sha256": "fc32f74fabfe43f0198beb53eae75d9b0b7c362e2ecf85d7b824f4dc2835691b"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/extension/proof.md",
+      "sha256": "b16e503c2fff9fd29ddd1fd435dcfce32ed970ed507c0b9996878a5d0fb32b55"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/extension/README.md",
+      "sha256": "0083c086f335989112e88c02489bc90b6445891cdbd3fc64b2ab16e429d53ddb"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/extension/results.json",
+      "sha256": "413c4b9fbd76ad93be0d094a6b638fb0a0cd0d7e16bff7461a4660d93d8774cb"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/extension/sources.md",
+      "sha256": "edfa99325baeb7b5405ab44dcf656a4ffc4df18762f2226b5e06f2e98f5fabf1"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/extension/status.md",
+      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/extension/verification.md",
+      "sha256": "6de8323a1a96aec6a0549270c1895b96194567f4ebe0d879d0dac1c5ec1a4510"
+    },
+    {
       "path": "cases/partition-matrix-q-sum-product/formula-check.md",
       "sha256": "cf314544564babee9bf78e9c6dc57a28f518d1b438a12b7db31cad3ea2c9f085"
+    },
+    {
+      "path": "cases/partition-matrix-q-sum-product/paper/extension.pdf",
+      "sha256": "e4909c197b2f309787e7f10f1593ab4ae785223ce3610e7659134812ef73525b"
     },
     {
       "path": "cases/partition-matrix-q-sum-product/problem.md",
@@ -443,7 +667,7 @@
     },
     {
       "path": "cases/partition-matrix-q-sum-product/README.md",
-      "sha256": "2e9d2af7f2af56c6304028d39177a729cdec2eee7c253d5e5b1f1a252008bf59"
+      "sha256": "020e6f5c973abc19673df3fdc036e796b268b2871e8036b8aad63b739c92fdd5"
     },
     {
       "path": "cases/partition-matrix-q-sum-product/sources.md",
@@ -495,11 +719,51 @@
     },
     {
       "path": "cases/README.md",
-      "sha256": "a91fe3aedf2b7e4bd12cdc078fe618a53a13692abf38b85a3fe2316b1f579b68"
+      "sha256": "43e8dbc64d9184405132ca1e3d89b07ca53578081bd3559b290acb2ea3251fbb"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py",
       "sha256": "0f44566e17f1adb2d557844227f086d051cc6c4b212d3b897470a7ba412daf43"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/check.py",
+      "sha256": "eb1b200a5190e48b8b7507c9d4ea8a5d0273e287c5b90e1b8031d33e2f453d85"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/problem.md",
+      "sha256": "3359b633699d71f84507ccbbff7f76ed9181ce2679b3e138e0f9e0a42232b1e2"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/proof.md",
+      "sha256": "9e88593f8fd13d1ede23a84bfdb8b7e22863940efc34038bcc53d35ef6db3595"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/README.md",
+      "sha256": "90306369aafb3ac3972d1d6f791235181a5c570691f6071eec2577b50bbe2435"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/requirements.txt",
+      "sha256": "b064aa437e7f5967106bb4b42502cb084109fb44c2f09fce3a9508abf3b11800"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/results.json",
+      "sha256": "5ef0832bfdd72a070bbf8451ae425e1058e7c36a394bc8b04af31bdcc2e0b778"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/sources.md",
+      "sha256": "06dfa6ed91a8af5e4493779aaab39e6d6941857dd86bed4e3c0c10c1ff7d9094"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/status.md",
+      "sha256": "993d7fd3069b6b9f8b1165febb4f77e9df6bcc4d408e818e6c82794b43402617"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/extension/verification.md",
+      "sha256": "b8162e142c23841f3e6e6336617c4984ace9f47cd829e70818e1b9573e662b4e"
+    },
+    {
+      "path": "cases/steklov-three-leaf-extra-special-extremizer/paper/extension.pdf",
+      "sha256": "927c1e39f1a9afad82c768acdc295a2bcd470190cd068c955b5f9d07f4423672"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/problem.md",
@@ -511,7 +775,7 @@
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/README.md",
-      "sha256": "31491a8f8fea04c3f71ea0772c20189a827382c9b5c50a864927caa19fa9541f"
+      "sha256": "bc5a324d4a3af895c454b903c3eab13c30cf4e7bf347b93bd59e5b11e1dd26d6"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/sources.md",

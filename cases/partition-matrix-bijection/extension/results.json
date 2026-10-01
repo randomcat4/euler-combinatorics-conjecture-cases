@@ -1,0 +1,267 @@
+{
+  "problem": "improper-partition-matrix-cyclic-bijection",
+  "status": "PASS_FINITE_EXACT",
+  "claim_scope": "two cyclic-partition encodings for improper partition matrices and restricted inversion sequences",
+  "coverage": {
+    "n_range": [
+      1,
+      8
+    ],
+    "matrix_side": "direct enumeration from column intervals, upper triangular rows, and improper local pairs",
+    "sequence_side": "all inversion sequences filtered for consecutive runs of length at most two",
+    "cycle_side": "all set partitions and all cyclic block orders",
+    "checks": [
+      "M and M_inverse in both directions",
+      "B and B_inverse in both directions",
+      "both images equal every cyclic partition at each parameter",
+      "minus terminal state",
+      "dimension and full ordered column-parity signature pointwise",
+      "Eulerian signature count and refined terminal-state count",
+      "Stirling full and minus counts"
+    ]
+  },
+  "per_n": [
+    {
+      "n": 1,
+      "matrices": 1,
+      "restricted_inversion_sequences": 1,
+      "parameters": [
+        {
+          "k": 1,
+          "q": 1,
+          "objects": 1,
+          "minus_objects": 1,
+          "all_cycles_covered_by_both_encoders": true
+        }
+      ],
+      "both_round_trips": true,
+      "full_signature_pointwise": true
+    },
+    {
+      "n": 2,
+      "matrices": 2,
+      "restricted_inversion_sequences": 2,
+      "parameters": [
+        {
+          "k": 1,
+          "q": 2,
+          "objects": 1,
+          "minus_objects": 0,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 2,
+          "q": 1,
+          "objects": 1,
+          "minus_objects": 1,
+          "all_cycles_covered_by_both_encoders": true
+        }
+      ],
+      "both_round_trips": true,
+      "full_signature_pointwise": true
+    },
+    {
+      "n": 3,
+      "matrices": 4,
+      "restricted_inversion_sequences": 4,
+      "parameters": [
+        {
+          "k": 2,
+          "q": 2,
+          "objects": 3,
+          "minus_objects": 2,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 3,
+          "q": 1,
+          "objects": 1,
+          "minus_objects": 1,
+          "all_cycles_covered_by_both_encoders": true
+        }
+      ],
+      "both_round_trips": true,
+      "full_signature_pointwise": true
+    },
+    {
+      "n": 4,
+      "matrices": 10,
+      "restricted_inversion_sequences": 10,
+      "parameters": [
+        {
+          "k": 2,
+          "q": 3,
+          "objects": 2,
+          "minus_objects": 0,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 3,
+          "q": 2,
+          "objects": 7,
+          "minus_objects": 6,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 4,
+          "q": 1,
+          "objects": 1,
+          "minus_objects": 1,
+          "all_cycles_covered_by_both_encoders": true
+        }
+      ],
+      "both_round_trips": true,
+      "full_signature_pointwise": true
+    },
+    {
+      "n": 5,
+      "matrices": 28,
+      "restricted_inversion_sequences": 28,
+      "parameters": [
+        {
+          "k": 3,
+          "q": 3,
+          "objects": 12,
+          "minus_objects": 6,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 4,
+          "q": 2,
+          "objects": 15,
+          "minus_objects": 14,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 5,
+          "q": 1,
+          "objects": 1,
+          "minus_objects": 1,
+          "all_cycles_covered_by_both_encoders": true
+        }
+      ],
+      "both_round_trips": true,
+      "full_signature_pointwise": true
+    },
+    {
+      "n": 6,
+      "matrices": 88,
+      "restricted_inversion_sequences": 88,
+      "parameters": [
+        {
+          "k": 3,
+          "q": 4,
+          "objects": 6,
+          "minus_objects": 0,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 4,
+          "q": 3,
+          "objects": 50,
+          "minus_objects": 36,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 5,
+          "q": 2,
+          "objects": 31,
+          "minus_objects": 30,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 6,
+          "q": 1,
+          "objects": 1,
+          "minus_objects": 1,
+          "all_cycles_covered_by_both_encoders": true
+        }
+      ],
+      "both_round_trips": true,
+      "full_signature_pointwise": true
+    },
+    {
+      "n": 7,
+      "matrices": 304,
+      "restricted_inversion_sequences": 304,
+      "parameters": [
+        {
+          "k": 4,
+          "q": 4,
+          "objects": 60,
+          "minus_objects": 24,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 5,
+          "q": 3,
+          "objects": 180,
+          "minus_objects": 150,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 6,
+          "q": 2,
+          "objects": 63,
+          "minus_objects": 62,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 7,
+          "q": 1,
+          "objects": 1,
+          "minus_objects": 1,
+          "all_cycles_covered_by_both_encoders": true
+        }
+      ],
+      "both_round_trips": true,
+      "full_signature_pointwise": true
+    },
+    {
+      "n": 8,
+      "matrices": 1144,
+      "restricted_inversion_sequences": 1144,
+      "parameters": [
+        {
+          "k": 4,
+          "q": 5,
+          "objects": 24,
+          "minus_objects": 0,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 5,
+          "q": 4,
+          "objects": 390,
+          "minus_objects": 240,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 6,
+          "q": 3,
+          "objects": 602,
+          "minus_objects": 540,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 7,
+          "q": 2,
+          "objects": 127,
+          "minus_objects": 126,
+          "all_cycles_covered_by_both_encoders": true
+        },
+        {
+          "k": 8,
+          "q": 1,
+          "objects": 1,
+          "minus_objects": 1,
+          "all_cycles_covered_by_both_encoders": true
+        }
+      ],
+      "both_round_trips": true,
+      "full_signature_pointwise": true
+    }
+  ],
+  "signature_parameter_cases": 133,
+  "terminal_parameter_cases": 70
+}
