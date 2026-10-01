@@ -42,133 +42,133 @@ original problems and prior work are retained, as is the MIT license notice.
       <td><a href="cases/minimal-degree-three-imprimitive-groups/"><strong>Minimal-degree-three groups</strong></a><br>Classification</td>
       <td>All transitive permutation groups of minimal degree 3 via intrinsic blocks, invariant binary codes and cocycles; regular cyclic top actions are classified up to permutation conjugacy.</td>
       <td><code>+2h</code></td>
-      <td><a href="cases/minimal-degree-three-imprimitive-groups/extension/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/minimal-degree-three-imprimitive-groups/extension/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/minimal-degree-three-imprimitive-groups/extension/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2025.106049">Lin–Liu–Yan, <em>JCTA</em> 215 (2025)</a><br>Problem 2.18</td>
       <td><a href="cases/catalan-schett-plane-tree-statistic/"><strong>Plane-tree statistic</strong></a><br>Complete solution + run refinement</td>
       <td>Explicit tree/permutation bijection solves the original joint identity and retains the complete inverse ascending-run composition, with arbitrary multiplicative run weights.</td>
       <td><code>+2h</code></td>
-      <td><a href="cases/catalan-schett-plane-tree-statistic/extension/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/catalan-schett-plane-tree-statistic/extension/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/catalan-schett-plane-tree-statistic/extension/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2026.106213">Chern–Fu, <em>JCTA</em> 223 (2026)</a><br>Question 5.7</td>
       <td><a href="cases/partition-matrix-bijection/"><strong>Partition-matrix bijection</strong></a><br>Complete solution + full-class refinement</td>
       <td>Explicit mutual inverses for the minus and full classes; preserves <code>v=dist</code>, dimension and the full ordered column-parity signature, with Eulerian/Stirling enumerations.</td>
       <td><code>+2h</code></td>
-      <td><a href="cases/partition-matrix-bijection/extension/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/partition-matrix-bijection/extension/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/partition-matrix-bijection/extension/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2026.106213">Chern–Fu, <em>JCTA</em> 223 (2026)</a><br>Question 5.1</td>
       <td><a href="cases/partition-matrix-q-sum-product/"><strong>Partition-matrix q-series</strong></a><br>Complete formula + cell-size refinement</td>
       <td>Self-contained sum-product solution; standard basic-hypergeometric form for every fixed column series; arbitrary multiplicative weights for all cell cardinalities.</td>
       <td><code>+2h</code></td>
-      <td><a href="cases/partition-matrix-q-sum-product/extension/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/partition-matrix-q-sum-product/extension/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/partition-matrix-q-sum-product/extension/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2026.106213">Chern–Fu, <em>JCTA</em> 223 (2026)</a><br>Question 5.5</td>
       <td><a href="cases/cdk-improper-partition-matrix-image/"><strong>CDK improper image</strong></a><br>Complete characterization + orbit theorem</td>
       <td>Intrinsic value-interval characterization, followed by the complete commuting pair-swap orbit classification, one-sided images, defect distribution and exact row-nonempty enumeration.</td>
       <td><code>+2h</code></td>
-      <td><a href="cases/cdk-improper-partition-matrix-image/extension/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/cdk-improper-partition-matrix-image/extension/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/cdk-improper-partition-matrix-image/extension/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2025.106097">Li–Xia–Zhou, <em>JCTA</em> 218 (2026)</a><br>Conjecture 4.7</td>
       <td><a href="cases/cayley-eigenvalue-codimension-three/"><strong>Cayley representation uniqueness</strong></a><br>Complete solution</td>
       <td>Every <code>n&gt;=5</code> and <code>1&lt;=r&lt;k&lt;=n-2</code>; exact attaining representations are classified.</td>
       <td><code>+2h</code></td>
-      <td><a href="cases/cayley-eigenvalue-codimension-three/extension/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/cayley-eigenvalue-codimension-three/extension/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/cayley-eigenvalue-codimension-three/extension/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.laa.2025.10.036">Zheng–Li–Li, <em>LAA</em> 730 (2026)</a><br>Conjecture 5.1</td>
       <td><a href="cases/k33plus-q-index-boundary-counterexample/"><strong>K33+ Q-index classification</strong></a><br>Counterexample + structural theorem</td>
       <td>Analytic unique optimum at <code>s=t=3,n=6</code>; exact classification in the full two-universal-vertex class for <code>n&gt;=7</code>; source families fail at <code>n=8</code> and every <code>n&gt;=10</code>.</td>
       <td><code>+2h</code></td>
-      <td><a href="cases/k33plus-q-index-boundary-counterexample/extension/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/k33plus-q-index-boundary-counterexample/extension/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/k33plus-q-index-boundary-counterexample/extension/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2508.13466v1">Lin–Zhao, arXiv:2508.13466v1</a><br>Conjecture 1.3</td>
       <td><a href="cases/steklov-three-leaf-extra-special-extremizer/"><strong>Steklov extremizer</strong></a><br>Complete solution + strengthening</td>
       <td>All <code>b&gt;=2</code> and <code>r&gt;=1</code>; strengthens matching equality to <code>nu(T)&gt;=br+2</code>, proves unique equality, and gives the sharp optimum for every central leaf split at minimum diameter.</td>
       <td><code>+2h</code></td>
-      <td><a href="cases/steklov-three-leaf-extra-special-extremizer/extension/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/steklov-three-leaf-extra-special-extremizer/extension/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/steklov-three-leaf-extra-special-extremizer/extension/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2506.21383">arXiv:2506.21383</a><br>Conjectures 6.1, 6.2 and 6.4</td>
       <td><a href="cases/zhao-restricted-zero-sum-counterexample/"><strong>Zhao short zero sums</strong></a><br>Counterexamples</td>
       <td>Conjectures 6.1 and 6.2; lower branch of Conjecture 6.4; supplemental Conjecture 1.2 witness.</td>
       <td><code>2h</code></td>
-      <td><a href="cases/zhao-restricted-zero-sum-counterexample/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/zhao-restricted-zero-sum-counterexample/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/zhao-restricted-zero-sum-counterexample/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.ejc.2004.06.014">Gao, <em>European Journal of Combinatorics</em> 26 (2005)</a></td>
       <td><a href="https://github.com/randomcat4/gaoLEAN"><strong>Gao constant</strong></a><br>Partial result with formal proof</td>
       <td>Restricted odd-primary generalized dihedral family.</td>
       <td><code>2h</code></td>
-      <td><a href="https://github.com/randomcat4/gaoLEAN/blob/main/GaoLean/PR7ThirteenPage.lean">LEAN</a></td>
+      <td>LEAN</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1007/s00493-026-00218-x"><em>Combinatorica</em> 46 (2026), Article 23</a><br>Conjecture 22</td>
       <td><a href="cases/volume-rigidity-dimension-seven/"><strong>Volume rigidity</strong></a><br>Counterexample</td>
       <td>Conjecture 22 for every <code>d&gt;=7</code>.</td>
       <td><code>2h</code></td>
-      <td><a href="cases/volume-rigidity-dimension-seven/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/volume-rigidity-dimension-seven/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/volume-rigidity-dimension-seven/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2507.16469v1">arXiv:2507.16469v1</a><br>Conjecture 1</td>
       <td><a href="cases/toroidal-grid-representation-counterexample/"><strong>Toroidal-grid representation number</strong></a><br>Counterexample</td>
       <td>Conjecture 1 at <code>TGr_{3,5}=C_3 square C_5</code>.</td>
       <td><code>2h</code></td>
-      <td><a href="cases/toroidal-grid-representation-counterexample/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/toroidal-grid-representation-counterexample/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/toroidal-grid-representation-counterexample/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2506.03603v1">arXiv:2506.03603v1</a> / <a href="https://doi.org/10.37236/14646">DOI</a><br>Question after Theorem 3.2</td>
       <td><a href="cases/path-set-tree-representation-counterexample/"><strong>Path-set tree representation</strong></a><br>Counterexample</td>
       <td>Five-vertex family disproving the stated sufficiency rule.</td>
       <td><code>2h</code></td>
-      <td><a href="cases/path-set-tree-representation-counterexample/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/path-set-tree-representation-counterexample/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/path-set-tree-representation-counterexample/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2606.00290v3">arXiv:2606.00290v3</a><br>Conjecture 4.7</td>
       <td><a href="cases/f29-inducibility-recursive-graphon-counterexample/"><strong>F29 inducibility</strong></a><br>Counterexample</td>
       <td>Refutes the equality <code>lambda_F29=24/1555</code>.</td>
       <td><code>2h</code></td>
-      <td><a href="cases/f29-inducibility-recursive-graphon-counterexample/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/f29-inducibility-recursive-graphon-counterexample/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/f29-inducibility-recursive-graphon-counterexample/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1017/S0963548322000220"><em>CPC</em> 32(2) (2023)</a> / <a href="https://doi.org/10.1016/j.jctb.2025.04.008"><em>JCTB</em> 175 (2025)</a><br>Alon–Wei Conjecture 1.2 / Ma–Xie Conjecture 5.4</td>
       <td><a href="cases/minimum-degree-two-degree-multiplicity/"><strong>Minimum-degree-two degree multiplicity</strong></a><br>Partial result</td>
       <td>Complete <code>delta(G)=2</code> slice for all finite simple graphs on <code>n&gt;=3</code> vertices.</td>
       <td><code>2h</code></td>
-      <td><a href="cases/minimum-degree-two-degree-multiplicity/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/minimum-degree-two-degree-multiplicity/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/minimum-degree-two-degree-multiplicity/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1007/s00493-026-00201-6"><em>Combinatorica</em> 46 (2026), Article 10</a><br>Conjecture 4.2</td>
       <td><a href="cases/five-point-sixteen-shattering/"><strong>Five-point permutation shattering</strong></a><br>Partial result</td>
       <td>Complete <code>k=5</code> slice for all <code>1&lt;=t&lt;=16</code>.</td>
       <td><code>2h</code></td>
-      <td><a href="cases/five-point-sixteen-shattering/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/five-point-sixteen-shattering/verification.md">Numerical certificates</a><br><a href="cases/five-point-sixteen-shattering/verification.md#mathematical-review">LEAN</a></td>
+      <td><a href="cases/five-point-sixteen-shattering/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates<br>LEAN</td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2512.15516">arXiv:2512.15516v2</a><br>Question 15</td>
       <td><a href="cases/orthogonal-tree-seven-vertex-obstructions/"><strong>Orthogonal-tree obstructions</strong></a><br>Partial result</td>
       <td>Two seven-vertex induced-minimal obstructions to the gem/house/HVN sufficiency rule.</td>
       <td><code>2h</code></td>
-      <td><a href="cases/orthogonal-tree-seven-vertex-obstructions/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/orthogonal-tree-seven-vertex-obstructions/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/orthogonal-tree-seven-vertex-obstructions/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1007/s00493-026-00198-y"><em>Combinatorica</em> 46 (2026), Article 8</a><br>Question 5.5</td>
       <td><a href="cases/ternary-berge-suspension-rigidity/"><strong>Ternary-Berge hypergraphs</strong></a><br>Complete solution</td>
       <td>Question 5.5 for finite hypergraphs with no ternary Berge cycle.</td>
       <td><code>2h</code></td>
-      <td><a href="cases/ternary-berge-suspension-rigidity/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a></td>
+      <td><a href="cases/ternary-berge-suspension-rigidity/verification.md">LLM review</a><br>Independent human review</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1109/TIT.2026.3653549"><em>IEEE Transactions on Information Theory</em> 72(3) (2026)</a><br>Section 5 unnumbered open problem</td>
       <td><a href="cases/entropy-bounded-sidon-concentration-stability/"><strong>Entropy-bounded Sidon concentration</strong></a><br>Complete solution + optimal-modulus extension</td>
       <td>Arbitrary abelian groups; fixed-<code>D</code> optimal stability rate.</td>
       <td><code>2h</code></td>
-      <td><a href="cases/entropy-bounded-sidon-concentration-stability/verification.md">LLM review</a><br><a href="docs/provenance.md#review">Independent human review</a><br><a href="cases/entropy-bounded-sidon-concentration-stability/verification.md">Numerical certificates</a></td>
+      <td><a href="cases/entropy-bounded-sidon-concentration-stability/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
     </tr>
   </tbody>
 </table>
