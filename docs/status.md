@@ -19,10 +19,10 @@ This repository is a continuing public index rather than a count of all EULER re
 - Five-point permutation shattering: complete `k=5` slice of Girao--Michel--Tamitegama Conjecture 4.2. For every `n>=5`, one preselected family of `O(sqrt(log n * log log n))` permutations induces at least 16 relative orders on every five-element subset, and hence `f_5(n,t)=o(log n)` for every fixed `1<=t<=16`. General `k` and the exact growth rate remain open.
 - Orthogonal-tree obstructions: two seven-vertex induced-minimal nonrepresentable graphs avoiding the previously identified gem, house, and HVN obstructions. This disproves the three-obstruction sufficiency rule for Question 15 but does not solve the full orthogonal-tree characterization problem.
 - Gao constant: a restricted-family result for generalized dihedral groups with an abelian odd-primary kernel, presented in a 13-page manuscript with the corresponding Lean formalization. It does not resolve the full Gao conjecture.
-- Nonnormal Cayley graph eigenvalues: a result in the restricted `n-k=3` regime. It does not resolve Conjecture 4.7 outside that regime.
 
 ## Complete solutions
 
+- Nonnormal Cayley graph eigenvalues: complete proof of Conjecture 4.7 for every `n>=5` and `1<=r<k<=n-2`. An independent model review examines the general argument and its published inputs; all three finite inputs now have reproducible rational characteristic polynomials and Sturm certificates. Human domain review remains pending.
 - Catalan--Schett plane-tree statistic: complete all-order solution with an explicit bijection and inverse.
 - CDK image of improper partition matrices: complete all-order characterization for Question 5.5 in arXiv v2.
 - Improper partition matrices: complete all-order statistic-preserving bijection with an explicit inverse.

@@ -1,0 +1,1686 @@
+{
+  "status": "PASS_EXACT_FINITE",
+  "arithmetic": "Independent rational Young seminormal blocks with exact characteristic polynomials and SymPy Sturm counts; float64 orthogonal blocks retained as a cross-check",
+  "tolerance": 2e-08,
+  "dependencies": {
+    "numpy": "2.3.5",
+    "sympy": "1.14.0"
+  },
+  "cases": [
+    {
+      "parameters": [
+        6,
+        4,
+        1
+      ],
+      "connection_size": 60,
+      "degree_expected": 60,
+      "mu2_exact": "18",
+      "mu2_float": 18.0,
+      "numerical_attaining_blocks": [
+        "(5,1)"
+      ],
+      "exact_attaining_blocks": [
+        "(5,1)"
+      ],
+      "target_block_multiplicity": {
+        "(5,1)": 4
+      },
+      "exact_target_block_multiplicity": {
+        "(5,1)": 4
+      },
+      "closest_non_target_block": "(2,2,2)",
+      "closest_non_target_top": 12.000000000000004,
+      "numerical_gap_to_mu2": 5.9999999999999964,
+      "blocks": {
+        "(6)": {
+          "dimension": 1,
+          "hook_dimension": 1,
+          "coxeter_max_residual": 0.0,
+          "transposition_character_expected": "1",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 0.0,
+          "eigenvalues": [
+            60.0
+          ],
+          "top": 60.0,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-60"
+            ],
+            "characteristic_polynomial_factorization": "x - 60",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 1,
+            "sturm_certified_no_root_above": false
+          }
+        },
+        "(5,1)": {
+          "dimension": 5,
+          "hook_dimension": 5,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "3",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 1.7763568394002505e-15,
+          "eigenvalues": [
+            -12.000000000000004,
+            17.999999999999982,
+            17.999999999999993,
+            17.999999999999996,
+            18.00000000000002
+          ],
+          "top": 18.00000000000002,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-60",
+              "1080",
+              "0",
+              "-174960",
+              "1259712"
+            ],
+            "characteristic_polynomial_factorization": "(x - 18)**4*(x + 12)",
+            "threshold_multiplicity": 4,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(4,2)": {
+          "dimension": 9,
+          "hook_dimension": 9,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "3",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 9.992007221626409e-16,
+          "eigenvalues": [
+            -10.000000000000007,
+            -10.000000000000004,
+            -9.999999999999998,
+            -9.999999999999993,
+            -4.000000000000006,
+            -4.000000000000002,
+            -4.0,
+            -4.0,
+            -3.9999999999999982
+          ],
+          "top": -3.9999999999999982,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "60",
+              "1560",
+              "23040",
+              "212880",
+              "1276224",
+              "4968960",
+              "12134400",
+              "16896000",
+              "10240000"
+            ],
+            "characteristic_polynomial_factorization": "(x + 4)**5*(x + 10)**4",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(4,1,1)": {
+          "dimension": 10,
+          "hook_dimension": 10,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "2",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 1.27675647831893e-15,
+          "eigenvalues": [
+            -1.695278341770062e-15,
+            -1.277777152680809e-15,
+            -9.544928344123252e-16,
+            -2.366223233908735e-16,
+            -1.4733227706231366e-17,
+            1.225373017140689e-16,
+            3.090937487272453e-16,
+            6.646474234365671e-16,
+            9.179946679450216e-16,
+            1.7378887630471044e-15
+          ],
+          "top": 1.7378887630471044e-15,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "characteristic_polynomial_factorization": "x**10",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(3,3)": {
+          "dimension": 5,
+          "hook_dimension": 5,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "1",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 3.885780586188048e-16,
+          "eigenvalues": [
+            -12.000000000000009,
+            -12.000000000000005,
+            -11.999999999999998,
+            -11.999999999999998,
+            -11.99999999999999
+          ],
+          "top": -11.99999999999999,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "60",
+              "1440",
+              "17280",
+              "103680",
+              "248832"
+            ],
+            "characteristic_polynomial_factorization": "(x + 12)**5",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(3,2,1)": {
+          "dimension": 16,
+          "hook_dimension": 16,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "0",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 8.881784197001252e-16,
+          "eigenvalues": [
+            -6.000000000000002,
+            -6.000000000000001,
+            -6.0,
+            -5.999999999999997,
+            -5.999999999999995,
+            -3.0644793608747377e-15,
+            -1.8882746023100464e-15,
+            -2.8480055902290566e-17,
+            1.0651425192735302e-15,
+            1.836328774241305e-15,
+            2.2387178433696353e-15,
+            5.999999999999996,
+            5.999999999999998,
+            5.999999999999998,
+            6.0,
+            6.000000000000001
+          ],
+          "top": 6.000000000000001,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "0",
+              "-180",
+              "0",
+              "12960",
+              "0",
+              "-466560",
+              "0",
+              "8398080",
+              "0",
+              "-60466176",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "characteristic_polynomial_factorization": "x**6*(x - 6)**5*(x + 6)**5",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(3,1,1,1)": {
+          "dimension": 10,
+          "hook_dimension": 10,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-2",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 1.27675647831893e-15,
+          "eigenvalues": [
+            -1.737888763047104e-15,
+            -9.179946679450224e-16,
+            -6.646474234365665e-16,
+            -3.0909374872724513e-16,
+            -1.2253730171406864e-16,
+            1.473322770623148e-17,
+            2.3662232339087365e-16,
+            9.54492834412326e-16,
+            1.2777771526808088e-15,
+            1.6952783417700626e-15
+          ],
+          "top": 1.6952783417700626e-15,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "characteristic_polynomial_factorization": "x**10",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(2,2,2)": {
+          "dimension": 5,
+          "hook_dimension": 5,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-1",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 3.885780586188048e-16,
+          "eigenvalues": [
+            11.99999999999999,
+            11.999999999999998,
+            12.0,
+            12.000000000000002,
+            12.000000000000004
+          ],
+          "top": 12.000000000000004,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-60",
+              "1440",
+              "-17280",
+              "103680",
+              "-248832"
+            ],
+            "characteristic_polynomial_factorization": "(x - 12)**5",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(2,2,1,1)": {
+          "dimension": 9,
+          "hook_dimension": 9,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-3",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 9.992007221626409e-16,
+          "eigenvalues": [
+            3.9999999999999964,
+            3.9999999999999987,
+            3.999999999999999,
+            4.000000000000001,
+            4.000000000000003,
+            9.999999999999998,
+            10.0,
+            10.000000000000004,
+            10.000000000000005
+          ],
+          "top": 10.000000000000005,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-60",
+              "1560",
+              "-23040",
+              "212880",
+              "-1276224",
+              "4968960",
+              "-12134400",
+              "16896000",
+              "-10240000"
+            ],
+            "characteristic_polynomial_factorization": "(x - 10)**4*(x - 4)**5",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(2,1,1,1,1)": {
+          "dimension": 5,
+          "hook_dimension": 5,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-3",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 1.7763568394002505e-15,
+          "eigenvalues": [
+            -18.000000000000025,
+            -18.000000000000007,
+            -17.999999999999996,
+            -17.999999999999968,
+            12.000000000000002
+          ],
+          "top": 12.000000000000002,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "60",
+              "1080",
+              "0",
+              "-174960",
+              "-1259712"
+            ],
+            "characteristic_polynomial_factorization": "(x - 12)*(x + 18)**4",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(1,1,1,1,1,1)": {
+          "dimension": 1,
+          "hook_dimension": 1,
+          "coxeter_max_residual": 0.0,
+          "transposition_character_expected": "-1",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 0.0,
+          "eigenvalues": [
+            -60.0
+          ],
+          "top": -60.0,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "60"
+            ],
+            "characteristic_polynomial_factorization": "x + 60",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        }
+      },
+      "failures": []
+    },
+    {
+      "parameters": [
+        6,
+        4,
+        2
+      ],
+      "connection_size": 36,
+      "degree_expected": 36,
+      "mu2_exact": "16",
+      "mu2_float": 16.0,
+      "numerical_attaining_blocks": [
+        "(5,1)"
+      ],
+      "exact_attaining_blocks": [
+        "(5,1)"
+      ],
+      "target_block_multiplicity": {
+        "(5,1)": 3
+      },
+      "exact_target_block_multiplicity": {
+        "(5,1)": 3
+      },
+      "closest_non_target_block": "(2,1,1,1,1)",
+      "closest_non_target_top": 11.999999999999996,
+      "numerical_gap_to_mu2": 4.0000000000000036,
+      "blocks": {
+        "(6)": {
+          "dimension": 1,
+          "hook_dimension": 1,
+          "coxeter_max_residual": 0.0,
+          "transposition_character_expected": "1",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 0.0,
+          "eigenvalues": [
+            36.0
+          ],
+          "top": 36.0,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-36"
+            ],
+            "characteristic_polynomial_factorization": "x - 36",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 1,
+            "sturm_certified_no_root_above": false
+          }
+        },
+        "(5,1)": {
+          "dimension": 5,
+          "hook_dimension": 5,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "3",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 8.881784197001252e-16,
+          "eigenvalues": [
+            -12.0,
+            -1.3322676295501878e-15,
+            15.999999999999984,
+            15.999999999999998,
+            16.000000000000007
+          ],
+          "top": 16.000000000000007,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-36",
+              "192",
+              "5120",
+              "-49152",
+              "0"
+            ],
+            "characteristic_polynomial_factorization": "x*(x - 16)**3*(x + 12)",
+            "threshold_multiplicity": 3,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(4,2)": {
+          "dimension": 9,
+          "hook_dimension": 9,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "3",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 8.881784197001252e-16,
+          "eigenvalues": [
+            -8.0,
+            -7.999999999999999,
+            -7.9999999999999964,
+            -4.000000000000001,
+            -4.0,
+            -3.9999999999999987,
+            -3.999999999999998,
+            1.999999999999997,
+            1.9999999999999996
+          ],
+          "top": 1.9999999999999996,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "36",
+              "516",
+              "3616",
+              "11136",
+              "-3072",
+              "-105472",
+              "-172032",
+              "196608",
+              "524288"
+            ],
+            "characteristic_polynomial_factorization": "(x - 2)**2*(x + 4)**4*(x + 8)**3",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(4,1,1)": {
+          "dimension": 10,
+          "hook_dimension": 10,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "2",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 4.440892098500626e-16,
+          "eigenvalues": [
+            -2.0000000000000036,
+            -2.000000000000002,
+            -2.0,
+            -1.9999999999999996,
+            -1.9999999999999991,
+            -1.9999999999999987,
+            1.9999999999999982,
+            1.9999999999999996,
+            2.0000000000000013,
+            6.0
+          ],
+          "top": 6.0,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "0",
+              "-36",
+              "-64",
+              "288",
+              "768",
+              "-640",
+              "-3072",
+              "-768",
+              "4096",
+              "3072"
+            ],
+            "characteristic_polynomial_factorization": "(x - 6)*(x - 2)**3*(x + 2)**6",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(3,3)": {
+          "dimension": 5,
+          "hook_dimension": 5,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "1",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 2.220446049250313e-16,
+          "eigenvalues": [
+            -7.999999999999998,
+            -7.9999999999999964,
+            -7.999999999999996,
+            -6.000000000000001,
+            -5.999999999999998
+          ],
+          "top": -5.999999999999998,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "36",
+              "516",
+              "3680",
+              "13056",
+              "18432"
+            ],
+            "characteristic_polynomial_factorization": "(x + 6)**2*(x + 8)**3",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(3,2,1)": {
+          "dimension": 16,
+          "hook_dimension": 16,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "0",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 6.661338147750939e-16,
+          "eigenvalues": [
+            -7.000000000000005,
+            -7.000000000000003,
+            -6.999999999999998,
+            -3.0000000000000027,
+            -2.9999999999999996,
+            -1.0000000000000027,
+            -1.0000000000000024,
+            -0.9999999999999998,
+            0.9999999999999982,
+            0.9999999999999991,
+            1.0,
+            2.9999999999999973,
+            2.9999999999999982,
+            6.9999999999999964,
+            6.999999999999999,
+            7.000000000000005
+          ],
+          "top": 7.000000000000005,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "0",
+              "-168",
+              "0",
+              "10428",
+              "0",
+              "-289496",
+              "0",
+              "3508710",
+              "0",
+              "-18420504",
+              "0",
+              "36951292",
+              "0",
+              "-31289832",
+              "0",
+              "9529569"
+            ],
+            "characteristic_polynomial_factorization": "(x - 7)**3*(x - 3)**2*(x - 1)**3*(x + 1)**3*(x + 3)**2*(x + 7)**3",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(3,1,1,1)": {
+          "dimension": 10,
+          "hook_dimension": 10,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-2",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 4.440892098500626e-16,
+          "eigenvalues": [
+            -5.999999999999999,
+            -2.000000000000001,
+            -1.9999999999999996,
+            -1.9999999999999978,
+            1.9999999999999984,
+            1.9999999999999991,
+            2.0,
+            2.0000000000000004,
+            2.000000000000001,
+            2.0000000000000018
+          ],
+          "top": 2.0000000000000018,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "0",
+              "-36",
+              "64",
+              "288",
+              "-768",
+              "-640",
+              "3072",
+              "-768",
+              "-4096",
+              "3072"
+            ],
+            "characteristic_polynomial_factorization": "(x - 2)**6*(x + 2)**3*(x + 6)",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(2,2,2)": {
+          "dimension": 5,
+          "hook_dimension": 5,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-1",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 2.220446049250313e-16,
+          "eigenvalues": [
+            5.9999999999999964,
+            6.0,
+            7.999999999999993,
+            7.9999999999999964,
+            8.0
+          ],
+          "top": 8.0,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-36",
+              "516",
+              "-3680",
+              "13056",
+              "-18432"
+            ],
+            "characteristic_polynomial_factorization": "(x - 8)**3*(x - 6)**2",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(2,2,1,1)": {
+          "dimension": 9,
+          "hook_dimension": 9,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-3",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 8.881784197001252e-16,
+          "eigenvalues": [
+            -2.0,
+            -1.999999999999999,
+            3.9999999999999996,
+            4.0,
+            4.000000000000002,
+            4.000000000000003,
+            7.999999999999995,
+            7.999999999999997,
+            8.000000000000002
+          ],
+          "top": 8.000000000000002,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-36",
+              "516",
+              "-3616",
+              "11136",
+              "3072",
+              "-105472",
+              "172032",
+              "196608",
+              "-524288"
+            ],
+            "characteristic_polynomial_factorization": "(x - 8)**3*(x - 4)**4*(x + 2)**2",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(2,1,1,1,1)": {
+          "dimension": 5,
+          "hook_dimension": 5,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-3",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 8.881784197001252e-16,
+          "eigenvalues": [
+            -16.00000000000001,
+            -15.99999999999999,
+            -15.99999999999999,
+            2.040034807762971e-15,
+            11.999999999999996
+          ],
+          "top": 11.999999999999996,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "36",
+              "192",
+              "-5120",
+              "-49152",
+              "0"
+            ],
+            "characteristic_polynomial_factorization": "x*(x - 12)*(x + 16)**3",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(1,1,1,1,1,1)": {
+          "dimension": 1,
+          "hook_dimension": 1,
+          "coxeter_max_residual": 0.0,
+          "transposition_character_expected": "-1",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 0.0,
+          "eigenvalues": [
+            -36.0
+          ],
+          "top": -36.0,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "36"
+            ],
+            "characteristic_polynomial_factorization": "x + 36",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        }
+      },
+      "failures": []
+    },
+    {
+      "parameters": [
+        7,
+        5,
+        1
+      ],
+      "connection_size": 360,
+      "degree_expected": 360,
+      "mu2_exact": "84",
+      "mu2_float": 84.0,
+      "numerical_attaining_blocks": [
+        "(6,1)",
+        "(2,1,1,1,1,1)"
+      ],
+      "exact_attaining_blocks": [
+        "(6,1)",
+        "(2,1,1,1,1,1)"
+      ],
+      "target_block_multiplicity": {
+        "(2,1,1,1,1,1)": 5,
+        "(6,1)": 5
+      },
+      "exact_target_block_multiplicity": {
+        "(2,1,1,1,1,1)": 5,
+        "(6,1)": 5
+      },
+      "closest_non_target_block": "(3,3,1)",
+      "closest_non_target_top": 24.000000000000007,
+      "numerical_gap_to_mu2": 59.99999999999999,
+      "blocks": {
+        "(7)": {
+          "dimension": 1,
+          "hook_dimension": 1,
+          "coxeter_max_residual": 0.0,
+          "transposition_character_expected": "1",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 0.0,
+          "eigenvalues": [
+            360.0
+          ],
+          "top": 360.0,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-360"
+            ],
+            "characteristic_polynomial_factorization": "x - 360",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 1,
+            "sturm_certified_no_root_above": false
+          }
+        },
+        "(6,1)": {
+          "dimension": 6,
+          "hook_dimension": 6,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "4",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 2.842170943040401e-14,
+          "eigenvalues": [
+            -59.99999999999981,
+            83.99999999999925,
+            83.99999999999991,
+            83.99999999999999,
+            84.00000000000017,
+            84.00000000000084
+          ],
+          "top": 84.00000000000084,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-360",
+              "45360",
+              "-1693440",
+              "-106686720",
+              "10754021376",
+              "-250927165440"
+            ],
+            "characteristic_polynomial_factorization": "(x - 84)**5*(x + 60)",
+            "threshold_multiplicity": 5,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(5,2)": {
+          "dimension": 14,
+          "hook_dimension": 14,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "6",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 7.549516567451064e-15,
+          "eigenvalues": [
+            -36.00000000000007,
+            -36.00000000000002,
+            -36.00000000000001,
+            -36.0,
+            -35.99999999999997,
+            -20.00000000000012,
+            -20.000000000000057,
+            -20.000000000000018,
+            -20.000000000000007,
+            -19.99999999999999,
+            -19.999999999999982,
+            -19.999999999999968,
+            -19.999999999999936,
+            -19.99999999999985
+          ],
+          "top": -19.99999999999985,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "360",
+              "59760",
+              "6063360",
+              "420122880",
+              "21031704576",
+              "784570183680",
+              "22159304294400",
+              "476253315072000",
+              "7752511324160000",
+              "94105269043200000",
+              "826180632576000000",
+              "4960077742080000000",
+              "18231223910400000000",
+              "30958682112000000000"
+            ],
+            "characteristic_polynomial_factorization": "(x + 20)**9*(x + 36)**5",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(5,1,1)": {
+          "dimension": 15,
+          "hook_dimension": 15,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "5",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 1.2878587085651816e-14,
+          "eigenvalues": [
+            -2.312829754273346e-14,
+            -1.543015572734653e-14,
+            -9.279084493390485e-15,
+            -8.31214657186667e-15,
+            -6.2265433119767906e-15,
+            1.4575525336465657e-15,
+            2.6921752679959395e-15,
+            4.544087123991805e-15,
+            8.19529249852551e-15,
+            9.372312939997748e-15,
+            1.5786202588040762e-14,
+            1.6303273993749153e-14,
+            1.961323059482204e-14,
+            5.599243789755256e-14,
+            5.941817285911844e-14
+          ],
+          "top": 5.941817285911844e-14,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "characteristic_polynomial_factorization": "x**15",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(4,3)": {
+          "dimension": 14,
+          "hook_dimension": 14,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "4",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 6.661338147750939e-15,
+          "eigenvalues": [
+            -36.000000000000014,
+            -35.999999999999986,
+            -35.999999999999964,
+            -35.99999999999996,
+            -35.99999999999988,
+            -20.000000000000046,
+            -20.00000000000004,
+            -20.000000000000014,
+            -20.000000000000007,
+            -19.999999999999993,
+            -19.999999999999986,
+            -19.99999999999997,
+            -19.999999999999947,
+            -19.999999999999915
+          ],
+          "top": -19.999999999999915,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "360",
+              "59760",
+              "6063360",
+              "420122880",
+              "21031704576",
+              "784570183680",
+              "22159304294400",
+              "476253315072000",
+              "7752511324160000",
+              "94105269043200000",
+              "826180632576000000",
+              "4960077742080000000",
+              "18231223910400000000",
+              "30958682112000000000"
+            ],
+            "characteristic_polynomial_factorization": "(x + 20)**9*(x + 36)**5",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(4,2,1)": {
+          "dimension": 35,
+          "hook_dimension": 35,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "5",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 6.217248937900877e-15,
+          "eigenvalues": [
+            -9.000000000000014,
+            -9.000000000000012,
+            -9.00000000000001,
+            -9.00000000000001,
+            -9.000000000000009,
+            -9.000000000000007,
+            -9.0,
+            -8.999999999999998,
+            -8.999999999999998,
+            -8.999999999999995,
+            -8.999999999999993,
+            -8.99999999999999,
+            -8.999999999999988,
+            -8.999999999999984,
+            -8.999999999999979,
+            -8.999999999999977,
+            -1.9453679801702985e-14,
+            -1.6088545576073256e-14,
+            -7.911031594728686e-15,
+            -7.415656703121953e-15,
+            -2.3204345585459228e-15,
+            1.8042905056157843e-15,
+            4.385421627980393e-15,
+            7.263819213447135e-15,
+            8.589754709904058e-15,
+            1.3808115634640332e-14,
+            15.999999999999982,
+            15.99999999999999,
+            15.999999999999993,
+            15.999999999999996,
+            15.999999999999998,
+            16.0,
+            16.0,
+            16.000000000000007,
+            16.000000000000025
+          ],
+          "top": 16.000000000000025,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "0",
+              "-1800",
+              "-8400",
+              "1446300",
+              "13421520",
+              "-650643000",
+              "-9425854800",
+              "164786545350",
+              "3739984686800",
+              "-16777842774840",
+              "-890124882966000",
+              "-2691622966227300",
+              "120645802684335600",
+              "1144106159789431800",
+              "-6423569558611173360",
+              "-155421185047539573375",
+              "-479837209466137798800",
+              "8018068216396716057600",
+              "82265740030051419340800",
+              "142956533093447449313280",
+              "-2431604035851513495552000",
+              "-20926113504429756697804800",
+              "-79218154566596119914086400",
+              "-154751743804513350529843200",
+              "-127338577759142414150270976",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "characteristic_polynomial_factorization": "x**10*(x - 16)**9*(x + 9)**16",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(4,1,1,1)": {
+          "dimension": 20,
+          "hook_dimension": 20,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "0",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 6.453171330633722e-15,
+          "eigenvalues": [
+            -1.3670142447833114e-14,
+            -1.3670142447833108e-14,
+            -1.0945308597796816e-14,
+            -1.0945308597796808e-14,
+            -6.6376416465136845e-15,
+            -6.637641646513683e-15,
+            -4.475087122955e-15,
+            -4.4750871229549984e-15,
+            -3.814755451274708e-15,
+            -3.814755451274706e-15,
+            -9.243378718342393e-17,
+            -9.243378718342288e-17,
+            5.554887976277032e-16,
+            5.554887976277048e-16,
+            3.543783558779975e-15,
+            3.5437835587799756e-15,
+            4.4905792121068296e-15,
+            4.490579212106831e-15,
+            6.4532101278570205e-15,
+            6.4532101278570244e-15
+          ],
+          "top": 6.4532101278570244e-15,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "characteristic_polynomial_factorization": "x**20",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(3,3,1)": {
+          "dimension": 21,
+          "hook_dimension": 21,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "1",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 3.1086244689504383e-15,
+          "eigenvalues": [
+            14.999999999999943,
+            14.999999999999956,
+            14.999999999999961,
+            14.99999999999997,
+            14.999999999999973,
+            14.999999999999986,
+            14.999999999999988,
+            14.99999999999999,
+            14.999999999999993,
+            14.999999999999998,
+            15.000000000000005,
+            15.00000000000001,
+            15.000000000000012,
+            15.00000000000002,
+            15.000000000000032,
+            15.000000000000055,
+            23.99999999999997,
+            23.999999999999975,
+            23.99999999999999,
+            24.0,
+            24.000000000000007
+          ],
+          "top": 24.000000000000007,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-360",
+              "61560",
+              "-6650640",
+              "509293980",
+              "-29398423824",
+              "1327936514760",
+              "-48093560298000",
+              "1419374615703750",
+              "-34502391717300000",
+              "695319472694925000",
+              "-11653704367080750000",
+              "162446625878610937500",
+              "-1877623086661593750000",
+              "17879748150531796875000",
+              "-138794755572431718750000",
+              "864259083471436962890625",
+              "-4213663176470185546875000",
+              "15495911543228906250000000",
+              "-40424906649093750000000000",
+              "66684751669125000000000000",
+              "-52301766015000000000000000"
+            ],
+            "characteristic_polynomial_factorization": "(x - 24)**5*(x - 15)**16",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(3,2,2)": {
+          "dimension": 21,
+          "hook_dimension": 21,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-1",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 3.1086244689504383e-15,
+          "eigenvalues": [
+            14.999999999999938,
+            14.999999999999952,
+            14.999999999999963,
+            14.999999999999963,
+            14.999999999999972,
+            14.999999999999979,
+            14.999999999999991,
+            14.999999999999996,
+            15.0,
+            15.000000000000002,
+            15.000000000000005,
+            15.000000000000009,
+            15.000000000000016,
+            15.000000000000021,
+            15.000000000000043,
+            15.000000000000071,
+            23.999999999999957,
+            23.999999999999982,
+            23.99999999999999,
+            24.000000000000004,
+            24.000000000000004
+          ],
+          "top": 24.000000000000004,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-360",
+              "61560",
+              "-6650640",
+              "509293980",
+              "-29398423824",
+              "1327936514760",
+              "-48093560298000",
+              "1419374615703750",
+              "-34502391717300000",
+              "695319472694925000",
+              "-11653704367080750000",
+              "162446625878610937500",
+              "-1877623086661593750000",
+              "17879748150531796875000",
+              "-138794755572431718750000",
+              "864259083471436962890625",
+              "-4213663176470185546875000",
+              "15495911543228906250000000",
+              "-40424906649093750000000000",
+              "66684751669125000000000000",
+              "-52301766015000000000000000"
+            ],
+            "characteristic_polynomial_factorization": "(x - 24)**5*(x - 15)**16",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(3,2,1,1)": {
+          "dimension": 35,
+          "hook_dimension": 35,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-5",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 6.217248937900877e-15,
+          "eigenvalues": [
+            -9.000000000000018,
+            -9.00000000000001,
+            -9.000000000000009,
+            -9.000000000000007,
+            -9.000000000000004,
+            -9.000000000000002,
+            -9.0,
+            -9.0,
+            -8.999999999999993,
+            -8.999999999999993,
+            -8.99999999999999,
+            -8.999999999999988,
+            -8.999999999999986,
+            -8.99999999999998,
+            -8.99999999999998,
+            -8.999999999999975,
+            -1.6189310708743324e-14,
+            -1.1610263494323248e-14,
+            -8.25133681646583e-15,
+            -7.235354197829442e-15,
+            -1.4074344480014574e-15,
+            -1.2382752772176138e-16,
+            1.192821833660485e-15,
+            5.514285105178001e-15,
+            1.1187246524235507e-14,
+            1.3401893162595504e-14,
+            15.999999999999975,
+            15.999999999999986,
+            15.999999999999988,
+            15.99999999999999,
+            15.999999999999993,
+            15.999999999999998,
+            16.000000000000004,
+            16.000000000000007,
+            16.000000000000018
+          ],
+          "top": 16.000000000000018,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "0",
+              "-1800",
+              "-8400",
+              "1446300",
+              "13421520",
+              "-650643000",
+              "-9425854800",
+              "164786545350",
+              "3739984686800",
+              "-16777842774840",
+              "-890124882966000",
+              "-2691622966227300",
+              "120645802684335600",
+              "1144106159789431800",
+              "-6423569558611173360",
+              "-155421185047539573375",
+              "-479837209466137798800",
+              "8018068216396716057600",
+              "82265740030051419340800",
+              "142956533093447449313280",
+              "-2431604035851513495552000",
+              "-20926113504429756697804800",
+              "-79218154566596119914086400",
+              "-154751743804513350529843200",
+              "-127338577759142414150270976",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "characteristic_polynomial_factorization": "x**10*(x - 16)**9*(x + 9)**16",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(3,1,1,1,1)": {
+          "dimension": 15,
+          "hook_dimension": 15,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-5",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 1.2878587085651816e-14,
+          "eigenvalues": [
+            -2.3128297542733468e-14,
+            -1.5430155727346517e-14,
+            -9.279084493390493e-15,
+            -8.312146571866677e-15,
+            -6.226543311976792e-15,
+            1.4575525336465741e-15,
+            2.692175267995945e-15,
+            4.544087123991814e-15,
+            8.1952924985255e-15,
+            9.372312939997746e-15,
+            1.5786202588040762e-14,
+            1.6303273993749153e-14,
+            1.9613230594822046e-14,
+            5.5992437897552546e-14,
+            5.941817285911841e-14
+          ],
+          "top": 5.941817285911841e-14,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "characteristic_polynomial_factorization": "x**15",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(2,2,2,1)": {
+          "dimension": 14,
+          "hook_dimension": 14,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-4",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 6.661338147750939e-15,
+          "eigenvalues": [
+            -36.00000000000001,
+            -35.999999999999986,
+            -35.99999999999997,
+            -35.99999999999994,
+            -35.999999999999886,
+            -20.000000000000043,
+            -20.00000000000003,
+            -20.00000000000002,
+            -20.000000000000004,
+            -19.999999999999982,
+            -19.99999999999998,
+            -19.999999999999964,
+            -19.999999999999943,
+            -19.99999999999992
+          ],
+          "top": -19.99999999999992,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "360",
+              "59760",
+              "6063360",
+              "420122880",
+              "21031704576",
+              "784570183680",
+              "22159304294400",
+              "476253315072000",
+              "7752511324160000",
+              "94105269043200000",
+              "826180632576000000",
+              "4960077742080000000",
+              "18231223910400000000",
+              "30958682112000000000"
+            ],
+            "characteristic_polynomial_factorization": "(x + 20)**9*(x + 36)**5",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(2,2,1,1,1)": {
+          "dimension": 14,
+          "hook_dimension": 14,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-6",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 7.549516567451064e-15,
+          "eigenvalues": [
+            -36.00000000000005,
+            -36.00000000000002,
+            -36.00000000000002,
+            -35.99999999999998,
+            -35.99999999999998,
+            -20.000000000000107,
+            -20.000000000000053,
+            -20.00000000000002,
+            -20.000000000000004,
+            -19.999999999999993,
+            -19.99999999999999,
+            -19.999999999999957,
+            -19.99999999999994,
+            -19.999999999999858
+          ],
+          "top": -19.999999999999858,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "360",
+              "59760",
+              "6063360",
+              "420122880",
+              "21031704576",
+              "784570183680",
+              "22159304294400",
+              "476253315072000",
+              "7752511324160000",
+              "94105269043200000",
+              "826180632576000000",
+              "4960077742080000000",
+              "18231223910400000000",
+              "30958682112000000000"
+            ],
+            "characteristic_polynomial_factorization": "(x + 20)**9*(x + 36)**5",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(2,1,1,1,1,1)": {
+          "dimension": 6,
+          "hook_dimension": 6,
+          "coxeter_max_residual": 1.1102230246251565e-16,
+          "transposition_character_expected": "-4",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 2.842170943040401e-14,
+          "eigenvalues": [
+            -59.99999999999982,
+            83.99999999999922,
+            83.99999999999991,
+            83.99999999999994,
+            84.00000000000009,
+            84.0000000000008
+          ],
+          "top": 84.0000000000008,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-360",
+              "45360",
+              "-1693440",
+              "-106686720",
+              "10754021376",
+              "-250927165440"
+            ],
+            "characteristic_polynomial_factorization": "(x - 84)**5*(x + 60)",
+            "threshold_multiplicity": 5,
+            "roots_strictly_above_threshold": 0,
+            "sturm_certified_no_root_above": true
+          }
+        },
+        "(1,1,1,1,1,1,1)": {
+          "dimension": 1,
+          "hook_dimension": 1,
+          "coxeter_max_residual": 0.0,
+          "transposition_character_expected": "-1",
+          "transposition_character_error": 0.0,
+          "block_symmetry_residual": 0.0,
+          "eigenvalues": [
+            360.0
+          ],
+          "top": 360.0,
+          "exact": {
+            "coxeter_relations_exact": true,
+            "transposition_character_exact": true,
+            "characteristic_polynomial_coefficients": [
+              "1",
+              "-360"
+            ],
+            "characteristic_polynomial_factorization": "x - 360",
+            "threshold_multiplicity": 0,
+            "roots_strictly_above_threshold": 1,
+            "sturm_certified_no_root_above": false
+          }
+        }
+      },
+      "failures": []
+    }
+  ],
+  "failures": [],
+  "certification_boundary": "Exact only for the three finite parameter triples listed here. It does not certify the manuscript's general representation-theoretic argument."
+}

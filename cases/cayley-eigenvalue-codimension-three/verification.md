@@ -1,19 +1,46 @@
 # Verification
 
-## Mathematical checks
+## Full Conjecture 4.7 proof
 
-Independent reviews checked the theorem statement, parity split, representation multiplicities, endpoint equality analysis, two-subset and exterior-square zero-intersection arguments, sign-twist transfer, and backward induction. The final mathematical verdict was `CORRECT`.
+The seven-page proof was audited line by line against the cited Li--Xia--Zhou
+paper. The audit checked:
 
-The exact-computation check covered seven parameter cases and 96 irreducible blocks using exact arithmetic. Only 29 blocks in the three cases ((5,2,1)), ((6,3,1)), and ((6,3,2)) are logically required by the proof. Those blocks were independently recomputed from exact seminormal matrices. The symbolic proof covers every (n\ge 7) and does not depend on the wider finite experiment.
+- the representation-wise strict induction and its recurrence;
+- the `r=k-1` endpoint induction and the equality condition in Weyl's
+  inequality;
+- the branching reduction to `(N-2,2)` and `(N-2,1,1)` and their sign twists;
+- the two-subset and exterior-square zero-intersection models;
+- the parity split and all ranges of the cited `k=n-1` and `k=n-2` results;
+- the direct Jucys--Murphy arguments for `k=2,3`; and
+- the three finite cases required at `n=6,7`.
 
-## Paper checks
+Independent numerical diagnostics reconstructed the full regular matrices for
+the two `S_6` cases and all Young-orthogonal blocks for the `S_7` case. They
+reproduced degrees `60,36,360`, target values `18,16,84`, and target-block
+multiplicities `4,3,5`. These floating-point diagnostics are checks, not the
+exact certificates used by the proof draft.
 
-An independent paper-level review checked the final theorem statement, the complete proof chain, all 29 load-bearing low-order blocks in the appendix, the source mapping, the bibliography, and the scope and priority language. The verdict was `CORRECT`.
+The current update supplies a fresh independent [exact implementation](extension/check.py)
+and [complete block results](extension/results.json). Rational Young seminormal
+generators, Coxeter relations, transposition characters, characteristic
+polynomials, threshold multiplicities and Sturm root counts are checked for
+every partition in all three cases. Orthogonal-model floating-point spectra
+remain a separate cross-check. See the [reproduction instructions](extension/verification.md).
 
-The note compiles without shell escape, undefined references, citations, box warnings, or fatal errors. The supplied PDF has nine A4 pages and passed a visual layout check.
+A separate adversarial model review examined the general proof, the finite
+implementation and the exact ranges of the [published inputs](extension/sources.md).
+The historical repository gate `INTERNALLY_AUDITED` is retained: model review
+does not constitute a fresh human domain-expert referee report. The former
+missing-implementation condition has been addressed.
+
+## Earlier `n-k=3` note
+
+The earlier note was independently reviewed mathematically and at paper level.
+Its 29 load-bearing low-order blocks were recomputed in exact arithmetic. That
+verification remains valid for the restricted slice and is recorded in
+`evidence/low_order_cases.json`.
 
 ## Boundary
 
-The verification establishes the stated (n-k=3) layer only. It does not establish novelty, priority, or any claim about other layers of Conjecture 4.7.
-
-Public novelty or priority: `NOT_ESTABLISHED`.
+Verification of correctness does not establish novelty or priority. The case
+does not claim any result for the separate `k=n-1` problems.
