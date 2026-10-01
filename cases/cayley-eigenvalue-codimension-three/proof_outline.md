@@ -46,6 +46,12 @@ impossible and the endpoint is strict.
 
 These cases exhaust `n>=5` and `1<=r<k<=n-2`.
 
+The three finite inputs are now supplied by the self-contained
+[exact checker](extension/check.py). Its [results](extension/results.json)
+record every block polynomial and threshold root count. The
+[source map](extension/sources.md) identifies the precise published boundary
+theorems used above.
+
 ## 4. What is new
 
 The value carried by the standard representation and the required non-strict

@@ -20,10 +20,18 @@ reproduced degrees `60,36,360`, target values `18,16,84`, and target-block
 multiplicities `4,3,5`. These floating-point diagnostics are checks, not the
 exact certificates used by the proof draft.
 
-The present verification status is therefore `INTERNALLY_AUDITED`. A fresh
-domain-expert referee has not yet reviewed the full proof, and the exact
-rational/Sturm implementation described in Section 7 of the proof has not yet
-been added to this public package.
+The current update supplies a fresh independent [exact implementation](extension/check.py)
+and [complete block results](extension/results.json). Rational Young seminormal
+generators, Coxeter relations, transposition characters, characteristic
+polynomials, threshold multiplicities and Sturm root counts are checked for
+every partition in all three cases. Orthogonal-model floating-point spectra
+remain a separate cross-check. See the [reproduction instructions](extension/verification.md).
+
+A separate adversarial model review examined the general proof, the finite
+implementation and the exact ranges of the [published inputs](extension/sources.md).
+The historical repository gate `INTERNALLY_AUDITED` is retained: model review
+does not constitute a fresh human domain-expert referee report. The former
+missing-implementation condition has been addressed.
 
 ## Earlier `n-k=3` note
 

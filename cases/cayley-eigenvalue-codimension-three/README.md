@@ -13,11 +13,16 @@ attain it. When `k` is even, only the standard representation attains the
 second eigenvalue. When `k` is odd, exactly the standard representation and
 its sign twist attain the strictly second eigenvalue.
 
-The seven-page full proof is in `paper/full_conjecture.pdf`. It makes the
+The [seven-page full proof](paper/full_conjecture.pdf) makes the
 published induction strict by proving the missing endpoint `r=k-1`, then
 handles the exceptional `k=n-2` layer using the published boundary results and
 three finite exact cases. The earlier nine-page note and its source remain in
 the package as an independently reviewed proof of the `n-k=3` slice.
+
+The [companion case files](extension/) give the original problem, proof guide,
+source-theorem map, exact verification range and a self-contained checker.
+The three finite proof inputs now have public rational characteristic
+polynomials, threshold multiplicities and Sturm root counts.
 
 ## Contents
 
@@ -28,6 +33,8 @@ the package as an independently reviewed proof of the `n-k=3` slice.
 - `sources.md` identifies the public primary sources.
 - `verification.md` records the completed audit and its limitations.
 - `paper/full_conjecture.pdf` is the complete seven-page proof.
+- `extension/check.py` and `extension/results.json` reproduce the exact
+  three-case boundary verification; `extension/requirements.txt` lists dependencies.
 - `paper/main.tex` and `paper/main.pdf` are the earlier `n-k=3` note.
 - `evidence/low_order_cases.json` contains the exact certificates for that
   earlier slice.
@@ -36,5 +43,6 @@ the package as an independently reviewed proof of the `n-k=3` slice.
 
 The mathematical statement covers the full range of Conjecture 4.7. It does
 not address the different `k=n-1` questions in the source paper. The full
-proof has passed a detailed internal audit, but has not yet been independently
-refereed by a domain expert. Public novelty or priority is `NOT_ESTABLISHED`.
+proof and its inputs have undergone an independent adversarial model review,
+but have not yet been independently refereed by a domain expert. Public
+novelty or priority is `NOT_ESTABLISHED`.

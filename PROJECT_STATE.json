@@ -67,7 +67,16 @@
       "result": "PROVED",
       "scope": "complete Conjecture 4.7 for all n>=5 and 1<=r<k<=n-2",
       "verification": "INTERNALLY_AUDITED",
-      "novelty": "NOT_ESTABLISHED"
+      "novelty": "NOT_ESTABLISHED",
+      "extension_verification": {
+        "proof_review": "INDEPENDENT_MODEL_REVIEW",
+        "finite_check": "PASS_EXACT_FINITE",
+        "finite_parameters": [[6,4,1], [6,4,2], [7,5,1]],
+        "details": "cases/cayley-eigenvalue-codimension-three/extension/verification.md",
+        "proof_pdf_sha256": "4f2afed176da116cf8c01b7c8d7e60e290d391476d7375a254fbe61d1dfdae6d",
+        "human_domain_review": "NOT_ESTABLISHED",
+        "formalization": "NOT_ESTABLISHED"
+      }
     },
     "catalan-schett-plane-tree-statistic": {
       "result": "PROVED",

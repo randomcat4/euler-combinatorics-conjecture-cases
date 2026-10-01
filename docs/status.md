@@ -22,7 +22,7 @@ This repository is a continuing public index rather than a count of all EULER re
 
 ## Complete solutions
 
-- Nonnormal Cayley graph eigenvalues: complete proof of Conjecture 4.7 for every `n>=5` and `1<=r<k<=n-2`. The full proof is internally audited; independent domain review remains pending.
+- Nonnormal Cayley graph eigenvalues: complete proof of Conjecture 4.7 for every `n>=5` and `1<=r<k<=n-2`. An independent model review examines the general argument and its published inputs; all three finite inputs now have reproducible rational characteristic polynomials and Sturm certificates. Human domain review remains pending.
 - Catalan--Schett plane-tree statistic: complete all-order solution with an explicit bijection and inverse.
 - CDK image of improper partition matrices: complete all-order characterization for Question 5.5 in arXiv v2.
 - Improper partition matrices: complete all-order statistic-preserving bijection with an explicit inverse.

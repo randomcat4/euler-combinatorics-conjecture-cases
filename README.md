@@ -175,7 +175,7 @@ the published artifact manifest, and the executable finite certificates.
       <td><sub><a href="https://doi.org/10.1016/j.jcta.2025.106097"><em>Journal of Combinatorial Theory, Series A</em> 218 (2026), Article 106097</a></sub></td>
       <td><sub>Complete solution</sub></td>
       <td><sub>Conjecture 4.7 for all <code>n&gt;=5</code> and <code>1&lt;=r&lt;k&lt;=n-2</code></sub></td>
-      <td><sub>Internal proof audit; earlier <code>n-k=3</code> slice independently reviewed</sub></td>
+      <td><sub>Independent model proof review and exact rational certificates for three finite inputs; human domain review pending</sub></td>
     </tr>
   </tbody>
 </table>
