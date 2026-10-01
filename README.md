@@ -37,6 +37,8 @@ Every public result remains listed below. The first rows are the current extensi
 
 <code>2h</code> marks an outcome from the initial two-hour EULER research window. <code>+2h</code> marks an outcome from the later extension allocation; extension work may resume an interrupted earlier run and may reuse the earlier case state, so it should not be read as an independent four-hour rerun or as two full additional hours on every case.
 
+For <code>+2h</code> results transferred from the private research repository, the public artifact is the clean proof PDF only; internal review, audit, routing, and verdict files are not mirrored into this repository.
+
 <table>
   <thead>
     <tr>
@@ -53,56 +55,56 @@ Every public result remains listed below. The first rows are the current extensi
       <td><a href="cases/minimal-degree-three-imprimitive-groups/"><strong>Minimal-degree-three groups</strong></a><br>Classification</td>
       <td>All transitive permutation groups of minimal degree 3 via intrinsic blocks, invariant binary codes and cocycles; regular cyclic top actions are classified up to permutation conjugacy.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review; finite calibration is supplementary. Public transfer should contain the clean proof PDF only.</td>
+      <td>Independent mathematical review; finite calibration is supplementary.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2025.106049">Lin–Liu–Yan, <em>JCTA</em> 215 (2025)</a><br>Problem 2.18</td>
       <td><a href="cases/catalan-schett-plane-tree-statistic/"><strong>Plane-tree statistic</strong></a><br>Complete solution + run refinement</td>
       <td>Explicit tree/permutation bijection solves the original joint identity and retains the complete inverse ascending-run composition, with arbitrary multiplicative run weights.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review; finite checks are supplementary. Public transfer should contain the clean proof PDF only.</td>
+      <td>Independent mathematical review; finite checks are supplementary.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2026.106213">Chern–Fu, <em>JCTA</em> 223 (2026)</a><br>Question 5.7</td>
       <td><a href="cases/partition-matrix-bijection/"><strong>Partition-matrix bijection</strong></a><br>Complete solution + full-class refinement</td>
       <td>Explicit mutual inverses for the minus and full classes; preserves <code>v=dist</code>, dimension and the full ordered column-parity signature, with Eulerian/Stirling enumerations.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review and exact finite regression; public transfer should contain the clean proof PDF only.</td>
+      <td>Independent mathematical review and exact finite regression.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2026.106213">Chern–Fu, <em>JCTA</em> 223 (2026)</a><br>Question 5.1</td>
       <td><a href="cases/partition-matrix-q-sum-product/"><strong>Partition-matrix q-series</strong></a><br>Complete formula + cell-size refinement</td>
       <td>Self-contained sum-product solution; standard basic-hypergeometric form for every fixed column series; arbitrary multiplicative weights for all cell cardinalities.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review; coefficient checks are supplementary. Public transfer should contain the clean proof PDF only.</td>
+      <td>Independent mathematical review; coefficient checks are supplementary.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2026.106213">Chern–Fu, <em>JCTA</em> 223 (2026)</a><br>Question 5.5</td>
       <td><a href="cases/cdk-improper-partition-matrix-image/"><strong>CDK improper image</strong></a><br>Complete characterization + orbit theorem</td>
       <td>Intrinsic value-interval characterization, followed by the complete commuting pair-swap orbit classification, one-sided images, defect distribution and exact row-nonempty enumeration.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review; finite checks are supplementary. Public transfer should contain the clean proof PDF only.</td>
+      <td>Independent mathematical review; finite checks are supplementary.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.jcta.2025.106097">Li–Xia–Zhou, <em>JCTA</em> 218 (2026)</a><br>Conjecture 4.7</td>
       <td><a href="https://github.com/randomcat4/euler-combinatorics-conjecture-cases/pull/17"><strong>Cayley representation uniqueness</strong></a><br>Complete solution</td>
       <td>Every <code>n&gt;=5</code> and <code>1&lt;=r&lt;k&lt;=n-2</code>; exact attaining representations are classified. The separate <code>k=n-1</code> questions are excluded.</td>
       <td><code>+2h</code></td>
-      <td>Clean proof PDF intended for public transfer; three proof-critical finite boundary cases are described in the proof, with fresh domain review still pending.</td>
+      <td>Three proof-critical finite boundary cases are described in the proof; fresh domain review is still pending.</td>
     </tr>
     <tr>
       <td><a href="https://doi.org/10.1016/j.laa.2025.10.036">Zheng–Li–Li, <em>LAA</em> 730 (2026)</a><br>Conjecture 5.1</td>
       <td><a href="cases/k33plus-q-index-boundary-counterexample/"><strong>K33+ Q-index classification</strong></a><br>Counterexample + structural theorem</td>
       <td>Analytic unique optimum at <code>s=t=3,n=6</code>; exact classification in the full two-universal-vertex class for <code>n&gt;=7</code>; source families fail at <code>n=8</code> and every <code>n&gt;=10</code>. No unrestricted large-order maximizer classification is claimed.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review; the exact <code>n=7,8</code> census is supplementary. Public transfer should contain the clean proof PDF only.</td>
+      <td>Independent mathematical review; the exact <code>n=7,8</code> census is supplementary.</td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2508.13466v1">Lin–Zhao, arXiv:2508.13466v1</a><br>Conjecture 1.3</td>
       <td><a href="cases/steklov-three-leaf-extra-special-extremizer/"><strong>Steklov extremizer</strong></a><br>Complete solution + strengthening</td>
       <td>All <code>b&gt;=2</code> and <code>r&gt;=1</code>; strengthens matching equality to <code>nu(T)&gt;=br+2</code>, proves unique equality, and gives the sharp optimum for every central leaf split at minimum diameter.</td>
       <td><code>+2h</code></td>
-      <td>Independent mathematical review; auxiliary formal identities do not replace the general proof. Public transfer should contain the clean proof PDF only.</td>
+      <td>Independent mathematical review; auxiliary formal identities do not replace the general proof.</td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2506.21383">arXiv:2506.21383</a><br>Conjectures 6.1, 6.2 and 6.4</td>
