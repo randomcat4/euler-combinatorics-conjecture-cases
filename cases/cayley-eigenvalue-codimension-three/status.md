@@ -11,6 +11,8 @@
 - Full-proof verification: historical gate `INTERNALLY_AUDITED`, now supplemented
   by an independent adversarial model review of the argument and its inputs.
   Initial human review is completed; see the [review statement](../../docs/provenance.md). A completed specialist referee process is not claimed.
+- Verified extension: a positive cone of support-weighted `k`-cycle operators,
+  with exact standard-space dimension and regular multiplicity formulas.
 - Paper state: `MERGED_PUBLIC_PROOF`.
 - Public novelty or priority: `NOT_ESTABLISHED`.
 

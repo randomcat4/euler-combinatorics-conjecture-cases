@@ -70,6 +70,10 @@
       "sha256": "35f654b6c143f5e88ed24891b05b5f85a4f725721b327139ce243e4f05328637"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/check_weighted_positive_cone.py",
+      "sha256": "7dcd54ce1b58527004685fa89e07114859ef1e7592e463ea2daba1ae5994ad92"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/evidence/low_order_cases.json",
       "sha256": "e6b8c4bf7c62868628723cb078ee1e225726f57b63c2cf270efb60e6bc37db80"
     },
@@ -135,7 +139,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "6fa4cc5ada58f81ca71689232cbe6981f95e2274d24c05ecff050440a6ab901c"
+      "sha256": "78cd49a83066af10b821fbc2fc5c47aba878ff9d78621dd0a0bb32cd9860c08e"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
@@ -143,11 +147,19 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/status.md",
-      "sha256": "95c374abe45a8b906b3619e3dc16275543f6fe4603f7390bfb1fd73b7ec12ca5"
+      "sha256": "a3ef1a92ea49d0eb30b25cc9be3c8d843cd4a009f5dab50b7f7f927e4f7478d1"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
-      "sha256": "0d3fd308b25f3a1bce2808c99236b741ec8344deeb87b950563e455f1d572aa0"
+      "sha256": "1a42131f40fa654e9658868cf46c3ce4b913e95e6495e68d2661e24c72175759"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/weighted_positive_cone.md",
+      "sha256": "5b4648db6d61bdf18345f1091b587a24ce1590b213426149c77ee2e7145ff285"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/weighted_positive_cone_summary.json",
+      "sha256": "157c726aac99b08b464783f2f00f69aa5d0087ca9e1d23f03529e6526b13ff8e"
     },
     {
       "path": "cases/cdk-improper-partition-matrix-image/extension/check.py",

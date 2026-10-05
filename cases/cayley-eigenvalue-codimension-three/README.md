@@ -32,6 +32,10 @@ polynomials, threshold multiplicities and Sturm root counts.
 - `status.md` separates correctness, external review, and priority.
 - `sources.md` identifies the public primary sources.
 - `verification.md` records the completed audit and its limitations.
+- `weighted_positive_cone.md` proves a support-weighted extension with an
+  exact hypergraph-component formula for the standard top space.
+- `check_weighted_positive_cone.py` checks representative component formulas
+  in exact arithmetic using only the Python standard library.
 - `paper/full_conjecture.pdf` is the complete seven-page proof.
 - `extension/check.py` and `extension/results.json` reproduce the exact
   three-case boundary verification; `extension/requirements.txt` lists dependencies.
@@ -41,7 +45,8 @@ polynomials, threshold multiplicities and Sturm root counts.
 
 ## Scope and priority
 
-The mathematical statement covers the full range of Conjecture 4.7. It does
+The primary mathematical statement covers the full range of Conjecture 4.7,
+and the weighted extension records a positive-cone consequence. The case does
 not address the different `k=n-1` questions in the source paper. The full
 proof and its inputs have undergone LLM re-review. Initial human review is
 recorded in the shared review statement below; a completed specialist referee
