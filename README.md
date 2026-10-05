@@ -6,7 +6,7 @@ It records the portion of a broader research program that has completed its publ
 
 ## Generation, review, and open release
 
-New case submissions carry their own generation and review records. The collection-level review history below describes previously merged releases; it does not mark a new Draft PR as human-reviewed.
+Each case records its generation and review provenance. The collection-level review history below describes PRs #17 and #22; later releases use their case-specific records.
 
 The previously merged EULER proofs were generated autonomously, end to end, by EULER.
 LLM re-review was completed using **Sol High** and **Opus 4.8 xhigh**.
@@ -175,6 +175,27 @@ authored for this repository are openly released under the MIT License.**
       <td>Arbitrary abelian groups; fixed-<code>D</code> optimal stability rate.</td>
       <td><code>2h</code></td>
       <td><a href="cases/entropy-bounded-sidon-concentration-stability/verification.md">LLM review</a><br>Independent human review<br>Numerical certificates</td>
+    </tr>
+    <tr>
+      <td><a href="https://arxiv.org/abs/2511.14496v1">Poddar--Biswas--Das, arXiv:2511.14496v1</a><br>first unnumbered open issue of Section 6; Definition 1.4, Section 2 and Theorem 3.1</td>
+      <td><a href="cases/subgroup-cayley-integrality/"><strong>Subgroup normality and Cayley integrality</strong></a><br>Complete Solution</td>
+      <td>For every finite group G of order at least five and every proper nontrivial subgroup H, Gamma_H(G) is integral if and only if H is normal.</td>
+      <td>&mdash;</td>
+      <td><a href="cases/subgroup-cayley-integrality/verification.md">LLM review</a><br>Supporting exact checks<br>Maintainer review completed</td>
+    </tr>
+    <tr>
+      <td><a href="https://arxiv.org/abs/2410.21334v3">Krishnan--Li, arXiv:2410.21334v1 and v3</a><br>Conjecture 8.1 in v1, renumbered Conjecture 7.1 in v3</td>
+      <td><a href="cases/star-friends-and-strangers-local-connectivity/"><strong>Local connectivity of star friends-and-strangers graphs</strong></a><br>Complete Solution</td>
+      <td>Every connected FS(X,Star_n) and every pair of distinct configurations have exactly the minimum endpoint degree internally vertex-disjoint paths, including adjacent endpoints.</td>
+      <td>&mdash;</td>
+      <td><a href="cases/star-friends-and-strangers-local-connectivity/verification.md">LLM review</a><br>Supporting exact checks<br>Maintainer review completed</td>
+    </tr>
+    <tr>
+      <td><a href="https://arxiv.org/abs/2511.08969v1">Angarone--Kim--Oh--Soskin, arXiv:2511.08969v1</a><br>Conjecture 1.2 in Section 1; identity-diagram determinant in Section 2.3</td>
+      <td><a href="cases/dual-jacobi-trudi-hadamard-counterexample/"><strong>A distinct-shape Hadamard dual Jacobi--Trudi counterexample</strong></a><br>Counterexample</td>
+      <td>Conjecture 1.2 is refuted by the order-three determinant for (18,18,15)/(2,0,0) and (20,18,18)/(2,2,0); the specified ordinary monomial coefficient is negative. Same-shape Conjecture 1.1 is not settled.</td>
+      <td>&mdash;</td>
+      <td><a href="cases/dual-jacobi-trudi-hadamard-counterexample/verification.md">LLM review</a><br>Exact witness<br>Maintainer review completed</td>
     </tr>
   </tbody>
 </table>

@@ -39,6 +39,7 @@ Each local case records its status in its own directory and in `PROJECT_STATE.js
 
 PR #17 and PR #22 are merged. The current eight-case extensions are published,
 with their earlier restricted results retained as historical records.
+PR #27 publishes the subgroup integrality, star connectivity, and distinct-shape Hadamard cases, with independent model and maintainer review complete.
 All repository-authored proofs and code are MIT licensed, with research-credit
 and priority claims waived. The [review record](provenance.md) identifies the
 LLM re-review, initial human review, and counterexample-specialist invitations.

@@ -263,7 +263,7 @@
     },
     {
       "path": "cases/dual-jacobi-trudi-hadamard-counterexample/status.md",
-      "sha256": "130b349814abac307303fa1b54152ca3dc504bf29e36207de823f65f40ff53cd"
+      "sha256": "074235934761b602c6e3b4b7c8e73ad1da252188761a71629fc432671f7a339a"
     },
     {
       "path": "cases/dual-jacobi-trudi-hadamard-counterexample/verification.md",
@@ -819,7 +819,7 @@
     },
     {
       "path": "cases/star-friends-and-strangers-local-connectivity/status.md",
-      "sha256": "d649a27a459b2f154fdb05c9b5ce4f8c7c2224e0b47b0002ac65cc9c068bb93b"
+      "sha256": "a975b7ea4529fa7f718adbccee3c5898d63348355c1bc073ee40d3244d8902a0"
     },
     {
       "path": "cases/star-friends-and-strangers-local-connectivity/verification.md",
@@ -943,7 +943,7 @@
     },
     {
       "path": "cases/subgroup-cayley-integrality/status.md",
-      "sha256": "dbbc316675564e2455ee0068b0ece5ba20ef34a314cdce41bedcb208182e65bf"
+      "sha256": "7403f76560505ae862dc81e647eb11d538a5b34c19aa9e1bd5f4b44746c86543"
     },
     {
       "path": "cases/subgroup-cayley-integrality/verification.md",
