@@ -32,6 +32,12 @@ polynomials, threshold multiplicities and Sturm root counts.
 - `status.md` separates correctness, external review, and priority.
 - `sources.md` identifies the public primary sources.
 - `verification.md` records the completed audit and its limitations.
+- `monotone_orbit_cones.md` states the closed three-cycle and two-/three-marked
+  four-cycle classifications; `coneproof.md` gives the complete analytic proofs.
+- `checkcone.py` rebuilds the symbolic content patterns and exact six-point
+  boundary from representation matrices; it uses the SymPy dependency listed
+  in `extension/requirements.txt`.
+- `check_monotone_cones.py` checks the stored finite boundary summaries.
 - `product_activity.md` states two structured product-activity families.
 - `activityproof.md` gives their complete branching and parameter-regime proofs,
   including the standard quotient formula and target simplicity.

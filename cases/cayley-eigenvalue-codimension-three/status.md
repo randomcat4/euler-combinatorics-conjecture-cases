@@ -15,6 +15,9 @@
   with exact standard-space dimension and regular multiplicity formulas.
 - Separate partial extension: two natural product-activity families with full
   analytic proofs; the arbitrary-activity problem remains open.
+- Verified extensions: closed monotone three-cycle weights outside the pure-local
+  ray, and four-cycle weights with two or three marked points, including exact
+  six-point equality faces.
 - Paper state: `MERGED_PUBLIC_PROOF`.
 - Public novelty or priority: `NOT_ESTABLISHED`.
 

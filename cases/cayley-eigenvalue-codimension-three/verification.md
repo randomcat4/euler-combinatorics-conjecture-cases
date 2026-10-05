@@ -63,3 +63,14 @@ matrices, strict comparisons in all three parameter regimes, and the standard
 quotient calculation. The complete proof received independent mathematical
 review, including the zero mixing coefficient and the reflected regime's
 single-path estimates. No finite no-hit scan is used as proof.
+
+## Closed monotone orbit cones
+
+The complete analytic proofs in `coneproof.md` include the content estimates,
+strict endpoint comparisons, stable-pattern coverage for arbitrary order, and
+embedded-degree exclusions. The final proof received independent mathematical
+review. `checkcone.py` independently rebuilds the 44 symbolic low-tail patterns
+and the complete rational six-point boundary; it checks the representation
+relations and exact Sturm root bounds. The older `check_monotone_cones.py`
+only checks the stored finite summary data. General validity comes from the
+analytic reductions and coverage proof, rather than finite scanning.
