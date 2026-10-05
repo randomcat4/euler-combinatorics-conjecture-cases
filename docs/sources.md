@@ -30,3 +30,11 @@ The collection uses the following primary sources.
 26. Antonio Girao, Lukas Michel, and Youri Tamitegama, "Small Families of Partially Shattering Permutations," *Combinatorica* 46 (2026), Article 10. [DOI](https://doi.org/10.1007/s00493-026-00201-6), [arXiv](https://arxiv.org/abs/2407.05773v1). The five-point case uses Conjecture 4.2 and the lexicographic framework in Section 3 and the proof of Theorem 1.7.
 
 Case directories and linked public repositories provide theorem numbers, page anchors, dependencies, and scope boundaries.
+
+
+## Sources for new case submissions
+
+- [Poddar--Biswas--Das, arXiv:2511.14496v1](https://arxiv.org/abs/2511.14496v1), first unnumbered open issue of Section 6; Definition 1.4, Section 2 and Theorem 3.1.
+- [Krishnan--Li, arXiv:2410.21334v1 and v3](https://arxiv.org/abs/2410.21334v3), Conjecture 8.1 in v1, renumbered Conjecture 7.1 in v3.
+- [Angarone--Kim--Oh--Soskin, arXiv:2511.08969v1](https://arxiv.org/abs/2511.08969v1), Conjecture 1.2 in Section 1; identity-diagram determinant in Section 2.3.
+- X. Liang and J. Meng, *Connectivity of Bi-Cayley Graphs*, Ars Combinatoria 88 (2008), 27--32, Theorem 3.7. [Primary article](https://combinatorialpress.com/article/ars/Volume%20088/volume-88-paper-3.pdf).

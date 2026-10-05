@@ -17,3 +17,8 @@ jobs:
       - run: python -B cases/zhao-restricted-zero-sum-counterexample/check_counterexample.py
       - run: python -B cases/catalan-schett-plane-tree-statistic/check_small_cases.py
       - run: python -B cases/partition-matrix-bijection/verify_bijection.py
+
+      - run: python -B cases/subgroup-cayley-integrality/check.py
+      - run: python -B cases/star-friends-and-strangers-local-connectivity/checks/validate_flow.py
+      - run: python -B cases/star-friends-and-strangers-local-connectivity/checks/quotient01.py
+      - run: python -B cases/dual-jacobi-trudi-hadamard-counterexample/check_counterexample.py

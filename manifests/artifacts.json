@@ -226,6 +226,50 @@
       "sha256": "7708fa24b6b27295928c0acc98f9c1cbe622feeb8a94ab5c79360a2c4298e839"
     },
     {
+      "path": "cases/dual-jacobi-trudi-hadamard-counterexample/check_counterexample.py",
+      "sha256": "a4444a8ba451430abd55d46378007eabbe7d2336d466a97a08d60cd23f837c76"
+    },
+    {
+      "path": "cases/dual-jacobi-trudi-hadamard-counterexample/counterexample_certificate.json",
+      "sha256": "08159bb4a52e4a16cc3409e7d11e679bd879a7f35614dfa36cfa4bc7e096542d"
+    },
+    {
+      "path": "cases/dual-jacobi-trudi-hadamard-counterexample/paper/main.pdf",
+      "sha256": "b6047125f150eded6ae85f9b6df3aedfee227d168015a2d847c7ded2b5f8d40d"
+    },
+    {
+      "path": "cases/dual-jacobi-trudi-hadamard-counterexample/paper/main.tex",
+      "sha256": "e80abb1ffaa1f09d69bf2bf5e9b8cf162074a91d29c4e28220123674531e16c0"
+    },
+    {
+      "path": "cases/dual-jacobi-trudi-hadamard-counterexample/problem.md",
+      "sha256": "52133c128e9e3357b697dbe175f26de7392a069f5be4492b41de2f0cbf85e146"
+    },
+    {
+      "path": "cases/dual-jacobi-trudi-hadamard-counterexample/proof.md",
+      "sha256": "ff1e7839a5b727d9238341c90a0fc37c42040a4b7f1e5f1719d16fc46e4be145"
+    },
+    {
+      "path": "cases/dual-jacobi-trudi-hadamard-counterexample/provenance.md",
+      "sha256": "9e3d702d78636c8ebec6f7e9e8bd441f70f53febfb7afe021f65adc599e9abd3"
+    },
+    {
+      "path": "cases/dual-jacobi-trudi-hadamard-counterexample/README.md",
+      "sha256": "e995983e6208ea35966b5a0a8431a0140d50fce81966122ff1f23892e88d61cc"
+    },
+    {
+      "path": "cases/dual-jacobi-trudi-hadamard-counterexample/sources.md",
+      "sha256": "e51c4960276ec70b3f1c62c2fc563857069abab794c6e8dd7f880664e3a45a33"
+    },
+    {
+      "path": "cases/dual-jacobi-trudi-hadamard-counterexample/status.md",
+      "sha256": "130b349814abac307303fa1b54152ca3dc504bf29e36207de823f65f40ff53cd"
+    },
+    {
+      "path": "cases/dual-jacobi-trudi-hadamard-counterexample/verification.md",
+      "sha256": "f0bb369d27d6b0f1f6129078c2d2f13de818c7cad16d190babecd3e0e013a9cc"
+    },
+    {
       "path": "cases/entropy-bounded-sidon-concentration-stability/check_sidon_stability.py",
       "sha256": "9abc0eccd772a6846ec152e0c6fc34ba67ee906d53610218b19e6d8aab380c12"
     },
@@ -719,7 +763,67 @@
     },
     {
       "path": "cases/README.md",
-      "sha256": "419393728396fa09118f94755392910bc44c0122661fbb5934f4ee4da38b6f7c"
+      "sha256": "e4609823a0a2f334c85887014a8cb0b8f9ad6e8f4f7d1c33ef92c22d125e3f8d"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/checks/flow_validation.json",
+      "sha256": "8ee6002dbec19bcbbe6959c2be20080f7a8075d0c2c2cb0339fc6d3985073424"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/checks/quotient01.json",
+      "sha256": "92ac6de65fa98fd347d9c3a2e8040359a4a373682692e0af5b9f9bd85735694e"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/checks/quotient01.py",
+      "sha256": "860d25a7f9e5346684d0fbb8407a7a4552996237a10c8fa0708a6d75c4826224"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/checks/search_fs.py",
+      "sha256": "a3643a53d01d7f9fe302d7eb2706ad6e1c9c72e2436cbedfdd3d1209a913670f"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/checks/search_n7_candidates.py",
+      "sha256": "3c5b674f0f6274cec6bedc77dcedeeb9323b92e7defc010a8f2958567c1208ff"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/checks/validate_flow.py",
+      "sha256": "2669dc89e09e12267fd644286062b51ad77fa59fa7e2ad49edd63be98b6e9457"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/paper/main.pdf",
+      "sha256": "ac723ad1a4a19302c8f9ec47d673c3bca33a1d3d81c6f7b795bfdb89e259bc39"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/paper/main.tex",
+      "sha256": "6dbce2c95b4f1c0eb4264ced1af6d5b65cdb7a30f660a50d61f8018b3f2de923"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/problem.md",
+      "sha256": "2cc42c1e94c2aa8031589431ff10f326276b09a194dc1af66b66c7bc3c458a64"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/proof.md",
+      "sha256": "f6a92a3bbe04971754935fc18a5e2c82301d19b01146894a121e1451968e9383"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/provenance.md",
+      "sha256": "9e3d702d78636c8ebec6f7e9e8bd441f70f53febfb7afe021f65adc599e9abd3"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/README.md",
+      "sha256": "3e469444591bacc1438941fd270191109584a84d2930b1d81ea3a11d350006e1"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/sources.md",
+      "sha256": "11dcbeb5405a1ba2a28ff25a5050d8b60fd7914549c99acbd5f69139ce3155a4"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/status.md",
+      "sha256": "d649a27a459b2f154fdb05c9b5ce4f8c7c2224e0b47b0002ac65cc9c068bb93b"
+    },
+    {
+      "path": "cases/star-friends-and-strangers-local-connectivity/verification.md",
+      "sha256": "0264700c0473a9f916391c01051e89636a86402cbf3d906c10aeada29273208b"
     },
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/check_three_leaf_extremizer.py",
@@ -796,6 +900,54 @@
     {
       "path": "cases/steklov-three-leaf-extra-special-extremizer/verification_summary.json",
       "sha256": "1780f912a76fba7ba7419be27ebc153a31803f88cf9bf04661c90896d3e24372"
+    },
+    {
+      "path": "cases/subgroup-cayley-integrality/arithmetic.lean",
+      "sha256": "d6521984ae6da3ad6db7f6287f8e40cb1948594eab712b4e3fa0063add6b1cbc"
+    },
+    {
+      "path": "cases/subgroup-cayley-integrality/certificates.json",
+      "sha256": "93c96b8d53ae9b6020292162f179fb8af6360df32d1694404c32010d51dea2a4"
+    },
+    {
+      "path": "cases/subgroup-cayley-integrality/check.py",
+      "sha256": "357dd425a93726c297a40cf978460ebf055de264e4b79eaca02ba4c50eb992c0"
+    },
+    {
+      "path": "cases/subgroup-cayley-integrality/paper/main.pdf",
+      "sha256": "16297a5a757cea5e39d7cfa83f1ba5c288ee3f2c2606210d801f60de5da8a2d2"
+    },
+    {
+      "path": "cases/subgroup-cayley-integrality/paper/main.tex",
+      "sha256": "5a816792a584ed72f37a20cffdd894366ca708ad394247c3fe24f2125cf9408c"
+    },
+    {
+      "path": "cases/subgroup-cayley-integrality/problem.md",
+      "sha256": "adcc3a9c078776d778ba4ffee26bcf2abc5553b0b226d72513c554d0a12b6582"
+    },
+    {
+      "path": "cases/subgroup-cayley-integrality/proof.md",
+      "sha256": "03d2c4914e3c42a14ac70b960f700b330c1485de92b9a3fa5984b53ce55d6bbf"
+    },
+    {
+      "path": "cases/subgroup-cayley-integrality/provenance.md",
+      "sha256": "9e3d702d78636c8ebec6f7e9e8bd441f70f53febfb7afe021f65adc599e9abd3"
+    },
+    {
+      "path": "cases/subgroup-cayley-integrality/README.md",
+      "sha256": "2939ce0c87ac7474aade455451eaf558e284cdf158d6e08bf2a42d0abb65f1db"
+    },
+    {
+      "path": "cases/subgroup-cayley-integrality/sources.md",
+      "sha256": "686eac55b4152cacc0b039bbb7c54d0d26a236a879552d4e80def43176d90ce5"
+    },
+    {
+      "path": "cases/subgroup-cayley-integrality/status.md",
+      "sha256": "dbbc316675564e2455ee0068b0ece5ba20ef34a314cdce41bedcb208182e65bf"
+    },
+    {
+      "path": "cases/subgroup-cayley-integrality/verification.md",
+      "sha256": "cc2026883e5b5f69f896e1571bf759955006ab1da99a57cc025d8f19fc6d3f81"
     },
     {
       "path": "cases/ternary-berge-suspension-rigidity/check_statement_certificate.py",

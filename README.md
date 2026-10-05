@@ -6,7 +6,9 @@ It records the portion of a broader research program that has completed its publ
 
 ## Generation, review, and open release
 
-The proofs in this repository were generated autonomously, end to end, by EULER.
+New case submissions carry their own generation and review records. The collection-level review history below describes previously merged releases; it does not mark a new Draft PR as human-reviewed.
+
+The previously merged EULER proofs were generated autonomously, end to end, by EULER.
 LLM re-review was completed using **Sol High** and **Opus 4.8 xhigh**.
 Initial human review was carried out by **the author, one doctoral student at
 ETH Zürich (Swiss Federal Institute of Technology Zurich), and one doctoral
@@ -24,7 +26,7 @@ We waive claims to research credit and priority for these autonomously
 generated EULER proofs. **All proofs, manuscripts, documentation, and code
 authored for this repository are openly released under the MIT License.**
 
-[Reproduce in 60 seconds](docs/reproduce.md)
+[Reproduction guide](docs/reproduce.md)
 
 ## Public result index
 

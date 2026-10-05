@@ -4,6 +4,7 @@ Each subdirectory is a self-contained public case package. The index is organize
 
 ## Counterexamples
 
+- [`dual-jacobi-trudi-hadamard-counterexample`](dual-jacobi-trudi-hadamard-counterexample/) - distinct-shape Conjecture 1.2; same-shape conjecture not settled
 - [`k33plus-q-index-boundary-counterexample`](k33plus-q-index-boundary-counterexample/)
 - [`f29-inducibility-recursive-graphon-counterexample`](f29-inducibility-recursive-graphon-counterexample/)
 - [`path-set-tree-representation-counterexample`](path-set-tree-representation-counterexample/)
@@ -13,6 +14,8 @@ Each subdirectory is a self-contained public case package. The index is organize
 
 ## Complete solutions and classifications
 
+- [`subgroup-cayley-integrality`](subgroup-cayley-integrality/)
+- [`star-friends-and-strangers-local-connectivity`](star-friends-and-strangers-local-connectivity/)
 - [`catalan-schett-plane-tree-statistic`](catalan-schett-plane-tree-statistic/)
 - [`cdk-improper-partition-matrix-image`](cdk-improper-partition-matrix-image/)
 - [`partition-matrix-bijection`](partition-matrix-bijection/)

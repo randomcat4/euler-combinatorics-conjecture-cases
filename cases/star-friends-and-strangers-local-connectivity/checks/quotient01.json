@@ -1,0 +1,3632 @@
+{
+  "scope": "all connected-FS high-hole orbits for unlabeled X on n=4..6, plus selected high-risk n=7 X",
+  "rows": [
+    {
+      "name": "all_n4_mask31",
+      "n": 4,
+      "mask": 31,
+      "hole": 0,
+      "hole_degree_D": 3,
+      "T_vertices": 6,
+      "B_vertices": 6,
+      "q_T_over_B": 1,
+      "J_vertices": 12,
+      "J_edges": 18,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        3
+      ],
+      "expected_B_degree_Dq": 3,
+      "leaf_relabel_T_orbit_size": 6,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 3,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n5_mask127",
+      "n": 5,
+      "mask": 127,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 24,
+      "B_vertices": 24,
+      "q_T_over_B": 1,
+      "J_vertices": 48,
+      "J_edges": 96,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        4
+      ],
+      "expected_B_degree_Dq": 4,
+      "leaf_relabel_T_orbit_size": 24,
+      "leaf_relabel_B_orbit_size": 24,
+      "same_T_side_pair_orbits_checked": 6,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n5_mask221",
+      "n": 5,
+      "mask": 221,
+      "hole": 0,
+      "hole_degree_D": 3,
+      "T_vertices": 24,
+      "B_vertices": 24,
+      "q_T_over_B": 1,
+      "J_vertices": 48,
+      "J_edges": 72,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        3
+      ],
+      "expected_B_degree_Dq": 3,
+      "leaf_relabel_T_orbit_size": 24,
+      "leaf_relabel_B_orbit_size": 24,
+      "same_T_side_pair_orbits_checked": 23,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n5_mask223",
+      "n": 5,
+      "mask": 223,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 24,
+      "B_vertices": 24,
+      "q_T_over_B": 1,
+      "J_vertices": 48,
+      "J_edges": 96,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        4
+      ],
+      "expected_B_degree_Dq": 4,
+      "leaf_relabel_T_orbit_size": 24,
+      "leaf_relabel_B_orbit_size": 24,
+      "same_T_side_pair_orbits_checked": 15,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n5_mask223",
+      "n": 5,
+      "mask": 223,
+      "hole": 1,
+      "hole_degree_D": 3,
+      "T_vertices": 24,
+      "B_vertices": 12,
+      "q_T_over_B": 2,
+      "J_vertices": 36,
+      "J_edges": 72,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        6
+      ],
+      "expected_B_degree_Dq": 6,
+      "leaf_relabel_T_orbit_size": 24,
+      "leaf_relabel_B_orbit_size": 12,
+      "same_T_side_pair_orbits_checked": 23,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n5_mask254",
+      "n": 5,
+      "mask": 254,
+      "hole": 0,
+      "hole_degree_D": 3,
+      "T_vertices": 24,
+      "B_vertices": 12,
+      "q_T_over_B": 2,
+      "J_vertices": 36,
+      "J_edges": 72,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        6
+      ],
+      "expected_B_degree_Dq": 6,
+      "leaf_relabel_T_orbit_size": 24,
+      "leaf_relabel_B_orbit_size": 12,
+      "same_T_side_pair_orbits_checked": 13,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n5_mask254",
+      "n": 5,
+      "mask": 254,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 24,
+      "B_vertices": 8,
+      "q_T_over_B": 3,
+      "J_vertices": 32,
+      "J_edges": 72,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        9
+      ],
+      "expected_B_degree_Dq": 9,
+      "leaf_relabel_T_orbit_size": 24,
+      "leaf_relabel_B_orbit_size": 8,
+      "same_T_side_pair_orbits_checked": 13,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n5_mask255",
+      "n": 5,
+      "mask": 255,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 24,
+      "B_vertices": 12,
+      "q_T_over_B": 2,
+      "J_vertices": 36,
+      "J_edges": 96,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        8
+      ],
+      "expected_B_degree_Dq": 8,
+      "leaf_relabel_T_orbit_size": 24,
+      "leaf_relabel_B_orbit_size": 12,
+      "same_T_side_pair_orbits_checked": 13,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n5_mask255",
+      "n": 5,
+      "mask": 255,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 24,
+      "B_vertices": 4,
+      "q_T_over_B": 6,
+      "J_vertices": 28,
+      "J_edges": 72,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        18
+      ],
+      "expected_B_degree_Dq": 18,
+      "leaf_relabel_T_orbit_size": 24,
+      "leaf_relabel_B_orbit_size": 4,
+      "same_T_side_pair_orbits_checked": 13,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n5_mask495",
+      "n": 5,
+      "mask": 495,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 24,
+      "B_vertices": 8,
+      "q_T_over_B": 3,
+      "J_vertices": 32,
+      "J_edges": 96,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        12
+      ],
+      "expected_B_degree_Dq": 12,
+      "leaf_relabel_T_orbit_size": 24,
+      "leaf_relabel_B_orbit_size": 8,
+      "same_T_side_pair_orbits_checked": 7,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n5_mask511",
+      "n": 5,
+      "mask": 511,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 24,
+      "B_vertices": 4,
+      "q_T_over_B": 6,
+      "J_vertices": 28,
+      "J_edges": 96,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        24
+      ],
+      "expected_B_degree_Dq": 24,
+      "leaf_relabel_T_orbit_size": 24,
+      "leaf_relabel_B_orbit_size": 4,
+      "same_T_side_pair_orbits_checked": 9,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask511",
+      "n": 6,
+      "mask": 511,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 120,
+      "q_T_over_B": 1,
+      "J_vertices": 240,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        5
+      ],
+      "expected_B_degree_Dq": 5,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 120,
+      "same_T_side_pair_orbits_checked": 11,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask956",
+      "n": 6,
+      "mask": 956,
+      "hole": 0,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 120,
+      "q_T_over_B": 1,
+      "J_vertices": 240,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        3
+      ],
+      "expected_B_degree_Dq": 3,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 120,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask957",
+      "n": 6,
+      "mask": 957,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 120,
+      "q_T_over_B": 1,
+      "J_vertices": 240,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        4
+      ],
+      "expected_B_degree_Dq": 4,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 120,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask958",
+      "n": 6,
+      "mask": 958,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 120,
+      "q_T_over_B": 1,
+      "J_vertices": 240,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        4
+      ],
+      "expected_B_degree_Dq": 4,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 120,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask958",
+      "n": 6,
+      "mask": 958,
+      "hole": 1,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        6
+      ],
+      "expected_B_degree_Dq": 6,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask958",
+      "n": 6,
+      "mask": 958,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 40,
+      "q_T_over_B": 3,
+      "J_vertices": 160,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        9
+      ],
+      "expected_B_degree_Dq": 9,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 40,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask959",
+      "n": 6,
+      "mask": 959,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 120,
+      "q_T_over_B": 1,
+      "J_vertices": 240,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        5
+      ],
+      "expected_B_degree_Dq": 5,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 120,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask959",
+      "n": 6,
+      "mask": 959,
+      "hole": 1,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        8
+      ],
+      "expected_B_degree_Dq": 8,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask959",
+      "n": 6,
+      "mask": 959,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        18
+      ],
+      "expected_B_degree_Dq": 18,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1022",
+      "n": 6,
+      "mask": 1022,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        8
+      ],
+      "expected_B_degree_Dq": 8,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 37,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1022",
+      "n": 6,
+      "mask": 1022,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 10,
+      "q_T_over_B": 12,
+      "J_vertices": 130,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        36
+      ],
+      "expected_B_degree_Dq": 36,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 10,
+      "same_T_side_pair_orbits_checked": 37,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1023",
+      "n": 6,
+      "mask": 1023,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        10
+      ],
+      "expected_B_degree_Dq": 10,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 37,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1023",
+      "n": 6,
+      "mask": 1023,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 37,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1881",
+      "n": 6,
+      "mask": 1881,
+      "hole": 0,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 120,
+      "q_T_over_B": 1,
+      "J_vertices": 240,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        3
+      ],
+      "expected_B_degree_Dq": 3,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 120,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1883",
+      "n": 6,
+      "mask": 1883,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 120,
+      "q_T_over_B": 1,
+      "J_vertices": 240,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        4
+      ],
+      "expected_B_degree_Dq": 4,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 120,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1883",
+      "n": 6,
+      "mask": 1883,
+      "hole": 1,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        6
+      ],
+      "expected_B_degree_Dq": 6,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1885",
+      "n": 6,
+      "mask": 1885,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 120,
+      "q_T_over_B": 1,
+      "J_vertices": 240,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        4
+      ],
+      "expected_B_degree_Dq": 4,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 120,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1885",
+      "n": 6,
+      "mask": 1885,
+      "hole": 1,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 40,
+      "q_T_over_B": 3,
+      "J_vertices": 160,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        9
+      ],
+      "expected_B_degree_Dq": 9,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 40,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1885",
+      "n": 6,
+      "mask": 1885,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        6
+      ],
+      "expected_B_degree_Dq": 6,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1887",
+      "n": 6,
+      "mask": 1887,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 120,
+      "q_T_over_B": 1,
+      "J_vertices": 240,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        5
+      ],
+      "expected_B_degree_Dq": 5,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 120,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1887",
+      "n": 6,
+      "mask": 1887,
+      "hole": 1,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        18
+      ],
+      "expected_B_degree_Dq": 18,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1887",
+      "n": 6,
+      "mask": 1887,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 30,
+      "q_T_over_B": 4,
+      "J_vertices": 150,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        12
+      ],
+      "expected_B_degree_Dq": 12,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 30,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1915",
+      "n": 6,
+      "mask": 1915,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        8
+      ],
+      "expected_B_degree_Dq": 8,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1916",
+      "n": 6,
+      "mask": 1916,
+      "hole": 0,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        6
+      ],
+      "expected_B_degree_Dq": 6,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1916",
+      "n": 6,
+      "mask": 1916,
+      "hole": 1,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 40,
+      "q_T_over_B": 3,
+      "J_vertices": 160,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        9
+      ],
+      "expected_B_degree_Dq": 9,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 40,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1916",
+      "n": 6,
+      "mask": 1916,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 30,
+      "q_T_over_B": 4,
+      "J_vertices": 150,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        12
+      ],
+      "expected_B_degree_Dq": 12,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 30,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1917",
+      "n": 6,
+      "mask": 1917,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        8
+      ],
+      "expected_B_degree_Dq": 8,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1917",
+      "n": 6,
+      "mask": 1917,
+      "hole": 1,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 40,
+      "q_T_over_B": 3,
+      "J_vertices": 160,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        12
+      ],
+      "expected_B_degree_Dq": 12,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 40,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1917",
+      "n": 6,
+      "mask": 1917,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        18
+      ],
+      "expected_B_degree_Dq": 18,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1917",
+      "n": 6,
+      "mask": 1917,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1919",
+      "n": 6,
+      "mask": 1919,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        10
+      ],
+      "expected_B_degree_Dq": 10,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1919",
+      "n": 6,
+      "mask": 1919,
+      "hole": 1,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        24
+      ],
+      "expected_B_degree_Dq": 24,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask1919",
+      "n": 6,
+      "mask": 1919,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2013",
+      "n": 6,
+      "mask": 2013,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 40,
+      "q_T_over_B": 3,
+      "J_vertices": 160,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        12
+      ],
+      "expected_B_degree_Dq": 12,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 40,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2013",
+      "n": 6,
+      "mask": 2013,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        18
+      ],
+      "expected_B_degree_Dq": 18,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2014",
+      "n": 6,
+      "mask": 2014,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 40,
+      "q_T_over_B": 3,
+      "J_vertices": 160,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        12
+      ],
+      "expected_B_degree_Dq": 12,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 40,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2014",
+      "n": 6,
+      "mask": 2014,
+      "hole": 1,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        18
+      ],
+      "expected_B_degree_Dq": 18,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2014",
+      "n": 6,
+      "mask": 2014,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 10,
+      "q_T_over_B": 12,
+      "J_vertices": 130,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        36
+      ],
+      "expected_B_degree_Dq": 36,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 10,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2014",
+      "n": 6,
+      "mask": 2014,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2015",
+      "n": 6,
+      "mask": 2015,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 40,
+      "q_T_over_B": 3,
+      "J_vertices": 160,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        15
+      ],
+      "expected_B_degree_Dq": 15,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 40,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2015",
+      "n": 6,
+      "mask": 2015,
+      "hole": 1,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        24
+      ],
+      "expected_B_degree_Dq": 24,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2015",
+      "n": 6,
+      "mask": 2015,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2015",
+      "n": 6,
+      "mask": 2015,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2046",
+      "n": 6,
+      "mask": 2046,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        24
+      ],
+      "expected_B_degree_Dq": 24,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2046",
+      "n": 6,
+      "mask": 2046,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 10,
+      "q_T_over_B": 12,
+      "J_vertices": 130,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        48
+      ],
+      "expected_B_degree_Dq": 48,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 10,
+      "same_T_side_pair_orbits_checked": 37,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2046",
+      "n": 6,
+      "mask": 2046,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2047",
+      "n": 6,
+      "mask": 2047,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        30
+      ],
+      "expected_B_degree_Dq": 30,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2047",
+      "n": 6,
+      "mask": 2047,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 37,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask2047",
+      "n": 6,
+      "mask": 2047,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask4061",
+      "n": 6,
+      "mask": 4061,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 10,
+      "q_T_over_B": 12,
+      "J_vertices": 130,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        48
+      ],
+      "expected_B_degree_Dq": 48,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 10,
+      "same_T_side_pair_orbits_checked": 27,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask4063",
+      "n": 6,
+      "mask": 4063,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 10,
+      "q_T_over_B": 12,
+      "J_vertices": 130,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        60
+      ],
+      "expected_B_degree_Dq": 60,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 10,
+      "same_T_side_pair_orbits_checked": 17,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask4063",
+      "n": 6,
+      "mask": 4063,
+      "hole": 1,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 27,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask4095",
+      "n": 6,
+      "mask": 4095,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        120
+      ],
+      "expected_B_degree_Dq": 120,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 17,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5941",
+      "n": 6,
+      "mask": 5941,
+      "hole": 0,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        6
+      ],
+      "expected_B_degree_Dq": 6,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5943",
+      "n": 6,
+      "mask": 5943,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        8
+      ],
+      "expected_B_degree_Dq": 8,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5943",
+      "n": 6,
+      "mask": 5943,
+      "hole": 1,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        18
+      ],
+      "expected_B_degree_Dq": 18,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5948",
+      "n": 6,
+      "mask": 5948,
+      "hole": 0,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        6
+      ],
+      "expected_B_degree_Dq": 6,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5948",
+      "n": 6,
+      "mask": 5948,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 30,
+      "q_T_over_B": 4,
+      "J_vertices": 150,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        12
+      ],
+      "expected_B_degree_Dq": 12,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 30,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5949",
+      "n": 6,
+      "mask": 5949,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        8
+      ],
+      "expected_B_degree_Dq": 8,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5949",
+      "n": 6,
+      "mask": 5949,
+      "hole": 1,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        18
+      ],
+      "expected_B_degree_Dq": 18,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5949",
+      "n": 6,
+      "mask": 5949,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 30,
+      "q_T_over_B": 4,
+      "J_vertices": 150,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        12
+      ],
+      "expected_B_degree_Dq": 12,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 30,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5949",
+      "n": 6,
+      "mask": 5949,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5950",
+      "n": 6,
+      "mask": 5950,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        8
+      ],
+      "expected_B_degree_Dq": 8,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5950",
+      "n": 6,
+      "mask": 5950,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5951",
+      "n": 6,
+      "mask": 5951,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 60,
+      "q_T_over_B": 2,
+      "J_vertices": 180,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        10
+      ],
+      "expected_B_degree_Dq": 10,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5951",
+      "n": 6,
+      "mask": 5951,
+      "hole": 1,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        18
+      ],
+      "expected_B_degree_Dq": 18,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5951",
+      "n": 6,
+      "mask": 5951,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 30,
+      "q_T_over_B": 4,
+      "J_vertices": 150,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        16
+      ],
+      "expected_B_degree_Dq": 16,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 30,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask5951",
+      "n": 6,
+      "mask": 5951,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6007",
+      "n": 6,
+      "mask": 6007,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        24
+      ],
+      "expected_B_degree_Dq": 24,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6010",
+      "n": 6,
+      "mask": 6010,
+      "hole": 0,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        18
+      ],
+      "expected_B_degree_Dq": 18,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6010",
+      "n": 6,
+      "mask": 6010,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 30,
+      "q_T_over_B": 4,
+      "J_vertices": 150,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        16
+      ],
+      "expected_B_degree_Dq": 16,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 30,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6010",
+      "n": 6,
+      "mask": 6010,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6011",
+      "n": 6,
+      "mask": 6011,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        24
+      ],
+      "expected_B_degree_Dq": 24,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6011",
+      "n": 6,
+      "mask": 6011,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6011",
+      "n": 6,
+      "mask": 6011,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6014",
+      "n": 6,
+      "mask": 6014,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        24
+      ],
+      "expected_B_degree_Dq": 24,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6014",
+      "n": 6,
+      "mask": 6014,
+      "hole": 1,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        18
+      ],
+      "expected_B_degree_Dq": 18,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6014",
+      "n": 6,
+      "mask": 6014,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6014",
+      "n": 6,
+      "mask": 6014,
+      "hole": 4,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6015",
+      "n": 6,
+      "mask": 6015,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        30
+      ],
+      "expected_B_degree_Dq": 30,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6015",
+      "n": 6,
+      "mask": 6015,
+      "hole": 1,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        24
+      ],
+      "expected_B_degree_Dq": 24,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6015",
+      "n": 6,
+      "mask": 6015,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6015",
+      "n": 6,
+      "mask": 6015,
+      "hole": 4,
+      "hole_degree_D": 3,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 360,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6142",
+      "n": 6,
+      "mask": 6142,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        24
+      ],
+      "expected_B_degree_Dq": 24,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 27,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6142",
+      "n": 6,
+      "mask": 6142,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 37,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6143",
+      "n": 6,
+      "mask": 6143,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 20,
+      "q_T_over_B": 6,
+      "J_vertices": 140,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        30
+      ],
+      "expected_B_degree_Dq": 30,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 20,
+      "same_T_side_pair_orbits_checked": 27,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6143",
+      "n": 6,
+      "mask": 6143,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 37,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6654",
+      "n": 6,
+      "mask": 6654,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 30,
+      "q_T_over_B": 4,
+      "J_vertices": 150,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        16
+      ],
+      "expected_B_degree_Dq": 16,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 30,
+      "same_T_side_pair_orbits_checked": 21,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask6655",
+      "n": 6,
+      "mask": 6655,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 30,
+      "q_T_over_B": 4,
+      "J_vertices": 150,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        20
+      ],
+      "expected_B_degree_Dq": 20,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 30,
+      "same_T_side_pair_orbits_checked": 21,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask7071",
+      "n": 6,
+      "mask": 7071,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 30,
+      "q_T_over_B": 4,
+      "J_vertices": 150,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        20
+      ],
+      "expected_B_degree_Dq": 20,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 30,
+      "same_T_side_pair_orbits_checked": 17,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask7101",
+      "n": 6,
+      "mask": 7101,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask7103",
+      "n": 6,
+      "mask": 7103,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        120
+      ],
+      "expected_B_degree_Dq": 120,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask7103",
+      "n": 6,
+      "mask": 7103,
+      "hole": 1,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask7166",
+      "n": 6,
+      "mask": 7166,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask7166",
+      "n": 6,
+      "mask": 7166,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask7167",
+      "n": 6,
+      "mask": 7167,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        120
+      ],
+      "expected_B_degree_Dq": 120,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 63,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask7167",
+      "n": 6,
+      "mask": 7167,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask8157",
+      "n": 6,
+      "mask": 8157,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask8159",
+      "n": 6,
+      "mask": 8159,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        120
+      ],
+      "expected_B_degree_Dq": 120,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 37,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask8159",
+      "n": 6,
+      "mask": 8159,
+      "hole": 1,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask8159",
+      "n": 6,
+      "mask": 8159,
+      "hole": 3,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 65,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask8191",
+      "n": 6,
+      "mask": 8191,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        120
+      ],
+      "expected_B_degree_Dq": 120,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 37,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask8191",
+      "n": 6,
+      "mask": 8191,
+      "hole": 3,
+      "hole_degree_D": 4,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 480,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 27,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask15871",
+      "n": 6,
+      "mask": 15871,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        120
+      ],
+      "expected_B_degree_Dq": 120,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 21,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "all_n6_mask16383",
+      "n": 6,
+      "mask": 16383,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 120,
+      "B_vertices": 5,
+      "q_T_over_B": 24,
+      "J_vertices": 125,
+      "J_edges": 600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        120
+      ],
+      "expected_B_degree_Dq": 120,
+      "leaf_relabel_T_orbit_size": 120,
+      "leaf_relabel_B_orbit_size": 5,
+      "same_T_side_pair_orbits_checked": 17,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "wheel_W7",
+      "n": 7,
+      "mask": 1346687,
+      "hole": 0,
+      "hole_degree_D": 6,
+      "T_vertices": 720,
+      "B_vertices": 144,
+      "q_T_over_B": 5,
+      "J_vertices": 864,
+      "J_edges": 4320,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        6
+      ],
+      "B_degree_set": [
+        30
+      ],
+      "expected_B_degree_Dq": 30,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 144,
+      "same_T_side_pair_orbits_checked": 83,
+      "minimum_local_connectivity_seen": 6,
+      "counterexample": null
+    },
+    {
+      "name": "wheel_W7_minus_one_spoke_plus_rim_chord",
+      "n": 7,
+      "mask": 1346814,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 720,
+      "B_vertices": 6,
+      "q_T_over_B": 120,
+      "J_vertices": 726,
+      "J_edges": 3600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        600
+      ],
+      "expected_B_degree_Dq": 600,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 719,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "wheel_W7_minus_one_spoke_plus_rim_chord",
+      "n": 7,
+      "mask": 1346814,
+      "hole": 3,
+      "hole_degree_D": 4,
+      "T_vertices": 720,
+      "B_vertices": 6,
+      "q_T_over_B": 120,
+      "J_vertices": 726,
+      "J_edges": 2880,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        480
+      ],
+      "expected_B_degree_Dq": 480,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 719,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "K2_join_I5",
+      "n": 7,
+      "mask": 2047,
+      "hole": 0,
+      "hole_degree_D": 6,
+      "T_vertices": 720,
+      "B_vertices": 720,
+      "q_T_over_B": 1,
+      "J_vertices": 1440,
+      "J_edges": 4320,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        6
+      ],
+      "B_degree_set": [
+        6
+      ],
+      "expected_B_degree_Dq": 6,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 720,
+      "same_T_side_pair_orbits_checked": 18,
+      "minimum_local_connectivity_seen": 6,
+      "counterexample": null
+    },
+    {
+      "name": "K2_5_plus_edge_in_size5_part",
+      "n": 7,
+      "mask": 4094,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 720,
+      "B_vertices": 360,
+      "q_T_over_B": 2,
+      "J_vertices": 1080,
+      "J_edges": 3600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        10
+      ],
+      "expected_B_degree_Dq": 10,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 360,
+      "same_T_side_pair_orbits_checked": 83,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "K2_5_plus_edge_in_size5_part",
+      "n": 7,
+      "mask": 4094,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 720,
+      "B_vertices": 12,
+      "q_T_over_B": 60,
+      "J_vertices": 732,
+      "J_edges": 2160,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        180
+      ],
+      "expected_B_degree_Dq": 180,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 12,
+      "same_T_side_pair_orbits_checked": 83,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "K3_join_I4",
+      "n": 7,
+      "mask": 32767,
+      "hole": 0,
+      "hole_degree_D": 6,
+      "T_vertices": 720,
+      "B_vertices": 6,
+      "q_T_over_B": 120,
+      "J_vertices": 726,
+      "J_edges": 4320,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        6
+      ],
+      "B_degree_set": [
+        720
+      ],
+      "expected_B_degree_Dq": 720,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 33,
+      "minimum_local_connectivity_seen": 6,
+      "counterexample": null
+    },
+    {
+      "name": "K4_join_I3",
+      "n": 7,
+      "mask": 262143,
+      "hole": 0,
+      "hole_degree_D": 6,
+      "T_vertices": 720,
+      "B_vertices": 6,
+      "q_T_over_B": 120,
+      "J_vertices": 726,
+      "J_edges": 4320,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        6
+      ],
+      "B_degree_set": [
+        720
+      ],
+      "expected_B_degree_Dq": 720,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 37,
+      "minimum_local_connectivity_seen": 6,
+      "counterexample": null
+    },
+    {
+      "name": "complete_tripartite_2_2_3",
+      "n": 7,
+      "mask": 260094,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 720,
+      "B_vertices": 6,
+      "q_T_over_B": 120,
+      "J_vertices": 726,
+      "J_edges": 3600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        600
+      ],
+      "expected_B_degree_Dq": 600,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 83,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "two_cliques_K4_K5_overlap_K2",
+      "n": 7,
+      "mask": 1839103,
+      "hole": 0,
+      "hole_degree_D": 6,
+      "T_vertices": 720,
+      "B_vertices": 60,
+      "q_T_over_B": 12,
+      "J_vertices": 780,
+      "J_edges": 4320,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        6
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 83,
+      "minimum_local_connectivity_seen": 6,
+      "counterexample": null
+    },
+    {
+      "name": "two_cliques_K4_K5_overlap_K2",
+      "n": 7,
+      "mask": 1839103,
+      "hole": 4,
+      "hole_degree_D": 4,
+      "T_vertices": 720,
+      "B_vertices": 6,
+      "q_T_over_B": 120,
+      "J_vertices": 726,
+      "J_edges": 2880,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        480
+      ],
+      "expected_B_degree_Dq": 480,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 119,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "two_K4_overlap_edge_plus_cross_chord",
+      "n": 7,
+      "mask": 871391,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 720,
+      "B_vertices": 6,
+      "q_T_over_B": 120,
+      "J_vertices": 726,
+      "J_edges": 3600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        600
+      ],
+      "expected_B_degree_Dq": 600,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 367,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "two_K4_overlap_edge_plus_cross_chord",
+      "n": 7,
+      "mask": 871391,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 720,
+      "B_vertices": 30,
+      "q_T_over_B": 24,
+      "J_vertices": 750,
+      "J_edges": 2880,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        96
+      ],
+      "expected_B_degree_Dq": 96,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 30,
+      "same_T_side_pair_orbits_checked": 383,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "two_K4_overlap_edge_plus_cross_chord",
+      "n": 7,
+      "mask": 871391,
+      "hole": 3,
+      "hole_degree_D": 4,
+      "T_vertices": 720,
+      "B_vertices": 6,
+      "q_T_over_B": 120,
+      "J_vertices": 726,
+      "J_edges": 2880,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        480
+      ],
+      "expected_B_degree_Dq": 480,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 383,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "C7_plus_chord_02",
+      "n": 7,
+      "mask": 1345635,
+      "hole": 0,
+      "hole_degree_D": 3,
+      "T_vertices": 720,
+      "B_vertices": 720,
+      "q_T_over_B": 1,
+      "J_vertices": 1440,
+      "J_edges": 2160,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        3
+      ],
+      "expected_B_degree_Dq": 3,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 720,
+      "same_T_side_pair_orbits_checked": 719,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "C7_plus_chords_02_03",
+      "n": 7,
+      "mask": 1345639,
+      "hole": 0,
+      "hole_degree_D": 4,
+      "T_vertices": 720,
+      "B_vertices": 720,
+      "q_T_over_B": 1,
+      "J_vertices": 1440,
+      "J_edges": 2880,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        4
+      ],
+      "expected_B_degree_Dq": 4,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 720,
+      "same_T_side_pair_orbits_checked": 719,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "C7_plus_chords_02_03",
+      "n": 7,
+      "mask": 1345639,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 720,
+      "B_vertices": 180,
+      "q_T_over_B": 4,
+      "J_vertices": 900,
+      "J_edges": 2160,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        12
+      ],
+      "expected_B_degree_Dq": 12,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 180,
+      "same_T_side_pair_orbits_checked": 719,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "C7_plus_chords_02_03",
+      "n": 7,
+      "mask": 1345639,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 720,
+      "B_vertices": 360,
+      "q_T_over_B": 2,
+      "J_vertices": 1080,
+      "J_edges": 2160,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        6
+      ],
+      "expected_B_degree_Dq": 6,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 360,
+      "same_T_side_pair_orbits_checked": 719,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "C7_plus_chords_02_24_46",
+      "n": 7,
+      "mask": 1874019,
+      "hole": 0,
+      "hole_degree_D": 3,
+      "T_vertices": 720,
+      "B_vertices": 180,
+      "q_T_over_B": 4,
+      "J_vertices": 900,
+      "J_edges": 2160,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        12
+      ],
+      "expected_B_degree_Dq": 12,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 180,
+      "same_T_side_pair_orbits_checked": 719,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "C7_plus_chords_02_24_46",
+      "n": 7,
+      "mask": 1874019,
+      "hole": 2,
+      "hole_degree_D": 4,
+      "T_vertices": 720,
+      "B_vertices": 360,
+      "q_T_over_B": 2,
+      "J_vertices": 1080,
+      "J_edges": 2880,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        4
+      ],
+      "B_degree_set": [
+        8
+      ],
+      "expected_B_degree_Dq": 8,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 360,
+      "same_T_side_pair_orbits_checked": 719,
+      "minimum_local_connectivity_seen": 4,
+      "counterexample": null
+    },
+    {
+      "name": "C7_triangulated_fan",
+      "n": 7,
+      "mask": 1345663,
+      "hole": 0,
+      "hole_degree_D": 6,
+      "T_vertices": 720,
+      "B_vertices": 720,
+      "q_T_over_B": 1,
+      "J_vertices": 1440,
+      "J_edges": 4320,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        6
+      ],
+      "B_degree_set": [
+        6
+      ],
+      "expected_B_degree_Dq": 6,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 720,
+      "same_T_side_pair_orbits_checked": 383,
+      "minimum_local_connectivity_seen": 6,
+      "counterexample": null
+    },
+    {
+      "name": "C7_triangulated_fan",
+      "n": 7,
+      "mask": 1345663,
+      "hole": 2,
+      "hole_degree_D": 3,
+      "T_vertices": 720,
+      "B_vertices": 30,
+      "q_T_over_B": 24,
+      "J_vertices": 750,
+      "J_edges": 2160,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        72
+      ],
+      "expected_B_degree_Dq": 72,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 30,
+      "same_T_side_pair_orbits_checked": 719,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "C7_triangulated_fan",
+      "n": 7,
+      "mask": 1345663,
+      "hole": 3,
+      "hole_degree_D": 3,
+      "T_vertices": 720,
+      "B_vertices": 60,
+      "q_T_over_B": 12,
+      "J_vertices": 780,
+      "J_edges": 2160,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        36
+      ],
+      "expected_B_degree_Dq": 36,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 60,
+      "same_T_side_pair_orbits_checked": 719,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "K4_three_incident_edges_subdivided",
+      "n": 7,
+      "mask": 141816,
+      "hole": 0,
+      "hole_degree_D": 3,
+      "T_vertices": 720,
+      "B_vertices": 360,
+      "q_T_over_B": 2,
+      "J_vertices": 1080,
+      "J_edges": 2160,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        6
+      ],
+      "expected_B_degree_Dq": 6,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 360,
+      "same_T_side_pair_orbits_checked": 133,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "K4_three_incident_edges_subdivided",
+      "n": 7,
+      "mask": 141816,
+      "hole": 1,
+      "hole_degree_D": 3,
+      "T_vertices": 720,
+      "B_vertices": 180,
+      "q_T_over_B": 4,
+      "J_vertices": 900,
+      "J_edges": 2160,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        3
+      ],
+      "B_degree_set": [
+        12
+      ],
+      "expected_B_degree_Dq": 12,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 180,
+      "same_T_side_pair_orbits_checked": 367,
+      "minimum_local_connectivity_seen": 3,
+      "counterexample": null
+    },
+    {
+      "name": "K7_minus_edge",
+      "n": 7,
+      "mask": 2097150,
+      "hole": 2,
+      "hole_degree_D": 6,
+      "T_vertices": 720,
+      "B_vertices": 6,
+      "q_T_over_B": 120,
+      "J_vertices": 726,
+      "J_edges": 4320,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        6
+      ],
+      "B_degree_set": [
+        720
+      ],
+      "expected_B_degree_Dq": 720,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 33,
+      "minimum_local_connectivity_seen": 6,
+      "counterexample": null
+    },
+    {
+      "name": "K7_minus_matching2",
+      "n": 7,
+      "mask": 2095102,
+      "hole": 4,
+      "hole_degree_D": 6,
+      "T_vertices": 720,
+      "B_vertices": 6,
+      "q_T_over_B": 120,
+      "J_vertices": 726,
+      "J_edges": 4320,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        6
+      ],
+      "B_degree_set": [
+        720
+      ],
+      "expected_B_degree_Dq": 720,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 69,
+      "minimum_local_connectivity_seen": 6,
+      "counterexample": null
+    },
+    {
+      "name": "K7_minus_path2",
+      "n": 7,
+      "mask": 2097086,
+      "hole": 0,
+      "hole_degree_D": 5,
+      "T_vertices": 720,
+      "B_vertices": 6,
+      "q_T_over_B": 120,
+      "J_vertices": 726,
+      "J_edges": 3600,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        5
+      ],
+      "B_degree_set": [
+        600
+      ],
+      "expected_B_degree_Dq": 600,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 51,
+      "minimum_local_connectivity_seen": 5,
+      "counterexample": null
+    },
+    {
+      "name": "K7_minus_path2",
+      "n": 7,
+      "mask": 2097086,
+      "hole": 3,
+      "hole_degree_D": 6,
+      "T_vertices": 720,
+      "B_vertices": 6,
+      "q_T_over_B": 120,
+      "J_vertices": 726,
+      "J_edges": 4320,
+      "contraction_parallel_edge_collisions": 0,
+      "T_degree_set": [
+        6
+      ],
+      "B_degree_set": [
+        720
+      ],
+      "expected_B_degree_Dq": 720,
+      "leaf_relabel_T_orbit_size": 720,
+      "leaf_relabel_B_orbit_size": 6,
+      "same_T_side_pair_orbits_checked": 83,
+      "minimum_local_connectivity_seen": 6,
+      "counterexample": null
+    }
+  ],
+  "row_count": 145,
+  "violations": []
+}

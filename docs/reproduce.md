@@ -40,3 +40,10 @@ dependencies and numerical tolerances.
 - [partition-matrix-bijection](../cases/partition-matrix-bijection/extension/verification.md)
 - [partition-matrix-q-sum-product](../cases/partition-matrix-q-sum-product/extension/verification.md)
 - [steklov-three-leaf-extra-special-extremizer](../cases/steklov-three-leaf-extra-special-extremizer/extension/verification.md)
+
+
+## New case submissions
+
+- [Subgroup normality and Cayley integrality](../cases/subgroup-cayley-integrality/verification.md)
+- [Local connectivity of star friends-and-strangers graphs](../cases/star-friends-and-strangers-local-connectivity/verification.md)
+- [A distinct-shape Hadamard dual Jacobi--Trudi counterexample](../cases/dual-jacobi-trudi-hadamard-counterexample/verification.md)

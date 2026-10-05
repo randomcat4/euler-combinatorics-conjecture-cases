@@ -42,3 +42,10 @@ with their earlier restricted results retained as historical records.
 All repository-authored proofs and code are MIT licensed, with research-credit
 and priority claims waived. The [review record](provenance.md) identifies the
 LLM re-review, initial human review, and counterexample-specialist invitations.
+
+
+## Newly reviewed cases
+
+- [Subgroup normality and Cayley integrality](../cases/subgroup-cayley-integrality/): For every finite group G of order at least five and every proper nontrivial subgroup H, Gamma_H(G) is integral if and only if H is normal. Independent model and maintainer review are complete.
+- [Local connectivity of star friends-and-strangers graphs](../cases/star-friends-and-strangers-local-connectivity/): Every connected FS(X,Star_n) and every pair of distinct configurations have exactly the minimum endpoint degree internally vertex-disjoint paths, including adjacent endpoints. Independent model and maintainer review are complete.
+- [A distinct-shape Hadamard dual Jacobi--Trudi counterexample](../cases/dual-jacobi-trudi-hadamard-counterexample/): Conjecture 1.2 is refuted by the order-three determinant for (18,18,15)/(2,0,0) and (20,18,18)/(2,2,0); the specified ordinary monomial coefficient is negative. Same-shape Conjecture 1.1 is not settled. Independent model and maintainer review are complete.

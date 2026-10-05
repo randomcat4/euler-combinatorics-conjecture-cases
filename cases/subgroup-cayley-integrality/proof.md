@@ -1,0 +1,294 @@
+# Integrality of $\Gamma_H(G)$ forces $H$ to be normal
+
+## Statement and source problem
+
+Let $G$ be a finite group of order $n\geq 5$, and let $H$ be a
+proper, nontrivial subgroup of $G$. Following Definition 1.4 and the Section 2 subgroup convention of Poddar,
+Biswas, and Das, set
+$$
+ S_H=\{(g,1),(1,g),(g,g):g\in G\setminus H\}
+$$
+and
+$$
+ \Gamma_H(G)=\operatorname{Cay}(G\times G,S_H).
+$$
+Thus the vertices are the elements of $G\times G$, and distinct vertices
+$u,v$ are adjacent precisely when $uv^{-1}\in S_H$.
+
+The source proves in Theorem 3.1 that $H\lhd G$ implies that
+$\Gamma_H(G)$ is integral. Its first bullet in Section 6, “Conclusion and
+Open Issues,” asks whether normality is also necessary. That bullet is
+unnumbered in the source; it is not assigned a conjecture number.
+
+Integral means that every adjacency eigenvalue is an integer. We prove the converse.
+
+**Theorem.** The graph $\Gamma_H(G)$ is integral if and only if
+$H\lhd G$.
+
+## Proof idea
+
+Assume that $H$ is not normal. The permutation representation of $G$ on
+the cosets $G/H$ must then contain an irreducible representation
+$(\rho,V)$ whose $H$-fixed subspace is neither zero nor all of $V$.
+This representation detects the failure of normality.
+
+The adjacency operator of a Cayley graph splits into blocks indexed by the
+irreducible representations of the underlying group. We use the block
+$\rho\otimes\rho^*$ of $G\times G$. After identifying
+$V\otimes V^*$ with $\operatorname{End}(V)$, that block preserves the
+two-dimensional space spanned by the orthogonal projection onto $V^H$
+and its complementary projection. The characteristic polynomial on this
+plane has a discriminant equal to a rational square factor times a positive
+nonsquare integer. It therefore contributes two irrational adjacency
+eigenvalues.
+
+## 1. An irreducible representation detecting nonnormality
+
+We prove the contrapositive, so suppose that $H$ is not normal. Use the
+source notation
+$$
+ n=|G|,\qquad k=|H|,\qquad \ell=[G:H],
+$$
+so that $n=k\ell$.
+
+Consider the complex permutation module on the left cosets,
+$$
+ \mathbb C[G/H]=\operatorname{Ind}_H^G(\mathbf 1_H).
+$$
+For $(\sigma,W)\in\operatorname{IRR}(G)$, Frobenius reciprocity says that
+the multiplicity of $\sigma$ in this module is
+$$
+ \dim W^H.
+$$
+Suppose that every irreducible constituent of $\mathbb C[G/H]$ were
+fixed pointwise by $H$. Then $H$ would act trivially on the entire
+permutation module and hence on every coset. Thus, for all $a\in H$ and
+$g\in G$,
+$$
+ agH=gH.
+$$
+Equivalently, $g^{-1}ag\in H$. It would follow that
+$g^{-1}Hg\subseteq H$; equality of orders would give
+$g^{-1}Hg=H$ for every $g$, contrary to the nonnormality of $H$.
+
+Consequently there is an irreducible representation
+$(\rho,V)\in\operatorname{IRR}(G)$ for which
+$$
+ 0<r:=\dim V^H<d:=\deg(\rho)=\dim V. \tag{1}
+$$
+In particular, $\rho$ is nontrivial and $d\geq2$.
+
+Taking dimensions in the irreducible decomposition of
+$\mathbb C[G/H]$ gives
+$$
+ \ell=\sum_{(\sigma,W)\in\operatorname{IRR}(G)}
+       (\dim W)(\dim W^H).
+$$
+The trivial representation contributes $1$, while the chosen
+representation contributes $dr$. Every other term is nonnegative, so
+$$
+ dr\leq \ell-1,\qquad\text{hence}\qquad \ell\geq dr+1. \tag{2}
+$$
+
+Choose a $G$-invariant Hermitian inner product on $V$, making $\rho$
+unitary. In the source notation for sums of representation matrices, put
+$$
+ P=P_H:=\frac{1}{k}\rho(H)
+       =\frac{1}{k}\sum_{a\in H}\rho(a),
+ \qquad Q=I-P.
+$$
+Then $P$ is the orthogonal projection onto $V^H$, and therefore
+$$
+ P^2=P=P^*,\qquad \operatorname{Tr}(P)=r. \tag{3}
+$$
+By (1), both $P$ and $Q$ are nonzero.
+
+## 2. A two-dimensional adjacency block
+
+The contragredient (dual) representation $\rho^*$ is irreducible, so
+$$
+ \Omega:=\rho\otimes\rho^*\in\operatorname{IRR}(G\times G).
+$$
+Identify $V\otimes V^*$ with $\operatorname{End}(V)$. Under this
+identification,
+$$
+ \Omega(a,b)X=\rho(a)X\rho(b)^{-1}
+ \qquad(a,b\in G,\ X\in\operatorname{End}(V)). \tag{4}
+$$
+
+The regular representation of $G\times G$ contains every irreducible
+representation. Hence the adjacency matrix of $\Gamma_H(G)$ contains the
+Fourier block
+$$
+ B:=\Omega(S_H)=\sum_{s\in S_H}\Omega(s).
+$$
+Explicitly,
+$$
+ B(X)=\sum_{g\in G\setminus H}
+ \bigl(\rho(g)X+X\rho(g)^{-1}+\rho(g)X\rho(g)^{-1}\bigr). \tag{5}
+$$
+Every eigenvalue of $B$ is therefore an adjacency eigenvalue of
+$\Gamma_H(G)$.
+
+We now evaluate $B$ on $P$ and $Q$. Since $\rho$ is nontrivial and
+irreducible,
+$$
+ \sum_{g\in G}\rho(g)=0. \tag{6}
+$$
+Schur averaging on $\operatorname{End}(V)$ gives
+$$
+ \sum_{g\in G}\rho(g)X\rho(g)^{-1}
+   =\frac{n}{d}\operatorname{Tr}(X)I. \tag{7}
+$$
+Also, inversion permutes both $H$ and $G\setminus H$, so
+$$
+ \sum_{g\in G\setminus H}\rho(g)
+ =\sum_{g\in G\setminus H}\rho(g)^{-1}
+ =-kP. \tag{8}
+$$
+Finally, $P$ and $Q$ commute with every $\rho(a)$, $a\in H$.
+Subtracting the $H$-conjugation average from (7) and using (8) in (5)
+yields
+$$
+ B(P)=\left(\frac{nr}{d}-3k\right)P+\frac{nr}{d}Q, \tag{9}
+$$
+and
+$$
+ B(Q)=\frac{n(d-r)}{d}P+
+       \left(\frac{n(d-r)}{d}-k\right)Q. \tag{10}
+$$
+
+Thus $\langle P,Q\rangle$ is a two-dimensional $B$-invariant subspace.
+Set
+$$
+ \alpha=\frac{nr}{d},\qquad
+ \beta=\frac{n(d-r)}{d}.
+$$
+In the ordered basis $(P,Q)$, the restricted operator has matrix
+$$
+ \begin{pmatrix}
+   \alpha-3k & \beta\\
+   \alpha    & \beta-k
+ \end{pmatrix}. \tag{11}
+$$
+Its trace and determinant are
+$$
+ \operatorname{Tr}=n-4k,\qquad
+ \det=3k^2-3nk+\frac{2nkr}{d}. \tag{12}
+$$
+Its discriminant is therefore
+$$
+ \begin{aligned}
+ \Delta
+   &=(n-4k)^2
+     -4\left(3k^2-3nk+\frac{2nkr}{d}\right)\\
+   &=(n+2k)^2-\frac{8nkr}{d}\\
+   &=\left(\frac{k}{d}\right)^2 M,
+ \end{aligned} \tag{13}
+$$
+where, since $n=k\ell$,
+$$
+ M=d^2(\ell+2)^2-8\ell dr. \tag{14}
+$$
+
+## 3. The integer $M$ is not a square
+
+Define
+$$
+ N=d(\ell+2)-4r.
+$$
+A direct expansion of (14) gives
+$$
+ M=N^2+16r(d-r). \tag{15}
+$$
+By (1), $M>N^2$. Moreover, (2) implies
+$$
+ N\geq d(dr+3)-4r
+   =r(d^2-4)+3d>0. \tag{16}
+$$
+
+Except at two smallest parameter triples, $M$ lies strictly between
+$N^2$ and $(N+1)^2$; the two exceptions will be bracketed separately.
+For the general cases, the relevant gap is
+$$
+ (N+1)^2-M
+   =2d(\ell+2)-8r+1-16r(d-r). \tag{17}
+$$
+For fixed $d,r$, this expression increases by $2d$ when $\ell$
+increases by $1$. At the smallest value allowed by (2),
+$\ell=dr+1$, it becomes
+$$
+ F(d,r)=2rd(d-8)+16r^2-8r+6d+1. \tag{18}
+$$
+
+For $d\geq8$, all three terms
+$$
+ 2rd(d-8),\qquad 16r^2-8r,\qquad 6d+1
+$$
+are nonnegative, and the last two are positive. For $4\leq d\leq7$, the
+same positivity follows from the following forms:
+
+| $d$ | $F(d,r)$ |
+|---:|:---|
+| $4$ | $(4r-5)^2$ |
+| $5$ | $16(r-1)^2-6(r-1)+9$ |
+| $6$ | $16(r-1)^2+21$ |
+| $7$ | $16(r-1)^2+10(r-1)+37$ |
+
+For $d=5$, put $t=r-1\geq0$. At $t=0$ the expression is 9; at integer $t\geq1$, $16t^2-6t+9\geq10t+9>0$. These expressions are positive for every integer $1\leq r\leq d-1$.
+The remaining case $d=3,r=2$ gives $F(3,2)=7>0$. In all these cases,
+(15), (17), and (18) imply
+$$
+ N^2<M<(N+1)^2. \tag{19}
+$$
+
+There are only two exceptional smallest triples.
+
+- If $(d,r,\ell)=(3,1,4)$, then $N=14$ and $M=228$, so
+  $$
+  15^2=225<228<256=16^2.
+  $$
+  For every $\ell\geq5$, the expression in (17) is $-3+6(\ell-4)>0$.
+- If $(d,r,\ell)=(2,1,3)$, then $N=6$ and $M=52$, so
+  $$
+  7^2=49<52<64=8^2.
+  $$
+  For every $\ell\geq4$, the expression in (17) is $-3+4(\ell-3)>0$.
+
+This exhausts $d\geq2$ and $1\leq r\leq d-1$. Hence $M$ is a positive
+integer that is not an integer square. An integer that is a square in
+$\mathbb Q$ is already an integer square, so $\sqrt M\notin\mathbb Q$.
+
+## 4. Irrational adjacency eigenvalues
+
+By (12)--(14), the two eigenvalues of the restriction (11) are
+$$
+ \lambda_\pm
+  =\frac{n-4k\pm (k/d)\sqrt M}{2}. \tag{20}
+$$
+Both are irrational. Since this restriction belongs to the genuine
+$\Omega=\rho\otimes\rho^*$ adjacency block, both eigenvalues occur in
+$sp(\Gamma_H(G))$. Thus $\Gamma_H(G)$ is not integral whenever
+$H$ is not normal.
+
+This proves the contrapositive: if $\Gamma_H(G)$ is integral, then
+$H\lhd G$. Together with Theorem 3.1 of the source, the equivalence follows.
+$\square$
+
+## Dependencies and scope
+
+The proof uses complete reducibility for finite groups over $\mathbb C$,
+Frobenius reciprocity, unitary realization of finite-group
+representations, the irreducibility of tensor products for direct products,
+the regular-representation decomposition of a Cayley adjacency operator,
+and Schur averaging. It uses no classification of finite groups and no
+finite enumeration. The assumptions on $G$, $H$, and $\Gamma_H(G)$
+are those in Definition 1.4, the subgroup convention of Section 2, and the first open issue of Section 6.
+
+## Source
+
+S. Poddar, S. Biswas, and A. Das, “An integral family of quasi-strongly
+regular Cayley graphs,” [arXiv:2511.14496v1](https://arxiv.org/abs/2511.14496v1).
+The graph $\Gamma_H(G)$ is Definition 1.4, the implication
+$H\lhd G\Rightarrow\Gamma_H(G)$ integral is Theorem 3.1, and the converse
+proved above is the first unnumbered open issue in Section 6.
