@@ -1,0 +1,7 @@
+{
+  "scope": "all connected labelled simple graphs on 2..5 vertices, all endpoint pairs",
+  "connected_graphs": 771,
+  "pairs": 7521,
+  "adjacent_pairs": 4294,
+  "status": "all node-split values equal brute-force vertex-cut values"
+}

@@ -303,6 +303,51 @@
       "license": "MIT",
       "priority_claim": "WAIVED",
       "research_credit_claim": "WAIVED"
+    },
+    "subgroup-cayley-integrality": {
+      "result": "COMPLETE_SOLUTION",
+      "scope": "For every finite group G of order at least five and every proper nontrivial subgroup H, Gamma_H(G) is integral if and only if H is normal",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "verification_kind": "INDEPENDENT_MODEL_REVIEW",
+      "novelty": "NOT_ESTABLISHED",
+      "human_review": "COMPLETED_MAINTAINER_REVIEW",
+      "release_status": "READY_FOR_MERGE",
+      "generation": "EULER_AUTONOMOUS_END_TO_END",
+      "formalization": "LEAN_PARTIALLY_CHECKED_INTEGER_LEMMAS",
+      "proof_pdf": "cases/subgroup-cayley-integrality/paper/main.pdf",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
+    },
+    "star-friends-and-strangers-local-connectivity": {
+      "result": "COMPLETE_SOLUTION",
+      "scope": "Every connected FS(X,Star_n) and every pair of distinct configurations have exactly the minimum endpoint degree internally vertex-disjoint paths, including adjacent endpoints",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "verification_kind": "INDEPENDENT_MODEL_REVIEW",
+      "novelty": "NOT_ESTABLISHED",
+      "human_review": "COMPLETED_MAINTAINER_REVIEW",
+      "release_status": "READY_FOR_MERGE",
+      "generation": "EULER_AUTONOMOUS_END_TO_END",
+      "formalization": "NOT_ESTABLISHED",
+      "proof_pdf": "cases/star-friends-and-strangers-local-connectivity/paper/main.pdf",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
+    },
+    "dual-jacobi-trudi-hadamard-counterexample": {
+      "result": "COUNTEREXAMPLE",
+      "scope": "Conjecture 1.2 is refuted by the order-three determinant for (18,18,15)/(2,0,0) and (20,18,18)/(2,2,0); the specified ordinary monomial coefficient is negative. Same-shape Conjecture 1.1 is not settled",
+      "verification": "INDEPENDENTLY_VERIFIED",
+      "verification_kind": "INDEPENDENT_MODEL_REVIEW",
+      "novelty": "NOT_ESTABLISHED",
+      "human_review": "COMPLETED_MAINTAINER_REVIEW",
+      "release_status": "READY_FOR_MERGE",
+      "generation": "EULER_AUTONOMOUS_END_TO_END",
+      "formalization": "NOT_ESTABLISHED",
+      "proof_pdf": "cases/dual-jacobi-trudi-hadamard-counterexample/paper/main.pdf",
+      "license": "MIT",
+      "priority_claim": "WAIVED",
+      "research_credit_claim": "WAIVED"
     }
   },
   "external_releases": {
@@ -315,6 +360,7 @@
     }
   },
   "release_policy": {
+    "scope": "Review and generation history of previously merged cases; new submissions use their case-specific records",
     "generation": "EULER_AUTONOMOUS_END_TO_END",
     "license": "MIT",
     "research_credit_claim": "WAIVED",

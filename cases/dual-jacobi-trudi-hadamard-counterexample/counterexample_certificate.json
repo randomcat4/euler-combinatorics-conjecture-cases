@@ -1,0 +1,166 @@
+{
+  "arithmetic": "exact Python integers only",
+  "certificate_sha256": "0b6133b6379a0be8145e6ff22469d32e8282cd458e7bb5fada6cbaeebb44acc0",
+  "left": {
+    "checks": {
+      "contains_3x2_block": true,
+      "lambda_is_partition": true,
+      "leftmost_column_zero_and_no_internal_empty_column": true,
+      "mu_is_contained": true,
+      "mu_is_partition": true,
+      "three_nonempty_rows": true
+    },
+    "dual_jacobi_trudi_degrees": [
+      [
+        16,
+        19,
+        20
+      ],
+      [
+        15,
+        18,
+        19
+      ],
+      [
+        11,
+        14,
+        15
+      ]
+    ],
+    "lambda": [
+      18,
+      18,
+      15
+    ],
+    "mu": [
+      2,
+      0,
+      0
+    ],
+    "permutation_profile": [
+      3472519098347437335120,
+      2741462446063766317200,
+      2924226609134684071680,
+      1029816646405790443200,
+      2193169956851013053760,
+      978325814085500921040
+    ],
+    "size": 49,
+    "target_exponent_counts_1_2_3": [
+      49,
+      0,
+      0
+    ],
+    "target_monomial": "variables x_1,...,x_49 have exponent 1",
+    "variable_count": 49
+  },
+  "negative_coefficient": -1288935568443079606185991333432800,
+  "permutation_order": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      0
+    ]
+  ],
+  "permutation_signs": [
+    1,
+    -1,
+    -1,
+    1,
+    1,
+    -1
+  ],
+  "randomness": "none",
+  "right": {
+    "checks": {
+      "contains_3x2_block": true,
+      "lambda_is_partition": true,
+      "leftmost_column_zero_and_no_internal_empty_column": true,
+      "mu_is_contained": true,
+      "mu_is_partition": true,
+      "three_nonempty_rows": true
+    },
+    "dual_jacobi_trudi_degrees": [
+      [
+        18,
+        19,
+        22
+      ],
+      [
+        15,
+        16,
+        19
+      ],
+      [
+        14,
+        15,
+        18
+      ]
+    ],
+    "lambda": [
+      20,
+      18,
+      18
+    ],
+    "mu": [
+      2,
+      2,
+      0
+    ],
+    "permutation_profile": [
+      3051252895132450,
+      2388914981277920,
+      2388914981277920,
+      1719046929283200,
+      902433439091120,
+      829443998405960
+    ],
+    "size": 52,
+    "target_exponent_counts_1_2_3": [
+      20,
+      16,
+      0
+    ],
+    "target_monomial": "variables y_1,...,y_20 have exponent 1; variables y_21,...,y_36 have exponent 2",
+    "variable_count": 36
+  },
+  "scope_note": "The two skew shapes differ; the same-shape conjecture is not settled by this witness.",
+  "script_sha256": "21898c1e10c69792634acb7a28b26a53ea5b4eacffba666a9a98e389fd391405",
+  "signed_summands": [
+    10595533952235343039192103247436644000,
+    -6549120708012543079452319908076224000,
+    -6985728755213379284749141235281305600,
+    1770303143728597023462628786314240000,
+    1979189906672382967206792990098611200,
+    -811466474978843745266249871825398400
+  ],
+  "source": "arXiv:2511.08969v1, Conjecture 1.2",
+  "status": "DISPROVED",
+  "two_independent_methods_agree": true,
+  "unit": "determinant Temperley-Lieb immanant, k=2, matrix size n=3"
+}

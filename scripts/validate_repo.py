@@ -44,9 +44,15 @@ CASE_SLUGS = (
     "partition-matrix-bijection",
     "partition-matrix-q-sum-product",
     "zhao-restricted-zero-sum-counterexample",
+    "subgroup-cayley-integrality",
+    "star-friends-and-strangers-local-connectivity",
+    "dual-jacobi-trudi-hadamard-counterexample",
 )
 
 CASE_REQUIRED = {
+    "subgroup-cayley-integrality": ('README.md', 'problem.md', 'status.md', 'sources.md', 'verification.md', 'provenance.md', 'proof.md', 'paper/main.tex', 'paper/main.pdf', 'check.py', 'certificates.json', 'arithmetic.lean'),
+    "star-friends-and-strangers-local-connectivity": ('README.md', 'problem.md', 'status.md', 'sources.md', 'verification.md', 'provenance.md', 'proof.md', 'paper/main.tex', 'paper/main.pdf', 'checks/validate_flow.py', 'checks/quotient01.py', 'checks/search_fs.py', 'checks/search_n7_candidates.py', 'checks/quotient01.json'),
+    "dual-jacobi-trudi-hadamard-counterexample": ('README.md', 'problem.md', 'status.md', 'sources.md', 'verification.md', 'provenance.md', 'proof.md', 'paper/main.tex', 'paper/main.pdf', 'check_counterexample.py', 'counterexample_certificate.json'),
     "volume-rigidity-dimension-seven": (
         "README.md",
         "problem.md",
@@ -243,6 +249,9 @@ CASE_REQUIRED = {
 }
 
 EXPECTED_VERIFICATION = {
+    "subgroup-cayley-integrality": "INDEPENDENTLY_VERIFIED",
+    "star-friends-and-strangers-local-connectivity": "INDEPENDENTLY_VERIFIED",
+    "dual-jacobi-trudi-hadamard-counterexample": "INDEPENDENTLY_VERIFIED",
     "volume-rigidity-dimension-seven": "INDEPENDENTLY_VERIFIED",
     "k33plus-q-index-boundary-counterexample": "INDEPENDENTLY_VERIFIED",
     "toroidal-grid-representation-counterexample": "INDEPENDENTLY_VERIFIED",
