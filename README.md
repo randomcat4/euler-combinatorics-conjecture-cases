@@ -6,7 +6,6 @@ It records the portion of a broader research program that has completed its publ
 
 ## Generation, review, and open release
 
-Each case records its generation and review provenance. The collection-level review history below describes PRs #17 and #22; later releases use their case-specific records.
 
 The previously merged EULER proofs were generated autonomously, end to end, by EULER.
 LLM re-review was completed using **Sol High** and **Opus 4.8 xhigh**.
