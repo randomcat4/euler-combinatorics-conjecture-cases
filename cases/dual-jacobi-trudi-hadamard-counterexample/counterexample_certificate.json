@@ -1,6 +1,6 @@
 {
   "arithmetic": "exact Python integers only",
-  "certificate_sha256": "0b6133b6379a0be8145e6ff22469d32e8282cd458e7bb5fada6cbaeebb44acc0",
+  "certificate_sha256": "4a309498ef3cfa70b4336cb8d1628c8c0e100f8ee6c7dd19b382e315c10f6937",
   "left": {
     "checks": {
       "contains_3x2_block": true,
@@ -150,7 +150,7 @@
     "variable_count": 36
   },
   "scope_note": "The two skew shapes differ; the same-shape conjecture is not settled by this witness.",
-  "script_sha256": "21898c1e10c69792634acb7a28b26a53ea5b4eacffba666a9a98e389fd391405",
+  "script_sha256": "a4444a8ba451430abd55d46378007eabbe7d2336d466a97a08d60cd23f837c76",
   "signed_summands": [
     10595533952235343039192103247436644000,
     -6549120708012543079452319908076224000,

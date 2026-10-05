@@ -7,6 +7,7 @@ The target coefficient is evaluated in two independent ways:
 2. a closed multinomial sum.
 
 No floating point arithmetic and no randomness are used.
+Source digests normalize CRLF to LF for portable certificate verification.
 """
 
 from __future__ import annotations
@@ -288,7 +289,7 @@ def run() -> Dict[str, object]:
         "two_independent_methods_agree": True,
         "arithmetic": "exact Python integers only",
         "randomness": "none",
-        "script_sha256": hashlib.sha256(script_path.read_bytes()).hexdigest(),
+        "script_sha256": hashlib.sha256(script_path.read_bytes().replace(b"\r\n", b"\n")).hexdigest(),
     }
     result["certificate_sha256"] = canonical_sha256(result)
     return result
