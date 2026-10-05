@@ -1,0 +1,1651 @@
+{
+  "status": "EXACT_FULL_CONE_CLASSIFICATION",
+  "parameters": {
+    "u": "a>0",
+    "v": "b-a>=0",
+    "w": "c-b>=0"
+  },
+  "orbit_cycle_counts": [
+    6,
+    48,
+    36
+  ],
+  "standard_common_type": {
+    "lambda": [
+      5,
+      1
+    ],
+    "mu": [
+      2
+    ],
+    "nu": [
+      3,
+      1
+    ],
+    "h_type_dimension": 3,
+    "orbit_coefficients_a_b_c": [
+      -2,
+      4,
+      16
+    ],
+    "ray_coefficients_u_v_w": [
+      18,
+      20,
+      16
+    ]
+  },
+  "standard_internal_gaps": [
+    {
+      "mu": [
+        2
+      ],
+      "nu": [
+        4
+      ],
+      "gap_u_v_w": [
+        0,
+        8,
+        16
+      ]
+    },
+    {
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        4
+      ],
+      "gap_u_v_w": [
+        0,
+        8,
+        28
+      ]
+    }
+  ],
+  "nonstandard_gap_rows": [
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        4
+      ],
+      "gap_u_v_w": [
+        28,
+        36,
+        20
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "gap_u_v_w": [
+        28,
+        28,
+        20
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "gap_u_v_w": [
+        28,
+        28,
+        24
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        2
+      ],
+      "gap_u_v_w": [
+        28,
+        30,
+        14
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        4
+      ],
+      "gap_u_v_w": [
+        18,
+        26,
+        10
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "gap_u_v_w": [
+        18,
+        18,
+        18
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "gap_u_v_w": [
+        18,
+        18,
+        18
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        18,
+        22,
+        14
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        3
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "gap_u_v_w": [
+        36,
+        36,
+        24
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        3
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        2
+      ],
+      "gap_u_v_w": [
+        36,
+        38,
+        22
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "gap_u_v_w": [
+        18,
+        18,
+        15
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "gap_u_v_w": [
+        18,
+        18,
+        9
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        2
+      ],
+      "gap_u_v_w": [
+        18,
+        20,
+        19
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        2
+      ],
+      "gap_u_v_w": [
+        18,
+        20,
+        13
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        18,
+        22,
+        23
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        18,
+        22,
+        17
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "gap_u_v_w": [
+        18,
+        18,
+        18
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        18,
+        22,
+        14
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        18,
+        22,
+        14
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        18,
+        14,
+        22
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        2
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        2
+      ],
+      "gap_u_v_w": [
+        0,
+        2,
+        10
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        2
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        2
+      ],
+      "gap_u_v_w": [
+        8,
+        10,
+        18
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        8,
+        12,
+        8
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        8,
+        12,
+        12
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        8,
+        4,
+        12
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        36,
+        40,
+        32
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        36,
+        32,
+        4
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        36,
+        32,
+        16
+      ]
+    },
+    {
+      "lambda": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gap_u_v_w": [
+        108,
+        104,
+        52
+      ]
+    }
+  ],
+  "constant_ray_extra_tie": {
+    "condition": "v=0 and w=0, equivalently a=b=c>0",
+    "partitions": [
+      [
+        5,
+        1
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "extra_partition": [
+      2,
+      2,
+      2
+    ],
+    "extra_h_types": [
+      {
+        "lambda": [
+          2,
+          2,
+          2
+        ],
+        "mu": [
+          2
+        ],
+        "nu": [
+          2,
+          2
+        ],
+        "gap_u_v_w": [
+          0,
+          2,
+          10
+        ]
+      },
+      {
+        "lambda": [
+          2,
+          2,
+          2
+        ],
+        "mu": [
+          1,
+          1
+        ],
+        "nu": [
+          2,
+          1,
+          1
+        ],
+        "gap_u_v_w": [
+          0,
+          4,
+          8
+        ]
+      }
+    ]
+  },
+  "nonconstant_monotone_cone": {
+    "condition": "v>0 or w>0",
+    "classification": "standard partition [5,1] only",
+    "standard_top_h_type": [
+      [
+        5,
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "standard_top_multiplicity_inside_irrep": 3,
+    "minimum_extra_222_gap_formula": "min(2v+10w, 4v+8w)>0"
+  },
+  "all_h_type_rows": [
+    {
+      "lambda": [
+        6
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        4
+      ],
+      "h_type_dimension": 1,
+      "orbit_coefficients_a_b_c": [
+        6,
+        48,
+        36
+      ],
+      "ray_coefficients_u_v_w": [
+        90,
+        84,
+        36
+      ]
+    },
+    {
+      "lambda": [
+        5,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        4
+      ],
+      "h_type_dimension": 1,
+      "orbit_coefficients_a_b_c": [
+        6,
+        12,
+        0
+      ],
+      "ray_coefficients_u_v_w": [
+        18,
+        12,
+        0
+      ]
+    },
+    {
+      "lambda": [
+        5,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        4
+      ],
+      "h_type_dimension": 1,
+      "orbit_coefficients_a_b_c": [
+        6,
+        24,
+        -12
+      ],
+      "ray_coefficients_u_v_w": [
+        18,
+        12,
+        -12
+      ]
+    },
+    {
+      "lambda": [
+        5,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        -2,
+        4,
+        16
+      ],
+      "ray_coefficients_u_v_w": [
+        18,
+        20,
+        16
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        4
+      ],
+      "h_type_dimension": 1,
+      "orbit_coefficients_a_b_c": [
+        6,
+        -12,
+        -4
+      ],
+      "ray_coefficients_u_v_w": [
+        -10,
+        -16,
+        -4
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        -2,
+        -4,
+        -4
+      ],
+      "ray_coefficients_u_v_w": [
+        -10,
+        -8,
+        -4
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        -2,
+        0,
+        -8
+      ],
+      "ray_coefficients_u_v_w": [
+        -10,
+        -8,
+        -8
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        2
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        2
+      ],
+      "h_type_dimension": 2,
+      "orbit_coefficients_a_b_c": [
+        0,
+        -12,
+        2
+      ],
+      "ray_coefficients_u_v_w": [
+        -10,
+        -10,
+        2
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        4
+      ],
+      "h_type_dimension": 1,
+      "orbit_coefficients_a_b_c": [
+        6,
+        -12,
+        6
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        -6,
+        6
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        -2,
+        4,
+        -2
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        2,
+        -2
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        -2,
+        4,
+        -2
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        2,
+        -2
+      ]
+    },
+    {
+      "lambda": [
+        4,
+        1,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        2,
+        -4,
+        2
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        3
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        -2,
+        -8,
+        -8
+      ],
+      "ray_coefficients_u_v_w": [
+        -18,
+        -16,
+        -8
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        3
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        2
+      ],
+      "h_type_dimension": 2,
+      "orbit_coefficients_a_b_c": [
+        0,
+        -12,
+        -6
+      ],
+      "ray_coefficients_u_v_w": [
+        -18,
+        -18,
+        -6
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        -2,
+        1,
+        1
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        -2,
+        -5,
+        7
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        2,
+        7
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        2
+      ],
+      "h_type_dimension": 2,
+      "orbit_coefficients_a_b_c": [
+        0,
+        3,
+        -3
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        0,
+        -3
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        2
+      ],
+      "h_type_dimension": 2,
+      "orbit_coefficients_a_b_c": [
+        0,
+        -3,
+        3
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        2,
+        5,
+        -7
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        -2,
+        -7
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        2,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        2,
+        -1,
+        -1
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        -2,
+        -1
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        3,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        -2,
+        4,
+        -2
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        2,
+        -2
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        2,
+        -4,
+        2
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        2,
+        -4,
+        2
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "lambda": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "h_type_dimension": 1,
+      "orbit_coefficients_a_b_c": [
+        -6,
+        12,
+        -6
+      ],
+      "ray_coefficients_u_v_w": [
+        0,
+        6,
+        -6
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        2
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        2
+      ],
+      "h_type_dimension": 2,
+      "orbit_coefficients_a_b_c": [
+        0,
+        12,
+        6
+      ],
+      "ray_coefficients_u_v_w": [
+        18,
+        18,
+        6
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        2
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        2,
+        8,
+        8
+      ],
+      "ray_coefficients_u_v_w": [
+        18,
+        16,
+        8
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        2
+      ],
+      "h_type_dimension": 2,
+      "orbit_coefficients_a_b_c": [
+        0,
+        12,
+        -2
+      ],
+      "ray_coefficients_u_v_w": [
+        10,
+        10,
+        -2
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        2,
+        0,
+        8
+      ],
+      "ray_coefficients_u_v_w": [
+        10,
+        8,
+        8
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        2,
+        4,
+        4
+      ],
+      "ray_coefficients_u_v_w": [
+        10,
+        8,
+        4
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "h_type_dimension": 1,
+      "orbit_coefficients_a_b_c": [
+        -6,
+        12,
+        4
+      ],
+      "ray_coefficients_u_v_w": [
+        10,
+        16,
+        4
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        2,
+        1,
+        1
+      ],
+      "h_type_dimension": 3,
+      "orbit_coefficients_a_b_c": [
+        2,
+        -4,
+        -16
+      ],
+      "ray_coefficients_u_v_w": [
+        -18,
+        -20,
+        -16
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        2
+      ],
+      "nu": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "h_type_dimension": 1,
+      "orbit_coefficients_a_b_c": [
+        -6,
+        -24,
+        12
+      ],
+      "ray_coefficients_u_v_w": [
+        -18,
+        -12,
+        12
+      ]
+    },
+    {
+      "lambda": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "h_type_dimension": 1,
+      "orbit_coefficients_a_b_c": [
+        -6,
+        -12,
+        0
+      ],
+      "ray_coefficients_u_v_w": [
+        -18,
+        -12,
+        0
+      ]
+    },
+    {
+      "lambda": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mu": [
+        1,
+        1
+      ],
+      "nu": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "h_type_dimension": 1,
+      "orbit_coefficients_a_b_c": [
+        -6,
+        -48,
+        -36
+      ],
+      "ray_coefficients_u_v_w": [
+        -90,
+        -84,
+        -36
+      ]
+    }
+  ]
+}

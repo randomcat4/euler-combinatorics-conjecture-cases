@@ -74,12 +74,36 @@
       "sha256": "ddbc03f1e2a4b49b77afb7d88d48cdbf0187ea4afbd7cbade5a207dc12abfc18"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/check_monotone_cones.py",
+      "sha256": "b38dde91e10b866c6db89f2cafdfc79777cde48c3643d8480ef7f52d162aea9a"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/check_weighted_positive_cone.py",
       "sha256": "7dcd54ce1b58527004685fa89e07114859ef1e7592e463ea2daba1ae5994ad92"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/checkcone.py",
+      "sha256": "85d1954fabd41f5658eada9a65e7219b712e2dc8feab732b877855cce67d9367"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/coneproof.md",
+      "sha256": "32d9f589ab48c1a7801cbdc864765e58f7f293f685126945f98a76e8db56b083"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/evidence/low_order_cases.json",
       "sha256": "e6b8c4bf7c62868628723cb078ee1e225726f57b63c2cf270efb60e6bc37db80"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/evidence/monotone/k4r2n6.json",
+      "sha256": "5c5180a922dc79c0060a9fecdc0251d73da77d7846179205e6ead83ec1369ae6"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/evidence/monotone/k4r3b1.json",
+      "sha256": "6937753f2ea331d167c7e8cd6685fd810e2435b010c8cec1ff903105c75c31c8"
+    },
+    {
+      "path": "cases/cayley-eigenvalue-codimension-three/evidence/monotone/k4r3n6.json",
+      "sha256": "583435f7d8b150a06d5f914dde49bd118fb9af4d351e218b325e8ac1f6db5663"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/extension/check.py",
@@ -118,6 +142,10 @@
       "sha256": "01593cca52857a0126091664893cd6000db7ca406152d8a289bb9a4428208917"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/monotone_orbit_cones.md",
+      "sha256": "25ca8cee20c736c8dd0498b23ca4aa597a522b27172087b213425ab74c569681"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/paper/full_conjecture.pdf",
       "sha256": "4f2afed176da116cf8c01b7c8d7e60e290d391476d7375a254fbe61d1dfdae6d"
     },
@@ -147,7 +175,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "f5de2d41a4096813ca7f29538cf85effe4bfa0c3b526342d72de841809ea606e"
+      "sha256": "055e9bd415142f450a484a80caf3a87636aab8c6b9e84b6adf3f307847ab3c6d"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
@@ -155,11 +183,11 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/status.md",
-      "sha256": "0ac81dbc28dbc3d6727f4898ae21cc242b98199f5a50fa2ee0f8766ff0c99650"
+      "sha256": "1522235dc4a13c5d9354199b99686aec81735e70dff3c376a3a46e48191003de"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
-      "sha256": "48ec957b059dc5fa95384cfd471c8075bc030497f99dd2937c8bf60e9fd1af30"
+      "sha256": "11819a2dd1c6f51ee903e46ed71bfd7d84cb1eac4e47ff2ce9f5efef4cf27674"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/weighted_positive_cone.md",
