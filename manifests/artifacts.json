@@ -71,7 +71,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/activityproof.md",
-      "sha256": "f88c476921e0218873dbe9599fbc31b04f9edf9a6529919514b393ad887657f1"
+      "sha256": "ddbc03f1e2a4b49b77afb7d88d48cdbf0187ea4afbd7cbade5a207dc12abfc18"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/check_weighted_positive_cone.py",
@@ -139,7 +139,7 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/product_activity.md",
-      "sha256": "18f43e004f002de16ab41931e48021058e682b81d0bf87d2364e562a703297d2"
+      "sha256": "5be9d7a3d53d4ce11660b2b58add3355162c024d214b8b01a2e747f3d8d4e8f0"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/proof_outline.md",
