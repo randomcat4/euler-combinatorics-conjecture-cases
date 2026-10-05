@@ -70,6 +70,10 @@
       "sha256": "35f654b6c143f5e88ed24891b05b5f85a4f725721b327139ce243e4f05328637"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/activityproof.md",
+      "sha256": "ddbc03f1e2a4b49b77afb7d88d48cdbf0187ea4afbd7cbade5a207dc12abfc18"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/check_weighted_positive_cone.py",
       "sha256": "7dcd54ce1b58527004685fa89e07114859ef1e7592e463ea2daba1ae5994ad92"
     },
@@ -134,12 +138,16 @@
       "sha256": "3e94ec582afa98fa190aad2b34883a21bea12ee6767b7652b8d55cc9b1fab2b6"
     },
     {
+      "path": "cases/cayley-eigenvalue-codimension-three/product_activity.md",
+      "sha256": "5be9d7a3d53d4ce11660b2b58add3355162c024d214b8b01a2e747f3d8d4e8f0"
+    },
+    {
       "path": "cases/cayley-eigenvalue-codimension-three/proof_outline.md",
       "sha256": "1d6c280ac8282315bfb4dbb2b22ae4a4925bf8821afe78324a5b70696bf463a7"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/README.md",
-      "sha256": "78cd49a83066af10b821fbc2fc5c47aba878ff9d78621dd0a0bb32cd9860c08e"
+      "sha256": "f5de2d41a4096813ca7f29538cf85effe4bfa0c3b526342d72de841809ea606e"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/sources.md",
@@ -147,11 +155,11 @@
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/status.md",
-      "sha256": "a3ef1a92ea49d0eb30b25cc9be3c8d843cd4a009f5dab50b7f7f927e4f7478d1"
+      "sha256": "0ac81dbc28dbc3d6727f4898ae21cc242b98199f5a50fa2ee0f8766ff0c99650"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/verification.md",
-      "sha256": "1a42131f40fa654e9658868cf46c3ce4b913e95e6495e68d2661e24c72175759"
+      "sha256": "48ec957b059dc5fa95384cfd471c8075bc030497f99dd2937c8bf60e9fd1af30"
     },
     {
       "path": "cases/cayley-eigenvalue-codimension-three/weighted_positive_cone.md",
