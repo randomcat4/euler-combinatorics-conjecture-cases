@@ -32,6 +32,9 @@ polynomials, threshold multiplicities and Sturm root counts.
 - `status.md` separates correctness, external review, and priority.
 - `sources.md` identifies the public primary sources.
 - `verification.md` records the completed audit and its limitations.
+- `product_activity.md` states two structured product-activity families.
+- `activityproof.md` gives their complete branching and parameter-regime proofs,
+  including the standard quotient formula and target simplicity.
 - `weighted_positive_cone.md` proves a support-weighted extension with an
   exact hypergraph-component formula for the standard top space.
 - `check_weighted_positive_cone.py` checks representative component formulas

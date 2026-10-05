@@ -13,6 +13,8 @@
   Initial human review is completed; see the [review statement](../../docs/provenance.md). A completed specialist referee process is not claimed.
 - Verified extension: a positive cone of support-weighted `k`-cycle operators,
   with exact standard-space dimension and regular multiplicity formulas.
+- Separate partial extension: two natural product-activity families with full
+  analytic proofs; the arbitrary-activity problem remains open.
 - Paper state: `MERGED_PUBLIC_PROOF`.
 - Public novelty or priority: `NOT_ESTABLISHED`.
 

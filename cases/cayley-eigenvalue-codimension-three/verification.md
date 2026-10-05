@@ -53,3 +53,13 @@ for `k=3,4`, including overlapping local hyperedges, components killed by a
 proper hard constraint, and a configuration in which local hyperedges cover
 all vertices. In every case the direct target-eigenspace nullity equals both
 the constraint-space nullity and the predicted `c-1`.
+
+## Product-activity extensions
+
+The two structured families have complete analytic proofs in `activityproof.md`.
+The one-exceptional family uses normal-class bounds and one-step branching.
+The two-exceptional three-cycle family includes explicit one- and two-path
+matrices, strict comparisons in all three parameter regimes, and the standard
+quotient calculation. The complete proof received independent mathematical
+review, including the zero mixing coefficient and the reflected regime's
+single-path estimates. No finite no-hit scan is used as proof.

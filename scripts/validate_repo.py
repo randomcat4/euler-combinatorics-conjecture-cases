@@ -168,6 +168,8 @@ CASE_REQUIRED = {
         "sources.md",
         "verification.md",
         "proof_outline.md",
+        "product_activity.md",
+        "activityproof.md",
         "weighted_positive_cone.md",
         "check_weighted_positive_cone.py",
         "weighted_positive_cone_summary.json",
