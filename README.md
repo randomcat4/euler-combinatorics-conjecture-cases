@@ -8,10 +8,9 @@ It records the portion of a broader research program that has completed its publ
 
 
 The previously merged EULER proofs were generated autonomously, end to end, by EULER.
-LLM re-review was completed using **Sol High** and **Opus 4.8 xhigh**.
-Initial human review was carried out by **the author, one doctoral student at
-ETH Zürich (Swiss Federal Institute of Technology Zurich), and one doctoral
-student at Peking University**. For counterexamples, we invited experts in the
+LLM re-review was completed using Sol High and Opus 4.8 xhigh.
+Initial human review was carried out by the author, one doctoral student at
+ETH , and one doctoral student at Peking University. For counterexamples, we invited experts in the
 relevant fields to conduct a preliminary follow-up review.
 
 To the best of our knowledge, when these results were released, no proofs or
